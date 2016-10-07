@@ -3,31 +3,34 @@
 # * payment_authorize
 # 
 # Translators:
+# Gary Wei <Gary.wei@elico-corp.com>, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2016-02-10 09:38+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-05-02 14:37+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: payment_authorize
 #: model:payment.acquirer,cancel_msg:payment_authorize.payment_acquirer_authorize
 msgid "<span><i>Cancel,</i> Your payment has been cancelled.</span>"
-msgstr "<span><i>取消,</i> 您的付款已取消.</span>"
+msgstr "<span><i>取消,</i> 你的付款已被取消.</span>"
 
 #. module: payment_authorize
 #: model:payment.acquirer,done_msg:payment_authorize.payment_acquirer_authorize
 msgid ""
 "<span><i>Done,</i> Your online payment has been successfully processed. "
 "Thank you for your order.</span>"
-msgstr "<span><i>完成,</i> 您的在線付款已成功進行. 感謝您的訂單.</span>"
+msgstr "<span><i>完成,</i> 你的在線支付已成功完成. 感謝你的訂單.</span>"
 
 #. module: payment_authorize
 #: model:payment.acquirer,error_msg:payment_authorize.payment_acquirer_authorize
@@ -35,50 +38,50 @@ msgid ""
 "<span><i>Error,</i> Please be aware that an error occurred during the "
 "transaction. The order has been confirmed but won't be paid. Don't hesitate "
 "to contact us if you have any questions on the status of your order.</span>"
-msgstr "<span><i>錯誤,</i> 交易時發生錯誤. 訂單成立但無法支付. 如對您的訂單狀態有疑問請聯繫我們.</span>"
+msgstr "<span><i>錯誤,</i> 請注意交易中會發生的錯誤. 訂單已確認但未支付. 如你有任何關於訂單狀態的問題, 請及時聯繫我們.</span>"
 
 #. module: payment_authorize
 #: model:payment.acquirer,pending_msg:payment_authorize.payment_acquirer_authorize
 msgid ""
 "<span><i>Pending,</i> Your online payment has been successfully processed. "
 "But your order is not validated yet.</span>"
-msgstr "<span><i>暫停,</i> 您的在線付款已成功進行. 但您的訂單尚未驗證.</span>"
+msgstr "<span><i>待定,</i> 你的在線支付已完成. 但是你的訂單還未確認.</span>"
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer_authorize_login
 msgid "API Login Id"
-msgstr ""
+msgstr "API 登陸 Id"
 
 #. module: payment_authorize
 #: model:ir.model.fields,field_description:payment_authorize.field_payment_acquirer_authorize_transaction_key
 msgid "API Transaction Key"
-msgstr ""
+msgstr "API 事務密匙"
 
 #. module: payment_authorize
 #: model:payment.acquirer,name:payment_authorize.payment_acquirer_authorize
 msgid "Authorize.Net"
-msgstr ""
+msgstr "Authorize.Net"
 
 #. module: payment_authorize
 #: model:ir.ui.view,arch_db:payment_authorize.acquirer_form_authorize
 msgid ""
 "How to configure your Authorize.Net account (look for Getting Started Guide)"
 " ?"
-msgstr ""
+msgstr "如何配置你的Authorize.Net賬戶(可以查看啟動嚮導)?"
 
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_acquirer
 msgid "Payment Acquirer"
-msgstr "款項受讓方"
+msgstr "付款收單方"
 
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "付款交易"
+msgstr "支付交易"
 
 #. module: payment_authorize
 #: model:payment.acquirer,pre_msg:payment_authorize.payment_acquirer_authorize
 msgid ""
 "You will be redirected to the Authorize website after clicking on the "
 "payment button."
-msgstr ""
+msgstr "點擊付款按鈕後你將會被重定向到授權的網站"

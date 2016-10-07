@@ -3,18 +3,19 @@
 # * web_diagram
 # 
 # Translators:
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
 "PO-Revision-Date: 2015-09-08 09:26+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_diagram
@@ -23,7 +24,7 @@ msgstr ""
 #: code:addons/web_diagram/static/src/js/diagram.js:268
 #, python-format
 msgid "Activity"
-msgstr "動態"
+msgstr "活動"
 
 #. module: web_diagram
 #. openerp-web
@@ -31,7 +32,7 @@ msgstr "動態"
 #: code:addons/web_diagram/static/src/js/diagram.js:317
 #, python-format
 msgid "Create:"
-msgstr ""
+msgstr "創建："
 
 #. module: web_diagram
 #. openerp-web
@@ -42,7 +43,7 @@ msgid ""
 "It will also delete all connected transitions.\n"
 "\n"
 "Are you sure ?"
-msgstr ""
+msgstr "刪除此節點的操作無法撤消。\n該刪除操作將連帶刪除所有連接的狀態遷移。\n\n您確定嗎？"
 
 #. module: web_diagram
 #. openerp-web
@@ -52,7 +53,7 @@ msgid ""
 "Deleting this transition cannot be undone.\n"
 "\n"
 "Are you sure ?"
-msgstr ""
+msgstr "刪除此狀態遷移的操作無法撤消。\n\n您確定嗎？"
 
 #. module: web_diagram
 #. openerp-web
@@ -66,14 +67,14 @@ msgstr "圖表"
 #: code:addons/web_diagram/static/src/js/diagram.js:115
 #, python-format
 msgid "New"
-msgstr "新增"
+msgstr "新建"
 
 #. module: web_diagram
 #. openerp-web
 #: code:addons/web_diagram/static/src/xml/base_diagram.xml:5
 #, python-format
 msgid "New Node"
-msgstr ""
+msgstr "新建節點"
 
 #. module: web_diagram
 #. openerp-web
@@ -81,7 +82,7 @@ msgstr ""
 #: code:addons/web_diagram/static/src/js/diagram.js:301
 #, python-format
 msgid "Open: "
-msgstr "開啟: "
+msgstr "打開： "
 
 #. module: web_diagram
 #. openerp-web
@@ -89,4 +90,4 @@ msgstr "開啟: "
 #: code:addons/web_diagram/static/src/js/diagram.js:312
 #, python-format
 msgid "Transition"
-msgstr "轉換"
+msgstr "遷移"

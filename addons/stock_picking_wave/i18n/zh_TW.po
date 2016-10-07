@@ -3,41 +3,46 @@
 # * stock_picking_wave
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2015-2016
+# Joray <13637815@qq.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2016-06-13 10:08+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-07-12 00:48+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_needaction
 msgid "Action Needed"
-msgstr "待處理"
+msgstr "所需行動"
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_to_wave
 msgid "Add pickings to a picking wave"
-msgstr "增加揀貨作業到一個揀貨波次"
+msgstr "添加撿貨作業到一個撿貨波次"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add pickings to wave"
-msgstr "增加揀貨作業到一個波次"
+msgstr "添加撿貨作業到一個波次"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_to_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.picking_to_wave_act
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add to Wave"
-msgstr "增加到波次"
+msgstr "添加到波次"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
@@ -53,12 +58,12 @@ msgstr "取消分揀"
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0
 msgid "Cancelled"
-msgstr "取消"
+msgstr "已取消"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,help:stock_picking_wave.action_picking_wave
 msgid "Click to create a Picking Wave."
-msgstr ""
+msgstr "點擊創建一個揀貨波次"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
@@ -74,18 +79,18 @@ msgstr "確認分揀"
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_create_uid
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_create_date
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_last_post
 msgid "Date of the last message posted on the record."
-msgstr "釋出到記錄上的最後資訊的日期"
+msgstr "發佈到記錄上的最後消息的日期"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_display_name
@@ -102,7 +107,7 @@ msgstr "完成"
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0
 msgid "Draft"
-msgstr "草案"
+msgstr "草稿"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_follower_ids
@@ -112,12 +117,12 @@ msgstr "關注者"
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "關注者(頻道)"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "關注者（業務夥伴）"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
@@ -127,25 +132,25 @@ msgstr "強制可用"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Group By"
-msgstr "分組方式"
+msgstr "分組"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_id
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: stock_picking_wave
 #: model:product.product,name:stock_picking_wave.product_product_ice_cream_choco
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_choco_product_template
 msgid "Ice Cream Chocolate"
-msgstr "冰淇淋巧克力"
+msgstr "冰激凌巧克力"
 
 #. module: stock_picking_wave
 #: model:product.product,description_sale:stock_picking_wave.product_product_ice_cream_choco
 #: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_choco_product_template
 msgid "Ice Cream Chocolate with stucks"
-msgstr "冰淇淋沾有巧克力"
+msgstr "冰激凌粘有巧克力"
 
 #. module: stock_picking_wave
 #: model:product.product,description_sale:stock_picking_wave.product_product_ice_cream_vani
@@ -153,96 +158,96 @@ msgstr "冰淇淋沾有巧克力"
 #: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_vani_product_template
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_vani_product_template
 msgid "Ice Cream Vanilla"
-msgstr "香草冰淇淋"
+msgstr "香草冰激凌"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_unread
 msgid "If checked new messages require your attention."
-msgstr "當有新訊息時通知您。"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "確認後, 會出現新消息."
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "In Progress"
-msgstr "處理中"
+msgstr "進行中"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "是關注者"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_last_post
 msgid "Last Message Date"
-msgstr "最後訊息日期"
+msgstr "最後消息日期"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave___last_update
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_write_uid
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_write_date
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_picking_ids
 msgid "List of picking associated to this wave"
-msgstr "該波次揀貨人鬫表"
+msgstr "該波次撿貨人列表"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_ids
 msgid "Messages"
-msgstr "訊息"
+msgstr "消息"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_ids
 msgid "Messages and communication history"
-msgstr "訊息及聯絡紀錄"
+msgstr "消息和通信歷史"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_name
 msgid "Name of the picking wave"
-msgstr "揀貨波次名稱"
+msgstr "撿貨波次名稱"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:42
 #, python-format
 msgid "Nothing to print."
-msgstr "沒有需要列印的項目"
+msgstr "沒有需要打印的項目"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "動作的序列號"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "需要動作的消息編號"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "未讀的消息數量"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_user_id
 msgid "Person responsible for this wave"
-msgstr "該波次負責人員"
+msgstr "該波次負責人"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
@@ -252,23 +257,23 @@ msgstr "該波次負責人員"
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 #, python-format
 msgid "Picking Wave"
-msgstr "揀貨波次"
+msgstr "撿貨波次"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_name
 msgid "Picking Wave Name"
-msgstr "揀貨波次名稱"
+msgstr "撿貨波次名稱"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_wave
 #: model:ir.ui.menu,name:stock_picking_wave.menu_action_picking_wave
 msgid "Picking Waves"
-msgstr "揀貨波次"
+msgstr "撿貨波次"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Picking Waves not finished"
-msgstr "揀貨波次沒有結束"
+msgstr "撿貨波次沒有結束"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_id_9563
@@ -284,7 +289,7 @@ msgstr "分揀"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Print all pickings"
-msgstr "列印所有的分揀單"
+msgstr "打印所有分檢單"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_user_id
@@ -299,7 +304,7 @@ msgstr "運行中"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Search Picking Waves"
-msgstr "搜索揀貨波次"
+msgstr "搜索撿貨波次"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
@@ -312,7 +317,7 @@ msgstr "選擇一個波次"
 msgid ""
 "Some pickings are still waiting for goods. Please check or force their "
 "availability before setting this wave to done."
-msgstr "部份揀貨作業還在等待可用，請檢查或者利用強制可用，以便完成本次的撿貨波次作業。"
+msgstr "部分撿貨作業還在等待可用，請檢查或者強制可用以便完成本次撿貨作業。"
 
 #. module: stock_picking_wave
 #: model:product.product,name:stock_picking_wave.product_product_dry_specu
@@ -336,7 +341,7 @@ msgstr "階段已改變"
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_state
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "State"
-msgstr "省/州"
+msgstr "狀態"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
@@ -351,7 +356,7 @@ msgid ""
 "                (needs to) be done together in order to increase their efficiency.\n"
 "                It may also be useful to assign jobs (one person = one wave) or\n"
 "                help the timing management of operations (tasks to be done at 1pm)."
-msgstr ""
+msgstr "揀貨波次的目標是把揀貨操作分組，這樣可以提高效率\n它也可以定義為分配工作（一個人等於一個揀貨波次）\n或者操作的時間管理方式（任務在下午一點完成）"
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking
@@ -362,17 +367,17 @@ msgstr "調撥"
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
 #, python-format
 msgid "Transferred by"
-msgstr ""
+msgstr "調撥"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_unread
 msgid "Unread Messages"
-msgstr "未讀訊息"
+msgstr "未讀消息"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "未讀消息計數器"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
@@ -387,9 +392,9 @@ msgstr "波次"
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "網站消息"
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "網站溝通記錄"

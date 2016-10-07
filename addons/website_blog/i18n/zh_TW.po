@@ -3,18 +3,24 @@
 # * website_blog
 # 
 # Translators:
+# fausthuang, 2015
+# fausthuang, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:12+0000\n"
-"PO-Revision-Date: 2016-06-13 10:08+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-07-12 00:48+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_blog
@@ -22,17 +28,17 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:117
 #, python-format
 msgid " Click on this button to send your blog post online."
-msgstr ""
+msgstr "點擊這個按鈕，你的博客文章在網上發表。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "&amp;times;"
-msgstr ""
+msgstr "次數"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_feed
 msgid "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
-msgstr ""
+msgstr "xml version=\"1.0\" encoding=\"utf-8\";"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -129,7 +135,7 @@ msgid ""
 "        </section>\n"
 "    </div>\n"
 "\n"
-msgstr ""
+msgstr "<section class=\"mt16 mb16 readable\">\n            <iframe width=\"100%\" height=\"250\" src=\"http://www.youtube.com/embed/EkbBFmIWoTE\" frameborder=\"0\" allowfullscreen></iframe>\n           <p data-chatter-id=\"counter_52500/div/section\">\n                譯者註：上邊的iframe內嵌youtube視頻主要\n                闡述《Emails are broken》意思是叫你該把Emails砍嘍。\n                改用以下將給你介紹的好東西替代Email吧！\n          </p><p data-chatter-id=\"counter_15339/div/section\">\n                咱看郵件挺費時的對不，可咱又離不開郵件。\n                生活中不乏Email重要的例子咱就不多舉了吧,\n                說出來你都不敢相信Email電子郵件竟然是這20年\n                時代變遷風雲變幻裡唯一不變的***省略無數國語感歎詞！\n           </p><p data-chatter-id=\"counter_98391/div/section\">\n                每天最費我時間的就是看收件箱的郵件\n                得花去我1小時。 其中得處理與工作無關的垃圾郵件\n                垃圾信息。 引用原郵件原文並回復郵件\n                再之後就是等回信了。\n                我實際上處理工作相關的工作事務只有10分鐘左右。\n                如果有一個好的工具的話咱就是這麼認為的了！\n            </p>\n        </section>\n        <section class=\"mt16 mb16 readable\">\n          <p data-chatter-id=\"counter_99844/div/section\">\n                在Odoo中，我們就是搞出了這麼一個工具 來解決\n                企業的生產力和人流、物流之間的信息共享問題。\n                對是，就是這樣的，咱解決這個短板！\n           </p><p data-chatter-id=\"counter_72514/div/section\">\n                對於垃圾郵件此類疑難雜症久治不玉的\n                不只是需要考慮用戶和接口，咱們還得重新考慮整個通信流程。\n            </p>\n            <h3>Odoo的通信機制</h3>\n           <p data-chatter-id=\"counter_44333/div/section\">\n                咱這有個關於這工具的主意：\n            </p>\n            <ul>\n                <li>\n                    工作: 收件箱是你的待辦事項列表\n                    你應該可以處理 (不僅僅讀郵件哦)\n                    收件箱和標記為待辦事項的信息。\n                    每個收件箱在你處理之後都應該是空的\n                    不會有多餘的信息加載進來讓你處理。.\n                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-00.png\">\n                </li><li>\n                    保持你想關注的信息。\n                    你不應該收到垃圾郵件信息。\n                    要關注或不關注，你心裡應該\n                    有桿稱得知道點還是不點它。\n                </li><li>\n                    生產力是關鍵：智能化生產技術讓你不需要\n                    全部郵件都去點它都會智能化幫你完成。\n                    完整讀整個信息整個回復，\n                    它附加附件的速度槓槓滴。.\n                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-03.png\">\n                </li><li>\n                    混合的push推式 & pull拉式： 現如今的人哪，\n                    都是很被動接受他人的決定的方式。\n                    Odoo 則不一樣：\n                    <ul>\n                        <li>\n                            消息 菜單中的\"收件箱\"：\n                            你可以理解為你所需要的具體消息\n                            你不需要每天必讀這些消息。\n                            你只是收取僅僅是關注而已。\n                            這些約佔你每天電子郵件量的 90% 。\n                            它是在 \"收件箱\" 菜單裡。\n                        </li><li>\n                            消息 菜單中的 \"消息\"菜單：\n                            這裡呈現的是你需要處理的信息消息。\n                            大約佔去平時所需處理的郵件量的10%。\n                            它是在 \"發給我的\" 菜單中。\n                            都在這兒了。\n                        </li>\n                    </ul>\n                </li><li>\n                    重點是： 所有這些消息都是剝離\n                    出來的真正需要處理的。 沒有多\n                    余的累贅,，沒有歡迎介紹，沒有\n                    簽名沒有條條框框沒有筆記。\n                    (簽名部分在個人設定不在消息裡體現)\n                </li><li>\n                    郵件列表和文件夾都是好東西，\n                    但傳統的電子郵件客戶端太複雜。\n                    在Odoo裡這塊的理念是區分主次\n                    不必要的信息消息不出現在收件箱\n                    若必要則可創建一個電子郵箱來對應討論組。\n                </li>\n            </ul>\n        </section>\n"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
@@ -155,9 +161,9 @@ msgid ""
 "                online easy'. So how true is this statement?\n"
 "            </p><p data-chatter-id=\"counter_63354/section/div/section\">\n"
 "                \"Odoo's latest launch will allow a business to go from\n"
-"                zero to trading online quicker than ever before,&#8221; Stuart\n"
+"                zero to trading online quicker than ever before,」 Stuart\n"
 "                Mackintosh, MD of Open Source specialist and Odoo\n"
-"                integration partner, OpusVL, explains. &#8220;The investment\n"
+"                integration partner, OpusVL, explains. 「The investment\n"
 "                required to have a fully automated business system is\n"
 "                dramatically reduced, enabling the small and medium\n"
 "                enterprise to compete at a level of functionality and\n"
@@ -210,41 +216,41 @@ msgid ""
 "        </section>\n"
 "\n"
 "</div></section>"
-msgstr ""
+msgstr "<section class=\"row readable\">\n            <div class=\"col-md-12 mb32\">\n                <img class=\"img-responsive\" src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n            </div>\n            <div class=\"col-md-6 col-md-offset-3 mb16 mt16\">\n                <p class=\"text-center\" data-chatter-id=\"counter_0/section/div\">\n                    新功能出來啦！\n                </p>\n                <p class=\"text-center\" data-chatter-id=\"counter_1/section/div\">\n                    就今天！就今天！Odoo新特性已全面鋪開啦！\n                    網站內容管理系統 (CMS\n                    或WMS) 首發beta測試版\n                    記住今天這個日子, 2014-01-31.\n                </p>\n            </div>\n        </section>\n        <section class=\"readable\">\n            <p data-chatter-id=\"counter_2/section\">\n                Odoo標榜 '開源及非常容易\n                快速建立企業網站'. 這句話體現\n                在哪裡呢?\n            </p><p data-chatter-id=\"counter_3/section\">\n                \"Odoo最新推出的功能可讓企業做電商\n                z在線零售,」 Stuart\n                Mackintosh, MD of Open Source specialist and Odoo\n                integration partner, OpusVL, explains. 「The investment\n                required to have a fully automated business system is\n                dramatically reduced, enabling the small and medium\n                enterprise to compete at a level of functionality and\n                performance previously reserved for the big IT investors.\"\n            </p>\n            <blockquote>\n                <p data-chatter-id=\"counter_4/section/blockquote\">\n                    \"終於，前沿已在向大眾普及。現在就將發生轉變——大公司得追趕中小企業的尖端技術了。\"\n                </p>\n            </blockquote>\n            <p data-chatter-id=\"counter_5/section\">\n                \"Odoo 重新定義了ERP技術市場，這讓傳統ERP技術市場顫抖了，迫使傳統\nERP支持服務商自我審視服務內容，以提供更具價值的解決方案。\"\n            </p><p data-chatter-id=\"counter_6/section\">\n                \"Odoo now competes on many fronts, with no real\n                competition out there to knock them off the top spot.\n                With the launch of their integrated CMS and Ecommerce\n                systems,it only elevates their position as one of the leading\n                lights in the open source revolution. It will be at least 5\n                years before another ERP or CMS provider will be able to\n                compete at this level due to the technology currently\n                employed by most industry providers.\"\n            </p>\n            <h4>Adding to industry leading technology</h4>\n            <p data-chatter-id=\"counter_7/section\">\n同現在流行的網站內容編輯器一樣，Odoo 也可以在位編輯頁面內容。允許\n即刻編輯所見即所得的網頁內容。\n            </p><p data-chatter-id=\"counter_8/section\">\n                However, unlike other web content management systems, it\n                fully integrates into the back-end database. This means\n                that when you edit a product description, image or price,\n                it updates the product database in real time, providing a\n                true self-service window into the business.\n            </p><p data-chatter-id=\"counter_9/section\">\n                This provides a single source of data for your company and\n                removes the need to create offline synchronisation between\n                website and product database.\n            </p><p data-chatter-id=\"counter_10/section\">\n                As it comes, there is a default website based on Bootstrap\n                3, the latest industry standard for rapid development of\n                multi-device websites backed by Twitter, so can be directly\n                integrated with many web tools and works across all devices\n                by default.\n            </p>\n        </section>"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:219
 #, python-format
 msgid "A new post %s has been published on the %s blog."
-msgstr ""
+msgstr "一個新帖子 %s 已經發佈在博客 %s 上。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
 msgid "About us"
-msgstr ""
+msgstr "關於我們"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_needaction
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_needaction
 msgid "Action Needed"
-msgstr "待處理"
+msgstr "所需行動"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:24
 #, python-format
 msgid "Add Content"
-msgstr ""
+msgstr "新增內容"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
 msgid "Archives"
-msgstr "封存"
+msgstr "歸檔"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Atom Feed"
-msgstr ""
+msgstr "Atom 供稿"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_author_id
@@ -256,7 +262,7 @@ msgstr "作者"
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_author_avatar
 msgid "Avatar"
-msgstr ""
+msgstr "頭像"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_blog_id
@@ -265,12 +271,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 #: model:website.menu,name:website_blog.menu_news
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_name
 msgid "Blog Name"
-msgstr ""
+msgstr "博客名稱"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:287
@@ -279,50 +285,50 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 #, python-format
 msgid "Blog Post"
-msgstr ""
+msgstr "博文"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:291
 #, python-format
 msgid "Blog Post <b>%s</b> seems to have a link to this page !"
-msgstr ""
+msgstr "博客文章 <b>%s</b> 似乎有一個鏈接到這個網頁！"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:37
 #, python-format
 msgid "Blog Post Created"
-msgstr ""
+msgstr "博文已創建"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Blog Post Title"
-msgstr ""
+msgstr "博客標題"
 
 #. module: website_blog
 #: model:ir.actions.act_window,name:website_blog.action_blog_post
 #: model:ir.ui.menu,name:website_blog.menu_page
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_list
 msgid "Blog Posts"
-msgstr ""
+msgstr "博文"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_subtitle
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Blog Subtitle"
-msgstr ""
+msgstr "博客副標題"
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_blog_tag
 msgid "Blog Tag"
-msgstr ""
+msgstr "博客標籤"
 
 #. module: website_blog
 #: model:ir.actions.act_window,name:website_blog.action_tags
 #: model:ir.ui.menu,name:website_blog.menu_blog_tag
 msgid "Blog Tags"
-msgstr ""
+msgstr "博客標籤"
 
 #. module: website_blog
 #: model:ir.actions.act_window,name:website_blog.action_blog_blog
@@ -330,17 +336,17 @@ msgstr ""
 #: model:ir.ui.menu,name:website_blog.menu_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_blog_list
 msgid "Blogs"
-msgstr ""
+msgstr "博客"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Blue"
-msgstr ""
+msgstr "藍色"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_2
 msgid "Building your company's website and selling your products online easy."
-msgstr ""
+msgstr "輕鬆構建您公司的網站和在線銷售您的產品。"
 
 #. module: website_blog
 #. openerp-web
@@ -348,60 +354,60 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
 msgid "Change Cover"
-msgstr ""
+msgstr "修改封面"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:54
 #, python-format
 msgid "Change and customize your blog post cover."
-msgstr ""
+msgstr "改變和自定義您的博客文章封面。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:108
 #, python-format
 msgid "Check Mobile Preview"
-msgstr ""
+msgstr "檢查移動版預覽"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:68
 #, python-format
 msgid "Choose an image"
-msgstr ""
+msgstr "選擇圖像"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "Choose an image from the library."
-msgstr ""
+msgstr "選擇從庫中的圖像。"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:220
 #, python-format
 msgid "Click here to access the post."
-msgstr ""
+msgstr "點擊這裡訪問帖子。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Click on \"Content\" on the top menu to write your first blog post."
-msgstr ""
+msgstr "點擊頂部 \"內容\" 菜單來發表你的第一篇博文。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:94
 #, python-format
 msgid "Click on '<em>Save</em>' button to record changes on the page."
-msgstr ""
+msgstr "點擊保存按鈕來記錄頁面上進行更改。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:77
 #, python-format
 msgid "Click on '<em>Save</em>' to set the picture as cover."
-msgstr ""
+msgstr "點擊保存設置圖片作為封面。"
 
 #. module: website_blog
 #. openerp-web
@@ -410,29 +416,29 @@ msgstr ""
 msgid ""
 "Click on the mobile icon to preview how your blog post will be displayed on "
 "a mobile device."
-msgstr ""
+msgstr "點擊手機圖標可預覽您的博客後會在移動設備上顯示。"
 
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
 msgid "Click to create a new blog post."
-msgstr ""
+msgstr "點擊創建一個新的博客文章。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:124
 #, python-format
 msgid "Close Tutorial"
-msgstr ""
+msgstr "關閉指南"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Color"
-msgstr "顏色"
+msgstr "色彩"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
 msgid "Contact us"
-msgstr ""
+msgstr "聯繫我們"
 
 #. module: website_blog
 #. openerp-web
@@ -455,50 +461,50 @@ msgstr "繼續"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:60
 #, python-format
 msgid "Cover"
-msgstr ""
+msgstr "封面"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_cover_properties
 msgid "Cover Properties"
-msgstr ""
+msgstr "封面屬性"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:14
 #, python-format
 msgid "Create a blog post"
-msgstr ""
+msgstr "新建一條博文"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_create_uid
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_create_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_create_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "Customize Cover"
-msgstr ""
+msgstr "客戶封面"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_last_post
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_last_post
 msgid "Date of the last message posted on the record."
-msgstr "釋出到記錄上的最後資訊的日期"
+msgstr "發佈到記錄上的最後消息的日期"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_mail_message_path
 msgid "Discussion Path"
-msgstr ""
+msgstr "討論路徑"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_display_name
@@ -510,12 +516,12 @@ msgstr "顯示名稱"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 msgid "Duplicate"
-msgstr "製作複本"
+msgstr "複製"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
 msgid "Follow us"
-msgstr ""
+msgstr "跟隨我們"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_follower_ids
@@ -527,33 +533,33 @@ msgstr "關注者"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_channel_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "關注者(頻道)"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_partner_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "關注者（業務夥伴）"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Full Screen"
-msgstr ""
+msgstr "全屏"
 
 #. module: website_blog
 #: model:blog.blog,subtitle:website_blog.blog_blog_1
 msgid "Get in touch with us"
-msgstr ""
+msgstr "請與我們聯繫"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Green"
-msgstr ""
+msgstr "綠色"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Group By"
-msgstr "分組方式"
+msgstr "分組"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -565,52 +571,52 @@ msgstr "高"
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_id
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
 msgid "Ideas behind the Odoo communication tools."
-msgstr ""
+msgstr "在Odoo通訊工具背後的想法。"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_unread
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_unread
 msgid "If checked new messages require your attention."
-msgstr "當有新訊息時通知您。"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_needaction
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "確認後, 會出現新消息."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "In"
-msgstr ""
+msgstr "在。。。裡"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_2
 msgid "Integrating your CMS and E-Commerce"
-msgstr ""
+msgstr "集成您的內容管理系統和電子商務"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_is_follower
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "是關注者"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_write_uid
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Last Contributor"
-msgstr "最後的貢獻者"
+msgstr "最近的貢獻者"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_last_post
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_last_post
 msgid "Last Message Date"
-msgstr "最後訊息日期"
+msgstr "最後消息日期"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog___last_update
@@ -618,31 +624,31 @@ msgstr "最後訊息日期"
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_write_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_write_uid
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_write_date
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "Latest Posts"
-msgstr ""
+msgstr "最新發佈"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:18
 #, python-format
 msgid "Let's go through the first steps to write beautiful blog posts."
-msgstr ""
+msgstr "讓我們來完成寫出漂亮博文的第一步。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -652,31 +658,31 @@ msgstr "低"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Medium"
-msgstr ""
+msgstr "普通"
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_mail_message
 msgid "Message"
-msgstr "訊息"
+msgstr "消息"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_ids
 msgid "Messages"
-msgstr "訊息"
+msgstr "消息"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_ids
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_ids
 msgid "Messages and communication history"
-msgstr "訊息及聯絡紀錄"
+msgstr "消息和通信歷史"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:101
 #, python-format
 msgid "Mobile Preview"
-msgstr ""
+msgstr "移動預覽"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_name
@@ -686,7 +692,7 @@ msgstr "名稱"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Narrow"
-msgstr ""
+msgstr "變窄"
 
 #. module: website_blog
 #. openerp-web
@@ -696,32 +702,32 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
 msgid "New Blog Post"
-msgstr ""
+msgstr "發佈新博客"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.header_footer_custom
 msgid "News"
-msgstr ""
+msgstr "新聞"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "No Cover"
-msgstr ""
+msgstr "沒有封面"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "No blog post yet."
-msgstr ""
+msgstr "尚未發佈博文"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "No keywords defined!"
-msgstr ""
+msgstr "沒有關鍵字定義!"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_visits
 msgid "No of Views"
-msgstr ""
+msgstr "訪問數量"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -733,57 +739,57 @@ msgstr "無"
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:9
 #, python-format
 msgid "Not Published"
-msgstr ""
+msgstr "未發佈"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_needaction_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "動作的序列號"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_needaction_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "需要動作的消息編號"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_message_unread_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "未讀的消息數量"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
 msgid "Odoo, email"
-msgstr ""
+msgstr "Odoo，email"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Opacity"
-msgstr ""
+msgstr "不透明度"
 
 #. module: website_blog
 #: model:blog.blog,name:website_blog.blog_blog_1
 msgid "Our Blog"
-msgstr ""
+msgstr "我們的博客"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_blogs
 msgid "Our Blogs"
-msgstr ""
+msgstr "我們的博客"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
 msgid "Participate on our social stream."
-msgstr ""
+msgstr "參與我們的社會活動."
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:28
 #, python-format
 msgid "Please"
-msgstr ""
+msgstr "請"
 
 #. module: website_blog
 #. openerp-web
@@ -791,107 +797,107 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_post_complete_comment
 #, python-format
 msgid "Post"
-msgstr "過帳"
+msgstr "過賬"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid "Post Headline"
-msgstr ""
+msgstr "帖子標題"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_post_ids
 msgid "Posts"
-msgstr ""
+msgstr "帖子"
 
 #. module: website_blog
 #: code:addons/website_blog/controllers/main.py:267
 #, python-format
 msgid "Public user cannot post comments on blog post."
-msgstr ""
+msgstr "公眾用戶不能在博客發表評論。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:10
 #, python-format
 msgid "Published"
-msgstr ""
+msgstr "已發佈"
 
 #. module: website_blog
 #: model:mail.message.subtype,description:website_blog.mt_blog_blog_published
 #: model:mail.message.subtype,name:website_blog.mt_blog_blog_published
 msgid "Published Post"
-msgstr ""
+msgstr "已發佈的帖子"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:116
 #, python-format
 msgid "Publishing status"
-msgstr ""
+msgstr "發佈狀態"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Purple"
-msgstr ""
+msgstr "紫色"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_ranking
 msgid "Ranking"
-msgstr ""
+msgstr "等級"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 msgid "Read Next <span class=\"fa fa-long-arrow-right\"/>"
-msgstr ""
+msgstr "閱讀下一頁"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Red"
-msgstr ""
+msgstr "紅色"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:76
 #, python-format
 msgid "Save"
-msgstr "儲存"
+msgstr "保存"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:93
 #, python-format
 msgid "Save Your Blog"
-msgstr ""
+msgstr "保存博文"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:109
 #, python-format
 msgid "Scroll to check rendering and then close the mobile preview."
-msgstr ""
+msgstr "滾動來查看渲染效果，然後關閉移動版預覽。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:61
 #, python-format
 msgid "Select this menu item to change blog cover."
-msgstr ""
+msgstr "選擇該菜單項來更改博客封面"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:32
 #, python-format
 msgid "Select this menu item to create a new blog post."
-msgstr ""
+msgstr "選擇此菜單項新建一篇博文"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:29
 #, python-format
 msgid "Sign in"
-msgstr "打卡-開始"
+msgstr "簽入"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -903,14 +909,14 @@ msgstr "大小"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:19
 #, python-format
 msgid "Skip"
-msgstr "略過"
+msgstr "跳過"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:19
 #, python-format
 msgid "Start Tutorial"
-msgstr ""
+msgstr "開始教程"
 
 #. module: website_blog
 #. openerp-web
@@ -918,7 +924,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:90
 #, python-format
 msgid "Start writing here..."
-msgstr ""
+msgstr "在這裡寫入"
 
 #. module: website_blog
 #. openerp-web
@@ -927,32 +933,32 @@ msgstr ""
 msgid ""
 "Start writing your story here. Click on save in the upper left corner when "
 "you are done."
-msgstr ""
+msgstr "從這裡開始寫自己的故事。當你完成點擊保存在左上角。"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_subtitle
 msgid "Sub Title"
-msgstr ""
+msgstr "副標題"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 msgid "Subtitle"
-msgstr ""
+msgstr "副標題"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_tag_form
 msgid "Tag Form"
-msgstr ""
+msgstr "分類窗體"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_tag_tree
 msgid "Tag List"
-msgstr ""
+msgstr "分類列表"
 
 #. module: website_blog
 #: sql_constraint:blog.tag:0
 msgid "Tag name already exists !"
-msgstr ""
+msgstr "標籤名已存在!"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_tag_ids
@@ -969,26 +975,26 @@ msgstr "技術"
 #: model:blog.post,name:website_blog.blog_post_1
 #: model:blog.post,website_meta_description:website_blog.blog_post_1
 msgid "The Future of Emails"
-msgstr ""
+msgstr "電子郵件的未來"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_url
 msgid "The full URL to access the document through the website."
-msgstr ""
+msgstr "通過網站訪問單據的完整URL。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:38
 #, python-format
 msgid "This is your new blog post. Let's edit it."
-msgstr ""
+msgstr "這是你的新博文。請開始編輯。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid ""
 "This page is great to improve your <strong>Search Engine Optimization</strong>;\n"
 "                   You can review titles, keywords and descriptions of all blogs at once."
-msgstr ""
+msgstr "這個頁面可以很好的提高你的搜索引擎優化;您可以一次查看的標題，關鍵字和所有的博客描述。"
 
 #. module: website_blog
 #. openerp-web
@@ -998,7 +1004,7 @@ msgid ""
 "This tutorial is over. To discover more features and improve the content of "
 "this page, go to the upper right customize menu. You can also add some cool "
 "content with your text by clicking on 'Insert Blocks' in the edit mode."
-msgstr ""
+msgstr "本教程就結束了。為了發現更多的功能和改善此頁面的內容，請右上方定制菜單。您還可以通過在編輯模式下點擊「插入塊」添加一些很酷的內容與你的文字。"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_name
@@ -1009,18 +1015,18 @@ msgstr "稱謂"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_unread
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_unread
 msgid "Unread Messages"
-msgstr "未讀訊息"
+msgstr "未讀消息"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_unread_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "未讀消息計數器"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Untitled Post"
-msgstr ""
+msgstr "無標題發表"
 
 #. module: website_blog
 #. openerp-web
@@ -1029,29 +1035,29 @@ msgstr ""
 msgid ""
 "Use this <em>'Content'</em> menu to create a new blog post like any other "
 "document (page, menu, products, event, ...)."
-msgstr ""
+msgstr "使用此 <em>'內容'</em> 菜單新建一篇博文，就像新建其他文檔（頁面、菜單、產品、事件 ......）一樣。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_tag_form
 msgid "Used in:"
-msgstr ""
+msgstr "使用在："
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_mail_message_path
 msgid ""
 "Used to display messages in a paragraph-based chatter using a unique path;"
-msgstr ""
+msgstr "用於顯示基於段落的討論消息，使用統一路徑；"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:266
 #, python-format
 msgid "View Blog Post"
-msgstr ""
+msgstr "查看博客文章"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_published
 msgid "Visible in Website"
-msgstr ""
+msgstr "在網站可見"
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_website
@@ -1061,127 +1067,127 @@ msgstr "網站"
 #. module: website_blog
 #: model:ir.actions.act_url,name:website_blog.action_open_website
 msgid "Website Blogs"
-msgstr ""
+msgstr "博客地址"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_website_message_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "網站消息"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_url
 msgid "Website URL"
-msgstr "網址"
+msgstr "網站地址"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog_website_message_ids
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "網站溝通記錄"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_website_meta_description
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_meta_description
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_website_meta_description
 msgid "Website meta description"
-msgstr ""
+msgstr "網站meta描述"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_website_meta_keywords
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_meta_keywords
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_website_meta_keywords
 msgid "Website meta keywords"
-msgstr ""
+msgstr "網站meta關鍵詞"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_website_meta_title
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_meta_title
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_website_meta_title
 msgid "Website meta title"
-msgstr ""
+msgstr "網站meta標題"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:26
 #, python-format
 msgid "Write a comment..."
-msgstr ""
+msgstr "寫評論..."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
 msgid ""
 "Write a small text here for when <b>new visitors</b> find your website\n"
 "            through your <b>blog entries</b>, referenced in Google."
-msgstr ""
+msgstr "在這裡寫下小段文字的時候新的訪客找到你的網站，通過你的博客文章，在谷歌引用。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:46
 #, python-format
 msgid "Write a title, the subtitle is optional."
-msgstr ""
+msgstr "寫一個標題，副標題是可選的。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Yellow"
-msgstr ""
+msgstr "黃色"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid ""
 "You should <strong>add a banner on the top</strong> as it is a frequent landing page for new visitors.\n"
 "                   <span class=\"text-muted\">This box will not be visible to your visitors.</span>"
-msgstr ""
+msgstr "您應該添加一個橫幅在頂部，因為它是一種常見的登陸頁面為新訪客。此框是不可見的對你訪問者。"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:14
 #, python-format
 msgid "by"
-msgstr "由"
+msgstr "作者"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comment"
-msgstr ""
+msgstr "評論"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comments"
-msgstr ""
+msgstr "備註"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "not published"
-msgstr ""
+msgstr "未發佈的"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 msgid "on"
-msgstr ""
+msgstr "在"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "pull-right"
-msgstr ""
+msgstr "往右拉"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:29
 #, python-format
 msgid "to comment."
-msgstr ""
+msgstr "對此發表評論。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "view"
-msgstr ""
+msgstr "視圖"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "views"
-msgstr ""
+msgstr "瀏覽次數"

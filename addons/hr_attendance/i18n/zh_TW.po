@@ -3,18 +3,23 @@
 # * hr_attendance
 # 
 # Translators:
+# fausthuang, 2015
+# fausthuang, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2015
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2016-02-10 09:29+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-22 13:04+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_attendance
@@ -22,29 +27,29 @@ msgstr ""
 msgid ""
 "(*) A positive delay means that the employee worked less than recorded.<br/>\n"
 "(*) A negative delay means that the employee worked more than encoded."
-msgstr ""
+msgstr "(*) 遲到數值為正表示該員工實際工作時間比記錄的少。<br/>\n(*) 遲到數值為負表示該員工實際工作時間比記錄的多。"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "<strong>Total period</strong>"
-msgstr ""
+msgstr "<strong>所有期間</strong>"
 
 #. module: hr_attendance
 #: selection:hr.employee,state:0
 msgid "Absent"
-msgstr "病假"
+msgstr "缺勤"
 
 #. module: hr_attendance
 #: selection:hr.attendance,action:0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_action
 msgid "Action"
-msgstr "動作"
+msgstr "行動"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_action_reason
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_action_desc
 msgid "Action Reason"
-msgstr ""
+msgstr "操作原因"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_action_type
@@ -56,12 +61,12 @@ msgstr "動作類型"
 msgid ""
 "Allowed difference in minutes between the signin/signout and the timesheet "
 "computation for one sheet. Set this to 0 for no tolerance."
-msgstr ""
+msgstr "允許工單表的登入/登出在計算時差異的分鐘數。將它設置為0表示不容忍。"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
 msgid "Analysis Information"
-msgstr ""
+msgstr "分析信息"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_attendance
@@ -75,34 +80,34 @@ msgstr "出勤"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_attendance_access
 msgid "Attendance Access"
-msgstr ""
+msgstr "出勤訪問"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_graph
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_graph_filtered
 msgid "Attendance Analysis"
-msgstr "出勤分析"
+msgstr "考勤分析"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_error
 #: model:ir.actions.report.xml,name:hr_attendance.action_report_hrattendanceerror
 msgid "Attendance Error Report"
-msgstr ""
+msgstr "考勤錯誤報表"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Attendance Errors:"
-msgstr ""
+msgstr "考勤報錯："
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.open_view_attendance_reason
 msgid "Attendance Reasons"
-msgstr ""
+msgstr "考勤的原因"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_attendance_reason
 msgid "Attendance reasons"
-msgstr "缺勤理由"
+msgstr "考勤的原因"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.open_view_attendance
@@ -110,7 +115,7 @@ msgstr "缺勤理由"
 #: model:ir.ui.menu,name:hr_attendance.menu_open_view_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.hr_department_view_kanban
 msgid "Attendances"
-msgstr "出席者"
+msgstr "出勤"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
@@ -118,7 +123,7 @@ msgid ""
 "Below the maximum tolerance, the attendance error will not be taken into "
 "account. Above the maximum tolerance, the error is considered to be "
 "voluntary and will be taken into account."
-msgstr ""
+msgstr "低於最大的公差，考勤錯誤不會被計入高於最大公差，誤差被認為是自願的並且被計入"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
@@ -130,31 +135,31 @@ msgstr "取消"
 #: code:addons/hr_attendance/static/src/js/attendance.js:41
 #, python-format
 msgid "Click to Sign In at %s."
-msgstr ""
+msgstr "單擊登錄在 %s."
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_config
 msgid "Configuration"
-msgstr "設定"
+msgstr "配置"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_create_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_create_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_create_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_create_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "Current Month"
-msgstr "本月"
+msgstr "當前月份"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_name
@@ -164,17 +169,17 @@ msgstr "日期"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Date Recorded"
-msgstr ""
+msgstr "記錄的日期"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Date Signed"
-msgstr "打卡日期"
+msgstr "簽到日期"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.edit_attendance_reason
 msgid "Define attendance reason"
-msgstr "定义出勤理由"
+msgstr "定義考勤的原因"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
@@ -206,27 +211,27 @@ msgstr "員工"
 #: model:ir.ui.view,arch_db:hr_attendance.view_attendance_tree
 #: model:ir.ui.view,arch_db:hr_attendance.view_attendance_who
 msgid "Employee attendances"
-msgstr "雇员出勤"
+msgstr "員工考勤"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_end_date
 msgid "Ending Date"
-msgstr "結束日期"
+msgstr "期末日期"
 
 #. module: hr_attendance
 #: constraint:hr.attendance:0
 msgid "Error ! Sign in (resp. Sign out) must follow Sign out (resp. Sign in)"
-msgstr ""
+msgstr "錯誤！簽入（或簽出）動作必須在簽出（或簽入）動作之後。"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "Group By"
-msgstr "分組方式"
+msgstr "分組"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "Hr Attendance Search"
-msgstr "人資出勤搜尋"
+msgstr "人力資源考勤搜索"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_id
@@ -234,7 +239,7 @@ msgstr "人資出勤搜尋"
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_id
 #: model:ir.model.fields,field_description:hr_attendance.field_report_hr_attendance_report_attendanceerrors_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason___last_update
@@ -242,129 +247,129 @@ msgstr "編號"
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error___last_update
 #: model:ir.model.fields,field_description:hr_attendance.field_report_hr_attendance_report_attendanceerrors___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_last_sign
 msgid "Last Sign"
-msgstr "上次登入"
+msgstr "上次簽到"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_write_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_write_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_write_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_write_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/attendance.js:39
 #, python-format
 msgid "Last sign in: %s,<br />%s.<br />Click to sign out."
-msgstr ""
+msgstr "上次簽入時間是：%s,<br />%s.<br />，單擊此處簽出。"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_max_delay
 msgid "Maximum Tolerance (in minutes)"
-msgstr ""
+msgstr "最大偏差（以分鐘計）"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Min Delay"
-msgstr ""
+msgstr "最小推延"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "Month"
-msgstr "月"
+msgstr "月份"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "My Attendance"
-msgstr "我的出勤"
+msgstr "我的簽到記錄"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/wizard/hr_attendance_error.py:34
 #, python-format
 msgid "No records are found for your selection!"
-msgstr "您選擇的區間沒有記錄!"
+msgstr "你搜索的結果為空！"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Operation"
-msgstr "操作"
+msgstr "作業"
 
 #. module: hr_attendance
 #: selection:hr.employee,state:0
 msgid "Present"
-msgstr "現在"
+msgstr "出勤"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
 msgid "Print"
-msgstr "列印"
+msgstr "打印"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
 msgid "Print Attendance Report Error"
-msgstr "列印出勤報表錯誤"
+msgstr "打印考勤報表錯誤"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_attendance_error
 msgid "Print Error Attendance Report"
-msgstr "列印有錯誤的出勤報表"
+msgstr "打印錯誤考勤報表"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_name
 msgid "Reason"
-msgstr "理由"
+msgstr "原因"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_report
 msgid "Reports"
-msgstr "報表"
+msgstr "報告"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/hr_attendance.py:156
 #: selection:hr.attendance,action:0
 #, python-format
 msgid "Sign In"
-msgstr "打卡-開始"
+msgstr "簽入"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/hr_attendance.py:156
 #: selection:hr.attendance,action:0
 #, python-format
 msgid "Sign Out"
-msgstr "打卡-結束"
+msgstr "簽出"
 
 #. module: hr_attendance
 #: selection:hr.action.reason,action_type:0
 msgid "Sign in"
-msgstr "打卡-開始"
+msgstr "簽入"
 
 #. module: hr_attendance
 #: selection:hr.action.reason,action_type:0
 msgid "Sign out"
-msgstr "打卡-結束"
+msgstr "簽出"
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance_action_desc
 msgid ""
 "Specifies the reason for Signing In/Signing Out in case of extra hours."
-msgstr ""
+msgstr "為額外時間的簽入/簽出指定原因"
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_action_reason_name
 msgid "Specifies the reason for Signing In/Signing Out."
-msgstr "標記打卡原因"
+msgstr "簽入/簽出的具體原因"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_init_date
@@ -377,27 +382,27 @@ msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
 "device using Odoo's web service features."
-msgstr ""
+msgstr "時間跟蹤功能目的在於根據員工的簽入/簽出操作進行員工考勤管理。您也可以使用Odoo的網頁服務特性將此功能連接至一考勤設備。"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_time_tracking
 msgid "Time Tracking"
-msgstr "追蹤時間"
+msgstr "時間 追蹤"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.timesheet_menu_root
 msgid "Timesheets"
-msgstr ""
+msgstr "工時單"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "Today"
-msgstr "今日"
+msgstr "今天"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_worked_hours
 msgid "Worked Hours"
-msgstr "工時"
+msgstr "工作時數"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/hr_attendance.py:163
@@ -405,9 +410,9 @@ msgstr "工時"
 msgid ""
 "You tried to %s with a date anterior to another event !\n"
 "Try to contact the HR Manager to correct attendances."
-msgstr ""
+msgstr "你試圖%s  前面的日期到另外的事件！嘗試聯繫 人力資源主管糾正考勤"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_report_hr_attendance_report_attendanceerrors
 msgid "report.hr_attendance.report_attendanceerrors"
-msgstr ""
+msgstr "report.hr_attendance.report_attendanceerrors"

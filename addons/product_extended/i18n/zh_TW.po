@@ -3,18 +3,22 @@
 # * product_extended
 # 
 # Translators:
+# Gary Wei <Gary.wei@elico-corp.com>, 2015
+# Joray <13637815@qq.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2016-02-10 09:29+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-22 13:04+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: product_extended
@@ -22,7 +26,7 @@ msgstr ""
 #: code:addons/product_extended/wizard/wizard_price.py:40
 #, python-format
 msgid "Active ID is not set in Context."
-msgstr ""
+msgstr "Contex中沒有 Active ID"
 
 #. module: product_extended
 #: model:ir.model,name:product_extended.model_mrp_bom
@@ -37,49 +41,49 @@ msgstr "取消"
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.view_compute_price_wizard
 msgid "Change Price"
-msgstr "變更價目"
+msgstr "更改價格"
 
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.view_compute_price_wizard
 msgid "Change Standard Price"
-msgstr "變更標準價格"
+msgstr "更改標準價"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_recursive
 msgid "Change prices of child BoMs too"
-msgstr ""
+msgstr "同時更改子物料清單的價格"
 
 #. module: product_extended
 #: model:ir.actions.act_window,name:product_extended.action_view_compute_price_wizard
 msgid "Compute Price Wizard"
-msgstr ""
+msgstr "計算價格嚮導"
 
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.product_product_ext_form_view2
 msgid "Compute from BOM"
-msgstr ""
+msgstr "從物料表計算"
 
 #. module: product_extended
 #: model:ir.model,name:product_extended.model_wizard_price
 msgid "Compute price wizard"
-msgstr ""
+msgstr "計算價格嚮導"
 
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.product_product_ext_form_view2
 msgid ""
 "Compute the price of the product using products and operations of related "
 "bill of materials, for manufactured products only."
-msgstr ""
+msgstr "只是對生產的產品用產品和和物料表相關的操作計算產品的價格"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_display_name
@@ -89,54 +93,54 @@ msgstr "顯示名稱"
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_real_time_accounting
 msgid "Generate accounting entries when real-time"
-msgstr ""
+msgstr "當實時產生會計分錄"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_info_field
 msgid "Info"
-msgstr "資訊"
+msgstr "信息"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: product_extended
 #: model:ir.model,name:product_extended.model_product_template
 msgid "Product Template"
-msgstr "產品範本"
+msgstr "產品模板"
 
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.view_compute_price_wizard
 msgid "Set price on BoM"
-msgstr ""
+msgstr "在物料清單上設置價格"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_mrp_bom_standard_price
 msgid "Standard Price"
-msgstr "標準價格"
+msgstr "標準價"
 
 #. module: product_extended
 #: model:ir.ui.view,arch_db:product_extended.view_compute_price_wizard
 msgid ""
 "The price is computed from the bill of material lines which are not variant "
 "specific"
-msgstr ""
+msgstr "價格從那些沒有指定變型的物料清單行計算得出"
 
 #. module: product_extended
 #: code:addons/product_extended/wizard/wizard_price.py:38
@@ -144,4 +148,4 @@ msgstr ""
 msgid ""
 "This wizard is build for product templates, while you are currently running "
 "it from a product variant."
-msgstr ""
+msgstr "此嚮導是為產品模板構建的，而您目前正在從一個產品變型中運行它。"

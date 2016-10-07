@@ -3,52 +3,59 @@
 # * website_portal_sale
 # 
 # Translators:
+# Alex Duan <alex.duan@elico-corp.com>, 2015
+# fausthuang, 2015
+# fausthuang, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Luke <cialuo@qq.com>, 2015
+# liAnGjiA <liangjia@qq.com>, 2015-2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:27+0000\n"
-"PO-Revision-Date: 2016-03-23 03:43+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-29 14:21+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Pay Now"
-msgstr ""
+msgstr "<i class=\"fa fa-arrow-circle-right\"/> 付款"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid ""
 "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
 "Problem</span>"
-msgstr ""
+msgstr "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> 問題</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Done</span>"
-msgstr ""
+msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> 完成</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Paid</span>"
-msgstr ""
+msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> 支付</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
-msgstr ""
+msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/>過期</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -56,62 +63,62 @@ msgstr ""
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
-msgstr ""
+msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> 取消</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
-msgstr ""
+msgstr "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw fa-clock-o\"/> 等待</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Invoiced</span>"
-msgstr ""
+msgstr "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> 已開票</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Waiting "
 "for Payment</span>"
-msgstr ""
+msgstr "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> 等待付款</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Paid</span>"
-msgstr ""
+msgstr "<span class=\"label label-success orders_label_text_align\"><i class=\"fa fa-fw fa-check\"/> 付款</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "<span>Show more</span><span class=\"hidden\">Show less</span>"
-msgstr ""
+msgstr "<span>顯示更多</span><span class=\"hidden\">顯示更少</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Contact</strong>"
-msgstr ""
+msgstr "<strong>聯繫</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Date:</strong>"
-msgstr ""
+msgstr "<strong>日期:</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoices</strong>"
-msgstr ""
+msgstr "<strong>發票</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoicing Address</strong>"
-msgstr ""
+msgstr "<strong>發票地址</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -126,17 +133,17 @@ msgstr "<strong>數量</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr ""
+msgstr "<strong>送貨地址</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Subtotal</strong>"
-msgstr ""
+msgstr "<strong>小計</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Total:</strong>"
-msgstr ""
+msgstr "<strong>總計:</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -146,34 +153,34 @@ msgstr "<strong>單價</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_backend_link
 msgid "Access the complete Sale application"
-msgstr ""
+msgstr "訪問全部銷售應用程序"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Due Date"
-msgstr "到期日"
+msgstr "截止日期"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sales_backend_access
 msgid ""
 "If you wish to access the complete application to manage your orders, you "
 "can follow"
-msgstr ""
+msgstr "如果你想使用完整的應用程序來管理你的命令，你可以按照"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Invoice #"
-msgstr ""
+msgstr "發票號"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Invoice Date"
-msgstr "發票日期"
+msgstr "開票日期"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "My Account"
-msgstr "我的帳戶"
+msgstr "我的賬戶"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -183,12 +190,12 @@ msgstr "訂單"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Order Date"
-msgstr ""
+msgstr "訂單日期"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Pay Now"
-msgstr "馬上支付"
+msgstr "現在付款"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -198,37 +205,37 @@ msgstr "報價單"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "Quotation #"
-msgstr "報價單"
+msgstr "報價單 #"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Sale Order #"
-msgstr ""
+msgstr "銷售訂單#"
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_sale_order
 msgid "Sales Order"
-msgstr "銷貨單"
+msgstr "銷售訂單"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Taxes:"
-msgstr "稅:"
+msgstr "稅金:"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "There are currently no invoices for your account."
-msgstr ""
+msgstr "現在你的賬戶沒有發票"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "There are currently no orders for your account."
-msgstr ""
+msgstr "現在你的賬戶沒有訂單"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "There are currently no quotes for your account."
-msgstr ""
+msgstr "現在你的賬戶沒有報價"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -240,29 +247,29 @@ msgstr "總計"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Untaxed Amount:"
-msgstr ""
+msgstr "不含稅金額"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "Valid Until"
-msgstr ""
+msgstr "有效期至"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Your Invoices and Payments"
-msgstr ""
+msgstr "您的發票和付款"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Your Orders"
-msgstr ""
+msgstr "你的訂單"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "Your Quotes"
-msgstr ""
+msgstr "您的報價"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sales_backend_access
 msgid "this link"
-msgstr ""
+msgstr "鏈接"

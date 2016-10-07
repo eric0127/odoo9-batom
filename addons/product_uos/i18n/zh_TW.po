@@ -3,18 +3,21 @@
 # * product_uos
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2015-09-08 07:24+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-26 01:22+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: product_uos
@@ -22,12 +25,12 @@ msgstr ""
 msgid ""
 "Coefficient to convert default Unit of Measure to Unit of Sale uos = uom * "
 "coeff"
-msgstr ""
+msgstr "係數轉換默認計量單位銷售UOS =單位×係數"
 
 #. module: product_uos
 #: model:ir.model,name:product_uos.model_product_template
 msgid "Product Template"
-msgstr "產品範本"
+msgstr "產品模板"
 
 #. module: product_uos
 #: model:ir.model.fields,field_description:product_uos.field_sale_order_line_product_uos_qty
@@ -37,7 +40,7 @@ msgstr "數量"
 #. module: product_uos
 #: model:ir.model,name:product_uos.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "銷售訂單細項"
+msgstr "銷售訂單行"
 
 #. module: product_uos
 #: model:ir.model.fields,help:product_uos.field_product_template_uos_id
@@ -45,18 +48,18 @@ msgstr "銷售訂單細項"
 msgid ""
 "Specify a unit of measure here if invoicing is made in another unit of "
 "measure than inventory. Keep empty to use the default unit of measure."
-msgstr ""
+msgstr "如果製作發票的單位跟庫存不一致，指定一個計量單位，留空使用默認單位。"
 
 #. module: product_uos
 #: model:ir.model.fields,field_description:product_uos.field_sale_order_line_product_uos
 #: model:ir.ui.view,arch_db:product_uos.product_template_form_view_inherit_product_uos
 msgid "Unit of Measure"
-msgstr "量度單位"
+msgstr "計量單位"
 
 #. module: product_uos
 #: model:ir.model.fields,field_description:product_uos.field_product_template_uos_coeff
 msgid "Unit of Measure -> UOS Coeff"
-msgstr ""
+msgstr "計量單位 -> 銷售單位係數"
 
 #. module: product_uos
 #: model:ir.model.fields,field_description:product_uos.field_product_template_uos_id

@@ -3,126 +3,130 @@
 # * sale_crm
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Rona Lin <ssauapw@qq.com>, 2015
+# 卓憶科技 <zhanghao@jointd.com>, 2015
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2016-02-10 09:38+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-08-03 04:01+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_claim_count
 msgid "# Claims"
-msgstr ""
+msgstr "# 索賠"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_issue_count
 msgid "# Issues"
-msgstr ""
+msgstr "# 問題"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_task_count
 msgid "# Tasks"
-msgstr ""
+msgstr "# 任務"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_sale_order_count
 msgid "# of Sales Order"
-msgstr "銷售訂單數量"
+msgstr "# 銷售訂單"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Orders</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> 訂單</span>"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Quote(s) </span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> 報價</span>"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_associate_member
 msgid ""
 "A member with whom you want to associate your membership.It will consider "
 "the membership state of the associated member."
-msgstr ""
+msgstr "你將作為哪個客戶的附屬會員。你的會員資格會隨著主會員的狀態變化。"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_associate_member
 msgid "Associate Member"
-msgstr ""
+msgstr "協會會員"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_campaign_id
 msgid "Campaign"
-msgstr "行銷活動"
+msgstr "營銷活動"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_cancel
 msgid "Cancel Membership Date"
-msgstr ""
+msgstr "取消會員日期"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_payment_method_count
 msgid "Count Payment Method"
-msgstr ""
+msgstr "付款方式個數"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_state
 msgid "Current Membership Status"
-msgstr ""
+msgstr "當前會員狀態"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_property_stock_customer
 msgid "Customer Location"
-msgstr "客戶地點"
+msgstr "客戶庫位"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_start
 msgid "Date from which membership becomes active."
-msgstr ""
+msgstr "會員資格開始生效的日期"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_cancel
 msgid "Date on which membership has been cancelled"
-msgstr ""
+msgstr "退訂會員資格的日期"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_stop
 msgid "Date until which membership remains active."
-msgstr ""
+msgstr "會員資格到哪一天結束"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_free_member
 msgid "Free Member"
-msgstr ""
+msgstr "免費會員"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_partner_latitude
 msgid "Geo Latitude"
-msgstr "Geo 緯度"
+msgstr "地理緯度"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_date_localization
 msgid "Geo Localization Date"
-msgstr "Geo 定位的日期"
+msgstr "地理定位的日期"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_partner_longitude
 msgid "Geo Longitude"
-msgstr "Geo 經度"
+msgstr "地理經度"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_target_sales_invoiced
 msgid "Invoiced in Sale Orders Target"
-msgstr ""
+msgstr "在銷售訂單預期目標上開票"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_state
@@ -134,52 +138,52 @@ msgid ""
 "-Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paying member: A member who has paid the membership fee."
-msgstr ""
+msgstr "它表明會員的狀態。\n                    -非會員：業務夥伴沒有申請任何會員。\n                    -取消會員：會員已取消他的會員資格。\n                    -到期會員:其成員日期已經到期。\n                    -未審核會員：已申請成為成員的人，他們的發票即將被創建。\n                    -開具發票的會員：會員的發票已創建。\n                    -付費會員：已支付會員費的會員。"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "潛在客戶/商機"
+msgstr "線索/商機"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
 msgid "Log in the chatter from which opportunity the order originates"
-msgstr ""
+msgstr "登錄到訂單所屬商機的會話"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_medium_id
 msgid "Medium"
-msgstr ""
+msgstr "普通"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_member_lines
 msgid "Membership"
-msgstr ""
+msgstr "會籍"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_amount
 msgid "Membership Amount"
-msgstr ""
+msgstr "成員費用"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_stop
 msgid "Membership End Date"
-msgstr ""
+msgstr "會員結束日期"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_membership_start
 msgid "Membership Start Date"
-msgstr ""
+msgstr "成員開始日期"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "New Quotation"
-msgstr ""
+msgstr "新的報價單"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_number
 msgid "Number of Quotations"
-msgstr ""
+msgstr "報價單的數量"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_opportunity_id
@@ -210,22 +214,22 @@ msgstr "報價單"
 #: model:ir.model,name:sale_crm.model_sale_order
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_sale_order_ids
 msgid "Sales Order"
-msgstr "銷貨單"
+msgstr "銷售訂單"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_free_member
 msgid "Select if you want to give free membership."
-msgstr ""
+msgstr "提供免費成員資格"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_source_id
 msgid "Source"
-msgstr "來源"
+msgstr "原文"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_amount_total
 msgid "Sum of Orders"
-msgstr ""
+msgstr "銷售訂單的總數"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_tag_ids
@@ -235,45 +239,45 @@ msgstr "標籤"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_task_ids
 msgid "Tasks"
-msgstr ""
+msgstr "任務"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_membership_amount
 msgid "The price negotiated by the partner"
-msgstr ""
+msgstr "客戶協商後的價格"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_sale_order_campaign_id
 msgid ""
 "This is a name that helps you keep track of your different campaign efforts "
 "Ex: Fall_Drive, Christmas_Special"
-msgstr ""
+msgstr "這裡是一個幫助跟蹤您不同市場活動嘗試的名稱。例如：Fall_Drive，Christmas_Special"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_sale_order_medium_id
 msgid "This is the method of delivery. Ex: Postcard, Email, or Banner Ad"
-msgstr ""
+msgstr "這裡是交付的方式。例如： 明信片、 電子郵件、 或橫幅廣告"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_sale_order_source_id
 msgid ""
 "This is the source of the link Ex: Search Engine, another domain, or name of"
 " email list"
-msgstr ""
+msgstr "這是鏈接的來源，例如：搜索引擎，其他領域，或者郵件列表名稱"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_property_stock_customer
 msgid ""
 "This stock location will be used, instead of the default one, as the "
 "destination location for goods you send to this partner"
-msgstr "此倉位將會替代預設倉位，作為當您送貨至此業務夥伴的目標倉位。"
+msgstr "這庫位替代默認值作為您送貨到業務夥伴的目標庫位."
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_res_users_property_stock_supplier
 msgid ""
 "This stock location will be used, instead of the default one, as the source "
 "location for goods you receive from the current partner"
-msgstr "此倉位會代替預設倉位，用在接收來自業務夥伴的產品時的來源倉位。"
+msgstr "默認作為您接收當前業務夥伴產品的源庫位"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_res_users
@@ -283,4 +287,4 @@ msgstr "用戶"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_property_stock_supplier
 msgid "Vendor Location"
-msgstr ""
+msgstr "供應商位置"

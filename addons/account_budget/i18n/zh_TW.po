@@ -3,64 +3,71 @@
 # * account_budget
 # 
 # Translators:
+# Connie Xiao <connie.xiao@elico-corp.com>, 2015
+# fausthuang, 2015
+# fausthuang, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# liulixia <liu.lixia@elico-corp.com>, 2015
+# Luke <cialuo@qq.com>, 2015
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2016-06-13 10:08+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-07-12 00:48+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 #: model:ir.ui.view,arch_db:account_budget.report_crossoveredbudget
 msgid "<strong>Analysis from:</strong>"
-msgstr ""
+msgstr "<strong>分析來自:</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 msgid "<strong>Analysis from</strong>"
-msgstr ""
+msgstr "<strong>分析來自於</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 msgid "<strong>Analytic Account</strong>"
-msgstr ""
+msgstr "<strong>分析科目</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 #: model:ir.ui.view,arch_db:account_budget.report_crossoveredbudget
 msgid "<strong>Budget:</strong>"
-msgstr ""
+msgstr "<strong>預算:</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 #: model:ir.ui.view,arch_db:account_budget.report_crossoveredbudget
 msgid "<strong>Currency:</strong>"
-msgstr ""
+msgstr "<strong>貨幣:</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 msgid "<strong>Currency</strong>"
-msgstr ""
+msgstr "<strong>貨幣</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 msgid "<strong>Printed at:</strong>"
-msgstr ""
+msgstr "<strong>打印:</strong>"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 #: model:ir.ui.view,arch_db:account_budget.report_crossoveredbudget
 msgid "<strong>Total:</strong>"
-msgstr ""
+msgstr "<strong>總計:</strong>"
 
 #. module: account_budget
 #: model:ir.actions.act_window,help:account_budget.act_crossovered_budget_view
@@ -69,55 +76,55 @@ msgid ""
 "                expected for a period in the future. A budget is defined on some\n"
 "                financial accounts and/or analytic accounts (that may represent\n"
 "                projects, departments, categories of products, etc.)"
-msgstr ""
+msgstr "預算是對未來一段時間公司收入和費用的預測。 預算是基於一些財務科目或是分析科目 (可能是項目, 部門, 產品類別, 等等.)"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_crossvered_report
 msgid "Account Budget crossovered report"
-msgstr ""
+msgstr "預算交叉報表"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_crossvered_summary_report
 msgid "Account Budget crossovered summary report"
-msgstr ""
+msgstr "會計預算交叉總結報告"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_analytic
 #: model:ir.model,name:account_budget.model_account_budget_report
 msgid "Account Budget report for analytic account"
-msgstr "輔助核算項目的預算報告"
+msgstr "分析賬戶的的預算報表"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post_account_ids
 #: model:ir.ui.view,arch_db:account_budget.view_budget_post_form
 msgid "Accounts"
-msgstr "科目"
+msgstr "賬戶"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_percentage
 msgid "Achievement"
-msgstr ""
+msgstr "成就"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_needaction
 msgid "Action Needed"
-msgstr "待處理"
+msgstr "所需行動"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_analytic_account
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_analytic_account_id
 msgid "Analytic Account"
-msgstr "輔助核算項目"
+msgstr "分析賬戶"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 msgid "Analytic Budget"
-msgstr ""
+msgstr "分析預算"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Approve"
-msgstr "核准"
+msgstr "批准"
 
 #. module: account_budget
 #: model:ir.actions.report.xml,name:account_budget.action_report_budget
@@ -135,7 +142,7 @@ msgstr "預算"
 #: model:ir.actions.act_window,name:account_budget.act_account_analytic_account_cb_lines
 #: model:ir.ui.view,arch_db:account_budget.view_account_analytic_account_form_inherit_budget
 msgid "Budget Items"
-msgstr ""
+msgstr "預算項"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_crossovered_budget_lines
@@ -157,7 +164,7 @@ msgstr "預算明細"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_name
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Budget Name"
-msgstr ""
+msgstr "預算名稱"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_post
@@ -166,7 +173,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account_budget.view_budget_post_search
 #: model:ir.ui.view,arch_db:account_budget.view_budget_post_tree
 msgid "Budgetary Position"
-msgstr "財政狀況"
+msgstr "預算狀況"
 
 #. module: account_budget
 #: model:ir.actions.act_window,name:account_budget.open_budget_post_form
@@ -193,7 +200,7 @@ msgid ""
 "                goals. Forecast a budget by detailing the expected revenue per\n"
 "                analytic account and monitor its evolution based on the actuals\n"
 "                realised during that period."
-msgstr ""
+msgstr "記錄錢所花的地方, 你可能就不會超支,而且符合你的財務目標. 在那段期間內，通過細化每個分析科目的預期收入來做預算，然後監控實際變化。"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.account_budget_analytic_view
@@ -211,12 +218,12 @@ msgstr "取消預算"
 #. module: account_budget
 #: selection:crossovered.budget,state:0
 msgid "Cancelled"
-msgstr "取消"
+msgstr "已取消"
 
 #. module: account_budget
 #: model:ir.actions.act_window,help:account_budget.act_crossovered_budget_view
 msgid "Click to create a new budget."
-msgstr ""
+msgstr "點擊去創建一個新的預算."
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post_company_id
@@ -233,7 +240,7 @@ msgstr "確認"
 #. module: account_budget
 #: selection:crossovered.budget,state:0
 msgid "Confirmed"
-msgstr "確認"
+msgstr "已確認"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_create_uid
@@ -244,7 +251,7 @@ msgstr "確認"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_create_uid
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_create_date
@@ -255,12 +262,12 @@ msgstr "建立者"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_create_date
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_last_post
 msgid "Date of the last message posted on the record."
-msgstr "釋出到記錄上的最後資訊的日期"
+msgstr "發佈到記錄上的最後消息的日期"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
@@ -293,18 +300,18 @@ msgstr "完成"
 #: selection:crossovered.budget,state:0
 #: model:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search
 msgid "Draft"
-msgstr "草案"
+msgstr "草稿"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search
 msgid "Draft Budgets"
-msgstr "草稿預算"
+msgstr "預算草稿"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_date_to
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_date_to
 msgid "End Date"
-msgstr "結束日期"
+msgstr "終止日期"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_date_to
@@ -312,7 +319,7 @@ msgstr "結束日期"
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_crossvered_summary_report_date_to
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_report_date_to
 msgid "End of period"
-msgstr "期末"
+msgstr "期間結束"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_follower_ids
@@ -322,12 +329,12 @@ msgstr "關注者"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "關注者(頻道)"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "關注者（業務夥伴）"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_id
@@ -341,27 +348,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_budget.field_report_account_budget_report_budget_id
 #: model:ir.model.fields,field_description:account_budget.field_report_account_budget_report_crossoveredbudget_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_unread
 msgid "If checked new messages require your attention."
-msgstr "當有新訊息時通知您。"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "如果勾選此項，有新消息會提醒你"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "是關注者"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_last_post
 msgid "Last Message Date"
-msgstr "最後訊息日期"
+msgstr "最後消息日期"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic___last_update
@@ -375,7 +382,7 @@ msgstr "最後訊息日期"
 #: model:ir.model.fields,field_description:account_budget.field_report_account_budget_report_budget___last_update
 #: model:ir.model.fields,field_description:account_budget.field_report_account_budget_report_crossoveredbudget___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_write_uid
@@ -386,7 +393,7 @@ msgstr "最後修改:"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_write_uid
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_write_date
@@ -397,17 +404,17 @@ msgstr "最後更新："
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_write_date
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_ids
 msgid "Messages"
-msgstr "訊息"
+msgstr "消息"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_ids
 msgid "Messages and communication history"
-msgstr "訊息及聯絡紀錄"
+msgstr "消息和通信歷史"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post_name
@@ -417,17 +424,17 @@ msgstr "名稱"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "動作的序列號"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "需要動作的消息編號"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "未讀的消息數量"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_paid_date
@@ -451,13 +458,13 @@ msgstr "會計期間"
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 #: model:ir.ui.view,arch_db:account_budget.report_budget
 msgid "Planned Amount"
-msgstr "計劃金額"
+msgstr "已計劃的金額"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 #: model:ir.ui.view,arch_db:account_budget.report_crossoveredbudget
 msgid "Planned Amt"
-msgstr "計畫金額"
+msgstr "預計金額"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_practical_amount
@@ -479,24 +486,24 @@ msgstr "實際金額"
 #: model:ir.ui.view,arch_db:account_budget.account_budget_crossvered_summary_report_view
 #: model:ir.ui.view,arch_db:account_budget.account_budget_report_view
 msgid "Print"
-msgstr "列印"
+msgstr "打印"
 
 #. module: account_budget
 #: model:ir.actions.act_window,name:account_budget.action_account_budget_analytic
 #: model:ir.actions.act_window,name:account_budget.action_account_budget_crossvered_report
 #: model:ir.ui.view,arch_db:account_budget.account_budget_report_view
 msgid "Print Budgets"
-msgstr "列印預算"
+msgstr "打印預算"
 
 #. module: account_budget
 #: model:ir.actions.act_window,name:account_budget.action_account_budget_crossvered_summary_report
 msgid "Print Summary"
-msgstr "列印摘要"
+msgstr "打印摘要"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Reset to Draft"
-msgstr "重設為草稿"
+msgstr "重置為草稿"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_creating_user_id
@@ -509,7 +516,7 @@ msgstr "負責人"
 #: model:ir.ui.view,arch_db:account_budget.account_budget_crossvered_summary_report_view
 #: model:ir.ui.view,arch_db:account_budget.account_budget_report_view
 msgid "Select Dates Period"
-msgstr "選擇日期期間"
+msgstr "選擇會計期間日期"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_date_from
@@ -523,7 +530,7 @@ msgstr "開始日期"
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_crossvered_summary_report_date_from
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_report_date_from
 msgid "Start of period"
-msgstr "開始期間"
+msgstr "期間開始於"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_state
@@ -534,7 +541,7 @@ msgstr "狀態"
 #: code:addons/account_budget/account_budget.py:104
 #, python-format
 msgid "The Budget '%s' has no accounts!"
-msgstr "預算裏 '%s' 沒有科目!"
+msgstr "預算 '%s'  沒有指定科目！"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_theoritical_amount
@@ -558,47 +565,47 @@ msgstr "理論金額"
 #: model:ir.ui.view,arch_db:account_budget.account_budget_analytic_view
 #: model:ir.ui.view,arch_db:account_budget.account_budget_crossvered_report_view
 msgid "This wizard is used to print budget"
-msgstr "這個精靈被使用在列印預算"
+msgstr "此嚮導用於打印預算"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.account_budget_crossvered_summary_report_view
 msgid "This wizard is used to print summary of budgets"
-msgstr "這個精靈被使用在列印彙總預算"
+msgstr "此嚮導用於打印預算摘要"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search
 msgid "To Approve"
-msgstr "批准"
+msgstr "待批准"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search
 msgid "To Approve Budgets"
-msgstr "通過預算"
+msgstr "待審核的預算"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_unread
 msgid "Unread Messages"
-msgstr "未讀訊息"
+msgstr "未讀消息"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "未讀消息計數器"
 
 #. module: account_budget
 #: selection:crossovered.budget,state:0
 msgid "Validated"
-msgstr "已驗證"
+msgstr "已確認"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "網站消息"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "網站溝通記錄"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_budget
@@ -608,17 +615,17 @@ msgstr "在"
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_report_account_budget_report_analyticaccountbudget
 msgid "report.account_budget.report_analyticaccountbudget"
-msgstr ""
+msgstr "報表.科目_預算.報表_分析科目預算"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_report_account_budget_report_budget
 msgid "report.account_budget.report_budget"
-msgstr ""
+msgstr "報表.科目_預算.報表_預算"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_report_account_budget_report_crossoveredbudget
 msgid "report.account_budget.report_crossoveredbudget"
-msgstr ""
+msgstr "報表.科目_預算.報表_crossoveredbudget"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget

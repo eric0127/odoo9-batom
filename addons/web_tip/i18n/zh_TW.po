@@ -3,45 +3,51 @@
 # * web_tip
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# liulixia <liu.lixia@elico-corp.com>, 2015
+# windy xiao <xfstudio@qq.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2016-02-20 10:41+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-22 13:04+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_action_id
 msgid "Action"
-msgstr "動作"
+msgstr "行動"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_highlight_selector
 msgid "CSS selector for the element to highlight"
-msgstr ""
+msgstr "CSS元素選擇器以高亮顯示"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_end_selector
 msgid "CSS selector used to end the tip"
-msgstr ""
+msgstr "CSS選擇器用於終止提示"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_trigger_selector
 msgid "CSS selectors used to trigger the tip, separated by a comma (ANDed)."
-msgstr ""
+msgstr "CSS選擇器被用於觸發提示,用分隔符分開(ANDed)."
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_user_ids
 #: model:ir.ui.view,arch_db:web_tip.edit_tip_form
 msgid "Consumed by"
-msgstr ""
+msgstr "消耗"
 
 #. module: web_tip
 #: model:web.tip,description:web_tip.web_tip_3
@@ -49,17 +55,17 @@ msgid ""
 "Create one column per stage in your working process. For example, in a "
 "development project, stages might be: Specifications, Development, Test, "
 "Done."
-msgstr ""
+msgstr "工作進程中的每個階段創建步驟。例如，在開發項目中，會包括以下步驟：架構，開發，測試，交付。"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_display_name
@@ -69,27 +75,27 @@ msgstr "顯示名稱"
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_end_event
 msgid "End event"
-msgstr ""
+msgstr "結束活動"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_end_selector
 msgid "End selector"
-msgstr ""
+msgstr "結束選擇器"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_end_event
 msgid "Event to end the tip"
-msgstr ""
+msgstr "活動來結束提示"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_highlight_selector
 msgid "Highlight selector"
-msgstr ""
+msgstr "高亮選擇器"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: web_tip
 #: model:web.tip,description:web_tip.web_tip_4
@@ -97,28 +103,28 @@ msgid ""
 "If you're done with this item, click here to archive it. It won't appear "
 "again, but you can display it with the 'Archived' filter, and reactivate it "
 "if necessary."
-msgstr ""
+msgstr "在你完成此項後，點擊此處歸檔並隱藏，你也可以在必要時通過選中「歸檔」來恢復顯示。"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: web_tip
 #: model:ir.ui.view,arch_db:web_tip.edit_tip_form
 #: model:ir.ui.view,arch_db:web_tip.edit_tip_list
 msgid "Menu"
-msgstr "選單"
+msgstr "菜單"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_mode
@@ -128,7 +134,7 @@ msgstr "模式"
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_mode
 msgid "Mode, e.g. kanban, form"
-msgstr ""
+msgstr "模型,例如,看板,表單"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_model
@@ -138,73 +144,73 @@ msgstr "模型"
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_model
 msgid "Model name on which to trigger the tip, e.g. 'res.partner'."
-msgstr ""
+msgstr "觸發提示的模型名稱,例如,'res.partner'."
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_type
 msgid "Model type, e.g. lead or opportunity for crm.lead"
-msgstr ""
+msgstr "模型類型,例如,線索或機會是crm.lead"
 
 #. module: web_tip
 #: model:web.tip,description:web_tip.web_tip_1
 msgid ""
 "Navigate easily between documents using the navigation path to go back to "
 "previous screens."
-msgstr ""
+msgstr "使用導航路徑回到前一屏幕，在單據之間便捷的巡航。"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_placement
 msgid "Placement"
-msgstr ""
+msgstr "安置"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_placement
 msgid "Popover placement, bottom, top, left or right"
-msgstr ""
+msgstr "彈出的位置,底部,頂部,左邊,右邊"
 
 #. module: web_tip
 #: model:web.tip,description:web_tip.web_tip_2
 msgid ""
 "Save time and change the document stage right here, no need to go back to "
 "your pipeline."
-msgstr ""
+msgstr "就在這變更單據的階段省時，沒必要回到你的管道。"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_action_id
 msgid "The action that will trigger the tip"
-msgstr ""
+msgstr "將觸發提示的動作"
 
 #. module: web_tip
 #: model:ir.ui.view,arch_db:web_tip.edit_tip_search
 msgid "Tip"
-msgstr ""
+msgstr "提示"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_description
 msgid "Tip Description"
-msgstr ""
+msgstr "提示描述"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_is_consumed
 msgid "Tip consumed"
-msgstr ""
+msgstr "提示消耗"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_title
 msgid "Tip title"
-msgstr ""
+msgstr "提示標題"
 
 #. module: web_tip
 #: model:ir.actions.act_window,name:web_tip.edit_tip_action
 #: model:ir.model,name:web_tip.model_web_tip
 #: model:ir.ui.menu,name:web_tip.menu_tip_action
 msgid "Tips"
-msgstr ""
+msgstr "提示"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_trigger_selector
 msgid "Trigger selector"
-msgstr ""
+msgstr "觸發選擇器"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_type

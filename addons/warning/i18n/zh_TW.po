@@ -3,18 +3,20 @@
 # * warning
 # 
 # Translators:
+# Martin Trigaux, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2015-12-04 06:06+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-08-19 08:52+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: warning
@@ -23,7 +25,7 @@ msgstr ""
 #: selection:res.partner,invoice_warn:0 selection:res.partner,picking_warn:0
 #: selection:res.partner,purchase_warn:0 selection:res.partner,sale_warn:0
 msgid "Blocking Message"
-msgstr "阻擋物流訊息"
+msgstr "受阻消息"
 
 #. module: warning
 #: model:ir.model,name:warning.model_account_invoice
@@ -34,32 +36,32 @@ msgstr "發票"
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_invoice_warn_msg
 msgid "Message for Invoice"
-msgstr "發票訊息"
+msgstr "發票消息"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_purchase_warn_msg
 msgid "Message for Purchase Order"
-msgstr "採購訂單訊息"
+msgstr "採購訂單消息"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_product_template_purchase_line_warn_msg
 msgid "Message for Purchase Order Line"
-msgstr "採購訂單細項訊息"
+msgstr "採購訂單明細消息"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_sale_warn_msg
 msgid "Message for Sales Order"
-msgstr "採購訂單訊息"
+msgstr "銷售訂單消息"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_product_template_sale_line_warn_msg
 msgid "Message for Sales Order Line"
-msgstr "銷售訂單細項訊息"
+msgstr "銷售訂單行消息"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_picking_warn_msg
 msgid "Message for Stock Picking"
-msgstr "存貨提貨訊息"
+msgstr "庫存分揀單消息"
 
 #. module: warning
 #: selection:product.template,purchase_line_warn:0
@@ -67,41 +69,41 @@ msgstr "存貨提貨訊息"
 #: selection:res.partner,invoice_warn:0 selection:res.partner,picking_warn:0
 #: selection:res.partner,purchase_warn:0 selection:res.partner,sale_warn:0
 msgid "No Message"
-msgstr "沒有訊息"
+msgstr "沒消息"
 
 #. module: warning
 #: model:ir.model,name:warning.model_res_partner
 msgid "Partner"
-msgstr "伙伴"
+msgstr "業務夥伴"
 
 #. module: warning
 #: model:ir.model,name:warning.model_product_template
 msgid "Product Template"
-msgstr "產品範本"
+msgstr "產品模板"
 
 #. module: warning
 #: model:ir.model,name:warning.model_purchase_order
 #: model:ir.model.fields,field_description:warning.field_res_partner_purchase_warn
 msgid "Purchase Order"
-msgstr "採購單"
+msgstr "採購訂單"
 
 #. module: warning
 #: model:ir.model,name:warning.model_purchase_order_line
 #: model:ir.model.fields,field_description:warning.field_product_template_purchase_line_warn
 msgid "Purchase Order Line"
-msgstr "採購訂單細項"
+msgstr "採購訂單明細"
 
 #. module: warning
 #: model:ir.model,name:warning.model_sale_order
 #: model:ir.model.fields,field_description:warning.field_res_partner_sale_warn
 msgid "Sales Order"
-msgstr "銷貨單"
+msgstr "銷售訂單"
 
 #. module: warning
 #: model:ir.model,name:warning.model_sale_order_line
 #: model:ir.model.fields,field_description:warning.field_product_template_sale_line_warn
 msgid "Sales Order Line"
-msgstr "銷售訂單細項"
+msgstr "銷售訂單行"
 
 #. module: warning
 #: code:addons/warning/warning.py:14
@@ -116,17 +118,17 @@ msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
-msgstr "選擇「警告」，則系統將對使用者發出此警告訊息，選擇「阻擋物流訊息」，則系統將發出帶有此訊息的例外狀況警告並擋住物流。訊息必須輸入在下個欄位。"
+msgstr "選擇此「警告「選項，將通知用戶此消息。\n選擇「受阻消息「選項，將在流程受阻時將拋出一個消息。\n消息寫入下一個字段。"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_picking_warn
 msgid "Stock Picking"
-msgstr "選股"
+msgstr "庫存分揀"
 
 #. module: warning
 #: model:ir.model,name:warning.model_stock_picking
 msgid "Transfer"
-msgstr "調撥"
+msgstr "轉移"
 
 #. module: warning
 #: selection:product.template,purchase_line_warn:0
@@ -142,17 +144,17 @@ msgstr "警告"
 #: code:addons/warning/warning.py:207 code:addons/warning/warning.py:242
 #, python-format
 msgid "Warning for %s"
-msgstr "有關%s的警告"
+msgstr "%s 的警告"
 
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.view_partner_warning_form
 msgid "Warning on the Invoice"
-msgstr "對發票發出警告"
+msgstr "發票警告"
 
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.view_partner_warning_form
 msgid "Warning on the Picking"
-msgstr "提貨單警告"
+msgstr "分揀單的警告"
 
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.view_partner_warning_form
@@ -167,12 +169,12 @@ msgstr "銷售訂單警告"
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.product_warning_form_view
 msgid "Warning when Purchasing this Product"
-msgstr "執行採購該產品時發出警告訊息"
+msgstr "採購這產品時的警告"
 
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.product_warning_form_view
 msgid "Warning when Selling this Product"
-msgstr "執行銷售該產品時發出警示訊息"
+msgstr "銷售這產品時的警告"
 
 #. module: warning
 #: model:ir.ui.view,arch_db:warning.view_partner_warning_form

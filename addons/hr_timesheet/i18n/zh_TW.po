@@ -3,18 +3,22 @@
 # * hr_timesheet
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2015-2016
+# 卓憶科技 <zhanghao@jointd.com>, 2015
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 10:26+0000\n"
-"PO-Revision-Date: 2016-02-10 09:29+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-22 12:58+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr_timesheet
@@ -26,33 +30,33 @@ msgstr "會計"
 #: model:ir.actions.act_window,name:hr_timesheet.act_hr_timesheet_line_evry1_all_form
 #: model:ir.ui.menu,name:hr_timesheet.menu_hr_working_hours
 msgid "Activities"
-msgstr "動態"
+msgstr "活動"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_account_id
 msgid "Analytic Account"
-msgstr "輔助核算項目"
+msgstr "分析賬戶"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "輔助核算項目明細"
+msgstr "分析行"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Analytic account"
-msgstr "分析科目"
+msgstr "分析賬戶"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_account_use_timesheets
 msgid "Check this field if this project manages timesheets"
-msgstr ""
+msgstr "如果此項目需要管理時間表的話請選中此字段"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_evry1_all_form
 msgid "Click to record activities."
-msgstr ""
+msgstr "點擊以記錄活動"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_res_company
@@ -68,7 +72,7 @@ msgstr "公司"
 #. module: hr_timesheet
 #: model:ir.ui.menu,name:hr_timesheet.menu_hr_timesheet_config
 msgid "Configuration"
-msgstr "設定"
+msgstr "配置"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_cost
@@ -83,7 +87,7 @@ msgstr "日期"
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.action_define_analytic_structure
 msgid "Define your Analytic Structure"
-msgstr ""
+msgstr "設置分析結構"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_display_name
@@ -99,43 +103,43 @@ msgstr "持續時間"
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "Extended Filters..."
-msgstr "增加篩選條件..."
+msgstr "擴展過濾器..."
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "Group By"
-msgstr "分組方式"
+msgstr "分組"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "Group by month of date"
-msgstr ""
+msgstr "按月分組"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_form
 msgid "Information"
-msgstr "資訊"
+msgstr "信息"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_line_is_timesheet
 msgid "Is a Timesheet"
-msgstr ""
+msgstr "是工時單"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "Month"
-msgstr "月"
+msgstr "月份"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_product_id
@@ -147,17 +151,17 @@ msgstr "產品"
 #. module: hr_timesheet
 #: model:ir.ui.menu,name:hr_timesheet.menu_timesheets_reports
 msgid "Reports"
-msgstr "報表"
+msgstr "報告"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "This Month"
-msgstr ""
+msgstr "本月"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_quantity
 msgid "Time"
-msgstr ""
+msgstr "時間"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_timesheet_report
@@ -167,45 +171,45 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_pivot
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "Timesheet"
-msgstr ""
+msgstr "工時單"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.act_hr_timesheet_accounts_form
 msgid "Timesheet Accounts"
-msgstr ""
+msgstr "工時單賬簿"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_form
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_tree
 msgid "Timesheet Activities"
-msgstr ""
+msgstr "時間表活動"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.action_hr_timesheet_report_stat_all
 #: model:ir.actions.act_window,name:hr_timesheet.action_hr_timesheet_report_stat_filtered
 msgid "Timesheet Analysis"
-msgstr ""
+msgstr "工時單分析"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Timesheet Month"
-msgstr ""
+msgstr "工時單月"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Timesheet by Month"
-msgstr ""
+msgstr "按月的工時單"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_account_analytic_account_use_timesheets
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_department_view_kanban
 msgid "Timesheets"
-msgstr ""
+msgstr "工時單"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_tree
 msgid "Total time"
-msgstr ""
+msgstr "總時間"
 
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_user_id
@@ -225,7 +229,7 @@ msgid ""
 "                day. Every time spent on a project will become a cost in the\n"
 "                analytic accounting/contract and can be re-invoiced to\n"
 "                customers if required."
-msgstr ""
+msgstr "您可以每天按項目登記和跟蹤您的工時\n                每個項目中的時間消耗都會在\n                分析會計/合同中作為成本\n                如果需要的話還能開票給客戶。"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
@@ -233,9 +237,9 @@ msgid ""
 "You should create an analytic account structure depending on your needs to "
 "analyse costs and revenues. In Odoo, analytic accounts are also used to "
 "track customer contracts."
-msgstr ""
+msgstr "您可以按需創建一個分析會計賬戶來分析您的成本和收入。在Odoo裡，分析會計賬戶還可用於跟蹤客戶合同。"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "month"
-msgstr "月"
+msgstr "月份"

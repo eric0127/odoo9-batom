@@ -3,18 +3,22 @@
 # * project_timesheet
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2015-09-08 07:34+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-04 07:48+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: project_timesheet
@@ -23,70 +27,70 @@ msgstr ""
 msgid ""
 "<p class=\"oe_view_nocontent_create\">Record your timesheets for the project"
 " '%s'.</p>"
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">記錄你為項目所做的工時單 '%s'。</p>"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_config_settings_group_tasks_work_on_tasks
 msgid "Activity Log"
-msgstr ""
+msgstr "活躍的記錄"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_config_settings_group_tasks_work_on_tasks
 msgid "Allows you to compute work on tasks."
-msgstr ""
+msgstr "允許你基於任務計算工作"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_task_analytic_account_id
 msgid "Analytic Account"
-msgstr "輔助核算項目"
+msgstr "分析賬戶"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_form_inherit_account_id
 msgid "Analytic Account/Project"
-msgstr ""
+msgstr "分析賬戶/項目"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "輔助核算項目明細"
+msgstr "分析行"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_search_account_inherit
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_tree_inherit_account_id
 msgid "Analytic account/project"
-msgstr ""
+msgstr "分析賬戶/項目"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_hours_delay
 msgid "Avg. Plan.-Eff."
-msgstr ""
+msgstr "計劃實際平均偏差"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_task_delay_hours
 msgid ""
 "Computed as difference between planned hours by the project manager and the "
 "total hours of the task."
-msgstr ""
+msgstr "計算公式為：項目經理估算的時間和實際花費的時間的差"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_task_total_hours
 msgid "Computed as: Time Spent + Remaining Time."
-msgstr ""
+msgstr "計算:花費的時間 + 剩餘的時間"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_task_effective_hours
 msgid "Computed using the sum of the task work done."
-msgstr ""
+msgstr "計算任務工作時間完成的合計"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_task_delay_hours
 msgid "Delay Hours"
-msgstr "延遲小時"
+msgstr "延遲的小時數"
 
 #. module: project_timesheet
 #: selection:project.config.settings,group_tasks_work_on_tasks:0
 msgid "Do not log work activities on task"
-msgstr ""
+msgstr "不要在任務上記錄活動"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited
@@ -96,55 +100,55 @@ msgstr "持續時間"
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_hours_effective
 msgid "Effective Hours"
-msgstr ""
+msgstr "實際時數"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_task_effective_hours
 msgid "Hours Spent"
-msgstr "花費時間"
+msgstr "時間花費"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_task_progress
 msgid ""
 "If the task has a progress of 99.99% you should close the task if it's "
 "finished or reevaluate the time"
-msgstr ""
+msgstr "如果該任務的進度為 99.99%且該任務已經完成，那麼您可以關閉該任務或重新評估時間。"
 
 #. module: project_timesheet
 #: selection:project.config.settings,group_tasks_work_on_tasks:0
 msgid "Log work activities on tasks"
-msgstr ""
+msgstr "記錄工作活動的任務"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_res_partner
 msgid "Partner"
-msgstr "伙伴"
+msgstr "業務夥伴"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_hours_planned
 msgid "Planned Hours"
-msgstr ""
+msgstr "已計劃的時數"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_progress
 msgid "Progress"
-msgstr "進度"
+msgstr "進行"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_project
 msgid "Project"
-msgstr "專案"
+msgstr "項目"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_remaining_hours
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_tree2_inherited
 msgid "Remaining Hours"
-msgstr ""
+msgstr "剩餘時數"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_tree2_inherited
 msgid "Spent Hours"
-msgstr "花費小時"
+msgstr "花費時數"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_task
@@ -155,17 +159,17 @@ msgstr "任務"
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_project_user_graph_inherited
 msgid "Tasks Analysis"
-msgstr ""
+msgstr "任務分析"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr ""
+msgstr "項目和用戶的任務"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited
 msgid "Timesheet Activities"
-msgstr ""
+msgstr "時間表活動"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:32
@@ -175,7 +179,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited
 #, python-format
 msgid "Timesheets"
-msgstr ""
+msgstr "工時單"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_task_total_hours
@@ -190,12 +194,12 @@ msgstr "總時數"
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited
 msgid "Total time"
-msgstr ""
+msgstr "總時間"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_task_progress
 msgid "Working Time Progress (%)"
-msgstr ""
+msgstr "工作時間進度（％）"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:133
@@ -203,9 +207,9 @@ msgstr ""
 msgid ""
 "You cannot delete a partner which is assigned to project, but you can "
 "uncheck the active box."
-msgstr ""
+msgstr "你不能刪除被指派給項目的合作夥伴，但你能不選中「可用」。"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_config_settings
 msgid "project.config.settings"
-msgstr ""
+msgstr "項目配置"

@@ -3,34 +3,41 @@
 # * account_full_reconcile
 # 
 # Translators:
+# Gang LIU <liu9ang@hotmail.com>, 2016
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# Joray <13637815@qq.com>, 2016
+# Li Xiang <lvx5013@foxmail.com>, 2016
+# Wade Lu <wader.lu@hotmail.com>, 2016
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-02 07:39+0000\n"
-"PO-Revision-Date: 2016-03-02 07:49+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-22 13:04+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_full_reconcile
 #: model:ir.ui.view,arch_db:account_full_reconcile.view_move_line_form
 msgid "-> View partially reconciled entries"
-msgstr ""
+msgstr "-> 查看部分調節的分錄"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_create_uid
 msgid "Created by"
-msgstr "創建人"
+msgstr "創建者"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_display_name
@@ -41,22 +48,22 @@ msgstr "顯示名稱"
 #: model:ir.model,name:account_full_reconcile.model_account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_partial_reconcile_full_reconcile_id
 msgid "Full Reconcile"
-msgstr "全部核銷"
+msgstr "完全調節"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: account_full_reconcile
 #: model:ir.model,name:account_full_reconcile.model_account_move_line
 msgid "Journal Item"
-msgstr "會計憑證行"
+msgstr "日記賬項目"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile___last_update
 msgid "Last Modified on"
-msgstr "最後修改於"
+msgstr "最後修改時間"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_write_uid
@@ -66,28 +73,28 @@ msgstr "最後更新者"
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_write_date
 msgid "Last Updated on"
-msgstr "最後更新在"
+msgstr "最後更新時間"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_reconciled_line_ids
 #: model:ir.ui.view,arch_db:account_full_reconcile.view_full_reconcile_form
 msgid "Matched Journal Items"
-msgstr ""
+msgstr "匹配的日記賬項目"
 
 #. module: account_full_reconcile
 #: model:ir.ui.view,arch_db:account_full_reconcile.view_full_reconcile_form
 msgid "Matching"
-msgstr ""
+msgstr "匹配"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_move_line_full_reconcile_id
 msgid "Matching Number"
-msgstr ""
+msgstr "匹配號碼"
 
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_name
 msgid "Number"
-msgstr "編號"
+msgstr "號碼"
 
 #. module: account_full_reconcile
 #: model:ir.model,name:account_full_reconcile.model_account_partial_reconcile
@@ -97,4 +104,4 @@ msgstr "部分調節"
 #. module: account_full_reconcile
 #: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_partial_reconcile_ids
 msgid "Reconciliation Parts"
-msgstr ""
+msgstr " 調節部分"

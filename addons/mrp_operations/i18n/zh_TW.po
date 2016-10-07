@@ -3,24 +3,28 @@
 # * mrp_operations
 # 
 # Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# 卓憶科技 <zhanghao@jointd.com>, 2015
+# Eric Chou <eric.chou127@gmail.com>, 2016.  Machine converted from zh_CN version.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 10:27+0000\n"
-"PO-Revision-Date: 2016-02-10 09:29+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-06-29 14:17+0000\n"
+"Last-Translator: Eric Chou <eric.chou127@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_nbr
 msgid "# of Lines"
-msgstr "項目數量"
+msgstr "明細#"
 
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_workcenter_line_state
@@ -30,7 +34,7 @@ msgid ""
 "* When work order is in running mode, during that time if user wants to stop or to make changes in order then can set in 'Pending' status.\n"
 "* When the user cancels the work order it will be set in 'Canceled' status.\n"
 "* When order is completely processed that time it is set in 'Finished' status."
-msgstr ""
+msgstr "* 工單被創建時，「草稿「狀態。\n* 從工單被用戶進入開始模式後，設為」在進行中「模式。\n* 當工單是運行模式，在此期間，如果用戶要停止或作出改變，可設置為」掛起「狀態。\n* 當用戶取消工單，設置為」取消狀態「。\n* 從工單被完成的時候開始，設置為」完成「狀態。"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
@@ -45,7 +49,7 @@ msgstr "物料清單"
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.operation_calendar_view
 msgid "Calendar View"
-msgstr "行事曆檢視"
+msgstr "日曆視圖"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
@@ -60,32 +64,32 @@ msgstr "取消訂單"
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Canceled"
-msgstr "已取消"
+msgstr "已作廢"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 #: selection:mrp_operations.operation.code,start_stop:0
 msgid "Cancelled"
-msgstr "取消"
+msgstr "已取消"
 
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_allow_reorder
 msgid ""
 "Check this to be able to move independently all production orders, without "
 "moving dependent ones."
-msgstr ""
+msgstr "選中這裡就不會按工作中心工作時間重排生產單日期。"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_stock_move_move_dest_id_lines
 msgid "Children Moves"
-msgstr ""
+msgstr "子調撥"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_form
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_planning
 msgid "Click to start a new work order."
-msgstr ""
+msgstr "點擊開始一個新的工單。"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_code
@@ -96,29 +100,29 @@ msgstr "代碼"
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_confirm_action
 msgid "Confirmed Work Orders"
-msgstr ""
+msgstr "已確認的工票"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_create_uid
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_create_uid
 msgid "Created by"
-msgstr "建立者"
+msgstr "創建者"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_create_date
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_create_date
 msgid "Created on"
-msgstr "建立於"
+msgstr "創建時間"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
 msgid "Current"
-msgstr "當前"
+msgstr "當前的"
 
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_current_production
 msgid "Current Production"
-msgstr ""
+msgstr "當前的生產"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_date
@@ -150,7 +154,7 @@ msgstr "完成"
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 msgid "Draft"
-msgstr "草案"
+msgstr "草稿"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
@@ -162,12 +166,12 @@ msgstr "持續時間"
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_date_finished
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_date_planned_end
 msgid "End Date"
-msgstr "結束日期"
+msgstr "終止日期"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
 msgid "Finish Order"
-msgstr "完成之命令"
+msgstr "完成工單"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
@@ -176,118 +180,118 @@ msgstr "完成之命令"
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 msgid "Finished"
-msgstr ""
+msgstr "已完成"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_allow_reorder
 msgid "Free Serialisation"
-msgstr ""
+msgstr "自由串行化"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_draft_action
 msgid "Future Work Orders"
-msgstr "未來工作命令"
+msgstr "未開工工票"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
 msgid "Group By"
-msgstr "分組方式"
+msgstr "分組"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.graph_in_hrs_workcenter
 msgid "Hours by Work Center"
-msgstr ""
+msgstr "時數，按工作中心"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_id
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_id
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_id
 msgid "ID"
-msgstr "編號"
+msgstr "ID"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "In Production"
-msgstr "生產中"
+msgstr "在生產"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 #: selection:mrp.production.workcenter.line,state:0
 #: selection:mrp.workorder,state:0
 msgid "In Progress"
-msgstr "處理中"
+msgstr "進行中"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:438
 #, python-format
 msgid ""
 "In order to Finish the operation, it must be in the Start or Resume state!"
-msgstr ""
+msgstr "要完成工單，它必須處於開始或重新開始狀態。"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:429
 #, python-format
 msgid ""
 "In order to Pause the operation, it must be in the Start or Resume state!"
-msgstr ""
+msgstr "要暫停工單，必須在開始或重啟狀態。"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:433
 #, python-format
 msgid "In order to Resume the operation, it must be in the Pause state!"
-msgstr ""
+msgstr "要重啟這個工單，必須在暫停狀態。"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
 msgid "Information"
-msgstr "資訊"
+msgstr "信息"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation___last_update
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code___last_update
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder___last_update
 msgid "Last Modified on"
-msgstr "最後修改:"
+msgstr "最後修改時間"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_write_uid
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_write_uid
 msgid "Last Updated by"
-msgstr "最後更新："
+msgstr "最後更新者"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_write_date
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_write_date
 msgid "Last Updated on"
-msgstr "最後更新於"
+msgstr "最後更新時間"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Late"
-msgstr "延遲"
+msgstr "最近"
 
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_mrp_production
 msgid "Manufacturing Order"
-msgstr "製造命令"
+msgstr "製造訂單"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:105
 #, python-format
 msgid "Manufacturing order cannot be started in state \"%s\"!"
-msgstr ""
+msgstr "生產訂單無法開始於狀態 \"%s\"!"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:445
 #, python-format
 msgid "No operation to cancel."
-msgstr "無作業可取消。"
+msgstr "沒有操作被取消"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_code_action
 msgid "Operation Codes"
-msgstr ""
+msgstr "作業代號"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_name
@@ -300,25 +304,25 @@ msgstr "作業名稱"
 msgid ""
 "Operation has already started! You can either Pause/Finish/Cancel the "
 "operation."
-msgstr ""
+msgstr "操作已經開始！你可以 暫停/完成/取消 這個操作。"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:441
 #, python-format
 msgid "Operation is Already Cancelled!"
-msgstr "作業已經被取消!"
+msgstr "作業早已取消！"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:448
 #, python-format
 msgid "Operation is already finished!"
-msgstr "作業已經結束!"
+msgstr "作業早已完成！"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:418
 #, python-format
 msgid "Operation is not started yet!"
-msgstr ""
+msgstr "作業還未開始！"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_operation_action
@@ -330,7 +334,7 @@ msgstr "作業"
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_order_date
 msgid "Order Date"
-msgstr "訂單日期"
+msgstr "單據日期"
 
 #. module: mrp_operations
 #: selection:mrp.workorder,state:0
@@ -341,7 +345,7 @@ msgstr "暫停"
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
 msgid "Pause Work Order"
-msgstr "暫停工作命令"
+msgstr "暫停工單"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
@@ -350,17 +354,17 @@ msgstr "暫停工作命令"
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 #: selection:mrp.production.workcenter.line,state:0
 msgid "Pending"
-msgstr "待處理"
+msgstr "暫停"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
 msgid "Planned Date"
-msgstr "計劃日期"
+msgstr "計劃的日期"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
 msgid "Planned Month"
-msgstr ""
+msgstr "計劃月份"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_product
@@ -372,22 +376,22 @@ msgstr "產品"
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_category_id
 msgid "Product Category"
-msgstr "產品分類"
+msgstr "產品類別"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_product_qty
 msgid "Product Qty"
-msgstr "貨品數量"
+msgstr "產品數量"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_product_tmpl_id
 msgid "Product Template"
-msgstr "產品範本"
+msgstr "產品模板"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
 msgid "Product to Produce"
-msgstr ""
+msgstr "待生產的產品"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_production_id
@@ -406,7 +410,7 @@ msgstr "生產作業"
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_code_form_view
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_code_tree_view
 msgid "Production Operation Code"
-msgstr ""
+msgstr "工生產作業代號"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_production_state
@@ -421,7 +425,7 @@ msgstr "生產工作中心"
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Production started late"
-msgstr "生產開始日期"
+msgstr "延遲開始的生產"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_qty
@@ -431,17 +435,17 @@ msgstr "數量"
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_quantity_produced
 msgid "Quantity Produced"
-msgstr ""
+msgstr "已製造數量"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Ready to Produce"
-msgstr "就緒生產"
+msgstr "準備生產"
 
 #. module: mrp_operations
 #: model:ir.ui.menu,name:mrp_operations.menu_report_mrp_workorders_tree
 msgid "Reports"
-msgstr "報表"
+msgstr "報告"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_user_id
@@ -454,42 +458,42 @@ msgstr "負責人"
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit
 #: selection:mrp_operations.operation.code,start_stop:0
 msgid "Resume"
-msgstr "繼續"
+msgstr "重新開始"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
 msgid "Resume Work Order"
-msgstr ""
+msgstr "重啟工單"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_routing_id
 msgid "Routing"
-msgstr "工藝流程"
+msgstr "工藝"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_date_planned
 msgid "Scheduled Date"
-msgstr "預定日期"
+msgstr "計劃日期"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Scheduled Date by Month"
-msgstr ""
+msgstr "按計劃月份"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Scheduled Month"
-msgstr ""
+msgstr "月計劃"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
 msgid "Search"
-msgstr "搜尋"
+msgstr "搜索"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Search Work Orders"
-msgstr ""
+msgstr "搜索工單："
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
@@ -520,7 +524,7 @@ msgstr "開始日期"
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_form_inherit_view
 msgid "Start Working"
-msgstr ""
+msgstr "開始工作"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
@@ -539,12 +543,12 @@ msgstr "狀態"
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_stock_move
 msgid "Stock Move"
-msgstr "庫存調動"
+msgstr "庫存調撥"
 
 #. module: mrp_operations
 #: model:ir.model.fields,help:mrp_operations.field_mrp_production_workcenter_line_delay
 msgid "The elapsed time between operation start and stop in this Work Center"
-msgstr ""
+msgstr "工單在這個工作中心從開始到結束的執行週期。"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_planning
@@ -554,12 +558,12 @@ msgid ""
 "            Manufacturing operations are often called Work Orders. The various\n"
 "            operations will have different impacts on the costs of\n"
 "            manufacturing and planning depending on the available workload."
-msgstr ""
+msgstr "要生產或者組裝產品，使用原料\n完成產品您也必須處理生產操作。\n生產操作經常被叫做工單。\n各種操作對生產成本有不同的影響，\n生產和計劃取決於可用的工作量。"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_total_cycles
 msgid "Total Cycles"
-msgstr "週期總數"
+msgstr "總週期"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_workorder_total_hours
@@ -569,12 +573,12 @@ msgstr "總時數"
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_uom
 msgid "Unit of Measure"
-msgstr "量度單位"
+msgstr "計量單位"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Waiting Goods"
-msgstr ""
+msgstr "等待原料"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_workcenter_id
@@ -582,7 +586,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_operations.view_mrp_production_workcenter_form_view_filter
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
 msgid "Work Center"
-msgstr ""
+msgstr "工作中心"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_resource_planning
@@ -592,18 +596,18 @@ msgstr "工作中心"
 #. module: mrp_operations
 #: model:ir.actions.report.xml,name:mrp_operations.report_wc_barcode
 msgid "Work Centers Barcode"
-msgstr ""
+msgstr "工作中心條碼"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.action_report_mrp_workorder
 #: model:ir.model,name:mrp_operations.model_mrp_production_workcenter_line
 msgid "Work Order"
-msgstr "工作命令"
+msgstr "工票"
 
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_mrp_workorder
 msgid "Work Order Report"
-msgstr ""
+msgstr "工票報表"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_action_form
@@ -614,17 +618,17 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_graph
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_pivot
 msgid "Work Orders"
-msgstr "工作命令"
+msgstr "工票"
 
 #. module: mrp_operations
 #: model:ir.ui.menu,name:mrp_operations.menu_mrp_production_wc_action_planning
 msgid "Work Orders By Resource"
-msgstr ""
+msgstr "工單 按資源"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_action_planning
 msgid "Work Orders Planning"
-msgstr ""
+msgstr "工票計劃"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_form
@@ -635,17 +639,17 @@ msgid ""
 "            marked as started. Once you finish the latest operation of a\n"
 "            manufacturing order, the MO is automatically done and the related\n"
 "            products are produced."
-msgstr ""
+msgstr "工單是每個生產訂單要被執行的操作列表。\n當您啟動生產訂單的第一個工單，\n生產訂單將被自動標記為啟動。\n當您完成了生產訂單的最後一個操作，\n生成訂單被自動完成並且相關的產品\n被製造完成。"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_production_workcenter_line_delay
 msgid "Working Hours"
-msgstr "工時"
+msgstr "工作時數"
 
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_workload
 msgid "Workload"
-msgstr ""
+msgstr "工作量"
 
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_mrp_operations_operation
