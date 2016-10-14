@@ -1772,7 +1772,7 @@ msgstr "由<span>Odoo</span>提供技術支持"
 #: code:addons/web/static/src/xml/base.xml:82
 #, python-format
 msgid "Preferences"
-msgstr "首選項"
+msgstr "偏好設定"
 
 #. module: web
 #. openerp-web
