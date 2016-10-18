@@ -216,7 +216,7 @@ msgstr "固定的"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_id
 msgid "Fixed Procurement Group"
-msgstr "固定的補貨組"
+msgstr "固定的補貨群組"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_follower_ids
@@ -404,7 +404,7 @@ msgstr "補貨異常"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id
 msgid "Procurement Group"
-msgstr "補貨組"
+msgstr "補貨群組"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
@@ -437,7 +437,7 @@ msgstr "補貨規則"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_group_form_view
 msgid "Procurement group"
-msgstr "補貨組"
+msgstr "補貨群組"
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
@@ -476,7 +476,7 @@ msgstr "沿用選項"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
 msgid "Propagation of Procurement Group"
-msgstr "補貨組的沿用"
+msgstr "補貨群組的沿用"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_qty

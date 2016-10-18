@@ -244,7 +244,7 @@ msgstr "不含稅金的總額"
 #. module: website_sale_delivery
 #: model:ir.model.fields,help:website_sale_delivery.field_delivery_carrier_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_sale_delivery
 #: model:ir.model.fields,help:website_sale_delivery.field_delivery_carrier_public_categ_ids

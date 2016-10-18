@@ -37,7 +37,7 @@ msgstr "公共信息"
 #. module: website_hr
 #: model:ir.model.fields,help:website_hr.field_hr_employee_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_hr
 #: model:ir.model.fields,field_description:website_hr.field_hr_employee_website_published

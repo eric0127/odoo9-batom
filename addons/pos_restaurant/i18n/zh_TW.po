@@ -152,7 +152,7 @@ msgstr "修改將不會被保存"
 #: code:addons/pos_restaurant/static/src/js/floors.js:397
 #, python-format
 msgid "Check your internet connection and access rights"
-msgstr "請檢查你的互聯網連接以及訪問權限"
+msgstr "請檢查你的互聯網連接以及存取權限"
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form

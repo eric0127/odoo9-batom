@@ -93,7 +93,7 @@ msgstr "已取消"
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_lead_test_customer
 msgid "Check this box if this contact is a customer."
-msgstr "如果該聯繫人是客戶就選擇這個框"
+msgstr "如果該聯絡人是客戶就選擇這個框"
 
 #. module: base_action_rule
 #: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act

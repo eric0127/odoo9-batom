@@ -752,12 +752,12 @@ msgstr "國家"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_country_group
 msgid "Country Group"
-msgstr "國家組"
+msgstr "國家群組"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_pricelist_country_group_ids
 msgid "Country Groups"
-msgstr "國家分組"
+msgstr "國家群組"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
@@ -1527,7 +1527,7 @@ msgstr "上翻"
 msgid ""
 "Put the practical details (shipping, payment options,...) as links in the "
 "footer; that way, they will be accessible from all your product pages."
-msgstr "把實用的細節(運費，付款方式，...)作為底部的鏈接;這樣一來，他們將所有的產品頁面訪問。"
+msgstr "把實用的細節(運費，付款方式，...)作為底部的鏈接;這樣一來，他們將所有的產品頁面存取。"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
@@ -1884,7 +1884,7 @@ msgstr "開始你的網上商店，最好的方法是通過直接在網站上創
 #: model:ir.model.fields,help:website_sale.field_product_product_website_url
 #: model:ir.model.fields,help:website_sale.field_product_template_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.order_state_message

@@ -254,7 +254,7 @@ msgid ""
 "                                        <strong>Import</strong><br/>\n"
 "                                        <span class=\"small\">&gt; 200 contacts</span>\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong>導入</strong><br/>\n                                        <span class=\"small\">大於 200個聯繫人</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong>導入</strong><br/>\n                                        <span class=\"small\">大於 200個聯絡人</span>\n                                    </span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -264,7 +264,7 @@ msgid ""
 "                                        <strong> Create manually</strong><br/>\n"
 "                                        <span class=\"small\">&lt; 200 contacts</span>\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong> 手動創建</strong><br/>\n                                        <span class=\"small\">&lt; 200 聯繫人</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong> 手動創建</strong><br/>\n                                        <span class=\"small\">&lt; 200 聯絡人</span>\n                                    </span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -282,7 +282,7 @@ msgid ""
 "<span class=\"panel-title\">\n"
 "                                        <strong>Accountant</strong> (Advanced access)\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <strong>會計師</strong> (高級訪問)\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <strong>會計師</strong> (進階存取)\n                                    </span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -290,7 +290,7 @@ msgid ""
 "<span class=\"panel-title\">\n"
 "                                        <strong>Advisor</strong> (Full access)\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <strong>顧問</strong> (完全訪問)\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <strong>顧問</strong> (完全存取)\n                                    </span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -298,7 +298,7 @@ msgid ""
 "<span class=\"panel-title\">\n"
 "                                        <strong>Billing</strong> (Limited access)\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <strong>開單</strong> (限制訪問)\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <strong>開單</strong> (有限存取)\n                                    </span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1653,7 +1653,7 @@ msgstr "自動應用該財政狀態"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_country_group_id
 msgid "Apply only if delivery or invocing country match the group."
-msgstr "僅應用於交付或開發票國家與組相同的情況"
+msgstr "僅應用於交付或開發票國家與群組相同的情況"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_country_id
@@ -2756,7 +2756,7 @@ msgstr "國家"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_country_group_id
 msgid "Country Group"
-msgstr "國家組"
+msgstr "國家群組"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_country_id
@@ -3304,7 +3304,7 @@ msgstr "自動檢測"
 msgid ""
 "Determines where the tax is selectable. Note : 'None' means a tax can't be "
 "used by itself, however it can still be used in a group."
-msgstr "決定稅在哪裡是可選的。注意：『沒有』意味著稅不能被自己用，儘管能夠被用在一個組中"
+msgstr "決定稅在哪裡是可選的。注意：『沒有』意味著稅不能被自己用，儘管能夠被用在一個群組中"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_difference
@@ -4156,7 +4156,7 @@ msgstr "分組發票行"
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Group of Taxes"
-msgstr "稅組"
+msgstr "稅群組"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_has_default_company
@@ -4338,7 +4338,7 @@ msgstr "如果你不選擇這個方框，你就能開發票並能付款，但是
 msgid ""
 "If you have less than 200 contacts, we recommend you\n"
 "                                        create them manually."
-msgstr "如果你的聯繫人少於200個，我們建議手動輸入"
+msgstr "如果你的聯絡人少於200個，我們建議手動輸入"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_tax_calculation_rounding_method
@@ -6206,7 +6206,7 @@ msgstr "業務夥伴公司"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_ref
 msgid "Partner Reference"
-msgstr "聯繫人參考"
+msgstr "聯絡人參考"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_partner_name
@@ -6446,7 +6446,7 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.)\n"
 "             If you set a paypal account, the customer  will be able to pay your invoices or quotations\n"
 "             with a button \"Pay with  Paypal\" in automated emails or through the Odoo portal."
-msgstr "用來接收在線付款（信用卡等）的Palpal賬戶（電子郵件）如果你有設定Paypal賬戶，客戶就可以通過在自動的電子郵件中或者Odoo門戶中點擊按鈕\"paypal付款\"\n來給你的發票或者報價單付款"
+msgstr "用來接收在線付款（信用卡等）的Palpal賬戶（電子郵件）如果你有設定Paypal賬戶，客戶就可以通過在自動的電子郵件中或者Odoo入口網站中點擊按鈕\"paypal付款\"\n來給你的發票或者報價單付款"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_paypal_account

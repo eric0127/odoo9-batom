@@ -249,7 +249,7 @@ msgstr "增加收件人列表（不會轉化為業務夥伴），由逗號、封
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_email_compose_message
 msgid "Add list of existing contacts..."
-msgstr "新增現有聯繫人 ..."
+msgstr "新增現有聯絡人 ..."
 
 #. module: survey
 #: model:survey.label,value:survey.fcol_2_1_3
@@ -691,7 +691,7 @@ msgstr "錯誤消息"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_partner_ids
 msgid "Existing contacts"
-msgstr "現有聯繫人"
+msgstr "現有聯絡人"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_7_3
@@ -1666,7 +1666,7 @@ msgid ""
 "Small-sized image of this contact. It is automatically resized as a 64x64px "
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
-msgstr "聯繫人小尺寸圖像。自動縮放為64x64px ，保留縱橫比。此字段用於任何需要小圖像的場合"
+msgstr "聯絡人小尺寸圖像。自動縮放為64x64px ，保留縱橫比。此字段用於任何需要小圖像的場合"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.page
@@ -2001,7 +2001,7 @@ msgstr "這不是一個數字"
 msgid ""
 "This list of emails of recipients will not converted in contacts. Emails "
 "separated by commas, semicolons or newline."
-msgstr "此收件人列表不會轉為聯繫人。郵件用逗號、封號、或新行分隔。"
+msgstr "此收件人列表不會轉為聯絡人。郵件用逗號、封號、或新行分隔。"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey_thank_you_message

@@ -388,7 +388,7 @@ msgstr "選擇從庫中的圖像。"
 #: code:addons/website_blog/models/website_blog.py:220
 #, python-format
 msgid "Click here to access the post."
-msgstr "點擊這裡訪問帖子。"
+msgstr "點擊這裡存取帖子。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
@@ -980,7 +980,7 @@ msgstr "電子郵件的未來"
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_blog
 #. openerp-web
@@ -1138,7 +1138,7 @@ msgstr "黃色"
 msgid ""
 "You should <strong>add a banner on the top</strong> as it is a frequent landing page for new visitors.\n"
 "                   <span class=\"text-muted\">This box will not be visible to your visitors.</span>"
-msgstr "您應該添加一個橫幅在頂部，因為它是一種常見的登陸頁面為新訪客。此框是不可見的對你訪問者。"
+msgstr "您應該添加一個橫幅在頂部，因為它是一種常見的登陸頁面為新訪客。此框是不可見的對你訪客。"
 
 #. module: website_blog
 #. openerp-web

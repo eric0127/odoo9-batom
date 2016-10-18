@@ -1074,7 +1074,7 @@ msgstr "相關的員工"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "用於管理資源訪問權限的用戶名"
+msgstr "用於管理資源存取權限的用戶名"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
@@ -1365,7 +1365,7 @@ msgid ""
 "With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
-msgstr "隨著Odoo員工的屏幕上只是一個快速瀏覽，你可以很容易地找到你所需要的每個人的信息;聯繫人數據，工作崗位，可用性等。"
+msgstr "隨著Odoo員工的屏幕上只是一個快速瀏覽，你可以很容易地找到你所需要的每個人的信息;聯絡人數據，工作崗位，可用性等。"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo

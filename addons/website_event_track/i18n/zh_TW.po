@@ -502,7 +502,7 @@ msgid ""
 "Medium-sized image of this contact. It is automatically resized as a "
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
-msgstr "該聯繫人的中等尺寸照片，它自動縮放為128x128px，保存縱橫比。表單視圖和一些看板視圖使用這個字段"
+msgstr "該聯絡人的中等尺寸照片，它自動縮放為128x128px，保存縱橫比。表單視圖和一些看板視圖使用這個字段"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track25
@@ -542,7 +542,7 @@ msgstr "新的認證計劃（從2013年10月有效）。"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track14
 msgid "New Paypal modules (portal, handling, installments)."
-msgstr "新的支付寶模塊（門戶，處理，分期付款）。"
+msgstr "新的支付寶模塊（入口網站，處理，分期付款）。"
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_event_track
@@ -860,7 +860,7 @@ msgstr "製作Odoo演示的藝術。"
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29

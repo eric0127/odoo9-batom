@@ -230,7 +230,7 @@ msgid ""
 "                                        <strong>Import</strong><br/>\n"
 "                                        <span class=\"small\">&gt; 200 contacts</span>\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong>導入</strong><br/>\n                                        <span class=\"small\">大於200個聯繫人</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong>導入</strong><br/>\n                                        <span class=\"small\">大於200個聯絡人</span>\n                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -250,7 +250,7 @@ msgid ""
 "                                        <strong> Create manually</strong><br/>\n"
 "                                        <span class=\"small\">&lt; 200 contacts</span>\n"
 "                                    </span>"
-msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong> 手動創建</strong><br/>\n                                        <span class=\"small\">小於200個聯繫人</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"\"/>\n                                        <strong> 手動創建</strong><br/>\n                                        <span class=\"small\">小於200個聯絡人</span>\n                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -576,7 +576,7 @@ msgstr "銷售管理員將主要使用這兩份報告："
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_exclude_contact
 msgid "A user associated to the contact"
-msgstr "與系統用戶相關的聯繫人"
+msgstr "與系統用戶相關的聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -699,7 +699,7 @@ msgstr "讓你的銷售組織系統化流程化能夠讓你不間斷的改進銷
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
 "contacts with different emails."
-msgstr "所有的聯繫人都必須具有相同的電子郵件。只有管理員可以合併不同的電子郵件聯繫人。"
+msgstr "所有的聯絡人都必須具有相同的電子郵件。只有管理員可以合併不同的電子郵件聯絡人。"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:917
@@ -742,13 +742,13 @@ msgstr "已封存"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Are you sure to execute the automatic merge of your contacts ?"
-msgstr "確實要執行自動合併您的聯繫人?"
+msgstr "確實要執行自動合併您的聯絡人?"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid ""
 "Are you sure to execute the list of automatic merges of your contacts ?"
-msgstr "你確定要執行自動合併列表聯繫人？"
+msgstr "你確定要執行自動合併列表聯絡人？"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.merge_opportunity_form
@@ -1062,7 +1062,7 @@ msgstr "合同信息"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_contact_name
 msgid "Contact Name"
-msgstr "聯繫人姓名"
+msgstr "聯絡人姓名"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1072,7 +1072,7 @@ msgstr "聯絡我們"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_partner_ids
 msgid "Contacts"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass_name
@@ -1124,7 +1124,7 @@ msgstr "轉換為商機"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_message_bounce
 msgid "Counter of the number of bounced emails for this contact"
-msgstr "此聯繫人退回郵件數量計數器"
+msgstr "此聯絡人退回郵件數量計數器"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_country_id
@@ -1302,12 +1302,12 @@ msgstr "剩餘天數"
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_partner_deduplicate
 msgid "Deduplicate Contact"
-msgstr "重複聯繫人"
+msgstr "重複聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Deduplicate the other Contacts"
-msgstr "刪除重複其他聯繫人"
+msgstr "刪除重複其他聯絡人"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_default
@@ -1376,7 +1376,7 @@ msgstr "設計高效的電子郵件活動。發送，轉換和跟蹤執行情況
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_dst_partner_id
 msgid "Destination Contact"
-msgstr "最終聯繫人"
+msgstr "最終聯絡人"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_display_name
@@ -1483,7 +1483,7 @@ msgstr "郵箱別名"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_email_from
 msgid "Email address of the contact"
-msgstr "聯繫人郵箱地址"
+msgstr "聯絡人郵箱地址"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1493,7 +1493,7 @@ msgstr "結束"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Engage directly with your website visitors to convert them into leads."
-msgstr "直接與您的網站訪問者吸引，以吸引和促進在線銷售。"
+msgstr "直接與您的網站訪客吸引，以吸引和促進在線銷售。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage_requirements
@@ -1549,7 +1549,7 @@ msgstr "不包括退出者"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Exclude contacts having"
-msgstr "不合並下列聯繫人"
+msgstr "不合並下列聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1677,7 +1677,7 @@ msgstr "對於每一個交易，檢查下一個行動，預計關閉日期，難
 msgid ""
 "For safety reasons, you cannot merge more than 3 contacts together. You can "
 "re-open the wizard several times if needed."
-msgstr "出於安全原因，您不能在一起合併超過 3 聯繫人.如果需要 您可以重新打開該嚮導幾次。"
+msgstr "出於安全原因，您不能在一起合併超過 3 聯絡人.如果需要 您可以重新打開該嚮導幾次。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1741,7 +1741,7 @@ msgstr "分組"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_number_group
 msgid "Group of Contacts"
-msgstr "聯繫人組"
+msgstr "聯絡人群組"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1853,7 +1853,7 @@ msgid ""
 "If opt-out is checked, this contact has refused to receive emails for mass "
 "mailing and marketing campaign. Filter 'Available for Mass Mailing' allows "
 "users to filter the leads when performing mass mailing."
-msgstr "如果選中」退訂「，則此聯繫人將不會接收到群發郵件，如市場營銷廣告等。當進行郵件群發時，可根據此字段篩選出允許接受群發的對象。"
+msgstr "如果選中」退訂「，則此聯絡人將不會接收到群發郵件，如市場營銷廣告等。當進行郵件群發時，可根據此字段篩選出允許接受群發的對象。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass_force_assignation
@@ -1924,7 +1924,7 @@ msgstr "收到的郵件"
 msgid ""
 "Incoming email create leads automatically when a new prospect contacts you.\n"
 "                        That's the easiest way to integrate Odoo with third party apps."
-msgstr "收到的郵件會自動創建線索,當一個新的聯繫人你時.那是最簡單的方法去把第三方的應用集成到Odoo."
+msgstr "收到的郵件會自動創建線索,當一個新的聯絡人你時.那是最簡單的方法去把第三方的應用集成到Odoo."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_sale_config_settings_module_crm_voip
@@ -1960,7 +1960,7 @@ msgstr "是關注者"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_exclude_journal_item
 msgid "Journal Items associated to the contact"
-msgstr "與日記賬相關的聯繫人"
+msgstr "與日記賬相關的聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2284,7 +2284,7 @@ msgstr "批量轉換線索為商機或業務夥伴"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_maximum_group
 msgid "Maximum of Group of Contacts"
-msgstr "聯繫人組的最多聯繫人數量"
+msgstr "聯絡人群組的最多聯絡人數量"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_medium_id
@@ -2353,7 +2353,7 @@ msgstr "合併商機"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Merge the following contacts"
-msgstr "合併以下聯繫人"
+msgstr "合併以下聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -2711,7 +2711,7 @@ msgid ""
 "Only the destination contact may be linked to existing Journal Items. Please"
 " ask the Administrator if you need to merge several contacts linked to "
 "existing Journal Items."
-msgstr "只有目標聯繫人可鏈接到現有日誌項。如果您需要合併幾個聯繫人鏈接到現有日誌項，請詢問管理員。"
+msgstr "只有目標聯絡人可鏈接到現有日誌項。如果您需要合併幾個聯絡人鏈接到現有日誌項，請詢問管理員。"
 
 #. module: crm
 #: model:ir.actions.client,name:crm.action_client_crm_menu
@@ -2753,7 +2753,7 @@ msgid ""
 "deadlines or the number of interactions per opportunity. This report is "
 "mainly used by the sales manager in order to do the periodic review with the"
 " teams of the sales pipeline."
-msgstr "商機分析給你隨時訪問商機的信息如：預期收入、計劃成本、錯過的最後時限、或者每個商機的互動次數。這個報告主要給銷售定期審查銷售團隊的銷售漏斗。"
+msgstr "商機分析給你隨時存取商機的信息如：預期收入、計劃成本、錯過的最後時限、或者每個商機的互動次數。這個報告主要給銷售定期審查銷售團隊的銷售漏斗。"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_opportunities_cohort
@@ -2955,7 +2955,7 @@ msgid ""
 "missed deadlines or the number of interactions per opportunity. This report is\n"
 "mainly used by the sales manager in order to do the periodic review with the\n"
 "teams of the sales pipeline."
-msgstr "管道分析給你隨時訪問商機的信息如，例如預期收入，計劃成本，錯過最後日期或者相互影響的商機的數量。這個報告主要給銷售經理定期審查銷售團隊的銷售漏斗。"
+msgstr "管道分析給你隨時存取商機的信息如，例如預期收入，計劃成本，錯過最後日期或者相互影響的商機的數量。這個報告主要給銷售經理定期審查銷售團隊的銷售漏斗。"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_opportunity_report_action_graph
@@ -2965,7 +2965,7 @@ msgid ""
 "missed deadlines or the number of interactions per opportunity. This report is\n"
 "mainly used by the sales manager in order to periodically review the pipeline\n"
 "with the the sales teams."
-msgstr "管道分析給你隨時訪問商機的信息如，例如預期收入，計劃成本，錯過最後日期或者相互影響的商機的數量。這個報告主要給銷售經理定期審查銷售團隊的銷售漏斗。"
+msgstr "管道分析給你隨時存取商機的信息如，例如預期收入，計劃成本，錯過最後日期或者相互影響的商機的數量。這個報告主要給銷售經理定期審查銷售團隊的銷售漏斗。"
 
 #. module: crm
 #: model:web.planner,tooltip_planner:crm.planner_crm
@@ -3229,7 +3229,7 @@ msgid ""
 "                                All documents linked to one of these contacts\n"
 "                                will be redirected to the destination contact.\n"
 "                                You can remove contacts from this list to avoid merging them."
-msgstr "選定的聯繫人將被合併在一起。\n所有的文件鏈接到其中的一個聯繫\n將被重定向到目的地聯繫。\n您可以從這個列表中刪除聯繫人以避免合併."
+msgstr "選定的聯絡人將被合併在一起。\n所有的文件鏈接到其中的一個聯繫\n將被重定向到目的地聯繫。\n您可以從這個列表中刪除聯絡人以避免合併."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
@@ -3319,7 +3319,7 @@ msgstr "僅顯示商機"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Skip these contacts"
-msgstr "跳過這些聯繫人"
+msgstr "跳過這些聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3583,7 +3583,7 @@ msgstr "整個流程可能要花費幾個小時，但是值得這樣"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "There is no more contacts to merge for this request..."
-msgstr "沒有更多的聯繫人合併的請求..."
+msgstr "沒有更多的聯絡人合併的請求..."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_email_cc
@@ -4038,7 +4038,7 @@ msgstr "您必須指定一個你選擇的過濾器"
 msgid ""
 "You may have a different sale price for different\n"
 "                                        groups of customers:"
-msgstr "可以針對不同組的客戶給出不同的銷售價格"
+msgstr "可以針對不同群組的客戶給出不同的銷售價格"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity

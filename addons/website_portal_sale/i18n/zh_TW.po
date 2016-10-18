@@ -153,7 +153,7 @@ msgstr "<strong>單價</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_backend_link
 msgid "Access the complete Sale application"
-msgstr "訪問全部銷售應用程序"
+msgstr "存取全部銷售應用程序"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices

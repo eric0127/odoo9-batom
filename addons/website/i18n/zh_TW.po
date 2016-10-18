@@ -955,7 +955,7 @@ msgid ""
 "objectives or modify your visitors interests. Those 3 first steps are "
 "essentially linked, and the more time your spend on polishing them, the "
 "better your website will be!"
-msgstr "在做這個步驟後，你可能想回去和完善自己的目標或修改您的訪問者的興趣。這些 3個步驟基本上是聯繫在一起的，更多的時候你花時間完善他們，做出更好的網站！"
+msgstr "在做這個步驟後，你可能想回去和完善自己的目標或修改您的訪客的興趣。這些 3個步驟基本上是聯繫在一起的，更多的時候你花時間完善他們，做出更好的網站！"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1492,7 +1492,7 @@ msgid ""
 "                        It needs to be organized, so that your visitors can see all the main content you offer at a glance.<br/>\n"
 "                        It needs to be clear, so that when they click on an item, they get the content they expected.<br/>\n"
 "                        In fact, you need to build your navigation menu for your visitors and not for your own purposes or objectives."
-msgstr "創建主菜單是建立網站的一個重要和困難的階段。<BR/>它需要組織，讓您的訪問者可以看到所有您提供一目瞭然的主要內容。<BR/>它需要明確，這樣，當他們點擊一個項目，他們得到的內容，他們的預期。<BR/>事實上，你需要為您的訪客建立你的導航菜單，而不是你自己的目的或目標。"
+msgstr "創建主菜單是建立網站的一個重要和困難的階段。<BR/>它需要組織，讓您的訪客可以看到所有您提供一目瞭然的主要內容。<BR/>它需要明確，這樣，當他們點擊一個項目，他們得到的內容，他們的預期。<BR/>事實上，你需要為您的訪客建立你的導航菜單，而不是你自己的目的或目標。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -1865,7 +1865,7 @@ msgstr "功能二"
 msgid ""
 "Finally don't try to make all your content accessible from the main menu or the footer.\n"
 "                            Indeed, a page can also be accessible through a direct link or button, from any other page of your website."
-msgstr "最後，不要試圖讓所有的內容訪問從主菜單或頁腳.實際上頁面還可以通過直接鏈接或按鈕訪問，或從您的網站的其他頁面。"
+msgstr "最後，不要試圖讓所有的內容存取從主菜單或頁腳.實際上頁面還可以通過直接鏈接或按鈕存取，或從您的網站的其他頁面。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1962,12 +1962,12 @@ msgstr "Gengo 模塊"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules"
-msgstr "訪問所有模塊"
+msgstr "存取所有模塊"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules and features"
-msgstr "訪問所有的模塊和功能"
+msgstr "存取所有的模塊和功能"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2162,7 +2162,7 @@ msgid ""
 "If you have a lot of pages in your website, you can create a small top-menu to focus\n"
 "                            on the main six pages and make all secondary pages accessible from a footer. You can\n"
 "                            have a look at the Odoo.com website, it's a great example of this type of structure."
-msgstr "如果你有大量的頁面在你的網站，你可以創建一個小型頂部菜單把重點放在主要的六頁，使所有二級頁面的從頁腳訪問。你可以看一下Odoo.com的網站，它的這種類型的結構的一個很好的例子。"
+msgstr "如果你有大量的頁面在你的網站，你可以創建一個小型頂部菜單把重點放在主要的六頁，使所有二級頁面的從頁腳存取。你可以看一下Odoo.com的網站，它的這種類型的結構的一個很好的例子。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2177,7 +2177,7 @@ msgstr "圖像間距"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Improve your conversion from visitor to customer."
-msgstr "提高您的訪問者到客戶轉換。"
+msgstr "提高您的訪客到客戶轉換。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image_floating
@@ -2263,7 +2263,7 @@ msgstr "已安裝的模塊"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Integrate a contact form that automatically creates leads."
-msgstr "集成自動創建線索聯繫人。"
+msgstr "集成自動創建線索聯絡人。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500
@@ -2390,7 +2390,7 @@ msgstr "啟動你的網站是一個重要的步驟這裡的行動清單，以幫
 msgid ""
 "Learn what your visitors are thinking, what question they have, what "
 "problems they encounter."
-msgstr "瞭解你的訪問者所思所想，他們有什麼問題，他們所遇到的問題。"
+msgstr "瞭解你的訪客所思所想，他們有什麼問題，他們所遇到的問題。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3216,7 +3216,7 @@ msgstr "發送消息給我們的業務夥伴"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Send an email to all your contacts"
-msgstr "發送一封郵件給你的聯繫人"
+msgstr "發送一封郵件給你的聯絡人"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.contactus
@@ -3501,12 +3501,12 @@ msgstr "下面的錯誤是由網站控制器引發的"
 #. module: website
 #: model:ir.model.fields,help:website.field_website_published_mixin_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_url
 msgid "The full URL to access the server action through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.403
@@ -3591,7 +3591,7 @@ msgstr "在你決定是否在特定關鍵字上投放廣告前請考慮三個問
 msgid ""
 "They allow a detailed qualification of the visitor, which is perfect to link"
 " them later to marketing campaigns."
-msgstr "它們允許訪問者的詳細資格，對於稍後將它們鏈接到營銷活動，這是太好了。"
+msgstr "它們允許訪客的詳細資格，對於稍後將它們鏈接到營銷活動，這是太好了。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_features
@@ -3840,7 +3840,7 @@ msgid ""
 " to your site. They could want to learn something, improve their life, grow "
 "their business, find out more about you, etc. What great content can you "
 "offer your visitors? Why should they stay on your website?"
-msgstr "訪問者也許對你的產品和服務沒有興趣，當他們來到你的網站時。他們想學到一點東西，來提高他們的生活，增長業務量，更多的瞭解你，等等。你能提供高質量的內容給你的訪客嗎？為什麼他們要留在你的網站上？"
+msgstr "訪客也許對你的產品和服務沒有興趣，當他們來到你的網站時。他們想學到一點東西，來提高他們的生活，增長業務量，更多的瞭解你，等等。你能提供高質量的內容給你的訪客嗎？為什麼他們要留在你的網站上？"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.aboutus
@@ -4120,7 +4120,7 @@ msgstr "使用一兩個圖片來說明你的產品和服務。是你的內容對
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_message
 msgid "Write one sentence to convince visitor about your message."
-msgstr "寫一個消息來勸服你網站的訪問者"
+msgstr "寫一個消息來勸服你網站的訪客"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_features

@@ -179,7 +179,7 @@ msgstr "稅收征管賬戶"
 #, python-format
 msgid ""
 "The Europe country group cannot be found. Please update the base module."
-msgstr "歐洲國家組無法找到。請更新基礎模塊。"
+msgstr "歐洲國家群組無法找到。請更新基礎模塊。"
 
 #. module: l10n_eu_service
 #: model:ir.model.fields,field_description:l10n_eu_service.field_l10n_eu_service_service_tax_rate_rate

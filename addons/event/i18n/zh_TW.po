@@ -312,7 +312,7 @@ msgstr "參與者"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_report_event_registration_search
 msgid "Attendee / Contact"
-msgstr "與會者 / 聯繫人"
+msgstr "與會者 / 聯絡人"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_name
@@ -525,7 +525,7 @@ msgstr "已確認的活動"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_partner_id
 msgid "Contact"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -1390,7 +1390,7 @@ msgstr "參與者"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_name_registration
 msgid "Participant / Contact Name"
-msgstr "參與者/聯繫人名稱"
+msgstr "參與者/聯絡人名稱"
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -1512,7 +1512,7 @@ msgstr "等級狀態"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_report_event_registration_search
 msgid "Registration contact"
-msgstr "登記聯繫人"
+msgstr "登記聯絡人"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_mail_form

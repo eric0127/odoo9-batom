@@ -420,7 +420,7 @@ msgstr "客戶稅金"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_config
 msgid "Customer portal"
-msgstr "客戶門戶"
+msgstr "客戶入口網站"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_date
@@ -604,7 +604,7 @@ msgstr "Email撰寫嚮導"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_module_website_portal
 msgid "Enable customer portal to track orders, delivery and invoices"
-msgstr "允許客戶門戶跟蹤訂單、發貨和發票"
+msgstr "允許客戶入口網站跟蹤訂單、發貨和發票"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_product_property_account_expense_id
@@ -1191,7 +1191,7 @@ msgstr "補貨"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_procurement_group_id
 msgid "Procurement Group"
-msgstr "補貨組"
+msgstr "補貨群組"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_procurement_ids
@@ -1528,7 +1528,7 @@ msgstr "搜索銷售訂單"
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_module_website_sale_digital
 msgid ""
 "Sell digital products - provide downloadable content on your customer portal"
-msgstr "銷售數字產品 - 在你的客戶門戶網站提供可下載的內容"
+msgstr "銷售數字產品 - 在你的客戶入口網站網站提供可下載的內容"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form

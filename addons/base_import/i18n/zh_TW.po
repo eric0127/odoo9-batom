@@ -255,7 +255,7 @@ msgstr "創建時間"
 #: code:addons/base_import/static/src/xml/import.xml:244
 #, python-format
 msgid "Customers and their respective contacts"
-msgstr "客戶和他們各自的聯繫人"
+msgstr "客戶和他們各自的聯絡人"
 
 #. module: base_import
 #: code:addons/base_import/models.py:147 code:addons/base_import/models.py:153
@@ -831,7 +831,7 @@ msgid ""
 "                        To help you import such fields, Odoo provides 3 \n"
 "                        mechanisms. You must use one and only one mechanism \n"
 "                        per field you want to import."
-msgstr "某些字段指向另一個對像.例如，聯繫人裡面的國家字段,\n就指向'國家'這種對像.引入這些字段時,Odoo會重新生成\n不同記錄之間的關係.為便於您引入這種字段,Odoo\n提供3種機制。每個字段你必須僅使用一種機制。"
+msgstr "某些字段指向另一個對像.例如，聯絡人裡面的國家字段,\n就指向'國家'這種對像.引入這些字段時,Odoo會重新生成\n不同記錄之間的關係.為便於您引入這種字段,Odoo\n提供3種機制。每個字段你必須僅使用一種機制。"
 
 #. module: base_import
 #. openerp-web
@@ -870,7 +870,7 @@ msgstr "文件的第一行\n                包括欄目標籤"
 msgid ""
 "The following CSV file shows how to import \n"
 "                        customers and their respective contacts"
-msgstr "下列 csv 文件演示了 如何導入客戶和他們各自的聯繫人"
+msgstr "下列 csv 文件演示了 如何導入客戶和他們各自的聯絡人"
 
 #. module: base_import
 #. openerp-web
@@ -904,7 +904,7 @@ msgid ""
 "                        and 3 companies. (the firsts two contacts are linked \n"
 "                        to the first company). You must first import the \n"
 "                        companies and then the persons."
-msgstr "生成的兩個文件不需要任何修改就可以直接導入Odoo。\n導入兩個CSV文件後，您有4個聯繫人和3個公司.\n(前兩個聯繫人關聯第一個公司).您必須先導入公司，然後導入人員。"
+msgstr "生成的兩個文件不需要任何修改就可以直接導入Odoo。\n導入兩個CSV文件後，您有4個聯絡人和3個公司.\n(前兩個聯絡人關聯第一個公司).您必須先導入公司，然後導入人員。"
 
 #. module: base_import
 #. openerp-web

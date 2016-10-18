@@ -336,7 +336,7 @@ msgstr "來自您國家的事件"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events
 msgid "Events in visitor's country"
-msgstr "訪問者所在國家的活動"
+msgstr "訪客所在國家的活動"
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events_list
@@ -569,7 +569,7 @@ msgstr "這個<em>內容</em>菜單允許你創建新的頁面、活動、菜單
 #. module: website_event
 #: model:ir.model.fields,help:website_event.field_event_event_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:42

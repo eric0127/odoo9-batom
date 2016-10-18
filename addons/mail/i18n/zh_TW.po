@@ -303,7 +303,7 @@ msgstr "短碼是一種輸入快捷方式。例如，鍵入 #gm，它將變成\"
 #. module: mail
 #: model:ir.model,name:mail.model_res_groups
 msgid "Access Groups"
-msgstr "訪問組"
+msgstr "存取群組"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_message_needaction
@@ -380,12 +380,12 @@ msgstr "添加頻道到通知中  ..."
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #: model:ir.ui.view,arch_db:mail.mail_wizard_invite_form
 msgid "Add contacts to notify..."
-msgstr "添加聯繫人到通知中  ..."
+msgstr "添加聯絡人到通知中  ..."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_partner_ids
 msgid "Additional Contacts"
-msgstr "額外的聯繫人"
+msgstr "額外的聯絡人"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_form
@@ -750,7 +750,7 @@ msgstr "點擊這兒添加新%s"
 #. module: mail
 #: model:ir.actions.act_window,help:mail.action_contacts
 msgid "Click to add a contact in your address book."
-msgstr "點擊在你的地址簿添加聯繫人"
+msgstr "點擊在你的地址簿添加聯絡人"
 
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -828,7 +828,7 @@ msgstr "恭喜，你的收件箱已清空。"
 #: model:ir.actions.act_window,name:mail.action_contacts
 #: model:ir.ui.menu,name:mail.menu_contacts
 msgid "Contacts"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -1362,7 +1362,7 @@ msgstr "分組 於"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_tree
 msgid "Groups"
-msgstr "組"
+msgstr "群組"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -1745,7 +1745,7 @@ msgstr "記錄內部備註"
 msgid ""
 "Log an internal note which will not be sent to followers, but which can be read\n"
 "                    by users accessing this document."
-msgstr "記錄一個內部備註，它不會被發送給跟隨者，但它可以被用戶訪問此文檔讀取。"
+msgstr "記錄一個內部備註，它不會被發送給跟隨者，但它可以被用戶存取此文檔讀取。"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -2811,7 +2811,7 @@ msgid ""
 "Small-sized image of this contact. It is automatically resized as a 64x64px "
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
-msgstr "聯繫人小尺寸圖像。自動縮放為64x64px ，保留縱橫比。此字段用於任何需要小圖像的場合"
+msgstr "聯絡人小尺寸圖像。自動縮放為64x64px ，保留縱橫比。此字段用於任何需要小圖像的場合"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_image_small

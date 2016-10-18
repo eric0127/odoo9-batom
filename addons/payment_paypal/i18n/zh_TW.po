@@ -50,12 +50,12 @@ msgstr "<span><i>待定,</i> 你的在線支付已完成. 但是你的訂單還�
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer_paypal_api_access_token
 msgid "Access Token"
-msgstr "訪問令牌"
+msgstr "存取令牌"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer_paypal_api_access_token_validity
 msgid "Access Token Validity"
-msgstr "訪問令牌的有效性"
+msgstr "存取令牌的有效性"
 
 #. module: payment_paypal
 #: model:ir.model,name:payment_paypal.model_res_company

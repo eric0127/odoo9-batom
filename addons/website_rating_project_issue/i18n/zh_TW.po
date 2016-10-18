@@ -99,7 +99,7 @@ msgstr "項目"
 #. module: website_rating_project_issue
 #: model:ir.model.fields,help:website_rating_project_issue.field_project_project_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_rating_project_issue
 #: model:ir.model.fields,field_description:website_rating_project_issue.field_project_project_website_published

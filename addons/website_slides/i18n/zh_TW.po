@@ -387,7 +387,7 @@ msgstr "渠道"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_group_ids
 msgid "Channel Groups"
-msgstr "頻道組"
+msgstr "頻道群組"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home
@@ -438,7 +438,7 @@ msgstr "內容預覽"
 msgid ""
 "Could not fetch data from url. Document or access right not available.\n"
 "Here is the received response: %serror"
-msgstr "無法從網址獲得數據。文件或者訪問權限不存在。\n這裡是從網址獲得的錯誤信息：%serror"
+msgstr "無法從網址獲得數據。文件或者存取權限不存在。\n這裡是從網址獲得的錯誤信息：%serror"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:269
@@ -446,7 +446,7 @@ msgstr "無法從網址獲得數據。文件或者訪問權限不存在。\n這�
 msgid ""
 "Could not fetch data from url. Document or access right not available:\n"
 "%s"
-msgstr "無法從網址獲得數據。文件或者訪問權限不存在:\n%s"
+msgstr "無法從網址獲得數據。文件或者存取權限不存在:\n%s"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
@@ -494,7 +494,7 @@ msgstr "發佈到記錄上的最後消息的日期"
 msgid ""
 "Default channel for slides, all public users can access content of this "
 "channel."
-msgstr "默認的幻燈片頻道，所有的公眾用戶都可以訪問這個頻道。"
+msgstr "默認的幻燈片頻道，所有的公眾用戶都可以存取這個頻道。"
 
 #. module: website_slides
 #. openerp-web
@@ -677,7 +677,7 @@ msgstr "關注者（業務夥伴）"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_can_see_full
 msgid "Full Access"
-msgstr "完全訪問"
+msgstr "完全存取"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -702,14 +702,14 @@ msgstr "分組"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_group_ids
 msgid "Groups allowed to see presentations in this channel"
-msgstr "能在這個頻道查看內容的討論組"
+msgstr "能在這個頻道查看內容的討論群組"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_upload_group_ids
 msgid ""
 "Groups allowed to upload presentations in this channel. If void, every user "
 "can upload."
-msgstr "能在這個頻道上傳文件的討論組。所有的用戶都可以上傳，如果設置為空。"
+msgstr "能在這個頻道上傳文件的討論群組。所有的用戶都可以上傳，如果設置為空。"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_id
@@ -827,7 +827,7 @@ msgstr "普通"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_access_error_msg
 msgid "Message to display when not accessible due to access rights"
-msgstr "消息時顯示無法訪問，由於訪問權限"
+msgstr "消息時顯示無法存取，由於存取權限"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_message_ids
@@ -1294,7 +1294,7 @@ msgstr "這"
 #: model:ir.model.fields,help:website_slides.field_slide_channel_website_url
 #: model:ir.model.fields,help:website_slides.field_slide_slide_website_url
 msgid "The full URL to access the document through the website."
-msgstr "通過網站訪問單據的完整URL。"
+msgstr "通過網站存取單據的完整URL。"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_4
@@ -1405,7 +1405,7 @@ msgstr "未讀消息計數器"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_upload_group_ids
 msgid "Upload Groups"
-msgstr "上傳組"
+msgstr "上傳群組"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home

@@ -258,14 +258,14 @@ msgstr "關於"
 #: code:addons/web/static/src/js/framework/crash_manager.js:25
 #, python-format
 msgid "Access Denied"
-msgstr "訪問被拒絕"
+msgstr "存取被拒絕"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:21
 #, python-format
 msgid "Access Error"
-msgstr "訪問錯誤"
+msgstr "存取錯誤"
 
 #. module: web
 #. openerp-web
@@ -1095,7 +1095,7 @@ msgstr "圖表"
 #: code:addons/web/static/src/js/views/list_view.js:465
 #, python-format
 msgid "Group"
-msgstr "組"
+msgstr "群組"
 
 #. module: web
 #. openerp-web

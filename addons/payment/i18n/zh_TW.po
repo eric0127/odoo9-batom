@@ -653,7 +653,7 @@ msgstr "可變的交易費用（百分比）"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_website_published
 msgid "Visible in Portal / Website"
-msgstr "在門戶/網站可見"
+msgstr "在入口網站/網站可見"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_account_config_settings_module_payment_transfer

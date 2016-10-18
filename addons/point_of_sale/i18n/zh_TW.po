@@ -530,7 +530,7 @@ msgstr "Acsone.eu"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_portal
 msgid "Activate the customer portal"
-msgstr "激活客戶門戶"
+msgstr "激活客戶入口網站"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_users_activation
@@ -1733,7 +1733,7 @@ msgstr "為已關閉的錢箱對應的未開票訂單生成日記賬分錄。"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_module_portal
 msgid "Give your customers access to their documents."
-msgstr "讓你的客戶訪問他們的單據"
+msgstr "讓你的客戶存取他們的單據"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_partner_weight
@@ -2803,7 +2803,7 @@ msgstr "POS配置"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_group_pos_manager_id
 msgid "Point of Sale Manager Group"
-msgstr "POS管理組"
+msgstr "POS管理群組"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_name
@@ -2836,7 +2836,7 @@ msgstr "POS會話"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_group_pos_user_id
 msgid "Point of Sale User Group"
-msgstr "POS用戶組"
+msgstr "POS用戶群組"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_restaurant:0
@@ -3944,14 +3944,14 @@ msgstr "用來代表類型的圖像大小, 限制在 1024x1024px。"
 msgid ""
 "This field is there to pass the id of the pos manager group to the point of "
 "sale client"
-msgstr "該字段用來傳遞POS管理員組的ID到銷售點客戶端"
+msgstr "該字段用來傳遞POS管理員群組的ID到銷售點客戶端"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_user_id
 msgid ""
 "This field is there to pass the id of the pos user group to the point of "
 "sale client"
-msgstr "該字段用來傳遞POS經理組的ID到銷售點客戶端"
+msgstr "該字段用來傳遞POS經理群組的ID到銷售點客戶端"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_module_google_calendar
@@ -4284,7 +4284,7 @@ msgstr "同"
 msgid ""
 "Work in multi-company environments, with appropriate security access between"
 " companies."
-msgstr "在有安全訪問設置的前提下在多公司環境下運行"
+msgstr "在有安全存取設置的前提下在多公司環境下運行"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_group_product_variant

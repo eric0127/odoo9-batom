@@ -849,7 +849,7 @@ msgstr "搜索"
 #: code:addons/web_editor/static/src/xml/snippets.xml:64
 #, python-format
 msgid "Search Contact"
-msgstr "搜索聯繫人"
+msgstr "搜索聯絡人"
 
 #. module: web_editor
 #. openerp-web

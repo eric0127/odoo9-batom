@@ -332,7 +332,7 @@ msgstr "用戶"
 #: code:addons/google_calendar/static/src/js/calendar_sync.js:34
 #, python-format
 msgid "You will be redirected to Google to authorize access to your calendar!"
-msgstr "您將被重定向到Google來授權Odoo訪問你的日曆!"
+msgstr "您將被重定向到Google來授權Odoo存取你的日曆!"
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_base_config_settings

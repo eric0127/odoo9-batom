@@ -134,7 +134,7 @@ msgstr "邀請新用戶"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:53
 #, python-format
 msgid "Manage access rights"
-msgstr "管理訪問權限"
+msgstr "管理存取權限"
 
 #. module: web_settings_dashboard
 #. openerp-web

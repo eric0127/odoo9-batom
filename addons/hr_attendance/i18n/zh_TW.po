@@ -80,7 +80,7 @@ msgstr "出勤"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_attendance_access
 msgid "Attendance Access"
-msgstr "出勤訪問"
+msgstr "出勤存取"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_graph

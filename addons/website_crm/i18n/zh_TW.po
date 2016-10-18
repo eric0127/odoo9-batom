@@ -66,7 +66,7 @@ msgstr "我們將很快回復。"
 #. module: website_crm
 #: model:ir.actions.act_url,name:website_crm.action_open_website
 msgid "Website Contact Form"
-msgstr "網站聯繫人窗體"
+msgstr "網站聯絡人窗體"
 
 #. module: website_crm
 #: model:ir.ui.view,arch_db:website_crm.contactus_form

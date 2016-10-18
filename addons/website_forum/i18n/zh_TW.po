@@ -49,7 +49,7 @@ msgid ""
 "${object.company_id.email or ''}\n"
 "${object.company_id.phone or ''}\n"
 "</pre>"
-msgstr "\n<p>\n     ${object.name},你好\n</p>\n<p>\n    為了訪問 \"${object.company_id.name}\" Q/A 論壇，你現在被邀請驗證你的郵件\n</p>\n<p>\n    請點擊下面的鏈接來驗證你的郵件:\n</p>\n<ul>\n    <li><a href=\"${ctx.get('token_url')}\">驗證我的 \"${object.company_id.name}\" Q/A論壇賬戶</a></li>\n</ul>\n<p>\n    謝謝,\n</p>\n<pre>\n--\n${object.company_id.name or ''}\n${object.company_id.email or ''}\n${object.company_id.phone or ''}\n</pre>"
+msgstr "\n<p>\n     ${object.name},你好\n</p>\n<p>\n    為了存取 \"${object.company_id.name}\" Q/A 論壇，你現在被邀請驗證你的郵件\n</p>\n<p>\n    請點擊下面的鏈接來驗證你的郵件:\n</p>\n<ul>\n    <li><a href=\"${ctx.get('token_url')}\">驗證我的 \"${object.company_id.name}\" Q/A論壇賬戶</a></li>\n</ul>\n<p>\n    謝謝,\n</p>\n<pre>\n--\n${object.company_id.name or ''}\n${object.company_id.email or ''}\n${object.company_id.phone or ''}\n</pre>"
 
 #. module: website_forum
 #. openerp-web
@@ -269,7 +269,7 @@ msgid ""
 "<p>A new question <i>%s</i> has been asked on %s and require your "
 "validation. <a href=\"%s/forum/%s/question/%s\">Click here to access the "
 "question.</a></p>"
-msgstr "<p>一個新問題的<i>%s</I>已被提問在%s，並要求您確認。 <a href=\"%s/forum/%s/question/%s\">點擊這裡訪問問題。</A></P>"
+msgstr "<p>一個新問題的<i>%s</I>已被提問在%s，並要求您確認。 <a href=\"%s/forum/%s/question/%s\">點擊這裡存取問題。</A></P>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:489

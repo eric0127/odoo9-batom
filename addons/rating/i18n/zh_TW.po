@@ -21,7 +21,7 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_access_token
 msgid "Access token to set the rating of the value"
-msgstr "訪問令牌來設置評級的值"
+msgstr "存取令牌來設置評級的值"
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_message_id

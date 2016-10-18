@@ -577,7 +577,7 @@ msgstr "已確認"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_partner_id
 msgid "Contact"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_create_uid
@@ -1349,7 +1349,7 @@ msgstr "日曆允許員工之間共享，並可以與其它應用程序整合,  
 #: code:addons/calendar/calendar.py:1382
 #, python-format
 msgid "The following contacts have no email address :"
-msgstr "下列聯繫人沒有電子郵件地址："
+msgstr "下列聯絡人沒有電子郵件地址："
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -1513,7 +1513,7 @@ msgstr "calendar.alarm_manager"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_contacts
 msgid "calendar.contacts"
-msgstr "日曆.聯繫人"
+msgstr "日曆.聯絡人"
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form

@@ -230,7 +230,7 @@ msgstr "原因"
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "用於管理資源訪問權限的用戶名"
+msgstr "用於管理資源存取權限的用戶名"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_resource_id

@@ -485,7 +485,7 @@ msgstr "設置招聘"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_id
 #, python-format
 msgid "Contact"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/models/hr_recruitment.py:384
@@ -1882,7 +1882,7 @@ msgid ""
 "With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
-msgstr "隨著Odoo員工的屏幕上只是一個快速瀏覽，你可以很容易地找到你所需要的每個人的信息;聯繫人數據，工作崗位，可用性等。"
+msgstr "隨著Odoo員工的屏幕上只是一個快速瀏覽，你可以很容易地找到你所需要的每個人的信息;聯絡人數據，工作崗位，可用性等。"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/models/hr_recruitment.py:432

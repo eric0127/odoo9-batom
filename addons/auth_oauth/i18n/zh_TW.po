@@ -36,7 +36,7 @@ msgstr "<br/>\n                                    - 創建一個新的項目<br
 #: code:addons/auth_oauth/controllers/main.py:99
 #, python-format
 msgid "Access Denied"
-msgstr "訪問拒絕"
+msgstr "存取拒絕"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_property_account_payable_id
@@ -187,7 +187,7 @@ msgstr "最近的發票和付款匹配時間"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_access_token
 msgid "OAuth Access Token"
-msgstr "OAuth  訪問令牌"
+msgstr "OAuth  存取令牌"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_provider_id
@@ -351,7 +351,7 @@ msgid ""
 "You do not have access to this database or your invitation has expired. "
 "Please ask for an invitation and be sure to follow the link in your "
 "invitation email."
-msgstr "您無權訪問此數據庫或者您的邀請已經過期.請申請一個新的邀請並在您的邀請郵件中確認。"
+msgstr "您無權存取此數據庫或者您的邀請已經過期.請申請一個新的邀請並在您的邀請郵件中確認。"
 
 #. module: auth_oauth
 #: model:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_form

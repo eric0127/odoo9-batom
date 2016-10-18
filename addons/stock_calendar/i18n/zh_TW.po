@@ -78,7 +78,7 @@ msgstr "補貨"
 #: model:ir.model.fields,field_description:stock_calendar.field_resource_calendar_attendance_group_id
 #: model:ir.model.fields,field_description:stock_calendar.field_resource_calendar_leaves_group_id
 msgid "Procurement Group"
-msgstr "補貨組"
+msgstr "補貨群組"
 
 #. module: stock_calendar
 #: model:ir.model.fields,field_description:stock_calendar.field_stock_warehouse_orderpoint_purchase_calendar_id
@@ -95,7 +95,7 @@ msgstr "資源日曆"
 msgid ""
 "The date of the next delivery for this procurement group, when this group is"
 " on the purchase calendar of the orderpoint"
-msgstr "當此補貨組正好在採購日曆的訂貨點時，即是該補貨組的下一個發貨日期"
+msgstr "當此補貨群組正好在採購日曆的訂貨點時，即是該補貨群組的下一個發貨日期"
 
 #. module: stock_calendar
 #: model:ir.model.fields,help:stock_calendar.field_procurement_order_next_purchase_date

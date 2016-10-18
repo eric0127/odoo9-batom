@@ -1096,7 +1096,7 @@ msgstr "咨詢使命"
 #: model:ir.ui.view,arch_db:project.view_project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Contact"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_analytic_account_id
@@ -1225,7 +1225,7 @@ msgstr "客戶郵件"
 #: code:addons/project/project.py:120
 #, python-format
 msgid "Customer Project: visible in portal if the customer is a follower"
-msgstr "客戶項目：如果客戶是關注者，那麼他會在門戶中看到"
+msgstr "客戶項目：如果客戶是關注者，那麼他會在入口網站中看到"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1800,7 +1800,7 @@ msgid ""
 "- Employees Only: employees see all tasks or issues\n"
 "- Followers Only: employees see only the followed tasks or issues; if portal\n"
 "   is activated, portal users see the followed tasks or issues."
-msgstr "當前項目的任務或者議題的可見性：\n－門戶：員工能看到一切;\n如果門戶激活，門戶用戶能看到自己的任務或者公司其他人跟進的任務只有僱員可見：僱員能看到所有的任務和議題\n只有關注者可見：僱員能只能看到關注的任務或者議題；如果門戶激活，門戶用戶能看到關注的任務和議題"
+msgstr "當前項目的任務或者議題的可見性：\n－入口網站：員工能看到一切;\n如果入口網站激活，入口網站用戶能看到自己的任務或者公司其他人跟進的任務只有僱員可見：僱員能看到所有的任務和議題\n只有關注者可見：僱員能只能看到關注的任務或者議題；如果入口網站激活，入口網站用戶能看到關注的任務和議題"
 
 #. module: project
 #: code:addons/project/project.py:760

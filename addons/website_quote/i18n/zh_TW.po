@@ -363,7 +363,7 @@ msgstr "有價值的產品"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Access to the Lead"
-msgstr "訪問線索"
+msgstr "存取線索"
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_3
@@ -677,7 +677,7 @@ msgid ""
 "                                you succeed in delivering more complex or bigger\n"
 "                                projects by getting the support of highly experienced\n"
 "                                consultants on demand."
-msgstr "支付額外費用，合作夥伴可以訪問Odoo的核心開發人員和職能專家。這可以幫助您通過獲取的需求具有豐富經驗的顧問的支持下提供更複雜或更大的項目取得成功。"
+msgstr "支付額外費用，合作夥伴可以存取Odoo的核心開發人員和職能專家。這可以幫助您通過獲取的需求具有豐富經驗的顧問的支持下提供更複雜或更大的項目取得成功。"
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_1
@@ -700,7 +700,7 @@ msgstr "生成銷售訂單;直接郵寄給客戶"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Get access to our experts"
-msgstr "訪問我們的專家"
+msgstr "存取我們的專家"
 
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_line_sequence
@@ -819,7 +819,7 @@ msgid ""
 "                                the <strong>partner portal</strong>, rights to\n"
 "                                <strong>use the trademark</strong>, sales support\n"
 "                                from a <strong>dedicated account manager</strong>."
-msgstr "它包括Odoo企業</STRONG>，技術和/或功能的<strong>培訓</STRONG><STRONG>支持</STRONG>服務，<STRONG>營銷文件</STRONG>，進入<STRONG>折扣在<strong>合作夥伴門戶網站</STRONG>，權限<strong>使用該商標</STRONG>，銷售支持從<STRONG>專門的客戶經理</STRONG>。"
+msgstr "它包括Odoo企業</STRONG>，技術和/或功能的<strong>培訓</STRONG><STRONG>支持</STRONG>服務，<STRONG>營銷文件</STRONG>，進入<STRONG>折扣在<strong>合作夥伴入口網站網站</STRONG>，權限<strong>使用該商標</STRONG>，銷售支持從<STRONG>專門的客戶經理</STRONG>。"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option___last_update
@@ -1590,7 +1590,7 @@ msgstr "你不能添加選項為確認的順序。"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
 msgid "Your Contact:"
-msgstr "你的聯繫人："
+msgstr "你的聯絡人："
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation

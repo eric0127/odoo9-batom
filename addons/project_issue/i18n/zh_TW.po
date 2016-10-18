@@ -184,7 +184,7 @@ msgstr "公司"
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_partner_id
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_partner_id
 msgid "Contact"
-msgstr "聯繫人"
+msgstr "聯絡人"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_report_create_date

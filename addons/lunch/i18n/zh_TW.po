@@ -350,7 +350,7 @@ msgstr "幫你處理午餐需要的事務，如果是一個管理者，你能創
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_category_action
 msgid "Here you can access all categories for the lunch products."
-msgstr "這裡你可以訪問所有的午餐產品的種類"
+msgstr "這裡你可以存取所有的午餐產品的種類"
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_payment
@@ -492,7 +492,7 @@ msgstr "週一"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "My Account grouped"
-msgstr "我的賬戶組"
+msgstr "我的賬戶群組"
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_title

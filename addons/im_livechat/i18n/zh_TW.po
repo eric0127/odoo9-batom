@@ -735,7 +735,7 @@ msgstr "這個字段保存的圖像作為群組的照片，限制為  1024x1024p
 msgid ""
 "This is an automated 'welcome' message that your visitor will see when they "
 "initiate a new conversation."
-msgstr "這是一個自動的『歡迎』信息，當初始化新的會話的時候訪問者會看到"
+msgstr "這是一個自動的『歡迎』信息，當初始化新的會話的時候訪客會看到"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_small
@@ -780,7 +780,7 @@ msgstr "用戶"
 #: code:addons/im_livechat/static/src/js/im_livechat.js:27
 #, python-format
 msgid "Visitor"
-msgstr "訪問者"
+msgstr "訪客"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_web_page
@@ -813,7 +813,7 @@ msgid ""
 "You can create channels for each website on which you want\n"
 "                to integrate the website live chat widget, allowing you website\n"
 "                visitors to talk in real time with your operators."
-msgstr "你可以給每個你想集成即時聊天功能的網站創建渠道網站的訪問者可以和客服實時聊天"
+msgstr "你可以給每個你想集成即時聊天功能的網站創建渠道網站的訪客可以和客服實時聊天"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
