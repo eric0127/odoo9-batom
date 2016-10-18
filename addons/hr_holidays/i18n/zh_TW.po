@@ -1120,7 +1120,7 @@ msgstr "總數"
 msgid ""
 "The employee or employee category of this request is missing. Please make "
 "sure that your user login is linked to an employee."
-msgstr "沒有輸入員工或者員工類別。請確認你的登錄用戶和一個員工關聯。"
+msgstr "沒有輸入員工或者員工類別。請確認你的登入用戶和一個員工關聯。"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:554

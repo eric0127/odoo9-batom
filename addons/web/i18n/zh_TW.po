@@ -1248,14 +1248,14 @@ msgstr "本地求值失敗\n\n%s\n\n\n\n%s"
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
 msgid "Log in"
-msgstr "登錄"
+msgstr "登入"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:84
 #, python-format
 msgid "Log out"
-msgstr "註銷"
+msgstr "登出"
 
 #. module: web
 #. openerp-web

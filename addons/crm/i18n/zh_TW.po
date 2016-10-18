@@ -2644,7 +2644,7 @@ msgstr "Odoo默認"
 #: model:ir.model.fields,field_description:crm.field_sale_config_settings_module_website_sign
 #: model:ir.ui.view,arch_db:crm.view_sale_config_settings
 msgid "Odoo Sign"
-msgstr "Odoo登錄"
+msgstr "Odoo標誌"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -3838,7 +3838,7 @@ msgstr "用戶電子郵件"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_user_login
 msgid "User Login"
-msgstr "用戶 登錄"
+msgstr "用戶登入"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_users

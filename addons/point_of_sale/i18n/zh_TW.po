@@ -621,7 +621,7 @@ msgstr "允許用過通過 CSV/XLS/XLSX/ODS文檔導入數據"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr "允許用戶通過google登錄"
+msgstr "允許用戶通過google登入"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_mercury:0
@@ -1539,7 +1539,7 @@ msgstr "啟用條碼掃瞄儀並遠程連接條碼打描儀"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_signup_reset_password
 msgid "Enable password reset from Login page"
-msgstr "允許在登錄頁開啟密碼重置功能"
+msgstr "允許在登入頁開啟密碼重置功能"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_iface_electronic_scale
@@ -2135,7 +2135,7 @@ msgstr "位置"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_login_number
 msgid "Login Sequence Number"
-msgstr "登錄序列號碼"
+msgstr "登入序列號碼"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3909,7 +3909,7 @@ msgstr "至少要有一個產品後，訂單才能被確認"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_auth_signup_reset_password
 msgid "This allows users to trigger a password reset from the Login page."
-msgstr "用戶可以在登錄頁點擊來重置密碼"
+msgstr "用戶可以在登入頁點擊來重置密碼"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_purchase_currency_id

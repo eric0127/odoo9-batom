@@ -135,7 +135,7 @@ msgstr "取消"
 #: code:addons/hr_attendance/static/src/js/attendance.js:41
 #, python-format
 msgid "Click to Sign In at %s."
-msgstr "單擊登錄在 %s."
+msgstr "單擊登入到 %s."
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_config

@@ -110,7 +110,7 @@ msgstr "身份驗證失敗"
 #: model:ir.ui.view,arch_db:auth_signup.reset_password
 #: model:ir.ui.view,arch_db:auth_signup.signup
 msgid "Back to Login"
-msgstr "返回登錄"
+msgstr "返回登入畫面"
 
 #. module: auth_signup
 #: code:addons/auth_signup/res_users.py:277
@@ -148,7 +148,7 @@ msgstr "無法重置您的密碼"
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_base_config_settings_auth_signup_reset_password
 msgid "Enable password reset from Login page"
-msgstr "允許在登錄頁開啟密碼重置功能"
+msgstr "允許在登入頁開啟密碼重置功能"
 
 #. module: auth_signup
 #: model:ir.model.fields,help:auth_signup.field_base_config_settings_auth_signup_uninvited
@@ -251,7 +251,7 @@ msgstr "用作通過註冊創建的新用戶的模版"
 #. module: auth_signup
 #: model:ir.model.fields,help:auth_signup.field_base_config_settings_auth_signup_reset_password
 msgid "This allows users to trigger a password reset from the Login page."
-msgstr "用戶可以在登錄頁點擊來重置密碼"
+msgstr "用戶可以在登入頁點擊來重置密碼"
 
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_res_users

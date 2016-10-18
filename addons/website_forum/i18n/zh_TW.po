@@ -2392,14 +2392,14 @@ msgstr "跳過"
 #: code:addons/website_forum/static/src/js/website_forum.js:58
 #, python-format
 msgid "Sorry you must be logged to flag a post"
-msgstr "對不起，你必須登錄後標記一個帖子"
+msgstr "對不起，你必須登入後標記一個帖子"
 
 #. module: website_forum
 #. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.js:106
 #, python-format
 msgid "Sorry you must be logged to vote"
-msgstr "對不起，你必須登錄後來投票"
+msgstr "對不起，你必須登入後來投票"
 
 #. module: website_forum
 #. openerp-web

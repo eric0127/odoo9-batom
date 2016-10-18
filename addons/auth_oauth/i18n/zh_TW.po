@@ -51,7 +51,7 @@ msgstr "應收賬款"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_base_config_settings_auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr "允許用戶通過google登錄"
+msgstr "允許用戶通過google登入"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_enabled

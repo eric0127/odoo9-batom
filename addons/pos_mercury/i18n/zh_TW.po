@@ -746,7 +746,7 @@ msgstr "逆轉發送……"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:190
 #, python-format
 msgid "Server Login Failed"
-msgstr "服務器登錄失敗"
+msgstr "服務器登入失敗"
 
 #. module: pos_mercury
 #. openerp-web

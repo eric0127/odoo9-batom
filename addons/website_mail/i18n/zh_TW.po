@@ -50,7 +50,7 @@ msgstr "消息描述：可以選擇主題或正文的開始部分作為消息的
 #. module: website_mail
 #: model:ir.ui.view,arch_db:website_mail.message_thread
 msgid "Oops! Something went wrong. Try to reload the page and to log in."
-msgstr "啊，有些東西錯了。試著刷新網頁再登錄一次。"
+msgstr "啊，有些東西錯了。試著刷新網頁再登入一次。"
 
 #. module: website_mail
 #: model:ir.model.fields,field_description:website_mail.field_mail_message_website_published

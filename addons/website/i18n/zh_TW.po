@@ -93,7 +93,7 @@ msgid ""
 "                                Use the link in the footer of your website (when logged in) to add\n"
 "                                languages from the available list. Also, you can change the\n"
 "                                default language in"
-msgstr "1.加入您的<strong>所需的語言</strong><BR/>\n使用在你的網站上(登錄時)的頁腳中的鏈接，從可用列表添加語言。此外，您還可以更改默認語言"
+msgstr "1.加入您的<strong>所需的語言</strong><BR/>\n使用在你的網站上(登入時)的頁腳中的鏈接，從可用列表添加語言。此外，您還可以更改默認語言"
 
 #. module: website
 #. openerp-web
@@ -2435,7 +2435,7 @@ msgstr "徽標"
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout
 msgid "Logout"
-msgstr "註銷"
+msgstr "登出"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_id

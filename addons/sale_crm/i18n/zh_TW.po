@@ -148,7 +148,7 @@ msgstr "線索/商機"
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
 msgid "Log in the chatter from which opportunity the order originates"
-msgstr "登錄到訂單所屬商機的會話"
+msgstr "登入到訂單所屬商機的會話"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_medium_id

@@ -840,7 +840,7 @@ msgid ""
 "\n"
 "Allow users to login through OAuth2 Provider.\n"
 "=============================================\n"
-msgstr "\n允許用戶通過 OAuth2 提供者登錄。\n=============================================\n"
+msgstr "\n允許用戶通過 OAuth2 提供者登入。\n=============================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_auth_signup
@@ -2687,7 +2687,7 @@ msgid ""
 "* Period size (Day, Week, Month)\n"
 "* Maximal difference between timesheet and attendances\n"
 "    "
-msgstr "\n\n記錄和驗證計工單和出勤\n=====================================================\n\n這個應用程序提供了窗體，允許你通過週期來管理出勤(登錄/註銷)和你的工作記錄(時間表)。工時表條目是由員工每天錄入。在定義的週期結束後, 員工驗證並提交計工單，然後由經理審批。週期定義在該公司窗體中定義,你可以設置為每週或每月。\n \n時間表的審批驗證過程:\n——————————————————————————————————————————————\n\n   * 計工單草稿t\n   * 這個週期工作結束時確認員工確認計工單\n   * 項目經理審批計工單\n\n審批可以在公司窗體中設置:\n————————————————————————————————————————————————\n   * 週期大小(天、周、月)\n   * 出勤和計工單的最大區別"
+msgstr "\n\n記錄和驗證計工單和出勤\n=====================================================\n\n這個應用程序提供了窗體，允許你通過週期來管理出勤(登入/登出)和你的工作記錄(時間表)。工時表條目是由員工每天錄入。在定義的週期結束後, 員工驗證並提交計工單，然後由經理審批。週期定義在該公司窗體中定義,你可以設置為每週或每月。\n \n時間表的審批驗證過程:\n——————————————————————————————————————————————\n\n   * 計工單草稿t\n   * 這個週期工作結束時確認員工確認計工單\n   * 項目經理審批計工單\n\n審批可以在公司窗體中設置:\n————————————————————————————————————————————————\n   * 週期大小(天、周、月)\n   * 出勤和計工單的最大區別"
 
 #. module: base
 #: model:ir.module.module,description:base.module_report
@@ -5232,7 +5232,7 @@ msgid ""
 "         login once with a valid LDAP user, let OpenERP create a blank local\n"
 "         user with the same login (and a blank password), then rename this new\n"
 "         user to a username that does not exist in LDAP, and setup its groups\n"
-msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許用戶通過他們的LDAP用戶名和密碼登錄，\n同時自動創建Odoo用戶。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的用戶名（在Odoo裡用戶名必須唯一，甚至在不同的公司裡，用戶名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置用戶名和密碼為空。這不允許用戶匿名驗證，只是用於在驗證前驗證一個用戶是否存在的超級用戶LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n用戶的LDAP密碼不會被存儲在Odoo數據庫。當用戶需要認證時，doo會從LDAP服務器查詢用戶，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地用戶也可能同時存在於Odoo數據庫和LDAP，（管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行用戶認證，如果認證失敗（比如用戶沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP用戶的默認密碼為空（表示不能訪問），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的用戶認證是被加密的。\n用戶模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「用戶模板」。如果選上此項，當有用戶通過LDAP服務認證時，可以選擇一個用戶作為創建本地用戶的模板。這將允許預設用戶所在群組和第一次登錄時的菜單。\n（備註：）如果你在用戶模板裡預設密碼，這個密碼會被當作新的LDAP本地用戶的默認密碼，這可以當作這些新用戶的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個用戶模板的簡便方式，是用一個LDAP有效用戶登錄一次，讓Odoo創建一個本地用戶，密碼為空，然後用一個在LDAP中不存在的用戶名來重命名這個用戶，設置他的用戶組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
+msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許用戶通過他們的LDAP用戶名和密碼登入，\n同時自動創建Odoo用戶。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的用戶名（在Odoo裡用戶名必須唯一，甚至在不同的公司裡，用戶名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置用戶名和密碼為空。這不允許用戶匿名驗證，只是用於在驗證前驗證一個用戶是否存在的超級用戶LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n用戶的LDAP密碼不會被存儲在Odoo數據庫。當用戶需要認證時，doo會從LDAP服務器查詢用戶，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地用戶也可能同時存在於Odoo數據庫和LDAP，（管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行用戶認證，如果認證失敗（比如用戶沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP用戶的默認密碼為空（表示不能訪問），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的用戶認證是被加密的。\n用戶模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「用戶模板」。如果選上此項，當有用戶通過LDAP服務認證時，可以選擇一個用戶作為創建本地用戶的模板。這將允許預設用戶所在群組和第一次登入時的菜單。\n（備註：）如果你在用戶模板裡預設密碼，這個密碼會被當作新的LDAP本地用戶的默認密碼，這可以當作這些新用戶的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個用戶模板的簡便方式，是用一個LDAP有效用戶登入一次，讓Odoo創建一個本地用戶，密碼為空，然後用一個在LDAP中不存在的用戶名來重命名這個用戶，設置他的用戶組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_administration
@@ -9912,7 +9912,7 @@ msgstr ""
 msgid ""
 "If specified, this action will be opened at log on for this user, in "
 "addition to the standard menu."
-msgstr "如果指定的話，這個動作將在該用戶賬號登錄後與標準的菜單一起執行。就是說登陸第一畫面將看到指定的菜單頁面。"
+msgstr "如果指定的話，這個動作將在該用戶賬號登入後與標準的菜單一起執行。就是說登陸第一畫面將看到指定的菜單頁面。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_lang
@@ -11214,7 +11214,7 @@ msgstr "日誌"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_login
 msgid "Login"
-msgstr "登錄"
+msgstr "登入"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_logo
@@ -14937,7 +14937,7 @@ msgid ""
 "Specify a value only when creating a user or if you're changing the user's "
 "password, otherwise leave empty. After a change of password, the user has to"
 " login again."
-msgstr "僅在新建用戶或修改該用戶的密碼時輸入此字段值，否則留空。修改密碼後，用戶必須重新登錄。"
+msgstr "僅在新建用戶或修改該用戶的密碼時輸入此字段值，否則留空。修改密碼後，用戶必須重新登入。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_cron_doall
@@ -16656,7 +16656,7 @@ msgstr "用於篩選器菜單，以及用戶表單的主頁動作。"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_login
 msgid "Used to log into the system"
-msgstr "用戶登錄入系統"
+msgstr "用戶登入系統"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_type
@@ -16688,12 +16688,12 @@ msgstr "用戶界面"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_change_password_user_user_login
 msgid "User Login"
-msgstr "用戶 登錄"
+msgstr "用戶登入"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_log_ids
 msgid "User log entries"
-msgstr "用戶登錄記錄"
+msgstr "用戶日誌記錄"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.act_values_form_defaults
@@ -17523,7 +17523,7 @@ msgstr "admin賬號不得註銷。"
 #: code:addons/base/res/res_users.py:345
 #, python-format
 msgid "You cannot unactivate the user you're currently logged in as."
-msgstr "你不能使你正登錄使用的用戶變成未激活"
+msgstr "你不能使你正登入使用的用戶變成未激活"
 
 #. module: base
 #: code:addons/base/ir/ir_values.py:428

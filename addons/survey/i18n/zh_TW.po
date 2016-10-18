@@ -1018,7 +1018,7 @@ msgstr "記錄內部日誌"
 #: model:ir.model.fields,field_description:survey.field_survey_survey_auth_required
 #: model:ir.ui.view,arch_db:survey.auth_required
 msgid "Login required"
-msgstr "需要登錄"
+msgstr "需要登入"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_constr_mandatory
@@ -2184,7 +2184,7 @@ msgstr "用戶可返回"
 msgid ""
 "Users with a public link will be requested to login before taking part to "
 "the survey"
-msgstr "使用公共鏈接的用戶需要在參加調查前登錄"
+msgstr "使用公共鏈接的用戶需要在參加調查前登入"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_required
@@ -2318,7 +2318,7 @@ msgstr "ans"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.auth_required
 msgid "log in"
-msgstr "登錄"
+msgstr "登入"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.page
