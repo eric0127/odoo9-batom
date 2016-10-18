@@ -2167,7 +2167,7 @@ msgstr "如果你有大量的頁面在你的網站，你可以創建一個小型
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Images on landing and product pages,"
-msgstr "產品頁面和加載頁面的圖像"
+msgstr "產品頁面和載入頁面的圖像"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -2425,7 +2425,7 @@ msgstr "功能列表"
 #: code:addons/website/static/src/js/website.seo.js:82
 #, python-format
 msgid "Loading..."
-msgstr "正在加載..."
+msgstr "正在載入..."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_references

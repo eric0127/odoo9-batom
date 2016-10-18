@@ -1598,7 +1598,7 @@ msgid ""
 "of Sale. You are probably trying to load the point of sale as an "
 "administrator in a multi-company setup, with the administrator account set "
 "to the wrong company."
-msgstr "錯誤：POS使用者必須屬於同一個POS公司。你可能在多公司設置環境下以管理員身份試圖加載POS，而該管理員帳戶歸屬於不正確的公司。"
+msgstr "錯誤：POS使用者必須屬於同一個POS公司。你可能在多公司設置環境下以管理員身份試圖載入POS，而該管理員帳戶歸屬於不正確的公司。"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.evian_50cl
@@ -2124,7 +2124,7 @@ msgstr "出納機列表"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:38
 #, python-format
 msgid "Loading"
-msgstr "加載中"
+msgstr "載入中"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_location_id

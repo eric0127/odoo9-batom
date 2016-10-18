@@ -129,7 +129,7 @@ msgid ""
 "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n"
 "                        <strong>Tip:</strong>\n"
 "                        You can also use our API to load data automatically through scripts: read this"
-msgstr "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n                        <strong>溫馨提示:</strong>\n                        您也可以使用我們的API，通過腳本自動加載數據：閱讀"
+msgstr "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n                        <strong>溫馨提示:</strong>\n                        您也可以使用我們的API，通過腳本自動載入數據：閱讀"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -138,7 +138,7 @@ msgid ""
 "                        <strong>Tip:</strong> For developers, you can\n"
 "                        use our API to load data through scripts: read\n"
 "                        the"
-msgstr "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n                        <strong>溫馨提示:</strong> 對於開發者來說，可以\n                        使用我們的API，以便通過腳本加載數據：閱讀\n                        "
+msgstr "<span class=\"fa fa-lightbulb-o fa-lg\"/>\n                        <strong>溫馨提示:</strong> 對於開發者來說，可以\n                        使用我們的API，以便通過腳本載入數據：閱讀\n                        "
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

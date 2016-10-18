@@ -3444,7 +3444,7 @@ msgid ""
 "iTunes on your Mac or PC makes it easy to load up\n"
 "                                        your iPod. Just choose the playlists, audiobooks,\n"
 "                                        podcasts, and other audio files you want, then sync."
-msgstr "在iTunes的Mac或PC可以很容易地加載您的iPod。只要選擇您想要的播放列表，有聲讀物，播客和其它音頻文件，然後進行同步。"
+msgstr "在iTunes的Mac或PC可以很容易地載入您的iPod。只要選擇您想要的播放列表，有聲讀物，播客和其它音頻文件，然後進行同步。"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_inch

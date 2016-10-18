@@ -920,7 +920,7 @@ msgstr "小"
 #: code:addons/web_editor/static/src/xml/snippets.xml:24
 #, python-format
 msgid "Snippets are loading..."
-msgstr "片段加載中..."
+msgstr "片段載入中..."
 
 #. module: web_editor
 #. openerp-web

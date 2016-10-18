@@ -1275,7 +1275,7 @@ msgstr "Odoo提供進口服務，處理的全過程為您服務！"
 msgid ""
 "Odoo's web-services allows developers to create scripts that will load data "
 "automatically into the system."
-msgstr "Odoo的網絡服務，允許開發人員創建腳本，它會自動將數據加載到系統中。"
+msgstr "Odoo的網絡服務，允許開發人員創建腳本，它會自動將數據載入到系統中。"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

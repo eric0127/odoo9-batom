@@ -796,7 +796,7 @@ msgstr "域:"
 #: code:addons/web/static/src/js/framework/misc.js:17
 #, python-format
 msgid "Don't leave yet,<br />it's still loading..."
-msgstr "請不要離開，<br />它還在加載中..."
+msgstr "請不要離開，<br />它還在載入中..."
 
 #. module: web
 #. openerp-web
@@ -1217,14 +1217,14 @@ msgstr "列表"
 #: code:addons/web/static/src/js/widgets/loading.js:46
 #, python-format
 msgid "Loading"
-msgstr "加載中"
+msgstr "載入中"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/loading.js:44
 #, python-format
 msgid "Loading (%d)"
-msgstr "正在加載（%d）"
+msgstr "正在載入（%d）"
 
 #. module: web
 #. openerp-web
@@ -1232,7 +1232,7 @@ msgstr "正在加載（%d）"
 #: code:addons/web/static/src/xml/base.xml:5
 #, python-format
 msgid "Loading..."
-msgstr "正在加載..."
+msgstr "正在載入..."
 
 #. module: web
 #. openerp-web
@@ -1289,7 +1289,7 @@ msgstr "管理篩選器"
 #: code:addons/web/static/src/js/framework/misc.js:20
 #, python-format
 msgid "Maybe you should consider reloading the application by pressing F5..."
-msgstr "也許您應該考慮按 F5 鍵重新加載程序..."
+msgstr "也許您應該考慮按 F5 鍵重新載入程序..."
 
 #. module: web
 #. openerp-web
@@ -2052,14 +2052,14 @@ msgstr "特殊："
 #: code:addons/web/static/src/js/framework/misc.js:15
 #, python-format
 msgid "Still loading..."
-msgstr "仍然在加載..."
+msgstr "仍然在載入..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/misc.js:16
 #, python-format
 msgid "Still loading...<br />Please be patient."
-msgstr "仍然在加載中...<br />請稍候...."
+msgstr "仍然在載入中...<br />請稍候...."
 
 #. module: web
 #. openerp-web
@@ -2516,7 +2516,7 @@ msgstr "你不能讓任何密碼為空。"
 #, python-format
 msgid ""
 "You may not believe it,<br />but the application is actually loading..."
-msgstr "也許您不相信，<br />但是這個應用真的還在加載...."
+msgstr "也許您不相信，<br />但是這個應用真的還在載入...."
 
 #. module: web
 #. openerp-web
