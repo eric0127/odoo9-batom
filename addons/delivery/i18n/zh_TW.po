@@ -972,7 +972,7 @@ msgstr "產品壽命"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_product_manager
 msgid "Product Manager"
-msgstr "產品管理員"
+msgstr "產品經理"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_removal_time

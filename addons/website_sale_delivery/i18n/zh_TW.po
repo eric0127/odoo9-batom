@@ -164,7 +164,7 @@ msgstr "補貨"
 #. module: website_sale_delivery
 #: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier_project_id
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: website_sale_delivery
 #: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier_purchase_line_warn

@@ -155,7 +155,7 @@ msgid ""
 "our team of enthusiastic chief technical officer. So if working on an open "
 "source project in a friendly and cooperative atmosphere sounds like fun to "
 "you, read on..."
-msgstr "因為不間斷的成長，我們目前在尋找能夠加強我們公司的富有熱情的CTO，所以如果在一個友好合作的氛圍中做開源項目對你來說比較不錯的話，讀一下……"
+msgstr "因為不間斷的成長，我們目前在尋找能夠加強我們公司的富有熱情的CTO，所以如果在一個友好合作的氛圍中做開源專案對你來說比較不錯的話，讀一下……"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -167,7 +167,7 @@ msgid ""
 "Because of our constant growth, we're now looking for people to reinforce "
 "our team of enthusiastic developers. So if working on an open source project"
 " in a friendly and cooperative atmosphere sounds like fun to you, read on..."
-msgstr "因為不間斷的成長，我們正在尋找富有熱情的開發人員來壯大我們的團隊，所以如果在一個友好合作的氛圍中做開源項目對你來說比較不錯的話，讀一下……"
+msgstr "因為不間斷的成長，我們正在尋找富有熱情的開發人員來壯大我們的團隊，所以如果在一個友好合作的氛圍中做開源專案對你來說比較不錯的話，讀一下……"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
@@ -175,7 +175,7 @@ msgid ""
 "Because of our constant growth, we're now looking for people to reinforce "
 "our team of enthusiastic trainees. So if working on an open source project "
 "in a friendly and cooperative atmosphere sounds like fun to you, read on..."
-msgstr "因為不間斷的成長，我們正在尋找富有熱情的學員來壯大我們的團隊，所以如果在一個友好合作的氛圍中做開源項目對你來說比較不錯的話，讀一下……"
+msgstr "因為不間斷的成長，我們正在尋找富有熱情的學員來壯大我們的團隊，所以如果在一個友好合作的氛圍中做開源專案對你來說比較不錯的話，讀一下……"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -296,7 +296,7 @@ msgstr "聯繫信息"
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Contributions to open source projects"
-msgstr "貢獻開源項目"
+msgstr "貢獻開源專案"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.view_department_form_installer
@@ -614,7 +614,7 @@ msgstr "人力資源"
 #. module: hr
 #: model:hr.job,name:hr.job_hrm
 msgid "Human Resources Manager"
-msgstr "人力資源管理員"
+msgstr "人力資源經理"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_id
@@ -818,7 +818,7 @@ msgstr "男性"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_parent_id
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_marital
@@ -1521,7 +1521,7 @@ msgid ""
 "the You will work autonomously as well as                     coordinate and"
 " supervise small distributed development teams for specific projects. You "
 "will become a technical                 expert of the product."
-msgstr "你要負責開發和改進引用，例如某些特定的項目要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
+msgstr "你要負責開發和改進引用，例如某些特定的專案要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
@@ -1530,7 +1530,7 @@ msgid ""
 "the You will work autonomously as well as coordinate and supervise small "
 "distributed development teams for specific projects. You will become a "
 "technical expert of the product."
-msgstr "你要負責開發和改進引用，某些特定的項目要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
+msgstr "你要負責開發和改進引用，某些特定的專案要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1541,7 +1541,7 @@ msgid ""
 "You will work autonomously as well as coordinate and supervise small "
 "distributed development teams for specific projects. You will become a "
 "techinical expert of the product."
-msgstr "你要負責開發和改進引用產品的交流，某些特定的項目要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
+msgstr "你要負責開發和改進引用產品的交流，某些特定的專案要自主的工作同時協調並領導小型的分散的團隊你會是一個技術專家"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto

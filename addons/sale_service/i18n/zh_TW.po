@@ -47,7 +47,7 @@ msgstr "產品模板"
 #. module: sale_service
 #: model:ir.model.fields,field_description:sale_service.field_product_template_project_id
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: sale_service
 #: model:ir.model,name:sale_service.model_sale_order

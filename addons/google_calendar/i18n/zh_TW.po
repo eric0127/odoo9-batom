@@ -74,7 +74,7 @@ msgstr "已從所有已存在的賬號中的事件斷開，現在你可以重新
 msgid ""
 "An administrator needs to configure Google Synchronization before you can "
 "use it!"
-msgstr "使用前需要管理員配置 Google 同步項目!"
+msgstr "使用前需要系統管理員配置 Google 同步項目!"
 
 #. module: google_calendar
 #. openerp-web
@@ -113,7 +113,7 @@ msgstr "檢查應用是被設置在 <b>'網站應用'</b>, 然後點擊 <b>'Conf
 msgid ""
 "Click on <b>'Create a project...'</b> and enter a project name and change your id if you want. Don't forget to accept the Terms of Services\n"
 "                                    <br/><br/>"
-msgstr "點擊 <b>'創建一個項目...'</b>並且輸入項目名稱並且更改你的ID，不要忘了接收服務條款"
+msgstr "點擊 <b>'創建一個專案...'</b>並且輸入專案名稱並且更改你的ID，不要忘了接收服務條款"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_base_config_settings_cal_client_id
@@ -289,7 +289,7 @@ msgstr "和<b>谷歌</b>保持同步"
 msgid ""
 "The Google Synchronization needs to be configured before you can use it, do "
 "you want to do it now?"
-msgstr "使用前需要管理員配置 Google 同步項目, 你想現在配置嗎 ? !"
+msgstr "使用前需要系統管理員配置 Google 同步項目, 你想現在配置嗎 ? !"
 
 #. module: google_calendar
 #. openerp-web

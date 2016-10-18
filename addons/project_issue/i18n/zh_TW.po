@@ -51,7 +51,7 @@ msgstr "<b>類別:</b>"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "<b>Project:</b>"
-msgstr "<b>項目:</b>"
+msgstr "<b>專案:</b>"
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_form_inherited
@@ -145,7 +145,7 @@ msgstr "渠道"
 #: model:ir.model.fields,help:project_issue.field_account_analytic_account_use_issues
 #: model:ir.model.fields,help:project_issue.field_project_project_use_issues
 msgid "Check this box to manage customer activities through this project"
-msgstr "勾選這個框可以通過這個項目管理客戶的活動"
+msgstr "勾選這個框可以通過這個專案管理客戶的活動"
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.open_view_issue
@@ -224,7 +224,7 @@ msgstr "客戶郵件"
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_project_label_issues
 msgid "Customize the issues label, for example to call them cases."
-msgstr "定制議題標籤，例如根據項目"
+msgstr "定制議題標籤，例如叫它們案例"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date
@@ -633,7 +633,7 @@ msgstr "私有註釋"
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_filter
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_project_issue
@@ -646,7 +646,7 @@ msgstr "議題"
 #: model:ir.ui.view,arch_db:project_issue.project_issue_graph_view
 #: model:ir.ui.view,arch_db:project_issue.project_issue_pivot_view
 msgid "Project Issues"
-msgstr "項目Issue"
+msgstr "專案Issue"
 
 #. module: project_issue
 #: selection:project.issue,kanban_state:0
@@ -713,7 +713,7 @@ msgid ""
 "The Odoo issues tacker allows you to efficiently manage things\n"
 "                    like internal requests, software development bugs, customer\n"
 "                    complaints, project troubles, material breakdowns, etc."
-msgstr "Odoo的議題跟蹤可以讓你很方便的管理事物例如，內部需求，軟件開的bug，客戶投訴等等，項目議題，材料故障等等"
+msgstr "Odoo的議題跟蹤可以讓你很方便的管理事物例如，內部需求，軟件開的bug，客戶投訴等等，專案議題，材料故障等等"
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.project_issue_categ_act0
@@ -721,7 +721,7 @@ msgid ""
 "The Odoo issues tacker allows you to efficiently manage things\n"
 "                like internal requests, software development bugs, customer\n"
 "                complaints, project troubles, material breakdowns, etc."
-msgstr "Odoo的議題跟蹤可以讓你很方便的管理事物例如，內部需求，軟件開的bug，客戶投訴等等，項目議題，材料故障等等"
+msgstr "Odoo的議題跟蹤可以讓你很方便的管理事物例如，內部需求，軟件開的bug，客戶投訴等等，專案議題，材料故障等等"
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_email_cc

@@ -131,7 +131,7 @@ msgstr "谷歌網盤名稱模式"
 #: code:addons/google_drive/google_drive.py:75
 #, python-format
 msgid "Google Drive is not yet configured. Please contact your administrator."
-msgstr "谷歌網盤還沒有被配置成功,請與管理員聯繫。"
+msgstr "谷歌網盤還沒有被配置成功,請與系統管理員聯繫。"
 
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_google_drive_config

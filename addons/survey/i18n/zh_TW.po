@@ -794,7 +794,7 @@ msgstr "我參與論壇討論"
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
 msgid "I use Github, like all official Odoo projects"
-msgstr "就像官方odoo的項目一樣，我用Github"
+msgstr "就像官方odoo的專案一樣，我用Github"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -1388,7 +1388,7 @@ msgstr "打印鏈接"
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_5
 msgid "Project Management"
-msgstr "項目管理"
+msgstr "專案管理"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_public_url_html

@@ -5946,7 +5946,7 @@ msgstr "在只有草稿狀態付款能被記賬，試著登賬一個付款在對
 #: code:addons/account/models/chart_template.py:699
 #, python-format
 msgid "Only administrators can change the settings"
-msgstr "只有管理員能改變設置"
+msgstr "只有系統管理員能改變設置"
 
 #. module: account
 #. openerp-web

@@ -992,7 +992,7 @@ msgid ""
 "                                interesting and potentially useful to the\n"
 "                                audience, it will be considered for\n"
 "                                inclusion in the programme."
-msgstr "我們將接受廣泛的\n                 介紹，從學術報告和\n                 商業項目教程和案例\n                     研究。只要介紹是\n                  有趣的和潛在有用的\n                  觀眾，它會被認為是\n                 列入計劃。"
+msgstr "我們將接受廣泛的\n                 介紹，從學術報告和\n                 商業專案教程和案例\n                     研究。只要介紹是\n                  有趣的和潛在有用的\n                  觀眾，它會被認為是\n                 列入計劃。"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal_success

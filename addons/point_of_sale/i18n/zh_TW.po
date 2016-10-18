@@ -1598,7 +1598,7 @@ msgid ""
 "of Sale. You are probably trying to load the point of sale as an "
 "administrator in a multi-company setup, with the administrator account set "
 "to the wrong company."
-msgstr "錯誤：POS使用者必須屬於同一個POS公司。你可能在多公司設置環境下以管理員身份試圖載入POS，而該管理員帳戶歸屬於不正確的公司。"
+msgstr "錯誤：POS使用者必須屬於同一個POS公司。你可能在多公司設置環境下以系統管理員身份試圖載入POS，而該管理員帳戶歸屬於不正確的公司。"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.evian_50cl
@@ -2142,7 +2142,7 @@ msgstr "登入序列號碼"
 #: code:addons/point_of_sale/static/src/js/gui.js:291
 #, python-format
 msgid "Login as a Manager"
-msgstr "用管理員的身份登陸"
+msgstr "用經理的身份登陸"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_pos_loyalty
@@ -2177,7 +2177,7 @@ msgstr "管理多公司"
 #. module: point_of_sale
 #: model:res.groups,name:point_of_sale.group_pos_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category_image_medium
@@ -3944,7 +3944,7 @@ msgstr "用來代表類型的圖像大小, 限制在 1024x1024px。"
 msgid ""
 "This field is there to pass the id of the pos manager group to the point of "
 "sale client"
-msgstr "該字段用來傳遞POS管理員群組的ID到銷售點客戶端"
+msgstr "該字段用來傳遞POS經理群組的ID到銷售點客戶端"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_group_pos_user_id

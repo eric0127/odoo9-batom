@@ -97,7 +97,7 @@ msgstr "客戶滿意度"
 msgid ""
 "Display informations about rating of the project on kanban and form view. "
 "This buttons will only be displayed if at least a rating exists."
-msgstr "顯示項目的評價信息在看板和視圖上。 這些按鈕僅當至少有一條評價存在時才會顯示。"
+msgstr "顯示專案的評價信息在看板和視圖上。 這些按鈕僅當至少有一條評價存在時才會顯示。"
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
@@ -107,12 +107,12 @@ msgstr "任務中"
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "Percentage of happy people about this project"
-msgstr "關於這個項目的滿意的人員的百分比"
+msgstr "關於這個專案的滿意的人員的百分比"
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_rating_rating

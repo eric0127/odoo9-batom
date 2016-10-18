@@ -1061,7 +1061,7 @@ msgstr "管理物料表組件的捨入和效用"
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: mrp
 #: code:addons/mrp/procurement.py:15 code:addons/mrp/stock.py:224

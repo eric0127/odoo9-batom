@@ -59,7 +59,7 @@ msgstr "<strong> 扣款:</strong>"
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_payrolladvice
 msgid "<strong><span>The Manager,</span></strong>"
-msgstr "<strong><span>管理員 ,</span></strong>"
+msgstr "<strong><span>經理 ,</span></strong>"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_payrolladvice

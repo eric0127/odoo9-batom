@@ -2184,7 +2184,7 @@ msgstr "產品類別"
 #: model:ir.model.fields,field_description:product.field_product_product_product_manager
 #: model:ir.model.fields,field_description:product.field_product_template_product_manager
 msgid "Product Manager"
-msgstr "產品管理員"
+msgstr "產品經理"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view

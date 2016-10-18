@@ -55,7 +55,7 @@ msgid ""
 "Create one column per stage in your working process. For example, in a "
 "development project, stages might be: Specifications, Development, Test, "
 "Done."
-msgstr "工作進程中的每個階段創建步驟。例如，在開發項目中，會包括以下步驟：架構，開發，測試，交付。"
+msgstr "工作進程中的每個階段創建步驟。例如，在開發專案中，會包括以下步驟：架構，開發，測試，交付。"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_create_uid

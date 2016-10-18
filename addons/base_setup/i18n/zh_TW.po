@@ -304,7 +304,7 @@ msgid ""
 "                                    able to signup to get all his documents,\n"
 "                                    read your company news, check his projects,\n"
 "                                    etc."
-msgstr "當你發送單據給客戶（報價單，發票），你的可能能登錄，獲取他單據，閱讀你的公司新聞，檢查他的項目等。"
+msgstr "當你發送單據給客戶（報價單，發票），你的可能能登錄，獲取他單據，閱讀你的公司新聞，檢查他的專案等。"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_group_light_multi_company

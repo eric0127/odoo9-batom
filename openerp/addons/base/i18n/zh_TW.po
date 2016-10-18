@@ -509,7 +509,7 @@ msgid ""
 "\n"
 "    Ressource management for Project\n"
 "    "
-msgstr "\n  項目資源管理\n    "
+msgstr "\n  專案資源管理\n    "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_ebay
@@ -538,7 +538,7 @@ msgid ""
 "It gives the Administrator user access to all accounting features such as journal items and the chart of accounts.\n"
 "\n"
 "It assigns manager and user access rights to the Administrator for the accounting application and only user rights to the Demo user.\n"
-msgstr "\n會計存取權限管理 \n======================== \n此模塊用來管理所有會計功能的存取權限，如憑證行歸類（journal items）和會計科目（chart of accounts）等。 \n默認設置管理員（Administrator）擁有會計應用模塊的存取權限，而演示使用者（Demo user）僅擁有一般使用者的權限。\n"
+msgstr "\n會計存取權限管理 \n======================== \n此模塊用來管理所有會計功能的存取權限，如憑證行歸類（journal items）和會計科目（chart of accounts）等。 \n默認設置系統管理員擁有會計應用模塊的存取權限，而演示使用者（Demo user）僅擁有一般使用者的權限。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_contract_dashboard
@@ -1003,7 +1003,7 @@ msgid ""
 "is updated accordingly. For example, if this procurement corresponds to a sale\n"
 "order line, the sale order line will be considered delivered when the task is\n"
 "completed.\n"
-msgstr "\n從補貨訂單行自動生成項目任務. ===========================================================\n\n這個模塊會為每個需求訂單行(比如 銷售訂單行)自動生成一個新任務, 如果相關產品符合如下特性 :\n\n* 產品類型 = 服務 \n* 自動生成任務 = True。 \n\n如果在頂部項目定義於產品表單(在需求\n標籤),新的任務會在該指定項目中生成。否則\n新任務不會屬於任何一個項目, 也許稍後手工加到一個項目中。\n\n當任務完成或取消, 相關的需求單也\n會相應更新。 . 例如，如果需求單與一個銷售訂單行相關 ,\n當任務完成時，此銷售訂單行將被視為已交付 .\n"
+msgstr "\n從補貨訂單行自動生成專案任務. ===========================================================\n\n這個模塊會為每個需求訂單行(比如 銷售訂單行)自動生成一個新任務, 如果相關產品符合如下特性 :\n\n* 產品類型 = 服務 \n* 自動生成任務 = True。 \n\n如果在頂部專案定義於產品表單(在需求\n標籤),新的任務會在該指定專案中生成。否則\n新任務不會屬於任何一個專案, 也許稍後手工加到一個專案中。\n\n當任務完成或取消, 相關的需求單也\n會相應更新。 . 例如，如果需求單與一個銷售訂單行相關 ,\n當任務完成時，此銷售訂單行將被視為已交付 .\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hw_scanner
@@ -1338,7 +1338,7 @@ msgid ""
 "the portal automatically adds it to the portal users, etc).  That feature is\n"
 "very handy when used in combination with the module 'share'.\n"
 "    "
-msgstr "\n通過創建入口網站網站自定義存取到您的Odoo的數據庫的外部使用者。\n================================================================================\n入口網站定義了一個特定的使用者菜單和其成員的存取權限。這個\n菜單中可看到入口網站網站的成員，匿名使用者和任何其他的使用者\n有技術特點的存取（例如，管理員）。\n此外，每個入口網站網站的成員連接到一個特定的業務夥伴。\n\n該模塊還聯營公司的入口網站網站的使用者的使用者組（添加組的\n入口網站網站會自動將其添加到入口網站使用者等）。這些特性「共享」模塊在組合使用時非常方便.\n    "
+msgstr "\n通過創建入口網站網站自定義存取到您的Odoo的數據庫的外部使用者。\n================================================================================\n入口網站定義了一個特定的使用者菜單和其成員的存取權限。這個\n菜單中可看到入口網站網站的成員，匿名使用者和任何其他的使用者\n有技術特點的存取（例如，系統管理員）。\n此外，每個入口網站網站的成員連接到一個特定的業務夥伴。\n\n該模塊還聯營公司的入口網站網站的使用者的使用者組（添加組的\n入口網站網站會自動將其添加到入口網站使用者等）。這些特性「共享」模塊在組合使用時非常方便.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_delivery
@@ -1800,7 +1800,7 @@ msgid ""
 "\n"
 "This module also uses analytic accounting and is compatible with the invoice on timesheet module so that you are able to automatically re-invoice your customers' expenses if your work by project.\n"
 "    "
-msgstr "\n管理僱員費用\n============================\n\n本應用允許管理僱員每日費用. 提供存取僱員薪酬記錄、提供權限完成確認和拒絕記錄.在完成確認後創建僱員發票 .\n僱員能夠編碼他們的費用和確認流程，由管理員確認後自動完成記賬.\n\n\n整個流程實現:\n---------------------------------\n* 費用草稿\n* 由僱員提交到他的管理員\n* 經理確認\n* 會計師確認和記賬條目生成\n\n本模塊同時使用分析財務並和工時單模塊發票兼容，因此如果工作在項目當中你能夠自動為客戶費用重開發票.\n    "
+msgstr "\n管理僱員費用\n============================\n\n本應用允許管理僱員每日費用. 提供存取僱員薪酬記錄、提供權限完成確認和拒絕記錄.在完成確認後創建僱員發票 .\n僱員能夠編碼他們的費用和確認流程，由經理確認後自動完成記賬.\n\n\n整個流程實現:\n---------------------------------\n* 費用草稿\n* 由僱員提交到他的經理\n* 經理確認\n* 會計師確認和記賬條目生成\n\n本模塊同時使用分析財務並和工時單模塊發票兼容，因此如果工作在專案當中你能夠自動為客戶費用重開發票.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_purchase
@@ -2043,7 +2043,7 @@ msgid ""
 "totally independently. So, you can enter various different analytic operations\n"
 "that have no counterpart in the general financial accounts.\n"
 "    "
-msgstr "\n用於定義財務分析項目的模塊。\n================================================\n\n在OpenERP中，財務分析雖與常規財務相連，但卻是\n完全獨立的。因此，可以使用許多不同的分析操作，\n即使在常規財務會計模塊中沒有對應功能。\n    "
+msgstr "\n用於定義財務分析專案的模塊。\n================================================\n\n在OpenERP中，財務分析雖與常規財務相連，但卻是\n完全獨立的。因此，可以使用許多不同的分析操作，\n即使在常規財務會計模塊中沒有對應功能。\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_resource
@@ -2211,7 +2211,7 @@ msgid ""
 "\n"
 "* In a module, so that administrators and users of OpenERP who do not\n"
 "  need or want an online import can avoid it being available to users.\n"
-msgstr "\nOE中新增可擴展文件的導入。\n========================================================================\n重寫OE的文件導入系統：\n*服務器端：先前的系統強制大部分邏輯寫在客戶端中，這些邏輯其中包含許多重複的勞動(在客戶端之間)，是導入系統更難離開客戶端使用(直接RPC調用或者其它自動化形式)，並使導入\n導出系統難以結合，因為他是在3個或更多不同項目中傳遞。\n*以一個更加可擴展的方式，以便使用者和夥伴可以自定義前端來導入其他格式的文件(例如，OpenDocument 文件)，這簡化了處理工作流或者處理他們的來自產品的數據。\n*集中為一個模塊，所以OE中不需用在線導入的使用者和管理員可以避免導入功能對使用者可用。\n"
+msgstr "\nOE中新增可擴展文件的導入。\n========================================================================\n重寫OE的文件導入系統：\n*服務器端：先前的系統強制大部分邏輯寫在客戶端中，這些邏輯其中包含許多重複的勞動(在客戶端之間)，是導入系統更難離開客戶端使用(直接RPC調用或者其它自動化形式)，並使導入\n導出系統難以結合，因為他是在3個或更多不同專案中傳遞。\n*以一個更加可擴展的方式，以便使用者和夥伴可以自定義前端來導入其他格式的文件(例如，OpenDocument 文件)，這簡化了處理工作流或者處理他們的來自產品的數據。\n*集中為一個模塊，所以OE中不需用在線導入的使用者和系統管理員可以避免導入功能對使用者可用。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa
@@ -2687,7 +2687,7 @@ msgid ""
 "* Period size (Day, Week, Month)\n"
 "* Maximal difference between timesheet and attendances\n"
 "    "
-msgstr "\n\n記錄和驗證計工單和出勤\n=====================================================\n\n這個應用程序提供了窗體，允許你通過週期來管理出勤(登入/登出)和你的工作記錄(時間表)。工時表條目是由員工每天錄入。在定義的週期結束後, 員工驗證並提交計工單，然後由經理審批。週期定義在該公司窗體中定義,你可以設置為每週或每月。\n \n時間表的審批驗證過程:\n——————————————————————————————————————————————\n\n   * 計工單草稿t\n   * 這個週期工作結束時確認員工確認計工單\n   * 項目經理審批計工單\n\n審批可以在公司窗體中設置:\n————————————————————————————————————————————————\n   * 週期大小(天、周、月)\n   * 出勤和計工單的最大區別"
+msgstr "\n\n記錄和驗證計工單和出勤\n=====================================================\n\n這個應用程序提供了窗體，允許你通過週期來管理出勤(登入/登出)和你的工作記錄(時間表)。工時表條目是由員工每天錄入。在定義的週期結束後, 員工驗證並提交計工單，然後由經理審批。週期定義在該公司窗體中定義,你可以設置為每週或每月。\n \n時間表的審批驗證過程:\n——————————————————————————————————————————————\n\n   * 計工單草稿t\n   * 這個週期工作結束時確認員工確認計工單\n   * 專案經理審批計工單\n\n審批可以在公司窗體中設置:\n————————————————————————————————————————————————\n   * 週期大小(天、周、月)\n   * 出勤和計工單的最大區別"
 
 #. module: base
 #: model:ir.module.module,description:base.module_report
@@ -2728,7 +2728,7 @@ msgid ""
 "For more specific needs, you may also assign custom-defined actions\n"
 "(technically: Server Actions) to be triggered for each incoming mail.\n"
 "    "
-msgstr "\n收取POP/IMAP服務器上的電子郵件。\n============================================\n\n輸入你的POP/IMAP帳號參數，這些帳號的郵件\n將自動下載到你的OpenERP系統。支持所有\n兼容POP3/IMAP的服務器, 包括那些要求加密的SSL/TLS連接。\n\n這個可很容易地用於生成基於郵件的OpenERP文件工作流，例如：\n----------------------------------------------------------------------------------------------------------\n * CRM 潛在客戶/機會\n * CRM 索賠\n * 項目問題\n * 項目任務\n * 人力資源招聘 (應用)\n\n只需安裝相關應用，你可以將任何這樣的文件類型\nt (潛在客戶, 項目問題) 應用到你的電子郵件帳戶。新郵件將\n自動生成所選類型的新文件，這是建立\n郵箱-到-OpenERP整合的捷徑。更好地是：這些文件將直接作為通過Email同步的最小會話。你可以從OpenERP內回復，回復將自動匯總附到\n相同的 *會話* 文件。\n\n對於一些特殊應用，你可以分配定義的動作\n(技術上: 服務器動作) 觸發處理每個收到的郵件."
+msgstr "\n收取POP/IMAP服務器上的電子郵件。\n============================================\n\n輸入你的POP/IMAP帳號參數，這些帳號的郵件\n將自動下載到你的OpenERP系統。支持所有\n兼容POP3/IMAP的服務器, 包括那些要求加密的SSL/TLS連接。\n\n這個可很容易地用於生成基於郵件的OpenERP文件工作流，例如：\n----------------------------------------------------------------------------------------------------------\n * CRM 潛在客戶/機會\n * CRM 索賠\n * 專案問題\n * 專案任務\n * 人力資源招聘 (應用)\n\n只需安裝相關應用，你可以將任何這樣的文件類型\nt (潛在客戶, 專案問題) 應用到你的電子郵件帳戶。新郵件將\n自動生成所選類型的新文件，這是建立\n郵箱-到-OpenERP整合的捷徑。更好地是：這些文件將直接作為通過Email同步的最小會話。你可以從OpenERP內回復，回復將自動匯總附到\n相同的 *會話* 文件。\n\n對於一些特殊應用，你可以分配定義的動作\n(技術上: 服務器動作) 觸發處理每個收到的郵件."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_digital
@@ -2882,7 +2882,7 @@ msgid ""
 "Management to the Timesheet line entries for particular date and particular user\n"
 "with the effect of creating, editing and deleting either ways.\n"
 "    "
-msgstr "\n項目進度與工時記錄的集成\n====================================================================\n安裝了此模塊，項目進度的添加刪除和修改會自動同步到工時表上。\n    "
+msgstr "\n專案進度與工時記錄的集成\n====================================================================\n安裝了此模塊，專案進度的添加刪除和修改會自動同步到工時表上。\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_project_timesheet_synchro
@@ -3378,7 +3378,7 @@ msgstr "\n這是OpenERP SA基於物理定位進行重定向客戶到其業務夥
 msgid ""
 "\n"
 "This module Allows a customer to give rating on Project.\n"
-msgstr "\n本模塊允許客戶在項目中進行評價。\n"
+msgstr "\n本模塊允許客戶在專案中進行評價。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_pad_project
@@ -3387,7 +3387,7 @@ msgid ""
 "This module adds a PAD in all project form views.\n"
 "=================================================\n"
 "    "
-msgstr "\n本模塊在所有項目表單視圖中添加PAD.\n=================================================\n    "
+msgstr "\n本模塊在所有專案表單視圖中添加PAD.\n=================================================\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_portal_sale
@@ -3603,7 +3603,7 @@ msgid ""
 "\n"
 "Worklogs can be maintained to signify number of hours spent by users to handle an issue.\n"
 "                "
-msgstr "\n本模塊在項目管理的問題與Bugs管理上增加時間表。\n=================================================================================\n\n工作日誌可以維護為記錄使用者處理問題的小時數。\n                "
+msgstr "\n本模塊在專案管理的問題與Bugs管理上增加時間表。\n=================================================================================\n\n工作日誌可以維護為記錄使用者處理問題的小時數。\n                "
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_picking_wave
@@ -3665,7 +3665,7 @@ msgid ""
 "\n"
 "    3. The last one is available from the Analytic Chart of Accounts. It gives \n"
 "       the spreading, for the selected Analytic Accounts of Budgets.\n"
-msgstr "\n這個模塊允許會計師管理輔助核算和並通過多維度的輔助核算與會計科目的交叉來進行高級預算管理。\n==========================================================================\n\n一旦預算被定義(通過菜單「會計-->預算-->預算」)，項目經理\n可以在每個分析賬戶上設定計劃金額。\n\n會計人員可查看每個預算的總計劃金額，\n以確保總計劃不高於或低於預算。\n每個記錄列表都可以切換圖形視圖。\n\n預算可提供三個報表:\n----------------------------\n 1、預算報表：由預算列表產生。 它給出這些預算的分析賬戶的列表。\n\n 2、預算概覽：它只提供選中的預算的分析賬戶的列表，與預算報表的\n區別是沒有按預算項目展開。\n\n 3、預算明細：來自會計分析賬戶表，它給出預算相關分析賬戶的\n詳情。\n"
+msgstr "\n這個模塊允許會計師管理輔助核算和並通過多維度的輔助核算與會計科目的交叉來進行高級預算管理。\n==========================================================================\n\n一旦預算被定義(通過菜單「會計-->預算-->預算」)，專案經理\n可以在每個分析賬戶上設定計劃金額。\n\n會計人員可查看每個預算的總計劃金額，\n以確保總計劃不高於或低於預算。\n每個記錄列表都可以切換圖形視圖。\n\n預算可提供三個報表:\n----------------------------\n 1、預算報表：由預算列表產生。 它給出這些預算的分析賬戶的列表。\n\n 2、預算概覽：它只提供選中的預算的分析賬戶的列表，與預算報表的\n區別是沒有按預算專案展開。\n\n 3、預算明細：來自會計分析賬戶表，它給出預算相關分析賬戶的\n詳情。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_base_action_rule
@@ -3771,7 +3771,7 @@ msgid ""
 "When a purchase order is created, you now have the opportunity to save the\n"
 "related requisition. This new object will regroup and will allow you to easily\n"
 "keep track and order all your purchase orders.\n"
-msgstr "\n該模塊用於管理採購請求。\n==================================\n\n採購訂單生成時，可以保存相關請求。\n新項目將重組，使得跟蹤很容易，並\n可統籌按照所有採購訂單。\n"
+msgstr "\n該模塊用於管理採購請求。\n==================================\n\n採購訂單生成時，可以保存相關請求。\n新專案將重組，使得跟蹤很容易，並\n可統籌按照所有採購訂單。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mrp_byproduct
@@ -3845,7 +3845,7 @@ msgid ""
 "It is completely integrated with the cost accounting module. It allows you to set\n"
 "up a management by affair.\n"
 "    "
-msgstr "\n計工單系統\n==========================================\n\n每個員工都可以編碼和跟蹤自己在不同項目上花費的時間。\n項目和分析賬戶關聯，在一個項目上花費的時間會記錄在\n分析賬戶上。\n\n大量時間和員工跟蹤報告被提供了。\n\n它與成本會計模塊完全集成在一起，你可以通過事務建立\n一個管理。"
+msgstr "\n計工單系統\n==========================================\n\n每個員工都可以編碼和跟蹤自己在不同專案上花費的時間。\n專案和分析賬戶關聯，在一個專案上花費的時間會記錄在\n分析賬戶上。\n\n大量時間和員工跟蹤報告被提供了。\n\n它與成本會計模塊完全集成在一起，你可以通過事務建立\n一個管理。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_syscohada
@@ -3957,7 +3957,7 @@ msgid ""
 "      module, but this will also install the CRM application as it depends on\n"
 "      CRM Leads.\n"
 "    "
-msgstr "\n這個模塊使用營銷活動自動化銷售潛在客戶（實際在任何資源上都能夠定義活動，而不僅僅是對CRM中的銷售潛在客戶）.\n=========================================================================================================================================\n\n活動是動態且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那樣設計營銷活動，包括要發送的郵件模板\n要打印的報表和定制的動作\n * 定義能夠選取應該填入活動的項目的輸入片段\n （例如：一些國家的銷售潛在客戶）\n * 在模擬模式中運行活動以測試它的實際表現和增速\n然後適當的做適當的調整\n * 你也可以在手工模式下開始真實的活動，\n 這就需要手工做些驗證\n * 最終正式開始你的活動，\n當活動自動的做所有事情時，你可以查看相應的統計信息.\n\n當活動在運行的時候，\n你當然可以繼續調整參數，輸入片段和工作流以優化它.\n\n**注意：** 如果你需要示例數據，你可以安裝marketing_campaign_crm_demo模塊\n 但是這樣系統也會安裝CRM程序，\n 因為它依賴與CRM銷售潛在客戶."
+msgstr "\n這個模塊使用營銷活動自動化銷售潛在客戶（實際在任何資源上都能夠定義活動，而不僅僅是對CRM中的銷售潛在客戶）.\n=========================================================================================================================================\n\n活動是動態且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那樣設計營銷活動，包括要發送的郵件模板\n要打印的報表和定制的動作\n * 定義能夠選取應該填入活動的專案的輸入片段\n （例如：一些國家的銷售潛在客戶）\n * 在模擬模式中運行活動以測試它的實際表現和增速\n然後適當的做適當的調整\n * 你也可以在手工模式下開始真實的活動，\n 這就需要手工做些驗證\n * 最終正式開始你的活動，\n當活動自動的做所有事情時，你可以查看相應的統計信息.\n\n當活動在運行的時候，\n你當然可以繼續調整參數，輸入片段和工作流以優化它.\n\n**注意：** 如果你需要示例數據，你可以安裝marketing_campaign_crm_demo模塊\n 但是這樣系統也會安裝CRM程序，\n 因為它依賴與CRM銷售潛在客戶."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at
@@ -4017,7 +4017,7 @@ msgid ""
 "\n"
 "It allows the manager to quickly check the issues, assign them and decide on their status quickly as they evolve.\n"
 "    "
-msgstr "\n項目的問題追蹤/Bug管理\n=========================================\n本應用用於管理項目中可能面對的問題，像系統裡的Bug、客戶投訴或者材料明細表。\n\n經理可以快速地檢查問題、分配問題給其他人，並且在問題的狀態發生變化時馬上決定如何處理問題。\n    "
+msgstr "\n專案的問題追蹤/Bug管理\n=========================================\n本應用用於管理專案中可能面對的問題，像系統裡的Bug、客戶投訴或者材料明細表。\n\n經理可以快速地檢查問題、分配問題給其他人，並且在問題的狀態發生變化時馬上決定如何處理問題。\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_product_expiry
@@ -4054,7 +4054,7 @@ msgid ""
 "* Tasks Analysis\n"
 "* Cumulative Flow\n"
 "    "
-msgstr "\n跟蹤多級項目、任務和已完成的工作\n=====================================================\n\n本模塊通過可操作的任務管理系統來將你的活動轉化為任務，通過工作計劃來保證任務的完成。\n\n甘特圖可以將你的工作計劃、工作資源和工作量圖形化。\n\n項目管理的看板和報表包括:\n--------------------------------------------------------\n* 我的任務\n* 未結任務\n* 任務分析\n* 累計工作量\n    "
+msgstr "\n跟蹤多級專案、任務和已完成的工作\n=====================================================\n\n本模塊通過可操作的任務管理系統來將你的活動轉化為任務，通過工作計劃來保證任務的完成。\n\n甘特圖可以將你的工作計劃、工作資源和工作量圖形化。\n\n專案管理的看板和報表包括:\n--------------------------------------------------------\n* 我的任務\n* 未結任務\n* 任務分析\n* 累計工作量\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_tr
@@ -5232,7 +5232,7 @@ msgid ""
 "         login once with a valid LDAP user, let OpenERP create a blank local\n"
 "         user with the same login (and a blank password), then rename this new\n"
 "         user to a username that does not exist in LDAP, and setup its groups\n"
-msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許使用者通過他們的LDAP使用者名和密碼登入，\n同時自動創建Odoo使用者。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的使用者名（在Odoo裡使用者名必須唯一，甚至在不同的公司裡，使用者名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置使用者名和密碼為空。這不允許使用者匿名驗證，只是用於在驗證前驗證一個使用者是否存在的超級使用者LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n使用者的LDAP密碼不會被存儲在Odoo數據庫。當使用者需要認證時，doo會從LDAP服務器查詢使用者，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地使用者也可能同時存在於Odoo數據庫和LDAP，（管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行使用者認證，如果認證失敗（比如使用者沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP使用者的默認密碼為空（表示不能存取），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的使用者認證是被加密的。\n使用者模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「使用者模板」。如果選上此項，當有使用者通過LDAP服務認證時，可以選擇一個使用者作為創建本地使用者的模板。這將允許預設使用者所在群組和第一次登入時的菜單。\n（備註：）如果你在使用者模板裡預設密碼，這個密碼會被當作新的LDAP本地使用者的默認密碼，這可以當作這些新使用者的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個使用者模板的簡便方式，是用一個LDAP有效使用者登入一次，讓Odoo創建一個本地使用者，密碼為空，然後用一個在LDAP中不存在的使用者名來重命名這個使用者，設置他的使用者組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
+msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許使用者通過他們的LDAP使用者名和密碼登入，\n同時自動創建Odoo使用者。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的使用者名（在Odoo裡使用者名必須唯一，甚至在不同的公司裡，使用者名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置使用者名和密碼為空。這不允許使用者匿名驗證，只是用於在驗證前驗證一個使用者是否存在的超級使用者LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n使用者的LDAP密碼不會被存儲在Odoo數據庫。當使用者需要認證時，doo會從LDAP服務器查詢使用者，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地使用者也可能同時存在於Odoo數據庫和LDAP，（系統管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行使用者認證，如果認證失敗（比如使用者沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP使用者的默認密碼為空（表示不能存取），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的使用者認證是被加密的。\n使用者模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「使用者模板」。如果選上此項，當有使用者通過LDAP服務認證時，可以選擇一個使用者作為創建本地使用者的模板。這將允許預設使用者所在群組和第一次登入時的菜單。\n（備註：）如果你在使用者模板裡預設密碼，這個密碼會被當作新的LDAP本地使用者的默認密碼，這可以當作這些新使用者的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個使用者模板的簡便方式，是用一個LDAP有效使用者登入一次，讓Odoo創建一個本地使用者，密碼為空，然後用一個在LDAP中不存在的使用者名來重命名這個使用者，設置他的使用者組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_administration
@@ -5709,7 +5709,7 @@ msgstr "自動安裝"
 msgid ""
 "Automatically set to let administators find new terms that might need to be "
 "translated"
-msgstr "自動設置讓管理員找到可能需要翻譯的術語。"
+msgstr "自動設置讓系統管理員找到可能需要翻譯的術語。"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_automation
@@ -8359,7 +8359,7 @@ msgstr "赤道幾內亞"
 #. module: base
 #: model:res.groups,name:base.group_equipment_manager
 msgid "Equipment Manager"
-msgstr "設備管理員"
+msgstr "設備經理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_equipment
@@ -11374,7 +11374,7 @@ msgid ""
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "管理和定制的項目提供並在Odoo系統菜單顯示。您可以通過點擊框每行開頭刪除一個項目，然後通過出現的按鈕將其刪除。項目可以被分配到特定組以便某些使用者可以存取。"
+msgstr "管理和定制的專案提供並在Odoo系統菜單顯示。您可以通過點擊框每行開頭刪除一個專案，然後通過出現的按鈕將其刪除。專案可以被分配到特定組以便某些使用者可以存取。"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
@@ -11406,7 +11406,7 @@ msgstr "管理你的債權債務由於簡單的出售/購買收據"
 #: model:res.groups,name:base.group_sale_manager
 #: model:res.groups,name:base.group_survey_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_managing_vehicles_and_contracts
@@ -12482,7 +12482,7 @@ msgstr "在線提案"
 #: code:addons/base/res/res_config.py:551
 #, python-format
 msgid "Only administrators can change the settings"
-msgstr "只有管理員能改變設置"
+msgstr "只有系統管理員能改變設置"
 
 #. module: base
 #: code:addons/base/ir/ir_attachment.py:108
@@ -13329,32 +13329,32 @@ msgstr "教授"
 #: model:ir.module.category,name:base.module_category_project_management
 #: model:ir.ui.menu,name:base.menu_main_pm
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_project_and_timesheet_management
 msgid "Project & Timesheet Management"
-msgstr "項目 & 工時單管理"
+msgstr "專案 & 工時單管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_forecast
 msgid "Project Forecast"
-msgstr "項目預測"
+msgstr "專案預測"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project
 msgid "Project Management"
-msgstr "項目管理"
+msgstr "專案管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_rating_project
 msgid "Project Rating"
-msgstr "項目點評"
+msgstr "專案點評"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_project
 msgid "Projects, Tasks"
-msgstr "項目, 任務"
+msgstr "專案, 任務"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_workflow_activity_form
@@ -13891,7 +13891,7 @@ msgstr "資源對像"
 #. module: base
 #: model:ir.module.module,summary:base.module_project_forecast
 msgid "Resource management for Project"
-msgstr "項目的資源管理"
+msgstr "專案的資源管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_restaurant
@@ -15989,7 +15989,7 @@ msgstr "在議題使用工時單"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project_issue_sheet
 msgid "Timesheet on Website Project Issue"
-msgstr "在網站項目議題使用工時單"
+msgstr "在網站專案議題使用工時單"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet_sheet
@@ -17158,12 +17158,12 @@ msgstr "銷售網站入口網站"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project_issue
 msgid "Website Project Issue"
-msgstr "網站項目問題"
+msgstr "網站專案問題"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_rating_project_issue
 msgid "Website Rating Project Issue"
-msgstr "網站評分項目事件"
+msgstr "網站評分專案事件"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_digital

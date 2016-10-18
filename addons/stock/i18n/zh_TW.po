@@ -2891,7 +2891,7 @@ msgstr "是一個廢品位置？"
 msgid ""
 "It is also possible to import your initial inventory from an Excel or CSV file.\n"
 "                        If you want to do that, contact your Odoo project manager."
-msgstr "你可以用excel或者CSV文件導入你的期初庫存，如果想那麼做的話，可以聯繫你的項目管理員"
+msgstr "你可以用excel或者CSV文件導入你的期初庫存，如果想那麼做的話，可以聯繫你的專案經理"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -2899,7 +2899,7 @@ msgid ""
 "It is therefore a good idea to check and try to resolve those procurement\n"
 "                        exceptions. These are accessible from the Schedulers menu (you need the Stock\n"
 "                        Manager role to see it)."
-msgstr "最好試著檢查並解決這些補貨異常\n你可以在Scheduler中查看（只有倉庫管理員的權限才能夠看到）"
+msgstr "最好試著檢查並解決這些補貨異常\n你可以在Scheduler中查看（只有倉庫經理的權限才能夠看到）"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -3350,7 +3350,7 @@ msgstr "管理倉庫的多個位置"
 #. module: stock
 #: model:res.groups,name:stock.group_stock_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: stock
 #: selection:stock.location.path,auto:0
@@ -4622,7 +4622,7 @@ msgstr "質量管理位置"
 msgid ""
 "Quantities, Units of Measure, Products and Locations cannot be modified on "
 "stock moves that have already been processed (except by the Administrator)."
-msgstr "已經被處理過的調撥單中，數量，計量單位，產品和位置不能修改（除非是管理員處理）。"
+msgstr "已經被處理過的調撥單中，數量，計量單位，產品和位置不能修改（除非是系統管理員處理）。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_make_procurement_qty
@@ -5878,7 +5878,7 @@ msgstr "嚮導幫助你開始Ｏdoo的盤點\n一旦你完成這些，你將獲�
 msgid ""
 "This is quite complex to set up, so <strong>contact your Project "
 "Manager</strong> to address this."
-msgstr "這些很難設置，所以<strong>聯繫你的項目經理</strong>反映這個問題"
+msgstr "這些很難設置，所以<strong>聯繫你的專案經理</strong>反映這個問題"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_default_location_dest_id
@@ -6529,7 +6529,7 @@ msgid ""
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
-msgstr "我們為你處理所有的導入過程\n只要把包含你所有數據信息的CSV文件發給你的項目經理就可以"
+msgstr "我們為你處理所有的導入過程\n只要把包含你所有數據信息的CSV文件發給你的專案經理就可以"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -6538,7 +6538,7 @@ msgid ""
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
-msgstr "我們為你處理所有的導入過程\n只要把包含你所有產品信息的CSV文件發給你的項目經理就可以"
+msgstr "我們為你處理所有的導入過程\n只要把包含你所有產品信息的CSV文件發給你的專案經理就可以"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

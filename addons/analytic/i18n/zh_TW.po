@@ -276,7 +276,7 @@ msgid ""
 "In Odoo, sale orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
-msgstr "在Odoo中，用分析賬戶實施銷售訂單和項目。就可以跟蹤成本和收入方便地分析利潤。"
+msgstr "在Odoo中，用分析賬戶實施銷售訂單和專案。就可以跟蹤成本和收入方便地分析利潤。"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
@@ -437,4 +437,4 @@ msgstr "使用者"
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
-msgstr "例如：項目 XYZ"
+msgstr "例如：專案 XYZ"

@@ -32,7 +32,7 @@ msgstr "問題"
 #. module: rating_project_issue
 #: model:ir.model,name:rating_project_issue.model_project_project
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: rating_project_issue
 #: model:ir.model,name:rating_project_issue.model_project_issue

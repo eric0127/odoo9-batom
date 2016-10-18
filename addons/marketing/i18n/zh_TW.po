@@ -73,7 +73,7 @@ msgstr "最後更新時間"
 #. module: marketing
 #: model:res.groups,name:marketing.group_lead_automation_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: marketing
 #: model:ir.model.fields,field_description:marketing.field_marketing_config_settings_module_marketing_campaign

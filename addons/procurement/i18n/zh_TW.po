@@ -107,7 +107,7 @@ msgid ""
 "Chosen rule for the procurement resolution. Usually chosen by the system but"
 " can be manually set by the procurement manager to force an unusual "
 "behavior."
-msgstr "為正式的需求選擇規則，通常是由系統選擇的，但可以通過採購管理員進行手動設置，進行一個特殊的操作。"
+msgstr "為正式的需求選擇規則，通常是由系統選擇的，但可以通過採購經理進行手動設置，進行一個特殊的操作。"
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions

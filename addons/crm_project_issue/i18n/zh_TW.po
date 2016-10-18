@@ -114,7 +114,7 @@ msgstr "鏈接到現有客戶"
 #. module: crm_project_issue
 #: model:ir.model.fields,field_description:crm_project_issue.field_crm_lead2projectissue_wizard_project_id
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: crm_project_issue
 #: model:ir.model.fields,field_description:crm_project_issue.field_crm_lead2projectissue_wizard_action

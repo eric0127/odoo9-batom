@@ -197,7 +197,7 @@ msgstr "入口網站使用者配置"
 #. module: portal
 #: model:ir.ui.menu,name:portal.portal_projects
 msgid "Projects"
-msgstr "項目"
+msgstr "專案"
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.wizard_view

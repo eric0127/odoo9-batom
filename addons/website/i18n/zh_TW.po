@@ -1186,7 +1186,7 @@ msgstr "我能負擔得起在網上做廣告嗎？"
 #: model:ir.ui.view,arch_db:website.s_faq
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Can I use it to manage projects based on agile methodologies?"
-msgstr "我能用它來管理基於敏捷方法的項目嗎？"
+msgstr "我能用它來管理基於敏捷方法的專案嗎？"
 
 #. module: website
 #. openerp-web
@@ -1460,7 +1460,7 @@ msgstr "生成一個社區"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Create a new project (this may take some time)"
-msgstr "創建一個新項目(這可能需要一些時間)"
+msgstr "創建一個新專案(這可能需要一些時間)"
 
 #. module: website
 #. openerp-web
@@ -1492,7 +1492,7 @@ msgid ""
 "                        It needs to be organized, so that your visitors can see all the main content you offer at a glance.<br/>\n"
 "                        It needs to be clear, so that when they click on an item, they get the content they expected.<br/>\n"
 "                        In fact, you need to build your navigation menu for your visitors and not for your own purposes or objectives."
-msgstr "創建主菜單是建立網站的一個重要和困難的階段。<BR/>它需要組織，讓您的訪客可以看到所有您提供一目瞭然的主要內容。<BR/>它需要明確，這樣，當他們點擊一個項目，他們得到的內容，他們的預期。<BR/>事實上，你需要為您的訪客建立你的導航菜單，而不是你自己的目的或目標。"
+msgstr "創建主菜單是建立網站的一個重要和困難的階段。<BR/>它需要組織，讓您的訪客可以看到所有您提供一目瞭然的主要內容。<BR/>它需要明確，這樣，當他們點擊一個專案，他們得到的內容，他們的預期。<BR/>事實上，你需要為您的訪客建立你的導航菜單，而不是你自己的目的或目標。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -2201,7 +2201,7 @@ msgstr "如果你還是對我們所有的昨天的公告覺得有點疑惑，這
 msgid ""
 "In the left-side menu of the project, go to <strong>APIs and auth &gt; "
 "APIs</strong> and activate <strong>Analytics API</strong> by clicking on the"
-msgstr "在項目的左側菜單，轉到API和認證，按點擊啟用分析API"
+msgstr "在專案的左側菜單，轉到API和認證，按點擊啟用分析API"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2686,21 +2686,21 @@ msgstr "Odoo的圖像和文字塊"
 msgid ""
 "Odoo provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
-msgstr "Odoo提供了必要的平台，為我們的項目管理。事情變得更好組織和更加清晰。"
+msgstr "Odoo提供了必要的平台，為我們的專案管理。事情變得更好組織和更加清晰。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_quotes_slider
 msgid ""
 "Odoo provides essential platform for our project management.\n"
 "                                        Things are better organized and more visible with it."
-msgstr "Odoo提供了必要的平台，為我們的項目管理。事情變得更好組織和更加清晰。"
+msgstr "Odoo提供了必要的平台，為我們的專案管理。事情變得更好組織和更加清晰。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_references
 msgid ""
 "Odoo provides essential platform for our project management.\n"
 "                            Things are better organized and more visible with it."
-msgstr "Odoo提供了必要的平台，為我們的項目管理。事情變得更好組織和更加清晰。"
+msgstr "Odoo提供了必要的平台，為我們的專案管理。事情變得更好組織和更加清晰。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
@@ -2945,7 +2945,7 @@ msgstr "專業的"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq
 msgid "Project Management Questions <small>v7</small>"
-msgstr "項目管理問題 <small>v7</small>"
+msgstr "專案管理問題 <small>v7</small>"
 
 #. module: website
 #. openerp-web
@@ -3246,7 +3246,7 @@ msgstr "共享"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Share experience on similar projects"
-msgstr "在類似的項目上分享經驗"
+msgstr "在類似的專案上分享經驗"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view_customize_show
@@ -3603,7 +3603,7 @@ msgstr "第三功能"
 msgid ""
 "This page does not exists, but you can create it as you are administrator of"
 " this site."
-msgstr "頁面未找到，如果你是管理員你可以創建它"
+msgstr "頁面未找到，如果你是系統管理員你可以創建它"
 
 #. module: website
 #. openerp-web
@@ -4059,7 +4059,7 @@ msgid ""
 "                        synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                        partners and other people involved in projects or business discussions.\n"
 "                        <br/><br/>"
-msgstr "使用Odoo完全集成的軟件，可以輕鬆管理您的會議，安排業務來電，創建定期會議，同步日程，輕鬆地保持聯繫與您的同事，合作夥伴和參與項目或業務討論其他人。"
+msgstr "使用Odoo完全集成的軟件，可以輕鬆管理您的會議，安排業務來電，創建定期會議，同步日程，輕鬆地保持聯繫與您的同事，合作夥伴和參與專案或業務討論其他人。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner

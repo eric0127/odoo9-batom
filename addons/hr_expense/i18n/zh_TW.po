@@ -346,7 +346,7 @@ msgstr "正式員工"
 msgid ""
 "From here the accountant will be able to approve as well as refuse the "
 "expenses which are verified by the HR Manager."
-msgstr "當人力資源管理員驗證後，在此處會計可以批復或拒絕費用申請"
+msgstr "當人力資源經理驗證後，在此處會計可以批復或拒絕費用申請"
 
 #. module: hr_expense
 #: model:ir.actions.server,name:hr_expense.hr_expense_entry_action_server

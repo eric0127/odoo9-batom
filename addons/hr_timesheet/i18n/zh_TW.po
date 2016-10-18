@@ -51,7 +51,7 @@ msgstr "分析賬戶"
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_account_use_timesheets
 msgid "Check this field if this project manages timesheets"
-msgstr "如果此項目需要管理時間表的話請選中此字段"
+msgstr "如果此專案需要管理時間表的話請選中此字段"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_evry1_all_form
@@ -229,7 +229,7 @@ msgid ""
 "                day. Every time spent on a project will become a cost in the\n"
 "                analytic accounting/contract and can be re-invoiced to\n"
 "                customers if required."
-msgstr "您可以每天按項目登記和跟蹤您的工時\n                每個項目中的時間消耗都會在\n                分析會計/合同中作為成本\n                如果需要的話還能開票給客戶。"
+msgstr "您可以每天按專案登記和跟蹤您的工時\n                每個專案中的時間消耗都會在\n                分析會計/合同中作為成本\n                如果需要的話還能開票給客戶。"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure

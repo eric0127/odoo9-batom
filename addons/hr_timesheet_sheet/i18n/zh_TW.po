@@ -126,7 +126,7 @@ msgstr "取消"
 #: code:addons/hr_timesheet_sheet/static/src/xml/timesheet.xml:51
 #, python-format
 msgid "Click to add projects, contracts or analytic accounts."
-msgstr "點擊創建一個項目，合同或輔助核算項。"
+msgstr "點擊創建一個專案，合同或輔助核算項。"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_res_company
@@ -400,7 +400,7 @@ msgid ""
 "the end of the period defined in the company, the timesheet is confirmed by "
 "the user and can be validated by his manager. If required, as defined on the"
 " project, you can generate the invoices based on the timesheet."
-msgstr "用\"我的工時單\"菜單開啟您的工時單所以您能在系統預定你的活動。用相同方式，您能記錄您的考勤（簽入/簽出）同時記錄在不同項目的工作時間。在公司定義的期末，確認使用者的工時單和經由管理員驗證使其生效。如果需要，可以定義為一個項目，你能給這工時單開發票。"
+msgstr "用\"我的工時單\"菜單開啟您的工時單所以您能在系統預定你的活動。用相同方式，您能記錄您的考勤（簽入/簽出）同時記錄在不同專案的工作時間。在公司定義的期末，確認使用者的工時單和經由經理驗證使其生效。如果需要，可以定義為一個專案，你能給這工時單開發票。"
 
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_my_timesheets
@@ -483,7 +483,7 @@ msgstr "出勤"
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet_sheet_account_name
 msgid "Project / Analytic Account"
-msgstr "項目 / 分析賬戶"
+msgstr "專案 / 分析賬戶"
 
 #. module: hr_timesheet_sheet
 #: model:ir.ui.view,arch_db:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -635,7 +635,7 @@ msgstr "工時單週期"
 msgid ""
 "Timesheets can also be invoiced to customers, depending on the\n"
 "                configuration of each project's related contract."
-msgstr "工單也可以開票給客戶，根據每個項目的合同配置"
+msgstr "工單也可以開票給客戶，根據每個專案的合同配置"
 
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_form

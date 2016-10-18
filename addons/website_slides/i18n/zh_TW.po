@@ -753,7 +753,7 @@ msgstr "信息圖"
 msgid ""
 "Internal server error, please try again later or contact administrator.\n"
 "Here is the error message: %s"
-msgstr "服務器內部錯誤，請稍後再嘗試或者聯繫管理員。\n這裡是錯誤信息：%s"
+msgstr "服務器內部錯誤，請稍後再嘗試或者聯繫系統管理員。\n這裡是錯誤信息：%s"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3

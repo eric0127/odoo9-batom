@@ -389,7 +389,7 @@ msgstr "折扣前金額"
 msgid ""
 "An administrator can set up default Terms and conditions in your Company "
 "settings."
-msgstr "管理員可以在您的公司設置中設置默認的條款和條件."
+msgstr "系統管理員可以在您的公司設置中設置默認的條款和條件."
 
 #. module: website_quote
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
@@ -677,7 +677,7 @@ msgid ""
 "                                you succeed in delivering more complex or bigger\n"
 "                                projects by getting the support of highly experienced\n"
 "                                consultants on demand."
-msgstr "支付額外費用，合作夥伴可以存取Odoo的核心開發人員和職能專家。這可以幫助您通過獲取的需求具有豐富經驗的顧問的支持下提供更複雜或更大的項目取得成功。"
+msgstr "支付額外費用，合作夥伴可以存取Odoo的核心開發人員和職能專家。這可以幫助您通過獲取的需求具有豐富經驗的顧問的支持下提供更複雜或更大的專案取得成功。"
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_1
@@ -1328,7 +1328,7 @@ msgid ""
 "                                instance that you can try out online. When this\n"
 "                                instance is deployed, your code is automatically put\n"
 "                                through our 2000+ automated unit tests."
-msgstr "通過讓我們的自動化測試的服務器會自動檢測你的開發節省時間的實施項目。在每一個代碼提交，你會得到一個完整的Odoo實例，你可以嘗試在網上。在這種情況下部署，你的代碼是通過我們的2000多個自動單元測試自動放。"
+msgstr "通過讓我們的自動化測試的服務器會自動檢測你的開發節省時間的實施專案。在每一個代碼提交，你會得到一個完整的Odoo實例，你可以嘗試在網上。在這種情況下部署，你的代碼是通過我們的2000多個自動單元測試自動放。"
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1

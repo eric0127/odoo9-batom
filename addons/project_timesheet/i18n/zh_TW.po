@@ -27,7 +27,7 @@ msgstr ""
 msgid ""
 "<p class=\"oe_view_nocontent_create\">Record your timesheets for the project"
 " '%s'.</p>"
-msgstr "<p class=\"oe_view_nocontent_create\">記錄你為項目所做的工時單 '%s'。</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">記錄你為專案所做的工時單 '%s'。</p>"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_config_settings_group_tasks_work_on_tasks
@@ -47,7 +47,7 @@ msgstr "分析賬戶"
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_form_inherit_account_id
 msgid "Analytic Account/Project"
-msgstr "分析賬戶/項目"
+msgstr "分析賬戶/專案"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_account_analytic_line
@@ -58,7 +58,7 @@ msgstr "分析行"
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_search_account_inherit
 #: model:ir.ui.view,arch_db:project_timesheet.view_account_analytic_line_tree_inherit_account_id
 msgid "Analytic account/project"
-msgstr "分析賬戶/項目"
+msgstr "分析賬戶/專案"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_hours_delay
@@ -70,7 +70,7 @@ msgstr "計劃實際平均偏差"
 msgid ""
 "Computed as difference between planned hours by the project manager and the "
 "total hours of the task."
-msgstr "計算公式為：項目經理估算的時間和實際花費的時間的差"
+msgstr "計算公式為：專案經理估算的時間和實際花費的時間的差"
 
 #. module: project_timesheet
 #: model:ir.model.fields,help:project_timesheet.field_project_task_total_hours
@@ -137,7 +137,7 @@ msgstr "進行"
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_project
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_report_project_task_user_remaining_hours
@@ -164,7 +164,7 @@ msgstr "任務分析"
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "項目和使用者的任務"
+msgstr "專案和使用者的任務"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited
@@ -207,9 +207,9 @@ msgstr "工作時間進度（％）"
 msgid ""
 "You cannot delete a partner which is assigned to project, but you can "
 "uncheck the active box."
-msgstr "你不能刪除被指派給項目的合作夥伴，但你能不選中「可用」。"
+msgstr "你不能刪除被指派給專案的合作夥伴，但你能不選中「可用」。"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_config_settings
 msgid "project.config.settings"
-msgstr "項目配置"
+msgstr "專案配置"

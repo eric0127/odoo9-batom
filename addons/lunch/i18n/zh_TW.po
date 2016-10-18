@@ -369,7 +369,7 @@ msgstr "這裡你可以看到以代理商分組的所有今天的訂單"
 msgid ""
 "Here you can see your cash moves.<br>A cash moves can be either an expense or a payment.\n"
 "                An expense is automatically created when an order is received while a payment is a reimbursement to the company encoded by the manager."
-msgstr "<p>\n                此處可以顯示現金的轉移。<br>現金轉移可以為費用或付款。\n                當收到一個午餐單時，會自動創建費用。而付款則為管理員定義的向公司的繳款。\n              </p>\n            "
+msgstr "<p>\n                此處可以顯示現金的轉移。<br>現金轉移可以為費用或付款。\n                當收到一個午餐單時，會自動創建費用。而付款則為經理定義的向公司的繳款。\n              </p>\n            "
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.view_lunch_order_line_lucky
@@ -471,7 +471,7 @@ msgstr "午餐訂單"
 #: model:ir.ui.menu,name:lunch.menu_lunch_admin
 #: model:res.groups,name:lunch.group_lunch_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_lucky_max_budget

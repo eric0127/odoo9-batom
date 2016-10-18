@@ -82,7 +82,7 @@ msgstr "定義資源調度"
 msgid ""
 "Define working hours and time table that could be scheduled to your project "
 "members"
-msgstr "定義您的項目成員可計劃的工時和時間表"
+msgstr "定義您的專案成員可計劃的工時和時間表"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_display_name
@@ -386,7 +386,7 @@ msgstr "工作至"
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_manager
 msgid "Workgroup Manager"
-msgstr "工作組管理員"
+msgstr "工作組經理"
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search

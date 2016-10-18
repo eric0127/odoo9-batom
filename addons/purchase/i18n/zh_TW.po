@@ -315,7 +315,7 @@ msgstr "允許在採購訂單行上指定一個輔助核算項"
 msgid ""
 "An administrator can set up default Terms and conditions in your Company "
 "settings."
-msgstr "管理員可以在您的公司設置中設置默認的條款和條件."
+msgstr "系統管理員可以在您的公司設置中設置默認的條款和條件."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_account_analytic_id
@@ -885,7 +885,7 @@ msgstr "在產品表單管理供應商價格"
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
 msgid "Manager"
-msgstr "管理員"
+msgstr "經理"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2

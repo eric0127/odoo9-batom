@@ -924,7 +924,7 @@ msgstr "ID"
 msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
-msgstr "父記錄ID支持別名(例如:項目支持任務創建別名)"
+msgstr "父記錄ID支持別名(例如:專案支持任務創建別名)"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_message_unread
@@ -1709,7 +1709,7 @@ msgid ""
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "相應於這個別名對應的模型(Odoo的文件種類)。任何一封不屬於對某個已存在的記錄的到來郵件，將導致此模塊中新記錄的創建(例如，一個新的項目任務)。"
+msgstr "相應於這個別名對應的模型(Odoo的文件種類)。任何一封不屬於對某個已存在的記錄的到來郵件，將導致此模塊中新記錄的創建(例如，一個新的專案任務)。"
 
 #. module: hr_recruitment
 #: sql_constraint:hr.recruitment.degree:0

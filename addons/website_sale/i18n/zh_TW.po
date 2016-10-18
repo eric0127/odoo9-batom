@@ -1478,7 +1478,7 @@ msgstr "產品清單視圖"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_project_id
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale

@@ -154,7 +154,7 @@ msgstr "庫存不夠！"
 #: code:addons/sale_stock/res_config.py:42
 #, python-format
 msgid "Only administrators can change the settings"
-msgstr "僅有管理員可以改變該設置"
+msgstr "僅有系統管理員可以改變該設置"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_group_route_so_lines

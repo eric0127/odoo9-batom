@@ -1450,7 +1450,7 @@ msgstr "搜索目標"
 msgid ""
 "Security rules to define who is allowed to manually grant badges. Not "
 "enforced for administrator."
-msgstr "安全規則來定義誰可以手動授予徽章，管理員不能強制執行"
+msgstr "安全規則來定義誰可以手動授予徽章，系統管理員不能強制執行"
 
 #. module: gamification
 #: model:ir.ui.view,arch_db:gamification.challenge_form_view

@@ -301,7 +301,7 @@ msgstr "<span class=\"panel-title\">\n                                        <s
 msgid ""
 "<span class=\"panel-title\"><span data-icon=\"\"/><strong> Exercise 1</strong></span>\n"
 "                                    <span>(Lead Manager)</span>"
-msgstr "<span class=\"panel-title\"><span data-icon=\"\"/><strong> 練習 1</strong></span>\n                                    <span>(潛在客戶管理員)</span>"
+msgstr "<span class=\"panel-title\"><span data-icon=\"\"/><strong> 練習 1</strong></span>\n                                    <span>(潛在客戶經理)</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -571,7 +571,7 @@ msgstr "在Odoo內的產品是您銷售或購買的. 它可能是\n             
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "A sales manager will mostly use these two reports:"
-msgstr "銷售管理員將主要使用這兩份報告："
+msgstr "銷售經理將主要使用這兩份報告："
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_exclude_contact
@@ -699,7 +699,7 @@ msgstr "讓你的銷售組織系統化流程化能夠讓你不間斷的改進銷
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
 "contacts with different emails."
-msgstr "所有的聯絡人都必須具有相同的電子郵件。只有管理員可以合併不同的電子郵件聯絡人。"
+msgstr "所有的聯絡人都必須具有相同的電子郵件。只有系統管理員可以合併不同的電子郵件聯絡人。"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:917
@@ -1830,7 +1830,7 @@ msgstr "ID"
 msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
-msgstr "父記錄ID支持別名(例如:項目支持任務創建別名)"
+msgstr "父記錄ID支持別名(例如:專案支持任務創建別名)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_line_aggr_ids
@@ -2711,7 +2711,7 @@ msgid ""
 "Only the destination contact may be linked to existing Journal Items. Please"
 " ask the Administrator if you need to merge several contacts linked to "
 "existing Journal Items."
-msgstr "只有目標聯絡人可鏈接到現有日誌項。如果您需要合併幾個聯絡人鏈接到現有日誌項，請詢問管理員。"
+msgstr "只有目標聯絡人可鏈接到現有日誌項。如果您需要合併幾個聯絡人鏈接到現有日誌項，請詢問系統管理員。"
 
 #. module: crm
 #: model:ir.actions.client,name:crm.action_client_crm_menu
@@ -2891,7 +2891,7 @@ msgid ""
 "Parent subtype, used for automatic subscription. This field is not correctly"
 " named. For example on a project, the parent_id of project subtypes refers "
 "to task-related subtypes."
-msgstr "父類,用於自動訂閱.這個字段沒有正確的命名.例如在一個項目上,項目子類型的上一級ＩＤ指任務相關的子類型."
+msgstr "父類,用於自動訂閱.這個字段沒有正確的命名.例如在一個專案上,專案子類型的上一級ＩＤ指任務相關的子類型."
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_partner
@@ -3530,7 +3530,7 @@ msgid ""
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "相應於這個別名對應的模型(Odoo的文件種類)。任何一封不屬於對某個已存在的記錄的到來郵件，將導致此模塊中新記錄的創建(例如，一個新的項目任務)。"
+msgstr "相應於這個別名對應的模型(Odoo的文件種類)。任何一封不屬於對某個已存在的記錄的到來郵件，將導致此模塊中新記錄的創建(例如，一個新的專案任務)。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
@@ -3553,7 +3553,7 @@ msgid ""
 "field is not set the system will attempt to find the right owner based on "
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
-msgstr "當這個別名收到郵件時，此記錄的所有者就被創建了。\n若此字段未設置，系統將依據發送（來自）地址來尋找正確的所有者，如果在那個地址上沒有系統使用者，則將使用管理員賬戶。"
+msgstr "當這個別名收到郵件時，此記錄的所有者就被創建了。\n若此字段未設置，系統將依據發送（來自）地址來尋找正確的所有者，如果在那個地址上沒有系統使用者，則將使用系統管理員賬戶。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3889,7 +3889,7 @@ msgid ""
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
-msgstr "我們負責所有的導入流程：給你的Odoo的項目經理一份包含你所有數據的CSV文檔."
+msgstr "我們負責所有的導入流程：給你的Odoo的專案經理一份包含你所有數據的CSV文檔."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3898,7 +3898,7 @@ msgid ""
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
-msgstr "我們負責所有的導入流程：給你的Odoo的項目經理一份包含你所有數據的CSV文檔."
+msgstr "我們負責所有的導入流程：給你的Odoo的專案經理一份包含你所有數據的CSV文檔."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
