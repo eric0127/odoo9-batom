@@ -730,14 +730,14 @@ msgstr "應用刪除重複"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Archive"
-msgstr "歸檔"
+msgstr "封存"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Archived"
-msgstr "存檔"
+msgstr "已封存"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -1906,7 +1906,7 @@ msgstr "在Odoo,有3種不同的方法管理你的產品價格."
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
 msgid "Include archived"
-msgstr "包括已存檔"
+msgstr "包括已封存"
 
 #. module: crm
 #: code:addons/crm/sales_team.py:15
@@ -3716,7 +3716,7 @@ msgstr "類型用於區分銷售線索和商機"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Unarchive"
-msgstr "取消歸檔"
+msgstr "取消封存"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter

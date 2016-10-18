@@ -103,7 +103,7 @@ msgid ""
 "If you're done with this item, click here to archive it. It won't appear "
 "again, but you can display it with the 'Archived' filter, and reactivate it "
 "if necessary."
-msgstr "在你完成此項後，點擊此處歸檔並隱藏，你也可以在必要時通過選中「歸檔」來恢復顯示。"
+msgstr "在你完成此項後，點擊此處封存並隱藏，你也可以在必要時通過選中「封存」來恢復顯示。"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip___last_update

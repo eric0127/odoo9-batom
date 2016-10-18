@@ -346,7 +346,7 @@ msgstr "應用於"
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Archived"
-msgstr "存檔"
+msgstr "已封存"
 
 #. module: product
 #: model:product.product,name:product.product_assembly

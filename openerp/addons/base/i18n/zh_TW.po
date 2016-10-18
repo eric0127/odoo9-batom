@@ -2365,7 +2365,7 @@ msgid ""
 "==========================================\n"
 "\n"
 "        "
-msgstr "\nOpenERP郵件群組：郵件列表歸檔\n========================== \n\n  "
+msgstr "\nOpenERP郵件群組：郵件列表封存\n========================== \n\n  "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_quote
@@ -5529,7 +5529,7 @@ msgstr "結構"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Archived"
-msgstr "存檔"
+msgstr "已封存"
 
 #. module: base
 #: model:res.country,name:base.ar
@@ -11324,7 +11324,7 @@ msgstr "通過SMTP發送郵件失敗 '%s'.\n%s: %s"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_mail_channel
 msgid "Mailing List Archive"
-msgstr "郵件清單歸檔"
+msgstr "郵件清單封存"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_report_xml_report_rml

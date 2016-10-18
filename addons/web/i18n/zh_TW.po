@@ -409,14 +409,14 @@ msgstr "應用"
 #: code:addons/web/static/src/js/views/list_view.js:308
 #, python-format
 msgid "Archive"
-msgstr "歸檔"
+msgstr "封存"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:671
 #, python-format
 msgid "Archived"
-msgstr "存檔"
+msgstr "已封存"
 
 #. module: web
 #. openerp-web
@@ -1536,7 +1536,7 @@ msgstr "一般"
 #: code:addons/web/static/src/js/views/form_widgets.js:669
 #, python-format
 msgid "Not Archived"
-msgstr "沒有存檔"
+msgstr "沒有封存"
 
 #. module: web
 #. openerp-web
@@ -2259,7 +2259,7 @@ msgstr "類型："
 #: code:addons/web/static/src/js/views/list_view.js:309
 #, python-format
 msgid "Unarchive"
-msgstr "取消歸檔"
+msgstr "取消封存"
 
 #. module: web
 #. openerp-web

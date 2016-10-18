@@ -818,7 +818,7 @@ msgstr "應用"
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Archived"
-msgstr "存檔"
+msgstr "已封存"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_start

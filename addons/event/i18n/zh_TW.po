@@ -276,7 +276,7 @@ msgstr "應用"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_search
 msgid "Archived"
-msgstr "存檔"
+msgstr "封存"
 
 #. module: event
 #: model:event.event,description:event.event_0

@@ -46,12 +46,12 @@ msgstr "一個人的力量有限，團隊的力量無堅不摧"
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_messages
 msgid "Archives"
-msgstr "存檔"
+msgstr "封存"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
 msgid "Browse archives"
-msgstr "瀏覽存檔"
+msgstr "瀏覽封存"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
@@ -172,7 +172,7 @@ msgstr "網站評論可見"
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.subscribe
 msgid "archives"
-msgstr "存檔"
+msgstr "封存"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
@@ -189,7 +189,7 @@ msgstr "作者"
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
 #: model:ir.ui.view,arch_db:website_mail_channel.group_messages
 msgid "mailing list archives"
-msgstr "郵件列表存檔  "
+msgstr "郵件列表封存"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.mail_channels

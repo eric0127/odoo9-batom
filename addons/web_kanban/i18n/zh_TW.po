@@ -58,7 +58,7 @@ msgstr "添加： "
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:27
 #, python-format
 msgid "Archive Records"
-msgstr "歸檔記錄"
+msgstr "封存記錄"
 
 #. module: web_kanban
 #. openerp-web
@@ -158,7 +158,7 @@ msgstr "打開： "
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:28
 #, python-format
 msgid "Unarchive Records"
-msgstr "取消歸檔記錄"
+msgstr "取消封存記錄"
 
 #. module: web_kanban
 #. openerp-web
