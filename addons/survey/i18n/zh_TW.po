@@ -890,7 +890,7 @@ msgstr "進行中"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message_parent_id
 msgid "Initial thread message."
-msgstr "初始化線索消息"
+msgstr "初始化線程消息"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_email
@@ -1484,7 +1484,7 @@ msgstr "相關單據模型"
 msgid ""
 "Reply email address. Setting the reply_to bypasses the automatic thread "
 "creation."
-msgstr "回復郵件地址。設定「回復到」避免自動創建線索。"
+msgstr "回復郵件地址。設定「回復到」避免自動創建線程。"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_reply_to

@@ -1013,7 +1013,7 @@ msgid ""
 "Odoo's fully-integrated marketing app will help you to attract, convert and close new leads. Check out our three-part video and discover more at www.odoo.com\n"
 "\n"
 "Video made by Miroslava Ganzarcikova and Sophia Eribo."
-msgstr "Odoo的完全整合營銷應用程序將幫助你吸引，轉換和關閉新的線索。看看我們的三部分組成的視頻，發現更多的由Miroslava Ganzarcikova和Sophia Eribo製作 www.odoo.com 視頻。"
+msgstr "Odoo的完全整合營銷應用程序將幫助你吸引，轉換和關閉新的潛在客戶。看看我們的三部分組成的視頻，發現更多的由Miroslava Ganzarcikova和Sophia Eribo製作 www.odoo.com 視頻。"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9

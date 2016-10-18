@@ -85,7 +85,7 @@ msgstr "市場營銷活動"
 msgid ""
 "Provides leads automation through marketing campaigns. Campaigns can in fact be defined on any resource, not just CRM leads.\n"
 "-This installs the module marketing_campaign."
-msgstr "在市場營銷活動中提供商機的自動處理。實際上，活動可以在任何資源上定義，不僅僅限於客戶關係管理中的線索。\n-這會安裝「marketing_campaign」模塊。"
+msgstr "在市場營銷活動中提供商機的自動處理。實際上，活動可以在任何資源上定義，不僅僅限於客戶關係管理中的潛在客戶。\n-這會安裝「marketing_campaign」模塊。"
 
 #. module: marketing
 #: model:res.groups,name:marketing.group_lead_automation_user

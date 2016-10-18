@@ -1040,12 +1040,12 @@ msgstr "附件網址"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Attract more leads with a winning content marketing strategy."
-msgstr "用一個成功的內容營銷策略吸引更多的線索。"
+msgstr "用一個成功的內容營銷策略吸引更多的潛在客戶。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Attract new leads"
-msgstr "吸引新線索"
+msgstr "吸引新潛在客戶"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_published
@@ -2263,7 +2263,7 @@ msgstr "已安裝的模塊"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Integrate a contact form that automatically creates leads."
-msgstr "集成自動創建線索聯絡人。"
+msgstr "集成自動創建潛在客戶聯絡人。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500
@@ -4207,7 +4207,7 @@ msgstr "請試試其他搜索條件"
 msgid ""
 "You will get your leads filled up automatically in our integrated CRM "
 "application."
-msgstr "你會得到您的線索自動填充在我們的綜合客戶關係管理應用程序裡"
+msgstr "你會得到您的潛在客戶自動填充在我們的綜合客戶關係管理應用程序裡"
 
 #. module: website
 #. openerp-web

@@ -1740,7 +1740,7 @@ msgstr "讓你的客戶存取他們的單據"
 msgid ""
 "Gives the probability to assign a lead to this partner. (0 means no "
 "assignation.)"
-msgstr "為線索指定一個業務夥伴的概率（0表示沒指派）"
+msgstr "為潛在客戶指定一個業務夥伴的概率（0表示沒指派）"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_category_sequence

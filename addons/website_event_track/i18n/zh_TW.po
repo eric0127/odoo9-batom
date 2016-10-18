@@ -205,7 +205,7 @@ msgstr "8版本的新的會計模塊和改進的詳細路線圖。"
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
 "Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
-msgstr "發現的Odoo CRM：如何優化你的銷售，從線索到銷售訂單。"
+msgstr "發現的Odoo CRM：如何優化你的銷售，從潛在客戶到銷售訂單。"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
@@ -355,7 +355,7 @@ msgstr "最高"
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
 "with Odoo."
-msgstr "如何生成線索與Odoo的目的建立自己的營銷策略。"
+msgstr "如何生成潛在客戶與Odoo的目的建立自己的營銷策略。"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1

@@ -43,7 +43,7 @@ msgid ""
 "            a letter, assigning to a team, etc. These activities are triggered\n"
 "            from specific situations; contact form, 10 days after first\n"
 "            contact, if a lead is not closed yet, etc."
-msgstr "一個活動可以有許多小的活動，例如發送郵件，打印信件，分配給一個團隊等等\n這些曉得活動在一些特定情景中被觸發；在第一個合同完成10天後，如果線索還沒有被關閉的話合同生成,等等。"
+msgstr "一個活動可以有許多小的活動，例如發送郵件，打印信件，分配給一個團隊等等\n這些曉得活動在一些特定情景中被觸發；在第一個合同完成10天後，如果潛在客戶還沒有被關閉的話合同生成,等等。"
 
 #. module: marketing_campaign
 #: model:ir.model.fields,field_description:marketing_campaign.field_marketing_campaign_activity_server_action_id
@@ -517,7 +517,7 @@ msgid ""
 "segments will only avoid selecting the same record again if it entered the "
 "campaign previously. Only easily comparable fields like textfields, "
 "integers, selections or single relationships may be used."
-msgstr "如果指定了某個字段，當渠道運作在「無重複」的模式下時，避免選擇兩條相同的記錄。相同的記錄是指這個唯一字段的值相同的記錄。例如，把CRM線索的「郵箱」字段設置為唯一，就可以避免同一個營銷郵件多次發送給相同郵箱。如果沒有指定，「無重複」模式只能避免在輸入營銷活動時插入之前加過的記錄。這裡應該選擇一個容易比較的字段，例如文本字段、整數、下拉列表或簡單的關係字段。"
+msgstr "如果指定了某個字段，當渠道運作在「無重複」的模式下時，避免選擇兩條相同的記錄。相同的記錄是指這個唯一字段的值相同的記錄。例如，把CRM潛在客戶的「郵箱」字段設置為唯一，就可以避免同一個營銷郵件多次發送給相同郵箱。如果沒有指定，「無重複」模式只能避免在輸入營銷活動時插入之前加過的記錄。這裡應該選擇一個容易比較的字段，例如文本字段、整數、下拉列表或簡單的關係字段。"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_activity_form
@@ -600,7 +600,7 @@ msgstr "發起月份"
 #. module: marketing_campaign
 #: model:ir.ui.menu,name:marketing_campaign.menu_marketing_campaign_root
 msgid "Lead Automation"
-msgstr "線索自動化"
+msgstr "潛在客戶自動化"
 
 #. module: marketing_campaign
 #: model:ir.ui.view,arch_db:marketing_campaign.view_marketing_campaign_search
@@ -739,7 +739,7 @@ msgid ""
 "Odoo's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fullfil the campaign."
-msgstr "Odoo的市場營銷能讓你自動的和潛在客戶進行溝通，你可以在線索和業務夥伴上定義一個環節（條件設定）來實現營銷"
+msgstr "Odoo的市場營銷能讓你自動的和潛在客戶進行溝通，你可以在潛在客戶和業務夥伴上定義一個環節（條件設定）來實現營銷"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.segment,sync_mode:0

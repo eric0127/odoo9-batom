@@ -363,7 +363,7 @@ msgstr "有價值的產品"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Access to the Lead"
-msgstr "存取線索"
+msgstr "存取潛在客戶"
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_3
@@ -499,7 +499,7 @@ msgstr "控制器和視圖"
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
 msgid "Convert Lead to Opportunity &amp; Customer management"
-msgstr "線索轉換為機遇，客戶管理"
+msgstr "潛在客戶轉換為機遇，客戶管理"
 
 #. module: website_quote
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
@@ -1558,7 +1558,7 @@ msgid ""
 "                        leads, close deals, gives you feedback and best\n"
 "                        practices, delivers sales training and is your direct\n"
 "                        point of contact for any request you may have."
-msgstr "我們會為您指定專門的客戶經理，有經驗的銷售人員，以幫助您開發Odoo業務。該客戶經理可以幫助你得到的線索，完成交易，給你的反饋和最佳實踐，提供銷售培訓，是您的直接聯繫點，您的任何要求。"
+msgstr "我們會為您指定專門的客戶經理，有經驗的銷售人員，以幫助您開發Odoo業務。該客戶經理可以幫助你得到的潛在客戶，完成交易，給你的反饋和最佳實踐，提供銷售培訓，是您的直接聯繫點，您的任何要求。"
 
 #. module: website_quote
 #: model:ir.actions.report.xml,name:website_quote.report_web_quote

@@ -45,7 +45,7 @@ msgstr "# 活動"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "(if leads are activated)"
-msgstr "(如果線索已經激活)"
+msgstr "(如果潛在客戶已經激活)"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -150,7 +150,7 @@ msgstr "<span class=\"label label-default text-center odoo_purple\">收到電子
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<span class=\"label label-default text-center odoo_purple\">Lead</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">線索</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">潛在客戶</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -301,7 +301,7 @@ msgstr "<span class=\"panel-title\">\n                                        <s
 msgid ""
 "<span class=\"panel-title\"><span data-icon=\"\"/><strong> Exercise 1</strong></span>\n"
 "                                    <span>(Lead Manager)</span>"
-msgstr "<span class=\"panel-title\"><span data-icon=\"\"/><strong> 練習 1</strong></span>\n                                    <span>(線索管理員)</span>"
+msgstr "<span class=\"panel-title\"><span data-icon=\"\"/><strong> 練習 1</strong></span>\n                                    <span>(潛在客戶管理員)</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -391,7 +391,7 @@ msgstr "<strong>練習： </strong>請試著從看板視圖轉換到圖表視圖
 msgid ""
 "<strong>Exercise:</strong> Try to get the number of leads per salesperson "
 "and by creation date"
-msgstr "<strong>練習：</strong> 試著按銷售人員線索的創建時間先後順序來獲取商機的數量"
+msgstr "<strong>練習：</strong> 試著按銷售人員潛在客戶的創建時間先後順序來獲取商機的數量"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -511,7 +511,7 @@ msgstr "<strong>潛在客戶</strong> 開始討論您的服務"
 msgid ""
 "<strong>To boost your leads acquisition,</strong> you should have a look at "
 "our marketing apps:"
-msgstr "<strong>為了提高您的線索採集的能力，</strong> 你應該看看我們的市場營銷應用程序："
+msgstr "<strong>為了提高您的潛在客戶採集的能力，</strong> 你應該看看我們的市場營銷應用程序："
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -857,7 +857,7 @@ msgstr "客戶關係管理活動分析"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_opportunity_report
 msgid "CRM Opportunity Analysis"
-msgstr "客戶關係管理線索分析"
+msgstr "客戶關係管理潛在客戶分析"
 
 #. module: crm
 #: model:crm.activity,name:crm.crm_activity_data_call
@@ -903,7 +903,7 @@ msgstr "案件，按銷售團隊"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_tag
 msgid "Category of lead"
-msgstr "線索的類別"
+msgstr "潛在客戶的類別"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_on_change
@@ -949,7 +949,7 @@ msgstr "城市"
 msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
-msgstr "對線索/商機進行分析和分類， 諸如：培訓，服務"
+msgstr "對潛在客戶/商機進行分析和分類， 諸如：培訓，服務"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:922
@@ -980,7 +980,7 @@ msgstr "點擊輸入一個新的銷售標籤。"
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lead_stage_act
 msgid "Click to set a new stage in your lead/opportunity pipeline."
-msgstr "點擊，為你的線索／商機管道設置一個新的階段"
+msgstr "點擊，為你的潛在客戶／商機管道設置一個新的階段"
 
 #. module: crm
 #: model:web.tip,description:crm.crm_tip_2
@@ -1006,7 +1006,7 @@ msgstr "已關閉"
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:90
 #, python-format
 msgid "Closed/Dead leads cannot be converted into opportunities."
-msgstr "關閉不能轉化為機遇的線索"
+msgstr "關閉不能轉化為機遇的潛在客戶"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_color
@@ -1090,7 +1090,7 @@ msgstr "轉換日期"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Conversion Date from Lead to Opportunity"
-msgstr "從線索轉化為商機的時間"
+msgstr "從潛在客戶轉化為商機的時間"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
@@ -1172,7 +1172,7 @@ msgid ""
 "                to better classify and analyse your leads and opportunities.\n"
 "                Such categories could for instance reflect your product\n"
 "                structure or the different types of sales you do."
-msgstr " 點擊新建一個適合公司活動的標籤 用於更好地分類和分析你的線索和商機。 標籤分類可以快速反映你的商品結構或者不同的銷售類型。"
+msgstr " 點擊新建一個適合公司活動的標籤 用於更好地分類和分析你的潛在客戶和商機。 標籤分類可以快速反映你的商品結構或者不同的銷售類型。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1317,7 +1317,7 @@ msgstr "默認"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_sale_config_settings_alias_prefix
 msgid "Default Alias Name for Leads"
-msgstr "默認的線索別名名稱"
+msgstr "默認的潛在客戶別名名稱"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_alias_defaults
@@ -1354,7 +1354,7 @@ msgstr "部署"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 msgid "Describe the lead..."
-msgstr "說明線索..."
+msgstr "說明潛在客戶..."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_description
@@ -1436,7 +1436,7 @@ msgstr "下載"
 #. module: crm
 #: model:ir.filters,name:crm.filter_draft_lead
 msgid "Draft Leads"
-msgstr "草稿線索"
+msgstr "草稿潛在客戶"
 
 #. module: crm
 #: selection:sale.config.settings,group_use_lead:0
@@ -1458,7 +1458,7 @@ msgid ""
 "                                    could be setup on the sales team form. You\n"
 "                                    can setup a generic email alias to create\n"
 "                                    incoming leads."
-msgstr "每一個銷售團隊都有一個郵件別名，它被設置在銷售團隊的表單，\n你可以設置一個通用的郵件別名來穿件即將進來的線索"
+msgstr "每一個銷售團隊都有一個郵件別名，它被設置在銷售團隊的表單，\n你可以設置一個通用的郵件別名來穿件即將進來的潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -1746,7 +1746,7 @@ msgstr "聯絡人群組"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Grow leads acquisition"
-msgstr "成長線索獲取"
+msgstr "成長潛在客戶獲取"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1924,7 +1924,7 @@ msgstr "收到的郵件"
 msgid ""
 "Incoming email create leads automatically when a new prospect contacts you.\n"
 "                        That's the easiest way to integrate Odoo with third party apps."
-msgstr "收到的郵件會自動創建線索,當一個新的聯絡人你時.那是最簡單的方法去把第三方的應用集成到Odoo."
+msgstr "收到的郵件會自動創建潛在客戶,當一個新的聯絡人你時.那是最簡單的方法去把第三方的應用集成到Odoo."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_sale_config_settings_module_crm_voip
@@ -2048,18 +2048,18 @@ msgstr "最後更新時間"
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #, python-format
 msgid "Lead"
-msgstr "線索"
+msgstr "潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Lead / Customer"
-msgstr "線索/客戶"
+msgstr "潛在客戶/客戶"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_create
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Lead Created"
-msgstr "線索已創建"
+msgstr "潛在客戶已創建"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_tag_action
@@ -2067,27 +2067,27 @@ msgstr "線索已創建"
 #: model:ir.ui.view,arch_db:crm.crm_lead_tag_form
 #: model:ir.ui.view,arch_db:crm.crm_lead_tag_tree
 msgid "Lead Tags"
-msgstr "線索標籤"
+msgstr "潛在客戶標籤"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Lead To Opportunity Partner"
-msgstr "線索至業務夥伴或商機"
+msgstr "潛在客戶至業務夥伴或商機"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead created"
-msgstr "線索已創建"
+msgstr "潛在客戶已創建"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "線索/商機"
+msgstr "潛在客戶/商機"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
 msgid "Lead/Opportunity Mass Mail"
-msgstr "線索/商機群發郵件"
+msgstr "潛在客戶/商機群發郵件"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_lead
@@ -2102,13 +2102,13 @@ msgstr "線索/商機群發郵件"
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads"
-msgstr "線索"
+msgstr "潛在客戶"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:60
 #, python-format
 msgid "Leads / Opportunities"
-msgstr "線索/商機"
+msgstr "潛在客戶/商機"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_report_crm_lead_salesteam
@@ -2117,7 +2117,7 @@ msgstr "線索/商機"
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot_lead
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Leads Analysis"
-msgstr "線索分析"
+msgstr "潛在客戶分析"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.action_report_crm_lead_salesteam
@@ -2125,64 +2125,64 @@ msgid ""
 "Leads Analysis allows you to check different CRM related information like "
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
-msgstr "線索分析允許你檢查不同的關聯CRM的信息，例如延遲或每個狀態的線索的數量。你可以使用不同的分組對線索分析進行整理已獲得精確細緻的分析結果。"
+msgstr "潛在客戶分析允許你檢查不同的關聯CRM的信息，例如延遲或每個狀態的潛在客戶的數量。你可以使用不同的分組對潛在客戶分析進行整理已獲得精確細緻的分析結果。"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_salesperson
 msgid "Leads By Salespersons"
-msgstr "銷售人員的線索"
+msgstr "銷售人員的潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_sale_config_settings
 msgid "Leads Email Alias"
-msgstr "（接收）線索郵箱別名"
+msgstr "（接收）潛在客戶郵箱別名"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 msgid "Leads Form"
-msgstr "線索表單"
+msgstr "潛在客戶表單"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_calendar_view_leads
 msgid "Leads Generation"
-msgstr "線索生成"
+msgstr "潛在客戶生成"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Leads by Source"
-msgstr "線索源頭"
+msgstr "潛在客戶源頭"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_usa_lead
 msgid "Leads from USA"
-msgstr "來自USA的線索"
+msgstr "來自USA的潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are assigned to me"
-msgstr "分配給我的線索"
+msgstr "分配給我的潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that did not ask not to be included in mass mailing campaigns"
-msgstr "未要求的線索不要包括到批量郵件營銷活動中"
+msgstr "未要求的潛在客戶不要包括到批量郵件營銷活動中"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid ""
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
-msgstr "你選擇的線索有重複。如果列表為空，表明沒有發現重複線索。"
+msgstr "你選擇的潛在客戶有重複。如果列表為空，表明沒有發現重複潛在客戶。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads with existing duplicates (for information)"
-msgstr "存在的重複線索（信息）"
+msgstr "存在的重複潛在客戶（信息）"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_merge_opportunity_opportunity_ids
 msgid "Leads/Opportunities"
-msgstr "線索/商機"
+msgstr "潛在客戶/商機"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2210,7 +2210,7 @@ msgstr "鏈接到現有客戶"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_partner_id
 msgid "Linked partner (optional). Usually created when converting the lead."
-msgstr "鏈接的業務夥伴(可選), 通常用於在線索轉換時自動創建業務夥伴."
+msgstr "鏈接的業務夥伴(可選), 通常用於在潛在客戶轉換時自動創建業務夥伴."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2279,7 +2279,7 @@ msgstr "市場營銷"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Mass Lead To Opportunity Partner"
-msgstr "批量轉換線索為商機或業務夥伴"
+msgstr "批量轉換潛在客戶為商機或業務夥伴"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_maximum_group
@@ -2332,7 +2332,7 @@ msgstr "合併合同"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge Leads/Opportunities"
-msgstr "合併線索/商機"
+msgstr "合併潛在客戶/商機"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_partner_merge
@@ -2343,7 +2343,7 @@ msgstr "合併選中的合同"
 #: model:ir.actions.act_window,name:crm.action_merge_opportunities
 #: model:ir.actions.act_window,name:crm.merge_opportunity_act
 msgid "Merge leads/opportunities"
-msgstr "合併線索/商機"
+msgstr "合併潛在客戶/商機"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_merge_opportunity
@@ -2363,7 +2363,7 @@ msgstr "手動檢查與合併"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass_deduplicate
 msgid "Merge with existing leads/opportunities of each partner"
-msgstr "將每一個業務夥伴已存在的線索或商機合併"
+msgstr "將每一個業務夥伴已存在的潛在客戶或商機合併"
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,name:0
@@ -2375,13 +2375,13 @@ msgstr "與已存在的商機合併"
 #: code:addons/crm/crm_lead.py:543
 #, python-format
 msgid "Merged lead"
-msgstr "合併的線索"
+msgstr "合併的潛在客戶"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:537
 #, python-format
 msgid "Merged leads"
-msgstr "合併的線索"
+msgstr "合併的潛在客戶"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:539
@@ -2477,7 +2477,7 @@ msgstr "管理部門的激勵信"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Leads"
-msgstr "我的線索"
+msgstr "我的潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -2686,14 +2686,14 @@ msgstr "Odoo將在幾分鐘內幫助您創建,精良的,專業的報價和合同
 msgid ""
 "Once qualified, the lead can be converted into a business\n"
 "                    opportunity and/or a new customer in your address book."
-msgstr "一旦合格,線索將轉變成商機,或者你地址薄的一個新的客戶."
+msgstr "一旦合格,潛在客戶將轉變成商機,或者你地址薄的一個新的客戶."
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lead_all_leads
 msgid ""
 "Once qualified, the lead can be converted into a business\n"
 "                opportunity and/or a new customer in your address book."
-msgstr "一旦合格,線索將轉變成商機,或者你地址薄的一個新的客戶"
+msgstr "一旦合格,潛在客戶將轉變成商機,或者你地址薄的一個新的客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2835,7 +2835,7 @@ msgid ""
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
-msgstr "所有的來郵都將附上一條線索（記錄）選配的ID，即使它們不曾回復過它。如果設置了，這個將完全阻止新記錄的創建。"
+msgstr "所有的來郵都將附上一條潛在客戶（記錄）選配的ID，即使它們不曾回復過它。如果設置了，這個將完全阻止新記錄的創建。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -2970,7 +2970,7 @@ msgstr "管道分析給你隨時存取商機的信息如，例如預期收入，
 #. module: crm
 #: model:web.planner,tooltip_planner:crm.planner_crm
 msgid "Plan your sales strategy: objectives, leads, KPIs, and much more!"
-msgstr "計劃你的銷售策略：目標，線索，關鍵績效指標,以及更多!"
+msgstr "計劃你的銷售策略：目標，潛在客戶，關鍵績效指標,以及更多!"
 
 #. module: crm
 #: model:ir.model,name:crm.model_web_planner
@@ -2983,7 +2983,7 @@ msgstr "計劃"
 msgid ""
 "Please select more than one element (lead or opportunity) from the list "
 "view."
-msgstr "請從列表視圖中選擇一個以上元素（線索或機會）。"
+msgstr "請從列表視圖中選擇一個以上元素（潛在客戶或機會）。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_contact
@@ -3057,12 +3057,12 @@ msgstr "評級"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lost_reason
 msgid "Reason for loosing leads"
-msgstr "失去線索的原因"
+msgstr "失去潛在客戶的原因"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_alias_force_thread_id
 msgid "Record Thread ID"
-msgstr "記錄線索D"
+msgstr "記錄潛在客戶D"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_referred
@@ -3087,7 +3087,7 @@ msgstr "關聯字段"
 msgid ""
 "Reminder on Lead: ${object.id} from ${object.partner_id != False and "
 "object.partner_id.name or object.contact_name}"
-msgstr "關於線索的提醒 : ${object.id} 來自 ${object.partner_id != False and object.partner_id.name or object.contact_name}"
+msgstr "關於潛在客戶的提醒 : ${object.id} 來自 ${object.partner_id != False and object.partner_id.name or object.contact_name}"
 
 #. module: crm
 #: model:ir.actions.server,name:crm.action_email_reminder_lead
@@ -3190,7 +3190,7 @@ msgstr "保存篩選器或向您的儀表板添加任何報告以最喜歡的菜
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Search Leads"
-msgstr "查詢線索"
+msgstr "查詢潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
@@ -3206,7 +3206,7 @@ msgstr "基於重複數據的重複搜索項"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Select Leads/Opportunities"
-msgstr "選擇商機/線索"
+msgstr "選擇商機/潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -3289,7 +3289,7 @@ msgstr "設置你的域名別名"
 #. module: crm
 #: model:res.groups,name:crm.group_use_lead
 msgid "Show Lead Menu"
-msgstr "顯示線索菜單"
+msgstr "顯示潛在客戶菜單"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3308,7 +3308,7 @@ msgstr "顯示下一個行動日期是今天還是以前的所有機會"
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only lead"
-msgstr "僅顯示線索"
+msgstr "僅顯示潛在客戶"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -3399,7 +3399,7 @@ msgstr "階段"
 msgid ""
 "Stages will allow salespersons to easily track how a specific\n"
 "                lead or opportunity is positioned in the sales cycle."
-msgstr "階段會讓銷售人員輕鬆跟蹤一個特定的線索\n或在銷售週期中的機會定位。"
+msgstr "階段會讓銷售人員輕鬆跟蹤一個特定的潛在客戶\n或在銷售週期中的機會定位。"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_state
@@ -3509,7 +3509,7 @@ msgstr "沒有採取動作之前的日期"
 msgid ""
 "The email address associated with this team. New emails received will "
 "automatically create new leads assigned to the team."
-msgstr "此郵件地址關聯此團隊。收到的新郵件將自動創建線索並分配給此團隊。"
+msgstr "此郵件地址關聯此團隊。收到的新郵件將自動創建潛在客戶並分配給此團隊。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_use_leads
@@ -3517,7 +3517,7 @@ msgid ""
 "The first contact you get with a potential customer is a lead you qualify "
 "before converting it into a real business opportunity. Check this box to "
 "manage leads in this sales team."
-msgstr "第一次接觸潛在客戶是一個將它轉換為真正的商業機會的線索。選中這個框，管理銷售團隊的線索。"
+msgstr "第一次接觸潛在客戶是一個將它轉換為真正的商業機會的潛在客戶。選中這個框，管理銷售團隊的潛在客戶。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3544,7 +3544,7 @@ msgstr "郵件別名的名稱，例如，如果你要收取 <jobs@example.odoo.c
 msgid ""
 "The name of the future partner company that will be created while converting"
 " the lead into opportunity"
-msgstr "在銷售線索轉化為商機時對應創建業務夥伴的公司名稱."
+msgstr "在銷售潛在客戶轉化為商機時對應創建業務夥伴的公司名稱."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_user_id
@@ -3610,7 +3610,7 @@ msgstr "銷售部門的郵件地址已經被預先的默認設置<br/>"
 msgid ""
 "This field is used to distinguish stages related to Leads from stages "
 "related to Opportunities, or to specify stages available for both types."
-msgstr "此域用於區分用於線索的階段和用於商機的階段，或者指示同時可用於兩個類型。"
+msgstr "此域用於區分用於潛在客戶的階段和用於商機的階段，或者指示同時可用於兩個類型。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_campaign_id
@@ -3651,7 +3651,7 @@ msgstr "這默認百分比描述業務在這階段的平均的成功概率"
 msgid ""
 "This report analyses the source of your leads\n"
 "(including those converted into opportunities)."
-msgstr "這個報告分析了線索的源頭(包含那些已經轉化為商機的)"
+msgstr "這個報告分析了潛在客戶的源頭(包含那些已經轉化為商機的)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage_fold
@@ -3674,7 +3674,7 @@ msgstr "需要關閉該交易"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Time to Qualify a Lead"
-msgstr "評估線索所需時間"
+msgstr "評估潛在客戶所需時間"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_title
@@ -3711,7 +3711,7 @@ msgstr "類型"
 #: model:ir.model.fields,help:crm.field_crm_lead_type
 #: model:ir.model.fields,help:crm.field_crm_opportunity_report_type
 msgid "Type is used to separate Leads and Opportunities"
-msgstr "類型用於區分銷售線索和商機"
+msgstr "類型用於區分銷售潛在客戶和商機"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -3776,7 +3776,7 @@ msgid ""
 "                    opportunity or a customer. It can be a business card you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
 "                    prospects you import, etc."
-msgstr "如果你想在創建商機或者客戶之前需要資格確認步驟，那麼就用線索\n它可以是你收到的名片，一個在你的網站登記的聯繫方式，或者你導入的沒有經過前景資格確認的文件等。"
+msgstr "如果你想在創建商機或者客戶之前需要資格確認步驟，那麼就用潛在客戶\n它可以是你收到的名片，一個在你的網站登記的聯繫方式，或者你導入的沒有經過前景資格確認的文件等。"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lead_all_leads
@@ -3785,14 +3785,14 @@ msgid ""
 "                opportunity or a customer. It can be a business card you received,\n"
 "                a contact form filled in your website, or a file of unqualified\n"
 "                prospects you import, etc."
-msgstr "如果你想在創建商機或者客戶之前需要資格確認步驟，那麼就用線索\n它可以是你收到的名片，一個在你的網站登記的聯繫方式，或者你導入的沒有經過前景資格確認的文件等。"
+msgstr "如果你想在創建商機或者客戶之前需要資格確認步驟，那麼就用潛在客戶\n它可以是你收到的名片，一個在你的網站登記的聯繫方式，或者你導入的沒有經過前景資格確認的文件等。"
 
 #. module: crm
 #: selection:sale.config.settings,group_use_lead:0
 msgid ""
 "Use leads if you need a qualification step before creating an opportunity or"
 " a customer"
-msgstr "如果你想在創建商機或者客戶之前需要資格步驟，那麼就用線索"
+msgstr "如果你想在創建商機或者客戶之前需要資格步驟，那麼就用潛在客戶"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_lost_reason_action

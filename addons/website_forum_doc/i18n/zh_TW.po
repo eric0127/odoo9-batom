@@ -256,7 +256,7 @@ msgstr "最後更新時間"
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_crm_lead
 msgid "Lead & Opportunity"
-msgstr "線索/商機"
+msgstr "潛在客戶/商機"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_parent_left
@@ -431,7 +431,7 @@ msgstr "官方文檔被提供的問題和答案必須滿足一下條件："
 msgid ""
 "Tracks leads, boost opportunities and close deals.\n"
 "                    This serie of how-to will help you develop your business."
-msgstr "跟蹤線索，提升機會和完成交易。如何處理這個系列將幫助你發展你的業務。"
+msgstr "跟蹤潛在客戶，提升機會和完成交易。如何處理這個系列將幫助你發展你的業務。"
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_website

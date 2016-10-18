@@ -196,7 +196,7 @@ msgid ""
 "Go to your \"Related Document Model\" page and set the filter parameters in "
 "the \"Search\" view (Example of filter based on Leads/Opportunities: "
 "Creation Date \"is equal to\" 01/01/2012)"
-msgstr "到您的\"相關模型\"頁面，在\"查找\"視圖 設置過濾條件 (例如:線索/商機 使用 過濾條件：創建日期\"等於\"2012-01-01)"
+msgstr "到您的\"相關模型\"頁面，在\"查找\"視圖 設置過濾條件 (例如:潛在客戶/商機 使用 過濾條件：創建日期\"等於\"2012-01-01)"
 
 #. module: base_action_rule
 #: selection:base.action.rule,trg_date_range_type:0
@@ -387,17 +387,17 @@ msgstr "主題"
 #. module: base_action_rule
 #: model:ir.filters,name:base_action_rule.test_filter_done
 msgid "Test lead in state 'done'"
-msgstr "測試完成狀態的線索"
+msgstr "測試完成狀態的潛在客戶"
 
 #. module: base_action_rule
 #: model:ir.filters,name:base_action_rule.test_filter_draft
 msgid "Test lead in state 'draft'"
-msgstr "測試草稿狀態的線索"
+msgstr "測試草稿狀態的潛在客戶"
 
 #. module: base_action_rule
 #: model:ir.filters,name:base_action_rule.test_filter_open
 msgid "Test lead in state 'open'"
-msgstr "測試打開狀態的線索"
+msgstr "測試打開狀態的潛在客戶"
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_id
@@ -417,7 +417,7 @@ msgid ""
 "                be automatically set to a specific sales team, or an\n"
 "                opportunity which still has status pending after 14 days might\n"
 "                trigger an automatic reminder email."
-msgstr "使用自動操作來觸發不同屏幕的動作\n例如：一個特定使用者創建的線索可能被自動分配給某一個銷售團隊\n或者商機在等待14天後自動觸發一個提醒電子郵件，"
+msgstr "使用自動操作來觸發不同屏幕的動作\n例如：一個特定使用者創建的潛在客戶可能被自動分配給某一個銷售團隊\n或者商機在等待14天後自動觸發一個提醒電子郵件，"
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_calendar_id

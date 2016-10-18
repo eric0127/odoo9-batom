@@ -1322,7 +1322,7 @@ msgid ""
 "Optional ID of a thread (record) to which all incoming messages will be "
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
-msgstr "所有的來郵都將附上一條線索（記錄）選配的ID，即使它們不曾回復過它。如果設置了，這個將完全阻止新記錄的創建。"
+msgstr "所有的來郵都將附上一條線程（記錄）選配的ID，即使它們不曾回復過它。如果設置了，這個將完全阻止新記錄的創建。"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_user_id
@@ -1399,7 +1399,7 @@ msgstr "評價的重要性"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_force_thread_id
 msgid "Record Thread ID"
-msgstr "記錄線索D"
+msgstr "記錄線程編號"
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_root

@@ -1749,7 +1749,7 @@ msgid ""
 "\n"
 "Link module to map leads to issues\n"
 "        "
-msgstr "\n從線索到問題\n==============\n\n映射線索到問題的鏈接模塊\n        "
+msgstr "\n從潛在客戶到問題\n==============\n\n映射潛在客戶到問題的鏈接模塊\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_board
@@ -2728,7 +2728,7 @@ msgid ""
 "For more specific needs, you may also assign custom-defined actions\n"
 "(technically: Server Actions) to be triggered for each incoming mail.\n"
 "    "
-msgstr "\n收取POP/IMAP服務器上的電子郵件。\n============================================\n\n輸入你的POP/IMAP帳號參數，這些帳號的郵件\n將自動下載到你的OpenERP系統。支持所有\n兼容POP3/IMAP的服務器, 包括那些要求加密的SSL/TLS連接。\n\n這個可很容易地用於生成基於郵件的OpenERP文件工作流，例如：\n----------------------------------------------------------------------------------------------------------\n * CRM 線索/機會\n * CRM 索賠\n * 項目問題\n * 項目任務\n * 人力資源招聘 (應用)\n\n只需安裝相關應用，你可以將任何這樣的文件類型\nt (線索, 項目問題) 應用到你的電子郵件帳戶。新郵件將\n自動生成所選類型的新文件，這是建立\n郵箱-到-OpenERP整合的捷徑。更好地是：這些文件將直接作為通過Email同步的最小會話。你可以從OpenERP內回復，回復將自動匯總附到\n相同的 *會話* 文件。\n\n對於一些特殊應用，你可以分配定義的動作\n(技術上: 服務器動作) 觸發處理每個收到的郵件."
+msgstr "\n收取POP/IMAP服務器上的電子郵件。\n============================================\n\n輸入你的POP/IMAP帳號參數，這些帳號的郵件\n將自動下載到你的OpenERP系統。支持所有\n兼容POP3/IMAP的服務器, 包括那些要求加密的SSL/TLS連接。\n\n這個可很容易地用於生成基於郵件的OpenERP文件工作流，例如：\n----------------------------------------------------------------------------------------------------------\n * CRM 潛在客戶/機會\n * CRM 索賠\n * 項目問題\n * 項目任務\n * 人力資源招聘 (應用)\n\n只需安裝相關應用，你可以將任何這樣的文件類型\nt (潛在客戶, 項目問題) 應用到你的電子郵件帳戶。新郵件將\n自動生成所選類型的新文件，這是建立\n郵箱-到-OpenERP整合的捷徑。更好地是：這些文件將直接作為通過Email同步的最小會話。你可以從OpenERP內回復，回復將自動匯總附到\n相同的 *會話* 文件。\n\n對於一些特殊應用，你可以分配定義的動作\n(技術上: 服務器動作) 觸發處理每個收到的郵件."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_digital
@@ -2824,7 +2824,7 @@ msgid ""
 "Survey - CRM (bridge module)\n"
 "=================================================================================\n"
 "This module adds a Survey mass mailing button inside the more option of lead/customers views\n"
-msgstr "\n問卷調查 - CRM (橋接模塊)\n=================================================================================\n本模塊在線索/客戶視圖的「更多下拉菜單中， 增加了群發問卷調查郵件的 菜單項 \n"
+msgstr "\n問卷調查 - CRM (橋接模塊)\n=================================================================================\n本模塊在潛在客戶/客戶視圖的「更多下拉菜單中， 增加了群發問卷調查郵件的 菜單項 \n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ch
@@ -2959,7 +2959,7 @@ msgid ""
 "-------------------------------\n"
 "* Planned Revenue by Stage and User (graph)\n"
 "* Opportunities by Stage (graph)\n"
-msgstr "\n通用客戶關係管理（CRM）模塊\n====================================================\n此模塊能讓群組人員合理有效地管理線索、商機、會談以及電話訪問等活動。\n管理涉及的重要功能包括：通信、身份識別、優先級設定、任務委派、投訴解決及通知等。\nOpenERP可以有效跟蹤使用者、客戶和供應商的所有的活動案例。根據設定的規則，可以自動發送提醒、請求，觸發各種動作。\n最重要的好處是，使用者不需要做任何特殊的事。此模塊集成了電子郵件網關，郵件在OpenERP中自動同步，使用者只需在OpenERP中根據系統反饋，按需發送和回復郵件。\nOpenERP將接管其餘的事，諸如發送感謝信、自動轉發到相關人員並確保之後相應的回復能準確送達。\n\nCRM 控制面板（Dashboard） 包括：\n---------------------------------------\n* 可按階段和使用者分類的預計收益(圖表)\n* 按階段分類的商機(圖表)\n"
+msgstr "\n通用客戶關係管理（CRM）模塊\n====================================================\n此模塊能讓群組人員合理有效地管理潛在客戶、商機、會談以及電話訪問等活動。\n管理涉及的重要功能包括：通信、身份識別、優先級設定、任務委派、投訴解決及通知等。\nOpenERP可以有效跟蹤使用者、客戶和供應商的所有的活動案例。根據設定的規則，可以自動發送提醒、請求，觸發各種動作。\n最重要的好處是，使用者不需要做任何特殊的事。此模塊集成了電子郵件網關，郵件在OpenERP中自動同步，使用者只需在OpenERP中根據系統反饋，按需發送和回復郵件。\nOpenERP將接管其餘的事，諸如發送感謝信、自動轉發到相關人員並確保之後相應的回復能準確送達。\n\nCRM 控制面板（Dashboard） 包括：\n---------------------------------------\n* 可按階段和使用者分類的預計收益(圖表)\n* 按階段分類的商機(圖表)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_base
@@ -3371,7 +3371,7 @@ msgid ""
 "Once the coordinates of the Lead/Opportunity is known, they can be automatically assigned\n"
 "to an appropriate local partner, based on the distance and the weight that was assigned to the partner.\n"
 "    "
-msgstr "\n這是OpenERP SA基於物理定位進行重定向客戶到其業務夥伴時所使用的模塊。\n======================================================================================================\n\n這個模塊使你通過它們的地址來定位線索、商機和合作夥伴。\n\n一旦線索或商機的坐標被知曉，它們可以根據距離和權重\n指定給一個合適的當地合作夥伴。"
+msgstr "\n這是OpenERP SA基於物理定位進行重定向客戶到其業務夥伴時所使用的模塊。\n======================================================================================================\n\n這個模塊使你通過它們的地址來定位潛在客戶、商機和合作夥伴。\n\n一旦潛在客戶或商機的坐標被知曉，它們可以根據距離和權重\n指定給一個合適的當地合作夥伴。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_rating_project
@@ -3680,7 +3680,7 @@ msgid ""
 "sales team, or an opportunity which still has status pending after 14 days might\n"
 "trigger an automatic reminder email.\n"
 "    "
-msgstr "\n本模塊允許實施任何對象的執行規則.\n============================================================\n\n在不同的界面裡使用內嵌措施自動觸發執行.\n\n**比如:** 特定使用者創建一條線索可能會自動發給特定銷售團隊，\n 或者一條商機如果呆滯了14天後就會自動觸發一封提醒郵件.\n\n    "
+msgstr "\n本模塊允許實施任何對象的執行規則.\n============================================================\n\n在不同的界面裡使用內嵌措施自動觸發執行.\n\n**比如:** 特定使用者創建一條潛在客戶可能會自動發給特定銷售團隊，\n 或者一條商機如果呆滯了14天後就會自動觸發一封提醒郵件.\n\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_us_check_printing
@@ -3957,7 +3957,7 @@ msgid ""
 "      module, but this will also install the CRM application as it depends on\n"
 "      CRM Leads.\n"
 "    "
-msgstr "\n這個模塊使用營銷活動自動化銷售線索（實際在任何資源上都能夠定義活動，而不僅僅是對CRM中的銷售線索）.\n=========================================================================================================================================\n\n活動是動態且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那樣設計營銷活動，包括要發送的郵件模板\n要打印的報表和定制的動作\n * 定義能夠選取應該填入活動的項目的輸入片段\n （例如：一些國家的銷售線索）\n * 在模擬模式中運行活動以測試它的實際表現和增速\n然後適當的做適當的調整\n * 你也可以在手工模式下開始真實的活動，\n 這就需要手工做些驗證\n * 最終正式開始你的活動，\n當活動自動的做所有事情時，你可以查看相應的統計信息.\n\n當活動在運行的時候，\n你當然可以繼續調整參數，輸入片段和工作流以優化它.\n\n**注意：** 如果你需要示例數據，你可以安裝marketing_campaign_crm_demo模塊\n 但是這樣系統也會安裝CRM程序，\n 因為它依賴與CRM銷售線索."
+msgstr "\n這個模塊使用營銷活動自動化銷售潛在客戶（實際在任何資源上都能夠定義活動，而不僅僅是對CRM中的銷售潛在客戶）.\n=========================================================================================================================================\n\n活動是動態且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那樣設計營銷活動，包括要發送的郵件模板\n要打印的報表和定制的動作\n * 定義能夠選取應該填入活動的項目的輸入片段\n （例如：一些國家的銷售潛在客戶）\n * 在模擬模式中運行活動以測試它的實際表現和增速\n然後適當的做適當的調整\n * 你也可以在手工模式下開始真實的活動，\n 這就需要手工做些驗證\n * 最終正式開始你的活動，\n當活動自動的做所有事情時，你可以查看相應的統計信息.\n\n當活動在運行的時候，\n你當然可以繼續調整參數，輸入片段和工作流以優化它.\n\n**注意：** 如果你需要示例數據，你可以安裝marketing_campaign_crm_demo模塊\n 但是這樣系統也會安裝CRM程序，\n 因為它依賴與CRM銷售潛在客戶."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at
@@ -7164,12 +7164,12 @@ msgstr "從聯絡人窗體創建問題"
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_project_issue
 msgid "Create Issues from Leads"
-msgstr "從線索創建議題"
+msgstr "從潛在客戶創建議題"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_crm
 msgid "Create Leads From Contact Form"
-msgstr "從聯絡人窗體創建線索"
+msgstr "從聯絡人窗體創建潛在客戶"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.act_menu_create
@@ -9528,7 +9528,7 @@ msgstr "幫你處理報價單，銷售訂單以及開票."
 #. module: base
 #: model:ir.module.category,description:base.module_category_lead_automation
 msgid "Helps you manage lead of your marketing campaigns step by step."
-msgstr "幫助你逐步管理市場營銷的線索."
+msgstr "幫助你逐步管理市場營銷的潛在客戶."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_event_management
@@ -11035,27 +11035,27 @@ msgstr "Launchpad"
 #. module: base
 #: model:ir.module.category,name:base.module_category_lead_automation
 msgid "Lead Automation"
-msgstr "線索自動化"
+msgstr "潛在客戶自動化"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm_score
 msgid "Lead Scoring"
-msgstr "線索評分"
+msgstr "潛在客戶評分"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_project_issue
 msgid "Lead to Issue"
-msgstr "線索轉為問題"
+msgstr "潛在客戶轉為問題"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_lead
 msgid "Leads & Opportunities"
-msgstr "線索與商機"
+msgstr "潛在客戶與商機"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm
 msgid "Leads, Opportunities, Activities"
-msgstr "線索，商機，活動"
+msgstr "潛在客戶，商機，活動"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_holidays
@@ -14300,12 +14300,12 @@ msgstr "安全與身份驗證"
 #. module: base
 #: model:res.groups,name:base.group_sale_salesman
 msgid "See Own Leads"
-msgstr "查看自己的線索"
+msgstr "查看自己的潛在客戶"
 
 #. module: base
 #: model:res.groups,name:base.group_sale_salesman_all_leads
 msgid "See all Leads"
-msgstr "查看所有線索"
+msgstr "查看所有潛在客戶"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:306
@@ -14953,7 +14953,7 @@ msgstr "拆分模式"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_event_track
 msgid "Sponsors, Tracks, Agenda, Event News"
-msgstr "贊助商，線索，議程，活動新聞"
+msgstr "贊助商，潛在客戶，議程，活動新聞"
 
 #. module: base
 #: model:res.partner.title,shortcut:base.res_partner_title_sir
