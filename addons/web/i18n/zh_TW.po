@@ -1536,7 +1536,7 @@ msgstr "一般"
 #: code:addons/web/static/src/js/views/form_widgets.js:669
 #, python-format
 msgid "Not Archived"
-msgstr "沒有封存"
+msgstr "未封存"
 
 #. module: web
 #. openerp-web
