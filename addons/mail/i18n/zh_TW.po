@@ -909,7 +909,7 @@ msgstr "創建月份"
 #: model:ir.model.fields,help:mail.field_mail_mail_starred
 #: model:ir.model.fields,help:mail.field_mail_message_starred
 msgid "Current user has a starred notification linked to this message"
-msgstr "當前用戶用 星號 提醒關聯到這條消息"
+msgstr "當前使用者用 星號 提醒關聯到這條消息"
 
 #. module: mail
 #: code:addons/mail/models/res_partner.py:16
@@ -1128,7 +1128,7 @@ msgstr "Email線程"
 msgid ""
 "Email address internally associated with this user. Incoming emails will "
 "appear in the user's notifications."
-msgstr "關聯這個用戶的Email 地址，收到的email被顯示在用戶的通知中。"
+msgstr "關聯這個使用者的Email 地址，收到的email被顯示在使用者的通知中。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_email_from
@@ -1455,7 +1455,7 @@ msgstr "如果選中該項，業務夥伴們將收到郵件提醒他們已經被
 msgid ""
 "If checked, the user's signature will be appended to the text version of the"
 " message"
-msgstr "如果勾選了這裡，用戶的簽名會附加到消息的文本版本"
+msgstr "如果勾選了這裡，使用者的簽名會附加到消息的文本版本"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_partner_opt_out
@@ -1464,7 +1464,7 @@ msgid ""
 "If opt-out is checked, this contact has refused to receive emails for mass "
 "mailing and marketing campaign. Filter 'Available for Mass Mailing' allows "
 "users to filter the partners when performing mass mailing."
-msgstr "如果勾選了退訂，這個合作夥伴將不會收到自動提醒郵件，例如發票已生成。過濾器『許可群發郵件'允許用戶過濾出允許群發郵件的合作夥伴。"
+msgstr "如果勾選了退訂，這個合作夥伴將不會收到自動提醒郵件，例如發票已生成。過濾器『許可群發郵件'允許使用者過濾出允許群發郵件的合作夥伴。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_base_config_settings_alias_domain
@@ -1745,7 +1745,7 @@ msgstr "記錄內部備註"
 msgid ""
 "Log an internal note which will not be sent to followers, but which can be read\n"
 "                    by users accessing this document."
-msgstr "記錄一個內部備註，它不會被發送給跟隨者，但它可以被用戶存取此文檔讀取。"
+msgstr "記錄一個內部備註，它不會被發送給跟隨者，但它可以被使用者存取此文檔讀取。"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -1877,7 +1877,7 @@ msgid ""
 " record (New), or to a stage change in a process (Stage change). Message "
 "subtypes allow to precisely tune the notifications the user want to receive "
 "on its wall."
-msgstr "消息子類型給了消息更精確的類型，特別是系統通知。例如：關於新記錄建立的通知，或者流程中階段被改變。消息子類型允許你精確地調整用戶想要收到的消息。"
+msgstr "消息子類型給了消息更精確的類型，特別是系統通知。例如：關於新記錄建立的通知，或者流程中階段被改變。消息子類型允許你精確地調整使用者想要收到的消息。"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_message_subtype
@@ -1889,7 +1889,7 @@ msgstr "消息子類型"
 msgid ""
 "Message subtypes followed, meaning subtypes that will be pushed onto the "
 "user's Wall."
-msgstr "子類型消息被關注，意味著子類型將被推送進用戶的牆內。"
+msgstr "子類型消息被關注，意味著子類型將被推送進使用者的牆內。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_message_type
@@ -1898,7 +1898,7 @@ msgstr "子類型消息被關注，意味著子類型將被推送進用戶的牆
 msgid ""
 "Message type: email for email message, notification for system message, "
 "comment for other messages such as user replies"
-msgstr "消息類型：Email 用於 郵件消息， 通知用戶系統消息，評論用於其他消息，例如用戶回復。"
+msgstr "消息類型：Email 用於 郵件消息， 通知使用者系統消息，評論用於其他消息，例如使用者回復。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_message_id
@@ -1935,7 +1935,7 @@ msgstr "消息搜索"
 msgid ""
 "Messages with internal subtypes will be visible only by employees, aka "
 "members of base_user group"
-msgstr "內部的子消息將只有員工可見，即基礎用戶組成員"
+msgstr "內部的子消息將只有員工可見，即基礎使用者組成員"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_users_form_mail
@@ -2065,7 +2065,7 @@ msgstr "新消息出現在這裡"
 #: code:addons/mail/static/src/js/client_action.js:81
 #, python-format
 msgid "New people"
-msgstr "新用戶"
+msgstr "新使用者"
 
 #. module: mail
 #. openerp-web
@@ -2682,7 +2682,7 @@ msgstr "從相關單據模型中選擇目標字段。\n如果這是個關係型�
 #. module: mail
 #: selection:mail.channel,public:0
 msgid "Selected group of users"
-msgstr "選擇用戶組"
+msgstr "選擇使用者組"
 
 #. module: mail
 #. openerp-web
@@ -3241,12 +3241,12 @@ msgstr "用於排序子類型。"
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #: model:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:593
@@ -3325,7 +3325,7 @@ msgstr "你可以給所有的消息加星號，然後它就會顯示在這個渠
 msgid ""
 "You cannot create a new user from here.\n"
 " To create new user please go to configuration panel."
-msgstr "你不能在這裡創建一個新的用戶。\n 要創建一個新用戶，請轉到設置面板。"
+msgstr "你不能在這裡創建一個新的使用者。\n 要創建一個新使用者，請轉到設置面板。"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:125

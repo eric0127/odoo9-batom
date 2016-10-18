@@ -236,7 +236,7 @@ msgid ""
 "In this same \"Search\" view, select the menu \"Save Current Filter\", enter"
 " the name (Ex: Create the 01/01/2012) and add the option \"Share with all "
 "users\""
-msgstr "在同一個\"搜索\"視圖，選擇菜單中的\"保存現有的過濾條件\"，輸入名稱（例如：創建於01/01/2012)並且勾選\"共享給其他用戶\"的選項。"
+msgstr "在同一個\"搜索\"視圖，選擇菜單中的\"保存現有的過濾條件\"，輸入名稱（例如：創建於01/01/2012)並且勾選\"共享給其他使用者\"的選項。"
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_customer
@@ -417,7 +417,7 @@ msgid ""
 "                be automatically set to a specific sales team, or an\n"
 "                opportunity which still has status pending after 14 days might\n"
 "                trigger an automatic reminder email."
-msgstr "使用自動操作來觸發不同屏幕的動作\n例如：一個特定用戶創建的線索可能被自動分配給某一個銷售團隊\n或者商機在等待14天後自動觸發一個提醒電子郵件，"
+msgstr "使用自動操作來觸發不同屏幕的動作\n例如：一個特定使用者創建的線索可能被自動分配給某一個銷售團隊\n或者商機在等待14天後自動觸發一個提醒電子郵件，"
 
 #. module: base_action_rule
 #: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_calendar_id

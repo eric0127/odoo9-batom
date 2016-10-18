@@ -324,7 +324,7 @@ msgstr "在草稿"
 msgid ""
 "In order to create a timesheet for this employee, you must link him/her to a"
 " user."
-msgstr "要為員工創建工時單，您必須關聯他/她到一個用戶。"
+msgstr "要為員工創建工時單，您必須關聯他/她到一個使用者。"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:68
@@ -400,7 +400,7 @@ msgid ""
 "the end of the period defined in the company, the timesheet is confirmed by "
 "the user and can be validated by his manager. If required, as defined on the"
 " project, you can generate the invoices based on the timesheet."
-msgstr "用\"我的工時單\"菜單開啟您的工時單所以您能在系統預定你的活動。用相同方式，您能記錄您的考勤（簽入/簽出）同時記錄在不同項目的工作時間。在公司定義的期末，確認用戶的工時單和經由管理員驗證使其生效。如果需要，可以定義為一個項目，你能給這工時單開發票。"
+msgstr "用\"我的工時單\"菜單開啟您的工時單所以您能在系統預定你的活動。用相同方式，您能記錄您的考勤（簽入/簽出）同時記錄在不同項目的工作時間。在公司定義的期末，確認使用者的工時單和經由管理員驗證使其生效。如果需要，可以定義為一個項目，你能給這工時單開發票。"
 
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_my_timesheets
@@ -706,7 +706,7 @@ msgstr "不確認的時間表"
 #. module: hr_timesheet_sheet
 #: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet_sheet_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_timesheet_sheet
 #: selection:hr_timesheet_sheet.sheet,state:0

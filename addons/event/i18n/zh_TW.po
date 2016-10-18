@@ -1803,7 +1803,7 @@ msgstr "今天將開始的活動"
 #. module: event
 #: model:res.groups,name:event.group_event_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: event
 #: model:event.event,description:event.event_0

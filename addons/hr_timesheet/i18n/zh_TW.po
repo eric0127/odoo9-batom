@@ -215,12 +215,12 @@ msgstr "總時間"
 #: model:ir.model.fields,field_description:hr_timesheet.field_hr_timesheet_report_user_id
 #: model:ir.ui.view,arch_db:hr_timesheet.view_hr_timesheet_report_search
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.act_hr_timesheet_line_evry1_all_form

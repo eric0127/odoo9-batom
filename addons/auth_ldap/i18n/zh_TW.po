@@ -27,7 +27,7 @@ msgstr ""
 msgid ""
 "Automatically create local user accounts for new users authenticating via "
 "LDAP"
-msgstr "通過LDAP，為新用戶自動創建本地用戶賬戶。"
+msgstr "通過LDAP，為新使用者自動創建本地使用者賬戶。"
 
 #. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_company
@@ -42,7 +42,7 @@ msgstr "公司"
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap_create_user
 msgid "Create user"
-msgstr "創建用戶"
+msgstr "創建使用者"
 
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap_create_uid
@@ -137,7 +137,7 @@ msgid ""
 "Request secure TLS/SSL encryption when connecting to the LDAP server. This "
 "option requires a server with STARTTLS enabled, otherwise all authentication"
 " attempts will fail."
-msgstr "當連接 LDAP 服務器時請求服務器使用安全的 TLS/SSL 加密。該選項需要服務器啟用 STARTTLS，否則所有用戶驗證都將失敗。"
+msgstr "當連接 LDAP 服務器時請求服務器使用安全的 TLS/SSL 加密。該選項需要服務器啟用 STARTTLS，否則所有使用者驗證都將失敗。"
 
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap_sequence
@@ -157,21 +157,21 @@ msgstr "設置您的 LDAP 服務器"
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap_user
 msgid "Template User"
-msgstr "模版用戶"
+msgstr "模版使用者"
 
 #. module: auth_ldap
 #: model:ir.model.fields,help:auth_ldap.field_res_company_ldap_ldap_password
 msgid ""
 "The password of the user account on the LDAP server that is used to query "
 "the directory."
-msgstr "LDAP 服務器上的用戶帳號密碼，用於查詢該目錄服務。"
+msgstr "LDAP 服務器上的使用者帳號密碼，用於查詢該目錄服務。"
 
 #. module: auth_ldap
 #: model:ir.model.fields,help:auth_ldap.field_res_company_ldap_ldap_binddn
 msgid ""
 "The user account on the LDAP server that is used to query the directory. "
 "Leave empty to connect anonymously."
-msgstr "用於查詢 LDAP 服務器目錄的用戶帳號。如果要匿名連接請保持為空。"
+msgstr "用於查詢 LDAP 服務器目錄的使用者帳號。如果要匿名連接請保持為空。"
 
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap_ldap_tls
@@ -181,17 +181,17 @@ msgstr "使用TLS傳輸層套接字"
 #. module: auth_ldap
 #: model:ir.ui.view,arch_db:auth_ldap.view_ldap_installer_form
 msgid "User Information"
-msgstr "用戶信息"
+msgstr "使用者信息"
 
 #. module: auth_ldap
 #: model:ir.model.fields,help:auth_ldap.field_res_company_ldap_user
 msgid "User to copy when creating new users"
-msgstr "當創建新用戶時，複製用戶"
+msgstr "當創建新使用者時，複製使用者"
 
 #. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: auth_ldap
 #: model:ir.model,name:auth_ldap.model_res_company_ldap

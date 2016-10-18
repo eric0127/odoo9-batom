@@ -57,7 +57,7 @@ msgid ""
 "A lunch order is defined by its user, date and order lines.\n"
 "                Each order line corresponds to a product, an additional note and a price.\n"
 "                Before selecting your order lines, don't forget to read the warnings displayed in the reddish area."
-msgstr "一個午餐的訂單由它的用戶，日期和訂單行定義.\n                每個訂單行對應一個產品，一個額外說明，和一個價格.\n               在選擇你的訂單行前, 別忘了閱讀紅色區域的警告顯示."
+msgstr "一個午餐的訂單由它的使用者，日期和訂單行定義.\n                每個訂單行對應一個產品，一個額外說明，和一個價格.\n               在選擇你的訂單行前, 別忘了閱讀紅色區域的警告顯示."
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_action
@@ -119,7 +119,7 @@ msgstr "按員工"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "By User"
-msgstr "根據用戶"
+msgstr "根據使用者"
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -136,7 +136,7 @@ msgstr "可以是一個訂單或支付"
 msgid ""
 "Can be positive (payment) or negative (order or payment if user wants to get"
 " his money back)"
-msgstr "能主動(支付)或被動(訂單或者支付如果用戶想要拿回他的錢)"
+msgstr "能主動(支付)或被動(訂單或者支付如果使用者想要拿回他的錢)"
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
@@ -740,7 +740,7 @@ msgstr "週日"
 #. module: lunch
 #: model:ir.model.fields,help:lunch.field_lunch_order_company_id
 msgid "The company this user is currently working for."
-msgstr "該用戶當前工作的公司"
+msgstr "該使用者當前工作的公司"
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:98
@@ -795,12 +795,12 @@ msgstr "單價"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_user_id
 #: model:res.groups,name:lunch.group_lunch_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_search
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_lucky_supplier_ids

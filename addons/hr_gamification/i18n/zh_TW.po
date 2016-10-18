@@ -24,7 +24,7 @@ msgstr ""
 msgid ""
 "A goal is defined by a user and a goal type.\n"
 "                    Goals can be created automatically by using challenges."
-msgstr "用戶定義目標和目標類型。用挑戰可以自動創建目標"
+msgstr "使用者定義目標和目標類型。用挑戰可以自動創建目標"
 
 #. module: hr_gamification
 #: model:ir.actions.act_window,help:hr_gamification.challenge_list_action2
@@ -32,7 +32,7 @@ msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
 "                    The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                    The goals are created for the specified users or member of the group."
-msgstr "給選定的用戶分配一個目標列表，自動創建目標的挑戰可以是一段時期（每週，每月……）目標是為指定的用戶或者組成員創建的"
+msgstr "給選定的使用者分配一個目標列表，自動創建目標的挑戰可以是一段時期（每週，每月……）目標是為指定的使用者或者組成員創建的"
 
 #. module: hr_gamification
 #: model:ir.ui.menu,name:hr_gamification.gamification_badge_menu_hr
@@ -102,7 +102,7 @@ msgstr "遊戲化徽章"
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge_user
 msgid "Gamification user badge"
-msgstr "遊戲化的用戶徽章"
+msgstr "遊戲化的使用者徽章"
 
 #. module: hr_gamification
 #: model:ir.actions.act_window,name:hr_gamification.goals_menu_groupby_action2
@@ -144,7 +144,7 @@ msgstr "獎勵給職員"
 #. module: hr_gamification
 #: constraint:gamification.badge.user:0
 msgid "The selected employee does not correspond to the selected user."
-msgstr "選中的職員和選中的用戶不一致"
+msgstr "選中的職員和選中的使用者不一致"
 
 #. module: hr_gamification
 #: model:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
@@ -161,7 +161,7 @@ msgstr "不允許給自己頒發徽章"
 #: code:addons/hr_gamification/wizard/grant_badge.py:28
 #, python-format
 msgid "You can send badges only to employees linked to a user."
-msgstr "只能將徽章授予存在的職員用戶"
+msgstr "只能將徽章授予存在的職員使用者"
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge_user_wizard

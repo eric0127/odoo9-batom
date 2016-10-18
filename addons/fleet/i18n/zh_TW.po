@@ -1811,7 +1811,7 @@ msgstr "用來整理便簽階段"
 #. module: fleet
 #: model:res.groups,name:fleet.group_fleet_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_car_value

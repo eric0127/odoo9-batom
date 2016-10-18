@@ -62,12 +62,12 @@ msgstr "<span><i>待定,</i> 你的在線支付已完成. 但是你的訂單還�
 #. module: payment_ogone
 #: model:ir.model.fields,field_description:payment_ogone.field_payment_acquirer_ogone_userid
 msgid "API User ID"
-msgstr "API 用戶 ID"
+msgstr "API 使用者 ID"
 
 #. module: payment_ogone
 #: model:ir.model.fields,field_description:payment_ogone.field_payment_acquirer_ogone_password
 msgid "API User Password"
-msgstr "API 用戶密碼"
+msgstr "API 使用者密碼"
 
 #. module: payment_ogone
 #: model:ir.model.fields,field_description:payment_ogone.field_payment_acquirer_ogone_alias_usage

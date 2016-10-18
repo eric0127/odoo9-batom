@@ -782,7 +782,7 @@ msgstr "把議題當做"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_user_email
 msgid "User Email"
-msgstr "用戶電子郵件"
+msgstr "使用者電子郵件"
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_email_cc

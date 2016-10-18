@@ -382,7 +382,7 @@ msgstr "未讀消息計數器"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_stock_picking_wave_search_inherit

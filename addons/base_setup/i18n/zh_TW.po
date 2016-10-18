@@ -34,12 +34,12 @@ msgstr "允許單據分享"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_calendar
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr "允許用戶同步Google日曆"
+msgstr "允許使用者同步Google日曆"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_base_import
 msgid "Allow users to import data from CSV/XLS/XLSX/ODS files"
-msgstr "允許用戶使用CSV/XLS/XLSX/ODS文件導入數據"
+msgstr "允許使用者使用CSV/XLS/XLSX/ODS文件導入數據"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration

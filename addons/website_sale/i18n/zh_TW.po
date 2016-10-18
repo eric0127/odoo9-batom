@@ -512,7 +512,7 @@ msgstr "所有產品"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_pricelist_selectable
 msgid "Allow the end user to choose this price list"
-msgstr "允許最終用戶選擇此價格表"
+msgstr "允許最終使用者選擇此價格表"
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_alternative_product_ids
@@ -1660,7 +1660,7 @@ msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
-msgstr "選擇此「警告「選項，將通知用戶此消息。\r\n選擇「受阻消息「選項，將在流程受阻時將拋出一個消息。\r\n消息寫入下一個字段。"
+msgstr "選擇此「警告「選項，將通知使用者此消息。\r\n選擇「受阻消息「選項，將在流程受阻時將拋出一個消息。\r\n消息寫入下一個字段。"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1990,7 +1990,7 @@ msgstr "使用「內容」頂部的菜單來創建一個新的產品。"
 msgid ""
 "Users will buy more accessories and services if they can add them to their "
 "cart in one click."
-msgstr "用戶將購買更多的配件和服務，如果通過一次點擊他們就可以將它們添加到自己的購物車中。"
+msgstr "使用者將購買更多的配件和服務，如果通過一次點擊他們就可以將它們添加到自己的購物車中。"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout

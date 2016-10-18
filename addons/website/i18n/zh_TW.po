@@ -743,7 +743,7 @@ msgid ""
 "                                This tool will help you understand your search traffic and learn how users\n"
 "                                are finding your site and make optimizations to help Google better\n"
 "                                understand and represent your site."
-msgstr "<strong>使用谷歌網站管理員</strong><br/>該工具將幫助你瞭解你的搜索流量和瞭解用戶如何找到您的網站並進行優化，以幫助谷歌更好地理解和描述您的網站。"
+msgstr "<strong>使用谷歌網站管理員</strong><br/>該工具將幫助你瞭解你的搜索流量和瞭解使用者如何找到您的網站並進行優化，以幫助谷歌更好地理解和描述您的網站。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -800,7 +800,7 @@ msgid ""
 "dedicatedcontroller. The address is <base>/website/action/<website_path>.Set"
 " this field as True to allow users to run this action. If itset to is False "
 "the action cannot be run through the website."
-msgstr "使用專用控制器可以從網站上執行代碼服務器操作。路徑為<base>/website/action/<website_path>。設置該字段的值為True以允許用戶執行該操作。如果它被設置為False該操作將不能通過網站執行了。"
+msgstr "使用專用控制器可以從網站上執行代碼服務器操作。路徑為<base>/website/action/<website_path>。設置該字段的值為True以允許使用者執行該操作。如果它被設置為False該操作將不能通過網站執行了。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1085,7 +1085,7 @@ msgstr "Odoo橫幅圖像"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Basic sales &amp; marketing for up to 2 users"
-msgstr "基本的銷售市場達到2用戶"
+msgstr "基本的銷售市場達到2使用者"
 
 #. module: website
 #. openerp-web
@@ -2994,7 +2994,7 @@ msgstr "公眾業務夥伴"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_user_id
 msgid "Public User"
-msgstr "公眾用戶"
+msgstr "公眾使用者"
 
 #. module: website
 #. openerp-web
@@ -4524,7 +4524,7 @@ msgstr "url"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "user / month (billed annually)"
-msgstr "用戶/月(每年結算)"
+msgstr "使用者/月(每年結算)"
 
 #. module: website
 #. openerp-web

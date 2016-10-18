@@ -118,7 +118,7 @@ msgid ""
 "Selecting the \"Warning\" option will notify user with the message, "
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
-msgstr "選擇此「警告「選項，將通知用戶此消息。\n選擇「受阻消息「選項，將在流程受阻時將拋出一個消息。\n消息寫入下一個字段。"
+msgstr "選擇此「警告「選項，將通知使用者此消息。\n選擇「受阻消息「選項，將在流程受阻時將拋出一個消息。\n消息寫入下一個字段。"
 
 #. module: warning
 #: model:ir.model.fields,field_description:warning.field_res_partner_picking_warn

@@ -1292,7 +1292,7 @@ msgstr "USB 耳機"
 #: model:product.product,description:product.product_product_33
 #: model:product.template,description:product.product_product_33_product_template
 msgid "Headset for laptop PC with USB connector."
-msgstr "用戶筆記本電腦的USB 連接的耳機"
+msgstr "使用者筆記本電腦的USB 連接的耳機"
 
 #. module: product
 #: model:product.product,name:product.product_product_32

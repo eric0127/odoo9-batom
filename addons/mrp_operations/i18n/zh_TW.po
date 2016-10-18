@@ -34,7 +34,7 @@ msgid ""
 "* When work order is in running mode, during that time if user wants to stop or to make changes in order then can set in 'Pending' status.\n"
 "* When the user cancels the work order it will be set in 'Canceled' status.\n"
 "* When order is completely processed that time it is set in 'Finished' status."
-msgstr "* 工單被創建時，「草稿「狀態。\n* 從工單被用戶進入開始模式後，設為」在進行中「模式。\n* 當工單是運行模式，在此期間，如果用戶要停止或作出改變，可設置為」掛起「狀態。\n* 當用戶取消工單，設置為」取消狀態「。\n* 從工單被完成的時候開始，設置為」完成「狀態。"
+msgstr "* 工單被創建時，「草稿「狀態。\n* 從工單被使用者進入開始模式後，設為」在進行中「模式。\n* 當工單是運行模式，在此期間，如果使用者要停止或作出改變，可設置為」掛起「狀態。\n* 當使用者取消工單，設置為」取消狀態「。\n* 從工單被完成的時候開始，設置為」完成「狀態。"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.mrp_production_workcenter_form_view_inherit

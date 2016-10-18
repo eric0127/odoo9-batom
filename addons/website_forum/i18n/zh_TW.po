@@ -247,12 +247,12 @@ msgstr "<b>[回答者]</b>"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge
 msgid "<i class=\"text-muted\"> awarded users</i>"
-msgstr "<i class=\"text-muted\"> 授予用戶</i>"
+msgstr "<i class=\"text-muted\"> 授予使用者</i>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_badges
 msgid "<i class=\"text-muted\">awarded users</i>"
-msgstr "<i class=\"text-muted\">授予用戶</i>"
+msgstr "<i class=\"text-muted\">授予使用者</i>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:483
@@ -432,7 +432,7 @@ msgstr "在菜單添加頁面"
 msgid ""
 "After posting the user will be proposed to share its question or answer on "
 "social networks, enabling social network propagation of the forum content."
-msgstr "發帖後，用戶將提議分享其問題或社交網絡上的回答，使論壇內容以社會化網絡傳播。"
+msgstr "發帖後，使用者將提議分享其問題或社交網絡上的回答，使論壇內容以社會化網絡傳播。"
 
 #. module: website_forum
 #: code:addons/website_forum/controllers/main.py:187
@@ -1136,7 +1136,7 @@ msgstr "顯示名稱"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_user_bio
 msgid "Display detailed user biography"
-msgstr "顯示用戶詳細介紹"
+msgstr "顯示使用者詳細介紹"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_karma_downvote
@@ -1417,7 +1417,7 @@ msgstr "遊戲化任務"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge_user
 msgid "Gamification user badge"
-msgstr "遊戲化的用戶徽章"
+msgstr "遊戲化的使用者徽章"
 
 #. module: website_forum
 #. openerp-web
@@ -1549,7 +1549,7 @@ msgid ""
 "If you close this post, it will be hidden for most users. Only\n"
 "            users having a high karma can see closed posts to moderate\n"
 "            them."
-msgstr "如果您關閉這個崗位，它會被隱藏於大多數用戶。只有具有高貢獻度用戶可以看到他們。"
+msgstr "如果您關閉這個崗位，它會被隱藏於大多數使用者。只有具有高貢獻度使用者可以看到他們。"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -1567,7 +1567,7 @@ msgid ""
 "If you mark this post as offensive, it will be hidden for most users. Only\n"
 "            users having a high karma can see offensive posts to moderate\n"
 "            them."
-msgstr "如果你標記這個帖子為不禮貌，它會被隱藏於大多數用戶。只有具有高貢獻度的用戶可以看到。"
+msgstr "如果你標記這個帖子為不禮貌，它會被隱藏於大多數使用者。只有具有高貢獻度的使用者可以看到。"
 
 #. module: website_forum
 #. openerp-web
@@ -1950,7 +1950,7 @@ msgstr "暫停"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "People"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_plain_content
@@ -2169,17 +2169,17 @@ msgstr "沒有發現問題!"
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_4
 msgid "Question set as favorite by 1 user"
-msgstr "問題被1個用戶收藏"
+msgstr "問題被1個使用者收藏"
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_6
 msgid "Question set as favorite by 25 users"
-msgstr "問題被25個用戶收藏"
+msgstr "問題被25個使用者收藏"
 
 #. module: website_forum
 #: model:gamification.badge,description:website_forum.badge_q_5
 msgid "Question set as favorite by 5 users"
-msgstr "問題被5個用戶收藏"
+msgstr "問題被5個使用者收藏"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.header
@@ -2406,7 +2406,7 @@ msgstr "對不起，你必須登入後來投票"
 #: code:addons/website_forum/static/src/js/website_forum.js:137
 #, python-format
 msgid "Sorry, anonymous users cannot choose correct answer."
-msgstr "對不起，匿名用戶不能選擇正確的回復"
+msgstr "對不起，匿名使用者不能選擇正確的回復"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.404
@@ -2552,14 +2552,14 @@ msgid ""
 "    this site in order to improve the overall quality of the knowledge base content.\n"
 "    Such privileges are granted based on user karma level: you will be able to do the same\n"
 "    once your karma gets high enough."
-msgstr "因此，問題和答案可以像維基頁面本網站被資深用戶編輯，以提高知識基礎內容的綜合素質。這種特權是基於用戶的貢獻度的授予：一旦你的貢獻度夠高你也可這樣做。"
+msgstr "因此，問題和答案可以像維基頁面本網站被資深使用者編輯，以提高知識基礎內容的綜合素質。這種特權是基於使用者的貢獻度的授予：一旦你的貢獻度夠高你也可這樣做。"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "This community is for professional and enthusiast users,\n"
 "    partners and programmers. You can ask questions about:"
-msgstr "這個社區是為專業和發燒級用戶，合作夥伴和程序員。你可以問的問題："
+msgstr "這個社區是為專業和發燒級使用者，合作夥伴和程序員。你可以問的問題："
 
 #. module: website_forum
 #: model:forum.forum,description:website_forum.forum_help
@@ -2767,19 +2767,19 @@ msgstr "使用此的<em>「內容」</em>的菜單來創建一個新的論壇，
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_allow_question
 msgid ""
 "Users can answer only once per question. Contributors can edit answers and "
 "mark the right ones."
-msgstr "用戶回答每個問題只有一次。參與者可以編輯答案和標記是正確的。"
+msgstr "使用者回答每個問題只有一次。參與者可以編輯答案和標記是正確的。"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:726
@@ -2886,7 +2886,7 @@ msgid ""
 "    points, which are called \"karma points\". These points serve as a rough\n"
 "    measure of the community trust to him/her. Various moderation tasks are\n"
 "    gradually assigned to the users based on those points."
-msgstr "當問題或答案是好評，發佈它們的用戶將獲得一些積分，這是所謂的「榮譽點數」。這些點作為一個粗略衡量社區信任他/她。各種適量的任務逐步分配給這些用戶基於點數。"
+msgstr "當問題或答案是好評，發佈它們的使用者將獲得一些積分，這是所謂的「榮譽點數」。這些點作為一個粗略衡量社區信任他/她。各種適量的任務逐步分配給這些使用者基於點數。"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_allow_link
@@ -3252,12 +3252,12 @@ msgstr "贊成，添加註釋"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge_user
 msgid "user"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge_user
 msgid "users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full

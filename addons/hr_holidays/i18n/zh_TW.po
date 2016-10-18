@@ -1120,7 +1120,7 @@ msgstr "總數"
 msgid ""
 "The employee or employee category of this request is missing. Please make "
 "sure that your user login is linked to an employee."
-msgstr "沒有輸入員工或者員工類別。請確認你的登入用戶和一個員工關聯。"
+msgstr "沒有輸入員工或者員工類別。請確認你的登入使用者和一個員工關聯。"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:554
@@ -1156,12 +1156,12 @@ msgid ""
 "The status is 'To Approve', when holiday request is confirmed by user.            \n"
 "The status is 'Refused', when holiday request is refused by manager.            \n"
 "The status is 'Approved', when holiday request is approved by manager."
-msgstr "假期申請建立後，狀態被設置為「待提交」。            \n用戶提交假期申請後，狀態變為「待審核」。            \n如果假期申請被經理拒絕，則狀態變為「被拒絕」。            \n如果假期申通過經理批准，則狀態變為「已審核」。"
+msgstr "假期申請建立後，狀態被設置為「待提交」。            \n使用者提交假期申請後，狀態變為「待審核」。            \n如果假期申請被經理拒絕，則狀態變為「被拒絕」。            \n如果假期申通過經理批准，則狀態變為「已審核」。"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_manager_id
 msgid "This area is automatically filled by the user who validate the leave"
-msgstr "這個字段會被自動填充，值是審批這個休假申請的用戶。"
+msgstr "這個字段會被自動填充，值是審批這個休假申請的使用者。"
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_manager_id2
@@ -1260,7 +1260,7 @@ msgstr "未讀消息計數器"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_remaining_leaves_user_user_id
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new

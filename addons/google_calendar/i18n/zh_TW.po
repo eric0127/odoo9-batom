@@ -320,12 +320,12 @@ msgstr "URI 教程"
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_google_calendar_token
 msgid "User token"
-msgstr "用戶教程"
+msgstr "使用者教程"
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: google_calendar
 #. openerp-web

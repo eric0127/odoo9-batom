@@ -588,14 +588,14 @@ msgstr "負責人"
 #. module: crm_claim
 #: model:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Responsible User"
-msgstr "責任用戶"
+msgstr "責任使用者"
 
 #. module: crm_claim
 #: model:ir.model.fields,help:crm_claim.field_crm_claim_team_id
 msgid ""
 "Responsible sales team. Define Responsible user and Email account for mail "
 "gateway."
-msgstr "負責的銷售團隊。定義一個負責的用戶和Email 賬戶"
+msgstr "負責的銷售團隊。定義一個負責的使用者和Email 賬戶"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_cause
@@ -714,7 +714,7 @@ msgstr "用於階段的排序，數字越小越好。"
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: crm_claim
 #: model:crm.claim.category,name:crm_claim.categ_claim2

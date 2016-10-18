@@ -971,7 +971,7 @@ msgid ""
 "Test in Realtime - It creates and processes all the activities directly but does not send emails or produce reports.\n"
 "With Manual Confirmation - the campaigns runs normally, but the user has to validate all workitem manually.\n"
 "Normal - the campaign runs normally and automatically sends all emails and reports (be very careful with this mode, you're live!)"
-msgstr "測試 - 直接生成和處理所有活動（不等待事務的延遲），但是不發送郵件或者生成報表。\n實時測試 - 直接生成和處理所有活動，但是不發送郵件或者生成報表.\n手工確認 - 營銷活動正常啟動，但是用戶必須手工驗證所有工作項。\n正常 - 營銷活動正常啟動，並自動發送所有郵件和報表（請小心使用這個模式，所有的都是實時的！）"
+msgstr "測試 - 直接生成和處理所有活動（不等待事務的延遲），但是不發送郵件或者生成報表。\n實時測試 - 直接生成和處理所有活動，但是不發送郵件或者生成報表.\n手工確認 - 營銷活動正常啟動，但是使用者必須手工驗證所有工作項。\n正常 - 營銷活動正常啟動，並自動發送所有郵件和報表（請小心使用這個模式，所有的都是實時的！）"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0

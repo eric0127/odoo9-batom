@@ -1716,7 +1716,7 @@ msgstr "用這個菜單搜索採購訂單的相關的供應商，產品等等參
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document

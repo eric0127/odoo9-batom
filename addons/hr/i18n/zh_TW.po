@@ -806,7 +806,7 @@ msgstr "發佈新的產品，市場營銷和職位"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_login
 msgid "Login"
-msgstr "用戶名"
+msgstr "使用者名"
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -1064,7 +1064,7 @@ msgstr "正在招聘"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
-msgstr "相關用戶"
+msgstr "相關使用者"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users_employee_ids
@@ -1074,7 +1074,7 @@ msgstr "相關的員工"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "用於管理資源存取權限的用戶名"
+msgstr "用於管理資源存取權限的使用者名"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
@@ -1283,12 +1283,12 @@ msgstr "更新日期"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1379,7 +1379,7 @@ msgid ""
 "With our product, which is a suite of 3000 business apps. It is fully open "
 "source, full featured and it』s online offer is 3 times cheaper than "
 "traditional competitors. We have 2.000.000 users, and we're growing fast."
-msgstr "我們的產品是一個有著3000個APP的商務應用程序，它是全部開源的，非常多的功能並且在線報價比傳統的競爭者便宜３倍，我們有超過 2.000.000用戶，並且我們增長很快"
+msgstr "我們的產品是一個有著3000個APP的商務應用程序，它是全部開源的，非常多的功能並且在線報價比傳統的競爭者便宜３倍，我們有超過 2.000.000使用者，並且我們增長很快"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_email

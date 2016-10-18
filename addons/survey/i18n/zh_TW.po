@@ -514,7 +514,7 @@ msgstr "創建日期"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message_starred
 msgid "Current user has a starred notification linked to this message"
-msgstr "當前用戶用 星號 提醒關聯到這條消息"
+msgstr "當前使用者用 星號 提醒關聯到這條消息"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_date
@@ -846,7 +846,7 @@ msgstr "確認後, 會出現新消息."
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey_users_can_go_back
 msgid "If checked, users can go back to previous pages."
-msgstr "如果選中，用戶能夠返回上頁。"
+msgstr "如果選中，使用者能夠返回上頁。"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_stage_closed
@@ -1086,7 +1086,7 @@ msgstr "消息記錄名稱"
 msgid ""
 "Message type: email for email message, notification for system message, "
 "comment for other messages such as user replies"
-msgstr "消息類型：Email 用於 郵件消息， 通知用戶系統消息，評論用於其他消息，例如用戶回復。"
+msgstr "消息類型：Email 用於 郵件消息， 通知使用者系統消息，評論用於其他消息，例如使用者回復。"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message_message_id
@@ -1584,7 +1584,7 @@ msgstr "搜索調查"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_response_line_search
 msgid "Search User input lines"
-msgstr "搜索用戶輸入行"
+msgstr "搜索使用者輸入行"
 
 #. module: survey
 #: selection:survey.question,display_mode:0
@@ -1796,28 +1796,28 @@ msgstr "問卷標題"
 #. module: survey
 #: model:ir.model,name:survey.model_survey_user_input
 msgid "Survey User Input"
-msgstr "調查用戶輸入"
+msgstr "調查使用者輸入"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_user_input_line
 msgid "Survey User Input Line"
-msgstr "調查用戶輸入明細"
+msgstr "調查使用者輸入明細"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_user_input_line
 msgid "Survey User Input lines"
-msgstr "調查用戶輸入明細"
+msgstr "調查使用者輸入明細"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_selected_survey_user_input
 msgid "Survey User input"
-msgstr "調查用戶輸入"
+msgstr "調查使用者輸入"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_user_input_form
 #: model:ir.ui.view,arch_db:survey.survey_user_input_tree
 msgid "Survey User inputs"
-msgstr "調查用戶輸入"
+msgstr "調查使用者輸入"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_page_id
@@ -1974,7 +1974,7 @@ msgstr "他們是在日常中使用"
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
 msgid "They help new users to understand Odoo"
-msgstr "他們幫助新用戶瞭解Odoo"
+msgstr "他們幫助新使用者瞭解Odoo"
 
 #. module: survey
 #: code:addons/survey/survey.py:685 code:addons/survey/tests/test_survey.py:94
@@ -2040,7 +2040,7 @@ msgstr "此調查尚未開始，感謝您的關注！"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.auth_required
 msgid "This survey is open only to registered people. Please"
-msgstr "此調查只針對已註冊用戶，請"
+msgstr "此調查只針對已註冊使用者，請"
 
 #. module: survey
 #: model:survey.survey,description:survey.feedback_form
@@ -2139,52 +2139,52 @@ msgstr "使用此字段增加             關於問題的額外解釋"
 #. module: survey
 #: model:survey.survey,title:survey.feedback_form
 msgid "User Feedback Form"
-msgstr "用戶反饋"
+msgstr "使用者反饋"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line_user_input_id
 #: model:ir.ui.view,arch_db:survey.survey_response_line_search
 msgid "User Input"
-msgstr "用戶輸入"
+msgstr "使用者輸入"
 
 #. module: survey
 #: model:ir.ui.menu,name:survey.menu_survey_response_line_form
 msgid "User Input Lines"
-msgstr "用戶輸入明細"
+msgstr "使用者輸入明細"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.result_choice
 #: model:ir.ui.view,arch_db:survey.result_number
 #: model:ir.ui.view,arch_db:survey.result_text
 msgid "User Responses"
-msgstr "用戶反饋"
+msgstr "使用者反饋"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_form
 msgid "User can come back in the previous page"
-msgstr "用戶能夠返回上一頁"
+msgstr "使用者能夠返回上一頁"
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_user_input_line_form
 msgid "User input line details"
-msgstr "用戶輸入明細詳情"
+msgstr "使用者輸入明細詳情"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_user_input_ids
 msgid "User responses"
-msgstr "用戶反饋"
+msgstr "使用者反饋"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_users_can_go_back
 msgid "Users can go back"
-msgstr "用戶可返回"
+msgstr "使用者可返回"
 
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey_auth_required
 msgid ""
 "Users with a public link will be requested to login before taking part to "
 "the survey"
-msgstr "使用公共鏈接的用戶需要在參加調查前登入"
+msgstr "使用公共鏈接的使用者需要在參加調查前登入"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question_validation_required
@@ -2219,7 +2219,7 @@ msgstr "你覺得在doc.odoo.com的文檔怎麼樣？"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5
 msgid "What do you think about the groups of users?"
-msgstr "你怎麼看待用戶組?"
+msgstr "你怎麼看待使用者組?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2

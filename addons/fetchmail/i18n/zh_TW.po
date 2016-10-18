@@ -339,7 +339,7 @@ msgstr "測試和確認"
 #. module: fetchmail
 #: model:ir.model.fields,field_description:fetchmail.field_fetchmail_server_user
 msgid "Username"
-msgstr "用戶名"
+msgstr "使用者名"
 
 #. module: fetchmail
 #: model:ir.model.fields,help:fetchmail.field_fetchmail_server_original

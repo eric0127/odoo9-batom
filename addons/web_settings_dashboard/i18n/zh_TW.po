@@ -37,14 +37,14 @@ msgstr " %\n實施"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:56
 #, python-format
 msgid "Active User"
-msgstr "有效用戶"
+msgstr "有效使用者"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:57
 #, python-format
 msgid "Active Users"
-msgstr "有效用戶"
+msgstr "有效使用者"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -127,7 +127,7 @@ msgstr "邀請"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:57
 #, python-format
 msgid "Invite new users:"
-msgstr "邀請新用戶"
+msgstr "邀請新使用者"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -195,7 +195,7 @@ msgstr "現在升級"
 #. module: web_settings_dashboard
 #: model:ir.model,name:web_settings_dashboard.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: web_settings_dashboard
 #. openerp-web

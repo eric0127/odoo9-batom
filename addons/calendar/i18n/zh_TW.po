@@ -1100,7 +1100,7 @@ msgstr "Ok"
 #. module: calendar
 #: selection:calendar.event,class:0
 msgid "Only internal users"
-msgstr "僅內部用戶"
+msgstr "僅內部使用者"
 
 #. module: calendar
 #: selection:calendar.event,class:0

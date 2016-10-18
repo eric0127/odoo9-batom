@@ -911,7 +911,7 @@ msgstr "郵件列表"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_graph
 msgid "Mailing Lists Subscriber"
-msgstr "郵件列表用戶"
+msgstr "郵件列表使用者"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
@@ -1678,7 +1678,7 @@ msgstr "在網站用彈出訂閱"
 #. module: mass_mailing
 #: model:res.groups,name:mass_mailing.group_mass_mailing_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets

@@ -414,12 +414,12 @@ msgstr "<strong>單價</strong>"
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
 #: model:ir.ui.view,arch_db:point_of_sale.report_usersproduct
 msgid "<strong>User</strong>:<br/>"
-msgstr "<strong>用戶</strong>:<br/>"
+msgstr "<strong>使用者</strong>:<br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_detailsofsales
 msgid "<strong>Users</strong>:<br/>"
-msgstr "<strong>用戶</strong>:<br/>"
+msgstr "<strong>使用者</strong>:<br/>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -468,7 +468,7 @@ msgstr "該POS配置的全局唯一標識符，用來防止客戶端數據的衝
 msgid ""
 "A sequence number that is incremented each time a user resumes the pos "
 "session"
-msgstr "每次用戶重啟POS工作時的自增長序列"
+msgstr "每次使用者重啟POS工作時的自增長序列"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_sequence_number
@@ -482,7 +482,7 @@ msgid ""
 "                you sell through the point of sale. The user has to check the\n"
 "                currencies in your cash registers at the beginning and the end\n"
 "                of each session."
-msgstr "一個會話是一段時間，通常是通過銷售點賣東西的一天。用戶需要在每一個會話的開始和結束時清點貨幣。"
+msgstr "一個會話是一段時間，通常是通過銷售點賣東西的一天。使用者需要在每一個會話的開始和結束時清點貨幣。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order_sequence_number
@@ -601,7 +601,7 @@ msgstr "允許單據分享"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_signup_uninvited
 msgid "Allow external users to sign up"
-msgstr "允許外部用戶註冊"
+msgstr "允許外部使用者註冊"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_discount:0
@@ -611,7 +611,7 @@ msgstr "允許全局變量"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_google_calendar
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr "允許用戶同步谷歌日曆"
+msgstr "允許使用者同步谷歌日曆"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_base_import
@@ -621,7 +621,7 @@ msgstr "允許用過通過 CSV/XLS/XLSX/ODS文檔導入數據"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr "允許用戶通過google登入"
+msgstr "允許使用者通過google登入"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_mercury:0
@@ -1598,7 +1598,7 @@ msgid ""
 "of Sale. You are probably trying to load the point of sale as an "
 "administrator in a multi-company setup, with the administrator account set "
 "to the wrong company."
-msgstr "錯誤：POS用戶必須屬於同一個POS公司。你可能在多公司設置環境下以管理員身份試圖加載POS，而該管理員帳戶歸屬於不正確的公司。"
+msgstr "錯誤：POS使用者必須屬於同一個POS公司。你可能在多公司設置環境下以管理員身份試圖加載POS，而該管理員帳戶歸屬於不正確的公司。"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.evian_50cl
@@ -1860,7 +1860,7 @@ msgstr "IP地址"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_auth_signup_uninvited
 msgid "If unchecked, only invited users may sign up."
-msgstr "如果不勾選，只有被邀請用戶才能註冊。"
+msgstr "如果不勾選，只有被邀請使用者才能註冊。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_alias_domain
@@ -2836,7 +2836,7 @@ msgstr "POS會話"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_group_pos_user_id
 msgid "Point of Sale User Group"
-msgstr "POS用戶群組"
+msgstr "POS使用者群組"
 
 #. module: point_of_sale
 #: selection:pos.config.settings,module_pos_restaurant:0
@@ -3179,12 +3179,12 @@ msgstr "銷售訂單"
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_sales_by_user_pos_graph
 #: model:ir.ui.view,arch_db:point_of_sale.view_report_sales_by_user_pos_month_graph
 msgid "Sales by User"
-msgstr "用戶銷售情況"
+msgstr "使用者銷售情況"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_month
 msgid "Sales by User Monthly"
-msgstr "用戶月銷售情況"
+msgstr "使用者月銷售情況"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_today
@@ -3200,12 +3200,12 @@ msgstr "月銷售情況"
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos
 msgid "Sales by user"
-msgstr "銷售用戶"
+msgstr "銷售使用者"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos_month
 msgid "Sales by user monthly"
-msgstr "用戶月銷售情況"
+msgstr "使用者月銷售情況"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_user_id
@@ -3304,7 +3304,7 @@ msgstr "選擇客戶"
 #: code:addons/point_of_sale/static/src/js/gui.js:235
 #, python-format
 msgid "Select User"
-msgstr "選擇用戶"
+msgstr "選擇使用者"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3432,7 +3432,7 @@ msgstr "共享或嵌入odoo頁面"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_company_share_partner
 msgid "Share partners to all companies"
-msgstr "多公司間所有公司的公共用戶"
+msgstr "多公司間所有公司的公共使用者"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_company_share_product
@@ -3697,7 +3697,7 @@ msgstr "電話:"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_auth_signup_template_user_id
 msgid "Template user for new users created through signup"
-msgstr "用作通過註冊創建的新用戶的模版"
+msgstr "用作通過註冊創建的新使用者的模版"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3909,7 +3909,7 @@ msgstr "至少要有一個產品後，訂單才能被確認"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_settings_auth_signup_reset_password
 msgid "This allows users to trigger a password reset from the Login page."
-msgstr "用戶可以在登入頁點擊來重置密碼"
+msgstr "使用者可以在登入頁點擊來重置密碼"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_users_property_purchase_currency_id
@@ -3930,7 +3930,7 @@ msgid ""
 " and the theoretical cash when closing a session, for non-POS managers. If "
 "this maximum is reached, the user will have an error message at the closing "
 "of his session saying that he needs to contact his manager."
-msgstr "該字段定義了在關閉一個會話時候理論的餘額和實際餘額的最大差額如果達到該最大值，用戶就會得到一個錯誤信息告知他需要聯繫他的經理"
+msgstr "該字段定義了在關閉一個會話時候理論的餘額和實際餘額的最大差額如果達到該最大值，使用者就會得到一個錯誤信息告知他需要聯繫他的經理"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_category_image
@@ -4197,18 +4197,18 @@ msgstr "用該菜單瀏覽之前的訂單。你可以在觸摸屏界面用<i>你
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
 #: model:res.groups,name:point_of_sale.group_pos_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.report_user_label
 msgid "User Labels"
-msgstr "用戶標籤"
+msgstr "使用者標籤"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_pos_users_product
 #: model:ir.ui.view,arch_db:point_of_sale.report_usersproduct
 msgid "User's Product"
-msgstr "用戶的產品"
+msgstr "使用者的產品"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4216,12 +4216,12 @@ msgstr "用戶的產品"
 #: model:ir.ui.view,arch_db:point_of_sale.report_receipt
 #, python-format
 msgid "User:"
-msgstr "用戶:"
+msgstr "使用者:"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4354,7 +4354,7 @@ msgstr "在銀行付款單中，你不能輸入一個負數。使用現金付款
 msgid ""
 "You cannot use the session of another users. This session is owned by %s. "
 "Please first close this one to use this point of sale."
-msgstr "你不能使用其他用戶的會話，這個會話屬於 %s。請先關閉當前會話然後使用POS。"
+msgstr "你不能使用其他使用者的會話，這個會話屬於 %s。請先關閉當前會話然後使用POS。"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:32

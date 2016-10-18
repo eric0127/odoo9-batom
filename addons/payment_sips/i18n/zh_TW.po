@@ -84,7 +84,7 @@ msgstr "支付交易"
 #. module: payment_sips
 #: model:ir.model.fields,field_description:payment_sips.field_payment_acquirer_sips_merchant_id
 msgid "SIPS API User Password"
-msgstr "SIPS API 用戶密碼"
+msgstr "SIPS API 使用者密碼"
 
 #. module: payment_sips
 #: model:ir.model.fields,field_description:payment_sips.field_payment_acquirer_sips_secret

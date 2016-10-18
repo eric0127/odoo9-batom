@@ -432,7 +432,7 @@ msgstr "未讀消息計數器"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.view_account_analytic_account_form

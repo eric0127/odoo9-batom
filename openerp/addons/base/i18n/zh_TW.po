@@ -538,7 +538,7 @@ msgid ""
 "It gives the Administrator user access to all accounting features such as journal items and the chart of accounts.\n"
 "\n"
 "It assigns manager and user access rights to the Administrator for the accounting application and only user rights to the Demo user.\n"
-msgstr "\n會計存取權限管理 \n======================== \n此模塊用來管理所有會計功能的存取權限，如憑證行歸類（journal items）和會計科目（chart of accounts）等。 \n默認設置管理員（Administrator）擁有會計應用模塊的存取權限，而演示用戶（Demo user）僅擁有一般用戶的權限。\n"
+msgstr "\n會計存取權限管理 \n======================== \n此模塊用來管理所有會計功能的存取權限，如憑證行歸類（journal items）和會計科目（chart of accounts）等。 \n默認設置管理員（Administrator）擁有會計應用模塊的存取權限，而演示使用者（Demo user）僅擁有一般使用者的權限。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_contract_dashboard
@@ -840,7 +840,7 @@ msgid ""
 "\n"
 "Allow users to login through OAuth2 Provider.\n"
 "=============================================\n"
-msgstr "\n允許用戶通過 OAuth2 提供者登入。\n=============================================\n"
+msgstr "\n允許使用者通過 OAuth2 提供者登入。\n=============================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_auth_signup
@@ -849,7 +849,7 @@ msgid ""
 "Allow users to sign up and reset their password\n"
 "===============================================\n"
 "    "
-msgstr "\n允許用戶註冊並且復位他們的密碼\n===============================================\n    "
+msgstr "\n允許使用者註冊並且復位他們的密碼\n===============================================\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_cancel
@@ -1137,7 +1137,7 @@ msgid ""
 "* Relies on the global outgoing mail server - an integrated email management system - allowing to send emails with a configurable scheduler-based processing engine\n"
 "* Includes an extensible generic email composition assistant, that can turn into a mass-mailing assistant and is capable of interpreting simple *placeholder expressions* that will be replaced with dynamic data when each email is actually sent.\n"
 "    "
-msgstr "\n\\n\n面向商業的社交網絡\\n\n===================================\\n\n社會化網絡模塊提供了一個統一的社交網絡抽像層，通過一個完全集成電子郵件和消息管理系統，允許應用基於單據展示完整的通信記錄。\\n\n\\n\n它使用戶能閱讀和發送消息以及電子郵件。它還提供一個組合了訂閱機制的反饋頁面，允許通過關注單據並不斷的得到最新消息。\\n\n\\n\n主要特性\\n\n---------\\n\n* 乾淨和更新的溝通歷史，任何Odoo單據，它可作為討論話題； \\n\n* 訂閱機制，用來得最新消息；\\n\n* 統一反饋頁面，用來查看最新消息和隨後文件活動；\\n\n* 用戶溝通，通過反饋頁面；\\n\n* 基於單據的線程討論設計；\\n\n* 依賴於全局發送郵件服務器，一個集成的郵件管理系統，允許通過可配置調度處理引擎來發送電子郵件；\\n\n* 包括一個可擴展的通用電子郵件撰寫助手，它變為郵件群發助手，能解釋簡單*佔位符表達式*，從而在電子郵件被真正發送時使用動態數據。"
+msgstr "\n\\n\n面向商業的社交網絡\\n\n===================================\\n\n社會化網絡模塊提供了一個統一的社交網絡抽像層，通過一個完全集成電子郵件和消息管理系統，允許應用基於單據展示完整的通信記錄。\\n\n\\n\n它使使用者能閱讀和發送消息以及電子郵件。它還提供一個組合了訂閱機制的反饋頁面，允許通過關注單據並不斷的得到最新消息。\\n\n\\n\n主要特性\\n\n---------\\n\n* 乾淨和更新的溝通歷史，任何Odoo單據，它可作為討論話題； \\n\n* 訂閱機制，用來得最新消息；\\n\n* 統一反饋頁面，用來查看最新消息和隨後文件活動；\\n\n* 使用者溝通，通過反饋頁面；\\n\n* 基於單據的線程討論設計；\\n\n* 依賴於全局發送郵件服務器，一個集成的郵件管理系統，允許通過可配置調度處理引擎來發送電子郵件；\\n\n* 包括一個可擴展的通用電子郵件撰寫助手，它變為郵件群發助手，能解釋簡單*佔位符表達式*，從而在電子郵件被真正發送時使用動態數據。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ve
@@ -1245,7 +1245,7 @@ msgid ""
 "answers of question and according to that survey is done. Partners are also\n"
 "sent mails with personal token for the invitation of the survey.\n"
 "    "
-msgstr "\n該模塊生成優雅調查問卷網頁， 並能對調查結果進行可視化分析。\n==================================\n\n這取決於不同用戶對一些問題的觀點與答案。\n調查問卷可以由多個頁面組成。每個頁面可以包含多個問題，每個問題可能有多個答案。\n對於所調查的問題， 不同的用戶會有不同的答案， 問卷中後續的問題會依據此前的答案進行\n還可以向合作夥伴發送附上用戶名和密碼的郵件， 以邀請他們參與調查。\n    "
+msgstr "\n該模塊生成優雅調查問卷網頁， 並能對調查結果進行可視化分析。\n==================================\n\n這取決於不同使用者對一些問題的觀點與答案。\n調查問卷可以由多個頁面組成。每個頁面可以包含多個問題，每個問題可能有多個答案。\n對於所調查的問題， 不同的使用者會有不同的答案， 問卷中後續的問題會依據此前的答案進行\n還可以向合作夥伴發送附上使用者名和密碼的郵件， 以邀請他們參與調查。\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_subscription
@@ -1338,7 +1338,7 @@ msgid ""
 "the portal automatically adds it to the portal users, etc).  That feature is\n"
 "very handy when used in combination with the module 'share'.\n"
 "    "
-msgstr "\n通過創建入口網站網站自定義存取到您的Odoo的數據庫的外部用戶。\n================================================================================\n入口網站定義了一個特定的用戶菜單和其成員的存取權限。這個\n菜單中可看到入口網站網站的成員，匿名用戶和任何其他的用戶\n有技術特點的存取（例如，管理員）。\n此外，每個入口網站網站的成員連接到一個特定的業務夥伴。\n\n該模塊還聯營公司的入口網站網站的用戶的用戶組（添加組的\n入口網站網站會自動將其添加到入口網站用戶等）。這些特性「共享」模塊在組合使用時非常方便.\n    "
+msgstr "\n通過創建入口網站網站自定義存取到您的Odoo的數據庫的外部使用者。\n================================================================================\n入口網站定義了一個特定的使用者菜單和其成員的存取權限。這個\n菜單中可看到入口網站網站的成員，匿名使用者和任何其他的使用者\n有技術特點的存取（例如，管理員）。\n此外，每個入口網站網站的成員連接到一個特定的業務夥伴。\n\n該模塊還聯營公司的入口網站網站的使用者的使用者組（添加組的\n入口網站網站會自動將其添加到入口網站使用者等）。這些特性「共享」模塊在組合使用時非常方便.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_delivery
@@ -1522,7 +1522,7 @@ msgid ""
 "by the ``auth_signup`` module (signup for new users does not\n"
 "necessarily have to be enabled).\n"
 "\n"
-msgstr "\n加密後的密碼\n===================\n\n替換默認的密碼存儲具有較強的加密\n哈希值.\n\n目前使用的密鑰導出函數是RSA信息安全有限責任公司的\n行業標準的\"PKDF2\",與\"SHA512\"組合.\n這包括鹽漬和密鑰數千次拉伸\n\n所有密碼為N加密，只要安裝了模塊.\n這可能需要幾分鐘的時間，如果有成千上萬的用戶.\n\n加密密碼過去的版本將自動升級\n以目前的計劃，只要用戶進行身份驗證\n(\"auth_crypt\"以前使用弱\"md5crypt\"鍵\n導出函數).\n\n注意:安裝該模塊永久地防止用戶口令\n恢復和無法挽回.因此建議,使\n有些密碼重置機制對於用戶來說,如一個提供\n由\"auth_signup\"模塊(註冊新用戶並沒有的\n一定必須啟用).\n\n"
+msgstr "\n加密後的密碼\n===================\n\n替換默認的密碼存儲具有較強的加密\n哈希值.\n\n目前使用的密鑰導出函數是RSA信息安全有限責任公司的\n行業標準的\"PKDF2\",與\"SHA512\"組合.\n這包括鹽漬和密鑰數千次拉伸\n\n所有密碼為N加密，只要安裝了模塊.\n這可能需要幾分鐘的時間，如果有成千上萬的使用者.\n\n加密密碼過去的版本將自動升級\n以目前的計劃，只要使用者進行身份驗證\n(\"auth_crypt\"以前使用弱\"md5crypt\"鍵\n導出函數).\n\n注意:安裝該模塊永久地防止使用者口令\n恢復和無法挽回.因此建議,使\n有些密碼重置機制對於使用者來說,如一個提供\n由\"auth_signup\"模塊(註冊新使用者並沒有的\n一定必須啟用).\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_hr_payroll
@@ -1562,7 +1562,7 @@ msgid ""
 "For non-numerical achievements, **badges** can be granted to users. From a simple \"thank you\" to an exceptional achievement, a badge is an easy way to exprimate gratitude to a user for their good work.\n"
 "\n"
 "Both goals and badges are flexibles and can be adapted to a large range of modules and actions. When installed, this module creates easy goals to help new users to discover OpenERP and configure their user profile.\n"
-msgstr "\n遊戲化過程\n====================\n該遊戲化模塊提供了一些方法來評估和激勵Odoo用戶.\n\n用戶可以使用目標和數值目標達成進行評估.\n已分派**目標**通過每個人的**挑戰**和時間來評估和比較一個團隊的成員.\n\n對於非數字的成績, **徽章**可以授予給用戶. 從一個簡單的 \"謝謝\" 到一個傑出的成績, 徽章是一種簡單的方法來感謝那些出色工作的用戶 .\n\n目標和徽章這兩個是軟件包裝並可以適應於大範圍的模塊和動作. 安裝時, 此模塊創建簡單的目標以幫助新用戶發現OpenERP 並配置他們的用戶配置文件.\n"
+msgstr "\n遊戲化過程\n====================\n該遊戲化模塊提供了一些方法來評估和激勵Odoo使用者.\n\n使用者可以使用目標和數值目標達成進行評估.\n已分派**目標**通過每個人的**挑戰**和時間來評估和比較一個團隊的成員.\n\n對於非數字的成績, **徽章**可以授予給使用者. 從一個簡單的 \"謝謝\" 到一個傑出的成績, 徽章是一種簡單的方法來感謝那些出色工作的使用者 .\n\n目標和徽章這兩個是軟件包裝並可以適應於大範圍的模塊和動作. 安裝時, 此模塊創建簡單的目標以幫助新使用者發現OpenERP 並配置他們的使用者配置文件.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_uy
@@ -1667,7 +1667,7 @@ msgid ""
 "\n"
 "This module allows authorized users to import a custom data module (.xml files and static assests)\n"
 "for customization purpose.\n"
-msgstr "\n導入一個客戶數據模塊\n===========================\n\n處於定制的目的，這個模塊允許授權的用戶導入一個客戶數據模塊 (.xml文件和靜態文件)\n\n"
+msgstr "\n導入一個客戶數據模塊\n===========================\n\n處於定制的目的，這個模塊允許授權的使用者導入一個客戶數據模塊 (.xml文件和靜態文件)\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in
@@ -1760,7 +1760,7 @@ msgid ""
 "\n"
 "Allows users to create custom dashboard.\n"
 "    "
-msgstr "\n讓用戶自定義控制面板\n    "
+msgstr "\n讓使用者自定義控制面板\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_dropshipping
@@ -2211,7 +2211,7 @@ msgid ""
 "\n"
 "* In a module, so that administrators and users of OpenERP who do not\n"
 "  need or want an online import can avoid it being available to users.\n"
-msgstr "\nOE中新增可擴展文件的導入。\n========================================================================\n重寫OE的文件導入系統：\n*服務器端：先前的系統強制大部分邏輯寫在客戶端中，這些邏輯其中包含許多重複的勞動(在客戶端之間)，是導入系統更難離開客戶端使用(直接RPC調用或者其它自動化形式)，並使導入\n導出系統難以結合，因為他是在3個或更多不同項目中傳遞。\n*以一個更加可擴展的方式，以便用戶和夥伴可以自定義前端來導入其他格式的文件(例如，OpenDocument 文件)，這簡化了處理工作流或者處理他們的來自產品的數據。\n*集中為一個模塊，所以OE中不需用在線導入的用戶和管理員可以避免導入功能對用戶可用。\n"
+msgstr "\nOE中新增可擴展文件的導入。\n========================================================================\n重寫OE的文件導入系統：\n*服務器端：先前的系統強制大部分邏輯寫在客戶端中，這些邏輯其中包含許多重複的勞動(在客戶端之間)，是導入系統更難離開客戶端使用(直接RPC調用或者其它自動化形式)，並使導入\n導出系統難以結合，因為他是在3個或更多不同項目中傳遞。\n*以一個更加可擴展的方式，以便使用者和夥伴可以自定義前端來導入其他格式的文件(例如，OpenDocument 文件)，這簡化了處理工作流或者處理他們的來自產品的數據。\n*集中為一個模塊，所以OE中不需用在線導入的使用者和管理員可以避免導入功能對使用者可用。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa
@@ -2279,7 +2279,7 @@ msgid ""
 "* Quick access to the `App Store` and `Theme Store`\n"
 "\n"
 "        "
-msgstr "\nOdoo儀表板\n============\n* 快速安裝apps\n* 快速用戶添加\n* 統一管理工具入口\n* 快速存取 `應用商店` 和 `主題商店`"
+msgstr "\nOdoo儀表板\n============\n* 快速安裝apps\n* 快速使用者添加\n* 統一管理工具入口\n* 快速存取 `應用商店` 和 `主題商店`"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_track
@@ -2665,7 +2665,7 @@ msgid ""
 "* Allows the user to create an invoice automatically\n"
 "* Refund previous sales\n"
 "    "
-msgstr "\n快速簡易的銷售流程\n====================\n這個模塊允許你方便地管理你的商店銷售通過基於網站觸屏界面.\n它兼容所有的平板電腦和IPad,提供多樣化的付款方式.\n產品選擇可以通過多種方式：\n*使用條形碼閱讀器\n*通過產品種類瀏覽或通過文本搜索.\n\n主要功能\n-------------\n*快速銷售編碼\n*選擇一個付費方式(快速方式)或拆分付款為多種付款方式.\n*計算找零金額總數\n*自動生成並確認揀貨單\n*允許用戶自動生成發票\n*退貨的退款"
+msgstr "\n快速簡易的銷售流程\n====================\n這個模塊允許你方便地管理你的商店銷售通過基於網站觸屏界面.\n它兼容所有的平板電腦和IPad,提供多樣化的付款方式.\n產品選擇可以通過多種方式：\n*使用條形碼閱讀器\n*通過產品種類瀏覽或通過文本搜索.\n\n主要功能\n-------------\n*快速銷售編碼\n*選擇一個付費方式(快速方式)或拆分付款為多種付款方式.\n*計算找零金額總數\n*自動生成並確認揀貨單\n*允許使用者自動生成發票\n*退貨的退款"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_timesheet_sheet
@@ -2752,7 +2752,7 @@ msgid ""
 "    * Company\n"
 "    * Date\n"
 "    "
-msgstr "\n為你的分析帳目設定默認值。\n==============================================\n\n基於以下規則時，允許自動選擇分析帳目：\n---------------------------------------------------------------------\n    * 產品\n    * 合作夥伴\n    * 用戶\n    * 公司\n    * 日期\n    "
+msgstr "\n為你的分析帳目設定默認值。\n==============================================\n\n基於以下規則時，允許自動選擇分析帳目：\n---------------------------------------------------------------------\n    * 產品\n    * 合作夥伴\n    * 使用者\n    * 公司\n    * 日期\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_slides
@@ -2959,7 +2959,7 @@ msgid ""
 "-------------------------------\n"
 "* Planned Revenue by Stage and User (graph)\n"
 "* Opportunities by Stage (graph)\n"
-msgstr "\n通用客戶關係管理（CRM）模塊\n====================================================\n此模塊能讓群組人員合理有效地管理線索、商機、會談以及電話訪問等活動。\n管理涉及的重要功能包括：通信、身份識別、優先級設定、任務委派、投訴解決及通知等。\nOpenERP可以有效跟蹤用戶、客戶和供應商的所有的活動案例。根據設定的規則，可以自動發送提醒、請求，觸發各種動作。\n最重要的好處是，用戶不需要做任何特殊的事。此模塊集成了電子郵件網關，郵件在OpenERP中自動同步，用戶只需在OpenERP中根據系統反饋，按需發送和回復郵件。\nOpenERP將接管其餘的事，諸如發送感謝信、自動轉發到相關人員並確保之後相應的回復能準確送達。\n\nCRM 控制面板（Dashboard） 包括：\n---------------------------------------\n* 可按階段和用戶分類的預計收益(圖表)\n* 按階段分類的商機(圖表)\n"
+msgstr "\n通用客戶關係管理（CRM）模塊\n====================================================\n此模塊能讓群組人員合理有效地管理線索、商機、會談以及電話訪問等活動。\n管理涉及的重要功能包括：通信、身份識別、優先級設定、任務委派、投訴解決及通知等。\nOpenERP可以有效跟蹤使用者、客戶和供應商的所有的活動案例。根據設定的規則，可以自動發送提醒、請求，觸發各種動作。\n最重要的好處是，使用者不需要做任何特殊的事。此模塊集成了電子郵件網關，郵件在OpenERP中自動同步，使用者只需在OpenERP中根據系統反饋，按需發送和回復郵件。\nOpenERP將接管其餘的事，諸如發送感謝信、自動轉發到相關人員並確保之後相應的回復能準確送達。\n\nCRM 控制面板（Dashboard） 包括：\n---------------------------------------\n* 可按階段和使用者分類的預計收益(圖表)\n* 按階段分類的商機(圖表)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_base
@@ -2975,7 +2975,7 @@ msgid ""
 "\n"
 "The module adds google user in res user.\n"
 "========================================\n"
-msgstr "\n此模塊吧谷歌的用戶添加到系統用戶。\n========================================\n"
+msgstr "\n此模塊吧谷歌的使用者添加到系統使用者。\n========================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_spreadsheet
@@ -3410,7 +3410,7 @@ msgid ""
 "pay online on their Sale Orders and Invoices that are not paid yet. Paypal is included\n"
 "by default, you simply need to configure a Paypal account in the Accounting/Invoicing settings.\n"
 "    "
-msgstr "\n如果你安裝了銷售模塊和入口網站模塊的話，這模塊會增加一個銷售菜單到你的入口網站頁面。\n======================================================================================\n\n安裝後，入口網站的用戶可以通過以下菜單存取自己的單據：\n - 報價單 - 銷售訂單\n - 發貨單\n - 產品（公共的）\n - 發票\n - 付款/退款\n\n如果在線支付已設定收款方，入口網站用戶也有可以在線支付他尚未結帳的銷售訂單和發票。\n預設已經包含了Paypal支付，你只需要在會計中的設定，簡單的設置Paypal帳號。"
+msgstr "\n如果你安裝了銷售模塊和入口網站模塊的話，這模塊會增加一個銷售菜單到你的入口網站頁面。\n======================================================================================\n\n安裝後，入口網站的使用者可以通過以下菜單存取自己的單據：\n - 報價單 - 銷售訂單\n - 發貨單\n - 產品（公共的）\n - 發票\n - 付款/退款\n\n如果在線支付已設定收款方，入口網站使用者也有可以在線支付他尚未結帳的銷售訂單和發票。\n預設已經包含了Paypal支付，你只需要在會計中的設定，簡單的設置Paypal帳號。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_portal_followup
@@ -3522,7 +3522,7 @@ msgid ""
 "This module adds security rules for gamification to allow portal users to participate to challenges\n"
 "===================================================================================================\n"
 "    "
-msgstr "\n該模塊為遊戲化增加安全規則以允許入口網站用戶參與挑戰。\n========================================================================================== \n "
+msgstr "\n該模塊為遊戲化增加安全規則以允許入口網站使用者參與挑戰。\n========================================================================================== \n "
 
 #. module: base
 #: model:ir.module.module,description:base.module_mrp_operations
@@ -3603,7 +3603,7 @@ msgid ""
 "\n"
 "Worklogs can be maintained to signify number of hours spent by users to handle an issue.\n"
 "                "
-msgstr "\n本模塊在項目管理的問題與Bugs管理上增加時間表。\n=================================================================================\n\n工作日誌可以維護為記錄用戶處理問題的小時數。\n                "
+msgstr "\n本模塊在項目管理的問題與Bugs管理上增加時間表。\n=================================================================================\n\n工作日誌可以維護為記錄使用者處理問題的小時數。\n                "
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_picking_wave
@@ -3680,7 +3680,7 @@ msgid ""
 "sales team, or an opportunity which still has status pending after 14 days might\n"
 "trigger an automatic reminder email.\n"
 "    "
-msgstr "\n本模塊允許實施任何對象的執行規則.\n============================================================\n\n在不同的界面裡使用內嵌措施自動觸發執行.\n\n**比如:** 特定用戶創建一條線索可能會自動發給特定銷售團隊，\n 或者一條商機如果呆滯了14天後就會自動觸發一封提醒郵件.\n\n    "
+msgstr "\n本模塊允許實施任何對象的執行規則.\n============================================================\n\n在不同的界面裡使用內嵌措施自動觸發執行.\n\n**比如:** 特定使用者創建一條線索可能會自動發給特定銷售團隊，\n 或者一條商機如果呆滯了14天後就會自動觸發一封提醒郵件.\n\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_us_check_printing
@@ -3712,7 +3712,7 @@ msgid ""
 "meeting minutes.\n"
 "\n"
 "Notes can be found in the 'Home' menu.\n"
-msgstr "\n該模塊允許用戶在OpenERP裡面創建自己的便簽\n=================================================================\n便簽可以用來寫會議紀要、整理思路、組織個人喜好待辦事項等等。\n每個用戶管理自己的個人便簽。便簽僅提供給它們的作者，\n但它們可以共享便簽給其他人，\n這樣人們在同一時間可以使用一個便簽來工作，例如，用便簽來共享會議要記是\n非常高效的。\n便簽可以在「消息-->個人助理-->便簽」菜單中找到。\n"
+msgstr "\n該模塊允許使用者在OpenERP裡面創建自己的便簽\n=================================================================\n便簽可以用來寫會議紀要、整理思路、組織個人喜好待辦事項等等。\n每個使用者管理自己的個人便簽。便簽僅提供給它們的作者，\n但它們可以共享便簽給其他人，\n這樣人們在同一時間可以使用一個便簽來工作，例如，用便簽來共享會議要記是\n非常高效的。\n便簽可以在「消息-->個人助理-->便簽」菜單中找到。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_anonymization
@@ -3928,7 +3928,7 @@ msgid ""
 "It is basically used when we want to keep track of production orders generated\n"
 "from sales order. It adds sales name and sales Reference on production order.\n"
 "    "
-msgstr "\n該模塊為用戶同時提供安裝MRP和銷售模塊的設備。\n==================================================================================== \n\n用於跟蹤由銷售訂單轉化為生產單的過程。\n它在產品訂單中增加了銷售名稱和銷售參數。\n "
+msgstr "\n該模塊為使用者同時提供安裝MRP和銷售模塊的設備。\n==================================================================================== \n\n用於跟蹤由銷售訂單轉化為生產單的過程。\n它在產品訂單中增加了銷售名稱和銷售參數。\n "
 
 #. module: base
 #: model:ir.module.module,description:base.module_marketing_campaign
@@ -3978,7 +3978,7 @@ msgid ""
 "\n"
 "Use for update your text memo in real time with the following user that you invite.\n"
 "\n"
-msgstr "\n本模塊用一個外部Pad來更新OpenERP內的備忘錄\n=================================================================\n\n用你邀請的用戶實時更新你的文字備忘錄。\n\n"
+msgstr "\n本模塊用一個外部Pad來更新OpenERP內的備忘錄\n=================================================================\n\n用你邀請的使用者實時更新你的文字備忘錄。\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_procurement_jit
@@ -4141,7 +4141,7 @@ msgid ""
 "such as Chile, Colombia, Mexico, Norway or Russia. For unsupported countries,\n"
 "only the country code will be validated.\n"
 "    "
-msgstr "\n業務夥伴的增值稅，增值稅的確認號碼。\n=========================================\n\n 安裝此模塊以後，業務夥伴增值稅範疇內輸入的值將被驗證，前提該國家在模塊支持的範圍內。 這一國家可以從增值稅前綴的2個字母的國家代碼推測出來，比如「BE0477472701」代表比利時須遵守當地的法律。\n\n有兩種不同的增值稅號碼驗證等級：\n--------------------------------------------------------\n * 默認情況下，使用該國家的通用驗證規則進行一個簡單的離線檢查，通常是一個簡單的驗證數字。這通常是簡便而有效的，但這些允許的驗證數字，也許並不是真正的配置，或者不再有效。 \n \n * 當「增值稅號碼的檢查」選項啟用（在用戶的公司配置），增值稅號碼將替換並在線提交到歐盟國家數據庫，這將真正確認號碼是有效的和當前分配給歐盟的公司。這比簡單離線檢查慢一點，需要互聯網連接，並且也不是一直有效的。 如果服務不可用或不支持請求的國家（例如非歐盟國家），一個簡單的驗證將替代執行。\n\n 目前支持的國家包括歐盟國家，以及一些非歐盟國家，如智利，哥倫比亞，墨西哥，挪威和俄羅斯。不支持的國家，只有國家代碼將被驗證。"
+msgstr "\n業務夥伴的增值稅，增值稅的確認號碼。\n=========================================\n\n 安裝此模塊以後，業務夥伴增值稅範疇內輸入的值將被驗證，前提該國家在模塊支持的範圍內。 這一國家可以從增值稅前綴的2個字母的國家代碼推測出來，比如「BE0477472701」代表比利時須遵守當地的法律。\n\n有兩種不同的增值稅號碼驗證等級：\n--------------------------------------------------------\n * 默認情況下，使用該國家的通用驗證規則進行一個簡單的離線檢查，通常是一個簡單的驗證數字。這通常是簡便而有效的，但這些允許的驗證數字，也許並不是真正的配置，或者不再有效。 \n \n * 當「增值稅號碼的檢查」選項啟用（在使用者的公司配置），增值稅號碼將替換並在線提交到歐盟國家數據庫，這將真正確認號碼是有效的和當前分配給歐盟的公司。這比簡單離線檢查慢一點，需要互聯網連接，並且也不是一直有效的。 如果服務不可用或不支持請求的國家（例如非歐盟國家），一個簡單的驗證將替代執行。\n\n 目前支持的國家包括歐盟國家，以及一些非歐盟國家，如智利，哥倫比亞，墨西哥，挪威和俄羅斯。不支持的國家，只有國家代碼將被驗證。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_fleet
@@ -4532,7 +4532,7 @@ msgstr "3.  %y, %Y ==> 08, 2008"
 msgid ""
 "3. If user belongs to several groups, the results from step 2 are combined "
 "with logical OR operator"
-msgstr "3. 如果用戶屬於多個群組，那麼第2步的結果將使用「或」操作符進行組合。"
+msgstr "3. 如果使用者屬於多個群組，那麼第2步的結果將使用「或」操作符進行組合。"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.res_lang_form
@@ -4724,7 +4724,7 @@ msgid ""
 "default in order to customize the view of the menu that users will be able "
 "to see. Whether they can have a read, write, create and delete access right "
 "can be managed from here."
-msgstr "用戶群組用於把一系列功能分配給用戶，使其能夠存取特定的模塊和功能。可以新建或修改現有的用戶組，這樣就可以自定義該組用戶的菜單，或者對某個對象的插刪改查權限。"
+msgstr "使用者群組用於把一系列功能分配給使用者，使其能夠存取特定的模塊和功能。可以新建或修改現有的使用者組，這樣就可以自定義該組使用者的菜單，或者對某個對象的插刪改查權限。"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_posbox_homepage
@@ -4795,7 +4795,7 @@ msgstr "賬戶類型"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company_user_ids
 msgid "Accepted Users"
-msgstr "接受的用戶"
+msgstr "接受的使用者"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_access_ids
@@ -5232,7 +5232,7 @@ msgid ""
 "         login once with a valid LDAP user, let OpenERP create a blank local\n"
 "         user with the same login (and a blank password), then rename this new\n"
 "         user to a username that does not exist in LDAP, and setup its groups\n"
-msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許用戶通過他們的LDAP用戶名和密碼登入，\n同時自動創建Odoo用戶。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的用戶名（在Odoo裡用戶名必須唯一，甚至在不同的公司裡，用戶名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置用戶名和密碼為空。這不允許用戶匿名驗證，只是用於在驗證前驗證一個用戶是否存在的超級用戶LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n用戶的LDAP密碼不會被存儲在Odoo數據庫。當用戶需要認證時，doo會從LDAP服務器查詢用戶，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地用戶也可能同時存在於Odoo數據庫和LDAP，（管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行用戶認證，如果認證失敗（比如用戶沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP用戶的默認密碼為空（表示不能存取），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的用戶認證是被加密的。\n用戶模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「用戶模板」。如果選上此項，當有用戶通過LDAP服務認證時，可以選擇一個用戶作為創建本地用戶的模板。這將允許預設用戶所在群組和第一次登入時的菜單。\n（備註：）如果你在用戶模板裡預設密碼，這個密碼會被當作新的LDAP本地用戶的默認密碼，這可以當作這些新用戶的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個用戶模板的簡便方式，是用一個LDAP有效用戶登入一次，讓Odoo創建一個本地用戶，密碼為空，然後用一個在LDAP中不存在的用戶名來重命名這個用戶，設置他的用戶組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
+msgstr "增加LDAP服務器身份驗證的支持\n===============================================\n此模塊允許使用者通過他們的LDAP使用者名和密碼登入，\n同時自動創建Odoo使用者。\n\n**注意:**此模塊只運行在已安裝LDAP模塊的Python服務器上。\n--------------\n安裝完此模塊後，你需要在「公司詳細配置」頁裡配置LDAP參數。不同的公司可能有不同的LDAP服務器，只要他們有唯一的使用者名（在Odoo裡使用者名必須唯一，甚至在不同的公司裡，使用者名也不同相同）。\n\n只要LDAP服務器允許，可支持匿名的LDAP綁定，只需在LDAP服務器中設置使用者名和密碼為空。這不允許使用者匿名驗證，只是用於在驗證前驗證一個使用者是否存在的超級使用者LDAP賬戶。\n\n在LDAP配置中打開TLS選項，LDAP服務器就能使用STARTTLS安全連接。更多的LDAP配置選項，請參考LDAP配置手冊。\n配置手冊：ldap.conf(5)\n安全考慮：\n-------------------------\n使用者的LDAP密碼不會被存儲在Odoo數據庫。當使用者需要認證時，doo會從LDAP服務器查詢使用者，不會複製密碼，密碼只會由LDAP管理，所以更改密碼的動作只能在LDAP目錄中進行。\n本地使用者也可能同時存在於Odoo數據庫和LDAP，（管理員帳戶就是一個明顯的例子），它的工作原理如下：系統首先嘗試通過本地Odoo數據庫進行使用者認證，如果認證失敗（比如使用者沒有本地密碼），則系統再通過LDAP進行認證。由於在Odoo數據庫中，LDAP使用者的默認密碼為空（表示不能存取），第一步（通過本地Odoo數據庫進行認證）總是失敗，所以總是會通過LDAP服務器認證。使能STARTTLS能夠保證通過LDAP的使用者認證是被加密的。\n使用者模板：在「公司」表格裡的LDAP配置頁裡，可以選擇「使用者模板」。如果選上此項，當有使用者通過LDAP服務認證時，可以選擇一個使用者作為創建本地使用者的模板。這將允許預設使用者所在群組和第一次登入時的菜單。\n（備註：）如果你在使用者模板裡預設密碼，這個密碼會被當作新的LDAP本地使用者的默認密碼，這可以當作這些新使用者的「管理密碼」，直到他們更改密碼。你通常不會這麼做。創建一個使用者模板的簡便方式，是用一個LDAP有效使用者登入一次，讓Odoo創建一個本地使用者，密碼為空，然後用一個在LDAP中不存在的使用者名來重命名這個使用者，設置他的使用者組。\n與「基礎加密（base_crypt）」交互：基礎加密模塊和LDAP模塊不匹配，如果安裝了「基礎加密」模塊，LDAP模塊會被禁用。 \n"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_administration
@@ -6260,7 +6260,7 @@ msgstr "不能重命名字段為 %s，因為已經存在同名字段。"
 #: code:addons/base/res/res_lang.py:190
 #, python-format
 msgid "Cannot unactivate a language that is currently used by users."
-msgstr "不能撤消當前用戶使用的語言。"
+msgstr "不能撤消當前使用者使用的語言。"
 
 #. module: base
 #: model:res.country,name:base.cv
@@ -6323,7 +6323,7 @@ msgstr "密碼更改嚮導"
 #. module: base
 #: model:ir.model,name:base.model_change_password_user
 msgid "Change Password Wizard User"
-msgstr "密碼更改嚮導用戶"
+msgstr "密碼更改嚮導使用者"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form_simple_modif
@@ -6333,7 +6333,7 @@ msgstr "更改密碼"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form
 msgid "Change the user password."
-msgstr "修改用戶密碼。"
+msgstr "修改使用者密碼。"
 
 #. module: base
 #: code:addons/base/res/res_partner.py:369
@@ -7216,7 +7216,7 @@ msgid ""
 "deactivated should there be a period of time during which they will/should "
 "not connect to the system. You can assign them groups in order to give them "
 "specific access to the applications they need to use in the system."
-msgstr "為系統創建和管理用戶。在一段時間內用該系統的用戶可以暫不激活。你還可以給用戶分配某一個組，以便他們能用到系統的指定功能"
+msgstr "為系統創建和管理使用者。在一段時間內用該系統的使用者可以暫不激活。你還可以給使用者分配某一個組，以便他們能用到系統的指定功能"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_survey
@@ -7574,7 +7574,7 @@ msgstr "自定義的視圖"
 msgid ""
 "Customized views are used when users reorganize the content of their "
 "dashboard views (via web client)"
-msgstr "如果用戶重新組織過他的控制面板視圖，則使用其自定義的視圖。"
+msgstr "如果使用者重新組織過他的控制面板視圖，則使用其自定義的視圖。"
 
 #. module: base
 #: model:res.country,name:base.cy
@@ -8824,7 +8824,7 @@ msgstr "我自己創建的篩選器"
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_filters_view_search
 msgid "Filters shared with all users"
-msgstr "共享給所有用戶"
+msgstr "共享給所有使用者"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.ir_filters_view_search
@@ -9268,7 +9268,7 @@ msgstr "谷歌電子錶格"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_account
 msgid "Google Users"
-msgstr "谷歌用戶"
+msgstr "谷歌使用者"
 
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
@@ -9345,7 +9345,7 @@ msgstr "需要的群組"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups_share
 msgid "Group created to set access rights for sharing data with some users."
-msgstr "為設置一些用戶的共享數據存取權限所建立的用戶群組"
+msgstr "為設置一些使用者的共享數據存取權限所建立的使用者群組"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_country_group_form
@@ -9867,7 +9867,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_rule_global
 msgid "If no group is specified the rule is global and applied to everyone"
-msgstr "如果不指定群組，規則是全局的並應用於每個用戶."
+msgstr "如果不指定群組，規則是全局的並應用於每個使用者."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_property_res_id
@@ -9890,7 +9890,7 @@ msgstr "如果設置， 動作綁定只用於這個公司。"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_values_user_id
 msgid "If set, action binding only applies for this user."
-msgstr "如果設置， 動作綁定只用於這個用戶。"
+msgstr "如果設置， 動作綁定只用於這個使用者。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_serialization_field_id
@@ -9912,7 +9912,7 @@ msgstr ""
 msgid ""
 "If specified, this action will be opened at log on for this user, in "
 "addition to the standard menu."
-msgstr "如果指定的話，這個動作將在該用戶賬號登入後與標準的菜單一起執行。就是說登陸第一畫面將看到指定的菜單頁面。"
+msgstr "如果指定的話，這個動作將在該使用者賬號登入後與標準的菜單一起執行。就是說登陸第一畫面將看到指定的菜單頁面。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_lang
@@ -9927,7 +9927,7 @@ msgstr "如果所選語言被載入系統，所有相關文檔將以此語言顯
 msgid ""
 "If this field is empty, the view applies to all users. Otherwise, the view "
 "applies to the users of those groups only."
-msgstr "如果這字段是空，視圖應用到所有用戶。\n否則這些視圖只能用於這些群組內的用戶。"
+msgstr "如果這字段是空，視圖應用到所有使用者。\n否則這些視圖只能用於這些群組內的使用者。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view_active
@@ -9973,7 +9973,7 @@ msgid ""
 "If you have groups, the visibility of this menu will be based on these "
 "groups. If this field is empty, Odoo will compute visibility based on the "
 "related object's read access."
-msgstr "如果您歸屬於用戶群組，則此菜單的可見性將有這些用戶群組決定。如果該字段為空，系統將基於關聯對象的讀取權限計算可見性。"
+msgstr "如果您歸屬於使用者群組，則此菜單的可見性將有這些使用者群組決定。如果該字段為空，系統將基於關聯對象的讀取權限計算可見性。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_access_active
@@ -10060,7 +10060,7 @@ msgstr "無效"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_search
 msgid "Inactive Users"
-msgstr "未激活的用戶"
+msgstr "未激活的使用者"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_wkf_activity_in_transitions
@@ -10232,7 +10232,7 @@ msgstr "實例"
 #. module: base
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
-msgstr "即時消息總線允許實時發送消息給用戶。"
+msgstr "即時消息總線允許實時發送消息給使用者。"
 
 #. module: base
 #: code:addons/models.py:1468
@@ -10292,7 +10292,7 @@ msgstr "內部來源"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_search
 msgid "Internal Users"
-msgstr "內部用戶"
+msgstr "內部使用者"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -11374,7 +11374,7 @@ msgid ""
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "管理和定制的項目提供並在Odoo系統菜單顯示。您可以通過點擊框每行開頭刪除一個項目，然後通過出現的按鈕將其刪除。項目可以被分配到特定組以便某些用戶可以存取。"
+msgstr "管理和定制的項目提供並在Odoo系統菜單顯示。您可以通過點擊框每行開頭刪除一個項目，然後通過出現的按鈕將其刪除。項目可以被分配到特定組以便某些使用者可以存取。"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
@@ -12509,7 +12509,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Only users with the following access level are currently allowed to do that"
-msgstr "只有以下存取等級的用戶可才做這"
+msgstr "只有以下存取等級的使用者可才做這"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_update
@@ -12564,7 +12564,7 @@ msgstr "目標數據的可選過濾條件，使用 Python 表達式"
 msgid ""
 "Optional help text for the users with a description of the target view, such"
 " as its usage and purpose."
-msgstr "可選的幫助文本用於用戶說明目標視圖，比如用法和目的。"
+msgstr "可選的幫助文本用於使用者說明目標視圖，比如用法和目的。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_window_src_model
@@ -12585,7 +12585,7 @@ msgstr "SMTP身份驗證的可選密碼"
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_mail_server_smtp_user
 msgid "Optional username for SMTP authentication"
-msgstr "SMTP身份驗證的可選用戶名"
+msgstr "SMTP身份驗證的可選使用者名"
 
 #. module: base
 #: selection:workflow.activity,split_mode:0
@@ -12845,7 +12845,7 @@ msgstr "業務夥伴稱謂"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_partner_id
 msgid "Partner-related data of the user"
-msgstr "用戶的業務夥伴相關數據。"
+msgstr "使用者的業務夥伴相關數據。"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category_partner_ids
@@ -13072,7 +13072,7 @@ msgstr "請指定要運行的動作！"
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
 "change your own password."
-msgstr "請使用更改密碼嚮導（在用戶個人資料或用戶菜單中）來更改您的密碼。"
+msgstr "請使用更改密碼嚮導（在使用者個人資料或使用者菜單中）來更改您的密碼。"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_point_of_sale
@@ -13396,7 +13396,7 @@ msgstr "公開"
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
 "                They usually do not belong to the usual Odoo groups."
-msgstr "公眾用戶有特定的存取權限 (如記錄規則和限制菜單)。 他們通常不屬於通常的Odoo群組"
+msgstr "公眾使用者有特定的存取權限 (如記錄規則和限制菜單)。 他們通常不屬於通常的Odoo群組"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -13491,7 +13491,7 @@ msgstr "活動的問題"
 msgid ""
 "Quick actions for installing new app, adding users, completing planners, "
 "etc."
-msgstr "快捷方式，用來安裝新應用，增加用戶，完成計劃，等等"
+msgstr "快捷方式，用來安裝新應用，增加使用者，完成計劃，等等"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_expense
@@ -14544,7 +14544,7 @@ msgstr "設為待辦"
 msgid ""
 "Set the font into the report header, it will be used as default font in the "
 "RML reports of the user company"
-msgstr "設置報表頭字體，它將作為默認字體用於用戶公司的RML報表中"
+msgstr "設置報表頭字體，它將作為默認字體用於使用者公司的RML報表中"
 
 #. module: base
 #: code:addons/base/res/res_users.py:519
@@ -14569,12 +14569,12 @@ msgstr "塞舌爾"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_share
 msgid "Share Group"
-msgstr "共享用戶群組"
+msgstr "共享使用者群組"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_share
 msgid "Share User"
-msgstr "共享用戶"
+msgstr "共享使用者"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_slides
@@ -14937,7 +14937,7 @@ msgid ""
 "Specify a value only when creating a user or if you're changing the user's "
 "password, otherwise leave empty. After a change of password, the user has to"
 " login again."
-msgstr "僅在新建用戶或修改該用戶的密碼時輸入此字段值，否則留空。修改密碼後，用戶必須重新登入。"
+msgstr "僅在新建使用者或修改該使用者的密碼時輸入此字段值，否則留空。修改密碼後，使用者必須重新登入。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_cron_doall
@@ -15549,7 +15549,7 @@ msgstr "激活字段允許您隱藏該分類而不是刪除它。"
 #. module: base
 #: constraint:res.users:0
 msgid "The chosen company is not in the allowed companies for this user"
-msgstr "選擇的公司不屬於此用戶允許存取的公司。"
+msgstr "選擇的公司不屬於此使用者允許存取的公司。"
 
 #. module: base
 #: sql_constraint:res.country:0
@@ -15569,7 +15569,7 @@ msgstr "公司名稱必須唯一！"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_company_id
 msgid "The company this user is currently working for."
-msgstr "該用戶當前工作的公司"
+msgstr "該使用者當前工作的公司"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
@@ -15656,7 +15656,7 @@ msgstr "國家全名"
 msgid ""
 "The group that a user must have to be authorized to validate this "
 "transition."
-msgstr "用戶組中的用戶需要授權才能確認此遷移。"
+msgstr "使用者組中的使用者需要授權才能確認此遷移。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_user_id
@@ -15699,12 +15699,12 @@ msgstr "國家名必須唯一"
 #: code:addons/base/res/res_users.py:116
 #, python-format
 msgid "The name of the group can not start with \"-\""
-msgstr "用戶群組的名稱不能以「-」開始"
+msgstr "使用者群組的名稱不能以「-」開始"
 
 #. module: base
 #: sql_constraint:res.groups:0
 msgid "The name of the group must be unique within an application!"
-msgstr "在一個應用中用戶群組的名稱必須唯一！"
+msgstr "在一個應用中使用者群組的名稱必須唯一！"
 
 #. module: base
 #: sql_constraint:res.lang:0
@@ -15819,7 +15819,7 @@ msgstr "many2many 字段的第二個參數 %s 必須是數據庫表。您所使�
 msgid ""
 "The selected language has been successfully installed. You must change the "
 "preferences of the user and open a new menu to view the changes."
-msgstr "所選的語言包已經成功安裝。你需要修改用戶使用語言並重新打開新菜單以查看改變內容"
+msgstr "所選的語言包已經成功安裝。你需要修改使用者使用語言並重新打開新菜單以查看改變內容"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -15855,12 +15855,12 @@ msgstr "該字段所屬模型的技術名稱"
 msgid ""
 "The user this filter is private to. When left empty the filter is public and"
 " available to all users."
-msgstr "用戶的這個過濾器是私有的。留空的話，這個過濾器是公開，所有用戶都可用。"
+msgstr "使用者的這個過濾器是私有的。留空的話，這個過濾器是公開，所有使用者都可用。"
 
 #. module: base
 #: model:res.groups,comment:base.group_equipment_manager
 msgid "The user will be able to manage equipments."
-msgstr "用戶將能夠管理設備。"
+msgstr "使用者將能夠管理設備。"
 
 #. module: base
 #: code:addons/models.py:6160
@@ -16367,7 +16367,7 @@ msgstr "烏干達"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging_create_uid
 msgid "Uid"
-msgstr "用戶ID"
+msgstr "使用者ID"
 
 #. module: base
 #: model:res.country,name:base.ua
@@ -16629,7 +16629,7 @@ msgid ""
 "The HR officer can now manage challenges and badges.\n"
 "This allow the user to send badges to employees instead of simple users.\n"
 "Badge received are displayed on the user profile.\n"
-msgstr "人力資源使用的遊戲化過程.\n\n人力資源高級職員現在可以管理挑戰和徽章.\n這允許用戶發送徽章給員工而代替簡單的用戶.\n收到的徽章顯示在用戶的個人資料上.\n"
+msgstr "人力資源使用的遊戲化過程.\n\n人力資源高級職員現在可以管理挑戰和徽章.\n這允許使用者發送徽章給員工而代替簡單的使用者.\n收到的徽章顯示在使用者的個人資料上.\n"
 
 #. module: base
 #: selection:ir.actions.server,use_relational_model:0
@@ -16651,12 +16651,12 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_window_usage
 msgid "Used to filter menu and home actions from the user form."
-msgstr "用於篩選器菜單，以及用戶表單的主頁動作。"
+msgstr "用於篩選器菜單，以及使用者表單的主頁動作。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_login
 msgid "Used to log into the system"
-msgstr "用戶登入系統"
+msgstr "使用者登入系統"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_type
@@ -16678,39 +16678,39 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_users_search
 #: model:res.groups,name:base.group_survey_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_2
 msgid "User Interface"
-msgstr "用戶界面"
+msgstr "使用者界面"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_change_password_user_user_login
 msgid "User Login"
-msgstr "用戶登入"
+msgstr "使用者登入"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_log_ids
 msgid "User log entries"
-msgstr "用戶日誌記錄"
+msgstr "使用者日誌記錄"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.act_values_form_defaults
 #: model:ir.ui.menu,name:base.menu_values_form_defaults
 #: model:ir.ui.view,arch_db:base.values_view_form_defaults
 msgid "User-defined Defaults"
-msgstr "用戶定義的默認值"
+msgstr "使用者定義的默認值"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_ir_filters
 msgid "User-defined Filters"
-msgstr "用戶定義的 篩選器"
+msgstr "使用者定義的 篩選器"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_mail_server_smtp_user
 msgid "Username"
-msgstr "用戶名"
+msgstr "使用者名"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_users
@@ -16729,18 +16729,18 @@ msgstr "用戶名"
 #: model:ir.ui.view,arch_db:base.view_users_simple_form
 #: model:ir.ui.view,arch_db:base.view_users_tree
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_groups_form
 msgid ""
 "Users added to this group are automatically added in the following groups."
-msgstr "加入本群組的用戶也將自動加入以下群組。"
+msgstr "加入本群組的使用者也將自動加入以下群組。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups_implied_ids
 msgid "Users of this group automatically inherit those groups"
-msgstr "這個群組的用戶自動繼承那些群組"
+msgstr "這個群組的使用者自動繼承那些群組"
 
 #. module: base
 #: model:res.country,name:base.uz
@@ -17432,7 +17432,7 @@ msgstr "Yodlee 財務"
 msgid ""
 "You are creating a new user. After saving, the user will receive an invite "
 "email containing a link to set its password."
-msgstr "你創造新用戶，保存後剛創建的用戶會收到一封包含關連設置口令的電子郵件。"
+msgstr "你創造新使用者，保存後剛創建的使用者會收到一封包含關連設置口令的電子郵件。"
 
 #. module: base
 #: code:addons/base/module/module.py:443
@@ -17458,12 +17458,12 @@ msgstr ""
 msgid ""
 "You can not change the company as the partner/user has multiple user linked "
 "with different companies."
-msgstr "在合作夥伴或用戶有多個操作員與不同公司關聯時，您不能改變這家公司的屬性。"
+msgstr "在合作夥伴或使用者有多個操作員與不同公司關聯時，您不能改變這家公司的屬性。"
 
 #. module: base
 #: sql_constraint:res.users:0
 msgid "You can not have two users with the same login !"
-msgstr "用戶名必須唯一！"
+msgstr "使用者名必須唯一！"
 
 #. module: base
 #: sql_constraint:res.font:0
@@ -17476,7 +17476,7 @@ msgstr "你不能用同一名字註冊兩種字體。"
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
 "created by Odoo (updates, module installation, ...)"
-msgstr "您不能刪除 admin 用戶，因為其由 Odoo 創建並被系統內部使用(更新，模塊安裝－)"
+msgstr "您不能刪除 admin 使用者，因為其由 Odoo 創建並被系統內部使用(更新，模塊安裝－)"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_country_address_format
@@ -17511,7 +17511,7 @@ msgstr "您不能刪除當前有效的語言包！\n請首先設置語言無效�
 #: code:addons/base/res/res_lang.py:205
 #, python-format
 msgid "You cannot delete the language which is User's Preferred Language!"
-msgstr "不能刪除用戶的默認語言."
+msgstr "不能刪除使用者的默認語言."
 
 #. module: base
 #: code:addons/base/res/res_users.py:343
@@ -17523,7 +17523,7 @@ msgstr "admin賬號不得註銷。"
 #: code:addons/base/res/res_users.py:345
 #, python-format
 msgid "You cannot unactivate the user you're currently logged in as."
-msgstr "你不能使你正登入使用的用戶變成未激活"
+msgstr "你不能使你正登入使用的使用者變成未激活"
 
 #. module: base
 #: code:addons/base/ir/ir_values.py:428
@@ -17563,7 +17563,7 @@ msgstr "您試圖升級的一個模塊依賴模塊： %s，但您的系統中該
 msgid ""
 "You will be able to define additional access rights by editing the newly "
 "created user under the Settings / Users menu."
-msgstr "通過編輯在【設置/用戶】菜單下的新建用戶，你將能夠定義額外的進入權限"
+msgstr "通過編輯在【設置/使用者】菜單下的新建使用者，你將能夠定義額外的進入權限"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:216
@@ -18217,40 +18217,40 @@ msgstr "test_convert"
 #. module: base
 #: model:res.groups,comment:base.group_hr_user
 msgid "the user will be able to approve document created by employees."
-msgstr "這個用戶能審批員工創建的單據"
+msgstr "這個使用者能審批員工創建的單據"
 
 #. module: base
 #: model:res.groups,comment:base.group_user
 msgid ""
 "the user will be able to manage his own human resources stuff (leave "
 "request, timesheets, ...), if he is linked to an employee in the system."
-msgstr "如果在系統中管理到一個員工，用戶能管理自己的人力資源資料（休假請求，計工單，... ... ）"
+msgstr "如果在系統中管理到一個員工，使用者能管理自己的人力資源資料（休假請求，計工單，... ... ）"
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_salesman_all_leads
 msgid ""
 "the user will have access to all records of everyone in the sales "
 "application."
-msgstr "用戶可存取銷售系統中每個人的所有記錄。"
+msgstr "使用者可存取銷售系統中每個人的所有記錄。"
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_salesman
 msgid "the user will have access to his own data in the sales application."
-msgstr "在銷售應用，用戶只能存取自己的數據"
+msgstr "在銷售應用，使用者只能存取自己的數據"
 
 #. module: base
 #: model:res.groups,comment:base.group_hr_manager
 msgid ""
 "the user will have an access to the human resources configuration as well as"
 " statistic reports."
-msgstr "用戶將有權限存取人力資源配置以及統計報表。"
+msgstr "使用者將有權限存取人力資源配置以及統計報表。"
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_manager
 msgid ""
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
-msgstr "用戶將有權限存取銷售配置及統計報表。"
+msgstr "使用者將有權限存取銷售配置及統計報表。"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
@@ -18271,7 +18271,7 @@ msgstr "true"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
 msgid "uid: current user id"
-msgstr "uid：當前用戶id"
+msgstr "uid：當前使用者id"
 
 #. module: base
 #: code:addons/fields.py:213

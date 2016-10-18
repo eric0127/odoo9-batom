@@ -164,7 +164,7 @@ msgstr "任務分析"
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "項目和用戶的任務"
+msgstr "項目和使用者的任務"
 
 #. module: project_timesheet
 #: model:ir.ui.view,arch_db:project_timesheet.view_task_form2_inherited

@@ -832,7 +832,7 @@ msgstr "類型用於區分銷售線索和商機"
 #: model:ir.model.fields,field_description:crm_partner_assign.field_crm_lead_report_assign_user_id
 #: model:ir.model.fields,field_description:crm_partner_assign.field_crm_partner_report_assign_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,priority:0

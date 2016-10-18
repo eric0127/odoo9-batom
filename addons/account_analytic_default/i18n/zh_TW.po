@@ -208,7 +208,7 @@ msgstr "選擇一個產品用於默認分析指定的成本管理分析（例如
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default_user_id
 msgid ""
 "Select a user which will use analytic account specified in analytic default."
-msgstr "選擇一個用戶用在分析賬戶指定的默認值"
+msgstr "選擇一個使用者用在分析賬戶指定的默認值"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_sequence
@@ -229,4 +229,4 @@ msgstr "調撥"
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default_user_id
 #: model:ir.ui.view,arch_db:account_analytic_default.view_account_analytic_default_form_search
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"

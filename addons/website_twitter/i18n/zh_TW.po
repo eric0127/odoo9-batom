@@ -326,7 +326,7 @@ msgstr "Twitter似乎斷開。請稍後重試。你可以考慮在Twitter的郵�
 msgid ""
 "Twitter user @%(username)s has less than 12 favorite tweets. Please add more"
 " or choose a different screen name."
-msgstr "推特用戶 @%(username)s少於12個的喜好推特。請加入更多或選擇一個不同的屏幕名稱。"
+msgstr "推特使用者 @%(username)s少於12個的喜好推特。請加入更多或選擇一個不同的屏幕名稱。"
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/twitter_config.py:61

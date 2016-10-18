@@ -5598,7 +5598,7 @@ msgid ""
 "Technical field used to record the product cost set by the user during a "
 "picking confirmation (when costing method used is 'average price' or "
 "'real'). Value given in company currency and in product uom."
-msgstr "該技術字段用來記錄用戶在分揀確認期間的產品成本變化（在使用 '平均價格' 或'實際價格'的成本方法時）。以公司的當前貨幣及產品的默認計量單位賦值。"
+msgstr "該技術字段用來記錄使用者在分揀確認期間的產品成本變化（在使用 '平均價格' 或'實際價格'的成本方法時）。以公司的當前貨幣及產品的默認計量單位賦值。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_split_from
@@ -6340,7 +6340,7 @@ msgstr "歷史訂單的全部操作看板視圖"
 #. module: stock
 #: model:res.groups,name:stock.group_stock_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking

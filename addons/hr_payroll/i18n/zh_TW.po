@@ -34,7 +34,7 @@ msgid ""
 "* If the payslip is under verification, the status is 'Waiting'.             \n"
 "* If the payslip is confirmed then status is set to 'Done'.            \n"
 "* When user cancel payslip the status is 'Rejected'."
-msgstr "* 當工資單創建時狀態為「草稿「   。       \n* 如果工資單待審批時, 狀態為「等待中「。          \n* 如果工資單被確認後狀態為 「已完成」。            \n* 當用戶取消工資單時狀態為」取消「。"
+msgstr "* 當工資單創建時狀態為「草稿「   。       \n* 如果工資單待審批時, 狀態為「等待中「。          \n* 如果工資單被確認後狀態為 「已完成」。            \n* 當使用者取消工資單時狀態為」取消「。"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip

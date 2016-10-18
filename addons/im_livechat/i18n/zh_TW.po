@@ -72,7 +72,7 @@ msgstr "行動"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_mail_channel_anonymous_name
 msgid "Anonymous Name"
-msgstr "匿名用戶姓名"
+msgstr "匿名使用者姓名"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_are_you_inside
@@ -716,12 +716,12 @@ msgstr "渠道的名稱"
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_manager
 msgid "The user will be able to delete support channels."
-msgstr "允許用戶刪除服務支持頻道。"
+msgstr "允許使用者刪除服務支持頻道。"
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_user
 msgid "The user will be able to join support channels."
-msgstr "用戶能夠加入服務支持頻道。"
+msgstr "使用者能夠加入服務支持頻道。"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image
@@ -772,7 +772,7 @@ msgstr "UUID"
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: im_livechat
 #. openerp-web

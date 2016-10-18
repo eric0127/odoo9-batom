@@ -924,7 +924,7 @@ msgid ""
 "field is not set the system will attempt to find the right owner based on "
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
-msgstr "基於此別名接收到的郵件，創建記錄的所有人。若此字段沒有設置，系統將試圖根據發送者(From)地址來查找正確的所有者，如果對於那個地址沒有系統用戶被發現，將使用系統管理員賬戶。"
+msgstr "基於此別名接收到的郵件，創建記錄的所有人。若此字段沒有設置，系統將試圖根據發送者(From)地址來查找正確的所有者，如果對於那個地址沒有系統使用者被發現，將使用系統管理員賬戶。"
 
 #. module: hr_equipment
 #: model:ir.actions.act_window,help:hr_equipment.hr_equipment_action
@@ -989,7 +989,7 @@ msgstr "用"
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_request_view_search
 #: model:ir.ui.view,arch_db:hr_equipment.hr_equipment_view_search
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_equipment
 #: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_partner_id

@@ -293,7 +293,7 @@ msgstr "便簽階段"
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_stage_ids
 msgid "Stages of Users"
-msgstr "用戶的階段"
+msgstr "使用者的階段"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_tag_name
@@ -356,7 +356,7 @@ msgstr "用來整理便簽階段"
 #. module: note
 #: model:ir.model,name:note.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: note
 #: model:ir.actions.act_window,help:note.action_note_note

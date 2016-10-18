@@ -32,7 +32,7 @@ msgid ""
 "                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
 "                                - If filter is not specified, link of google document will appear in \"More\" option for all users for all opportunities."
-msgstr "<b>創建一個新的過濾器:</b><br/>\n                                - 去到你要過濾的Odoo文檔. 比如, 比如在銷售部門搜索商機.<br/>\n                                -在」搜索「視圖, 選擇 \"保存現有過濾器\", 輸入名字 (比如: 銷售部門)<br/>\n                                - 如果你在 \"更多\" 選項中選擇 \"和所有用戶共享\", 谷歌文檔鏈接就會顯示給所有銷售部門的用戶.<br/>\n                                - 如果你沒有在 \"更多\" 選項中選擇 \"和所有用戶共享\", 谷歌文檔鏈接則不會顯示給所有銷售部門的用戶.<br/>\n                                -如果過濾器沒有被指定, 谷歌文檔的鏈接就會顯示在 \"更多\" 選項中為所有的用戶和商機."
+msgstr "<b>創建一個新的過濾器:</b><br/>\n                                - 去到你要過濾的Odoo文檔. 比如, 比如在銷售部門搜索商機.<br/>\n                                -在」搜索「視圖, 選擇 \"保存現有過濾器\", 輸入名字 (比如: 銷售部門)<br/>\n                                - 如果你在 \"更多\" 選項中選擇 \"和所有使用者共享\", 谷歌文檔鏈接就會顯示給所有銷售部門的使用者.<br/>\n                                - 如果你沒有在 \"更多\" 選項中選擇 \"和所有使用者共享\", 谷歌文檔鏈接則不會顯示給所有銷售部門的使用者.<br/>\n                                -如果過濾器沒有被指定, 谷歌文檔的鏈接就會顯示在 \"更多\" 選項中為所有的使用者和商機."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config_active

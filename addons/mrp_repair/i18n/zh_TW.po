@@ -39,7 +39,7 @@ msgid ""
 "* The 'To be Invoiced' status is used to generate the invoice before or after repairing done.             \n"
 "* The 'Done' status is set when repairing is completed.            \n"
 "* The 'Cancelled' status is used when user cancel repair order."
-msgstr " * 用戶創建或未確認修理單時，設為「草稿」狀態。             \n* 用戶確認修理單時，設為「確認」狀態。             \n* 用戶開始修理單時，設為「準備修理」狀態。用戶只能在確認修理單後開始修理。             \n* 修理完成前或完成後，「待開發票」狀態由來生成發票。             \n* 修理單完成時，設為「完成」狀態。            \n* 修理單取消時，設為「取消」狀態。"
+msgstr " * 使用者創建或未確認修理單時，設為「草稿」狀態。             \n* 使用者確認修理單時，設為「確認」狀態。             \n* 使用者開始修理單時，設為「準備修理」狀態。使用者只能在確認修理單後開始修理。             \n* 修理完成前或完成後，「待開發票」狀態由來生成發票。             \n* 修理單完成時，設為「完成」狀態。            \n* 修理單取消時，設為「取消」狀態。"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder

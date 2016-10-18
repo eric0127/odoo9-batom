@@ -735,4 +735,4 @@ msgstr "未知的"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "user: current user browse record"
-msgstr "user: 當前用戶瀏覽記錄"
+msgstr "user: 當前使用者瀏覽記錄"

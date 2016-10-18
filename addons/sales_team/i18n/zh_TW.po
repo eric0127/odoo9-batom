@@ -164,7 +164,7 @@ msgstr "顯示名稱"
 msgid ""
 "Follow this salesteam to automatically track the events associated to users "
 "of this team."
-msgstr "跟蹤此銷售團隊，自動跟蹤此團隊中用戶關聯的事件。"
+msgstr "跟蹤此銷售團隊，自動跟蹤此團隊中使用者關聯的事件。"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_message_follower_ids
@@ -523,7 +523,7 @@ msgstr "使用銷售團隊來組織您不同的銷售人員或部門到獨立的
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: sales_team
 #. openerp-web

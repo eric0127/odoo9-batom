@@ -116,7 +116,7 @@ msgstr "Rest API 密碼"
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer_paypal_api_username
 msgid "Rest API Username"
-msgstr "重置 API 用戶名"
+msgstr "重置 API 使用者名"
 
 #. module: payment_paypal
 #: model:ir.model.fields,help:payment_paypal.field_payment_acquirer_paypal_seller_account

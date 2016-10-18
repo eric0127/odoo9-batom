@@ -1828,12 +1828,12 @@ msgstr "使用模版"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_report_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_user_email
 msgid "User Email"
-msgstr "用戶電子郵件"
+msgstr "使用者電子郵件"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0

@@ -333,13 +333,13 @@ msgstr "訂閱數據"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_user_id
 #: model:ir.ui.view,arch_db:subscription.view_subscription_filter
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: subscription
 #: model:ir.model.fields,help:subscription.field_subscription_subscription_doc_source
 msgid ""
 "User can choose the source document on which he wants to create documents"
-msgstr "用戶可以選擇他希望創建文檔的源單據"
+msgstr "使用者可以選擇他希望創建文檔的源單據"
 
 #. module: subscription
 #: selection:subscription.subscription,interval_type:0

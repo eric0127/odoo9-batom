@@ -386,7 +386,7 @@ msgstr "警告"
 #: code:addons/web/static/src/xml/base.xml:564
 #, python-format
 msgid "All users"
-msgstr "所有用戶"
+msgstr "所有使用者"
 
 #. module: web
 #. openerp-web
@@ -681,7 +681,7 @@ msgstr "創建日期："
 #: code:addons/web/static/src/xml/base.xml:196
 #, python-format
 msgid "Creation User:"
-msgstr "創建用戶："
+msgstr "創建使用者："
 
 #. module: web
 #. openerp-web
@@ -2018,7 +2018,7 @@ msgstr "在已有的記錄 %s上設置  'id' 屬性"
 #: code:addons/web/static/src/xml/base.xml:1207
 #, python-format
 msgid "Share with all users"
-msgstr "與所有用戶共享"
+msgstr "與所有使用者共享"
 
 #. module: web
 #. openerp-web

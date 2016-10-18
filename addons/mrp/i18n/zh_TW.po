@@ -1674,7 +1674,7 @@ msgstr "位置的編號"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "用於管理資源存取權限的用戶名"
+msgstr "用於管理資源存取權限的使用者名"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2077,7 +2077,7 @@ msgstr "緊急"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_user_id
 #: model:res.groups,name:mrp.group_mrp_user
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_date_start

@@ -26,4 +26,4 @@ msgstr "加密密碼"
 #. module: auth_crypt
 #: model:ir.model,name:auth_crypt.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"

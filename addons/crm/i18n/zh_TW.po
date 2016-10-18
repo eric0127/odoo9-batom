@@ -576,7 +576,7 @@ msgstr "銷售管理員將主要使用這兩份報告："
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_exclude_contact
 msgid "A user associated to the contact"
-msgstr "與系統用戶相關的聯絡人"
+msgstr "與系統使用者相關的聯絡人"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1586,7 +1586,7 @@ msgstr "到期關閉月份"
 msgid ""
 "Explanation text to help users using the star and priority mechanism on "
 "stages or issues that are in this stage."
-msgstr "解釋文本幫助用戶在不同的階段中的某一階段使用星星和優先級機制"
+msgstr "解釋文本幫助使用者在不同的階段中的某一階段使用星星和優先級機制"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -2419,7 +2419,7 @@ msgid ""
 " record (New), or to a stage change in a process (Stage change). Message "
 "subtypes allow to precisely tune the notifications the user want to receive "
 "on its wall."
-msgstr "消息子類型給了消息更精確的類型，特別是系統通知。例如：關於新記錄建立的通知，或者流程中階段被改變。消息子類型允許你精確地調整用戶想要收到的消息。"
+msgstr "消息子類型給了消息更精確的類型，特別是系統通知。例如：關於新記錄建立的通知，或者流程中階段被改變。消息子類型允許你精確地調整使用者想要收到的消息。"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_message_ids
@@ -2436,7 +2436,7 @@ msgstr "消息和通信歷史"
 msgid ""
 "Messages with internal subtypes will be visible only by employees, aka "
 "members of base_user group"
-msgstr "內部的消息將只有員工可見，即基礎用戶組成員"
+msgstr "內部的消息將只有員工可見，即基礎使用者組成員"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_line_min_id
@@ -3092,7 +3092,7 @@ msgstr "關於線索的提醒 : ${object.id} 來自 ${object.partner_id != False
 #. module: crm
 #: model:ir.actions.server,name:crm.action_email_reminder_lead
 msgid "Reminder to User"
-msgstr "提醒用戶"
+msgstr "提醒使用者"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3553,7 +3553,7 @@ msgid ""
 "field is not set the system will attempt to find the right owner based on "
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
-msgstr "當這個別名收到郵件時，此記錄的所有者就被創建了。\n若此字段未設置，系統將依據發送（來自）地址來尋找正確的所有者，如果在那個地址上沒有系統用戶，則將使用管理員賬戶。"
+msgstr "當這個別名收到郵件時，此記錄的所有者就被創建了。\n若此字段未設置，系統將依據發送（來自）地址來尋找正確的所有者，如果在那個地址上沒有系統使用者，則將使用管理員賬戶。"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3828,22 +3828,22 @@ msgstr "用於階段的排序，數字越小越好。"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_user_id
 msgid "User"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_user_email
 msgid "User Email"
-msgstr "用戶電子郵件"
+msgstr "使用者電子郵件"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_user_login
 msgid "User Login"
-msgstr "用戶登入"
+msgstr "使用者登入"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_group_by_vat

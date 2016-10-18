@@ -344,7 +344,7 @@ msgstr "動作"
 #. module: website_slides
 #: selection:slide.slide,download_security:0
 msgid "Authentified Users Only"
-msgstr "這有認證的用戶可以"
+msgstr "這有認證的使用者可以"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_can_see
@@ -494,7 +494,7 @@ msgstr "發佈到記錄上的最後消息的日期"
 msgid ""
 "Default channel for slides, all public users can access content of this "
 "channel."
-msgstr "默認的幻燈片頻道，所有的公眾用戶都可以存取這個頻道。"
+msgstr "默認的幻燈片頻道，所有的公眾使用者都可以存取這個頻道。"
 
 #. module: website_slides
 #. openerp-web
@@ -709,7 +709,7 @@ msgstr "能在這個頻道查看內容的討論群組"
 msgid ""
 "Groups allowed to upload presentations in this channel. If void, every user "
 "can upload."
-msgstr "能在這個頻道上傳文件的討論群組。所有的用戶都可以上傳，如果設置為空。"
+msgstr "能在這個頻道上傳文件的討論群組。所有的使用者都可以上傳，如果設置為空。"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_id
@@ -953,7 +953,7 @@ msgstr "未讀的消息數量"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
 msgid "Odoo - The Voice of the Customer: Alpinter"
-msgstr "Odoo - 來自用戶Alpinter的聲音"
+msgstr "Odoo - 來自使用者Alpinter的聲音"
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
@@ -1327,7 +1327,7 @@ msgstr "第三方網站網址"
 #: model:slide.channel,access_error_msg:website_slides.channel_private
 #: model:slide.channel,access_error_msg:website_slides.channel_public
 msgid "This channel is private and its content is restricted to some users."
-msgstr "這個頻道是私有的，它的內容僅限於某些用戶。"
+msgstr "這個頻道是私有的，它的內容僅限於某些使用者。"
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:285

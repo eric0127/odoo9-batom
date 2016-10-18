@@ -51,7 +51,7 @@ msgstr "應收賬款"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_base_config_settings_auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr "允許用戶通過google登入"
+msgstr "允許使用者通過google登入"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_enabled
@@ -207,7 +207,7 @@ msgstr "OAuth UID必須是每個提供者（ provider ）唯一的"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_uid
 msgid "OAuth User ID"
-msgstr "OAuth 用戶ID"
+msgstr "OAuth 使用者ID"
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_auth_oauth_provider
@@ -327,7 +327,7 @@ msgstr "你需要付給這個供應商的總數量"
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_users
 msgid "Users"
-msgstr "用戶"
+msgstr "使用者"
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_currency_id
