@@ -1373,7 +1373,7 @@ msgstr "天"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 msgid "e.g. Report to the next month..."
-msgstr "例如，到下雨的報表中"
+msgstr "例如，到下個月的報表中"
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
